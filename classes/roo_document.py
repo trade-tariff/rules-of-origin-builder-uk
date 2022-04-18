@@ -22,12 +22,12 @@ class RooDocument(object):
 
     def get_environment(self):
         load_dotenv('.env')
-        self.folder = os.getenv('folder')
+        self.source_folder = os.getenv('source_folder')
         
     def get_arguments(self):
         if len(sys.argv) > 1:
             self.docx_filename = sys.argv[1]
-            self.docx_filepath = os.path.join(self.folder, self.docx_filename)
+            self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
         else:
             print("Please supply an input document")
             sys.exit()

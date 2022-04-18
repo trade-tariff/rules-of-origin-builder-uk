@@ -9,7 +9,7 @@
 
 - Environment variable settings
 
-  - n/a
+  - source_folder: location of the source documents
 
 - Install necessary Python modules via `pip3 install -r requirements.txt`
 
@@ -23,4 +23,4 @@ The following are in a modern 2-column format
 `python3 process.py "Turkey PSR.docx"`
 `python3 process.py "Japan PSR.docx"`
 
-The remainder are in an old-style 3- or 4-column format, which requires significantly different processing
+The remainder are in an old-style 3- or 4-column format, which requires significantly different processing.
