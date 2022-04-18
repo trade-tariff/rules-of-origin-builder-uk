@@ -1,4 +1,4 @@
-# Download and parse files from the CDS download service
+# Convert Word rules of origin documents to usable JSON format
 
 ## Implementation steps
 
@@ -9,26 +9,18 @@
 
 - Environment variable settings
 
-  - domain=root domain from which to download GZIP files
-  - client_secret
-  - client_id
-  - DATABASE_UK=postgres connection string
-  - IMPORT_FOLDER=folder to which to copy files, for import
-  - OVERWRITE_XLSX=0|1 - 0 will run parser on all files; 1 will only parse files that are missing
+  - n/a
 
 - Install necessary Python modules via `pip3 install -r requirements.txt`
 
 ## Usage
 
-### To download CDS extract files:
-`python3 download.py`
+### To translate a Word document:
 
-### To parse CDS extract files into Excel:
-`python3 parse.py`
+The following are in a modern 2-column format
+`python3 process.py "Canada PSR.docx"`
+`python3 process.py "EU PSR.docx"`
+`python3 process.py "Turkey PSR.docx"`
+`python3 process.py "Japan PSR.docx"`
 
-### To go to the Excel folder:
-`python3 dest.py`
-
-### To run all three of the steps above:
-`python3 parse.py`
-
+The remainder are in an old-style 3- or 4-column format, which requires significantly different processing
