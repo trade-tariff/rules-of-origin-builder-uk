@@ -7,9 +7,11 @@
   `python3 -m venv venv/`
   `source venv/bin/activate`
 
-- Environment variable settings
+## Environment variable settings:
 
-  - source_folder: location of the source documents
+- source_folder: location of the source documents
+
+## Installation
 
 - Install necessary Python modules via `pip3 install -r requirements.txt`
 
