@@ -12,8 +12,9 @@ class Rule(object):
     def process_rule(self):
         self.cleanse()
         self.get_rule_class()
-        a = 1
-        pass
+        self.fix_punctuation()
+        self.embolden_percentages()
+        self.link_headings()
 
     def cleanse(self):
         self.rule_string = self.rule_string.strip()
@@ -46,6 +47,9 @@ class Rule(object):
         self.rule_string = re.sub(r'\(([a-z])\)', "\n- (\\1)", self.rule_string)
         self.rule_string = re.sub(r'\(([i]{1,3})\)', "\n- (\\1)", self.rule_string)
         self.rule_string = self.rule_string.replace("Production from", "Your goods are produced from")
+        self.rule_string = self.rule_string.replace("ex- works", "ex-works")
+        self.rule_string = self.rule_string.replace("Manufacture from materials of any heading", "Your goods are manufactured from materials of any tariff heading")
+        
         self.rule_string = self.rule_string.replace("\n- \n- ", "\n- ")
         self.rule_string = self.rule_string.replace(": - ", ":\n- ")
         self.rule_string = self.rule_string.replace("; - ", ";\n- ")
@@ -57,13 +61,26 @@ class Rule(object):
             self.rule_string = self.rule_string[0].upper() + self.rule_string[1:]
 
         self.rule_string = self.rule_string.replace("Weaving combined with making-up including cutting", "Weaving, combined with making-up, including cutting")
+        self.rule_string = self.rule_string.replace("in column (3)", "in the rule above")
+        self.rule_string = self.rule_string.replace("non originating", "non-originating")
+
         self.rule_string = self.rule_string.replace("EXW", "ex-works price (EXW)")
         # self.rule_string = self.rule_string.replace("FOB", "Free on Board (FOB)")
         # self.rule_string = self.rule_string.replace("RVC", "Regional Value Content (RVC)")
         
+    def embolden_percentages(self):
+        self.rule_string = re.sub("([0-9]{1,3}\%)", "<b>\\1</b>", self.rule_string)
+        
+    def link_headings(self):
+        self.rule_string = re.sub(" ([0-9]{1,5})([ ,;])", " <a href='/headings/\\1' target='_blank'>\\1</a>\\2", self.rule_string)
+                
+    def fix_punctuation(self):
+        self.rule_string = self.rule_string.replace(" ,", ",")
+        if self.rule_string[-1:] != ".":
+            self.rule_string += "."
+        
 
     def get_rule_class(self):
-        
         self.rule_string_original = self.rule_string_original.replace("A change from any other heading", "CTH") # For Canada
         
         cth_string_full = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading). "
@@ -101,7 +118,10 @@ class Rule(object):
 
         elif "value of non-originating" in self.rule_string_original:
             self.rule_class = ["MaxNOM"]
-
+            
+        elif re.search("exceed[s]? [0-9]{1,3}% of", self.rule_string) and "value" in self.rule_string:
+            self.rule_class = ["MaxNOM"]
+        
         else:
             a = 1
             

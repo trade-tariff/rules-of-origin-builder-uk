@@ -26,3 +26,5 @@ The following are in a modern 2-column format
 `python3 process.py "Japan PSR.docx"`
 
 The remainder are in an old-style 3- or 4-column format, which requires significantly different processing.
+
+`python3 process.py "Chile PSR short.docx"`

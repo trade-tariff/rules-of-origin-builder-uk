@@ -1,5 +1,8 @@
+import re
+
 from classes.normalizer import Normalizer
 from classes.rule import Rule
+import classes.globals as g
 
 
 class RuleSetLegacy(object):
@@ -16,6 +19,7 @@ class RuleSetLegacy(object):
         self.max = None
         self.valid = False
         self.chapter = -1
+        self.headings = []
 
         if row is not None:
             # A rule set essentially equates to a row on the table
@@ -23,6 +27,14 @@ class RuleSetLegacy(object):
             self.description = row["description"].strip()
             self.original_rule = row["original_rule"].strip()
             self.original_rule2 = row["original_rule2"].strip()
+            
+            if self.original_heading == "2934":
+                a = 1
+                
+            if self.original_rule2 != "":
+                self.original_rule += ";\n"
+                self.original_rule += "or " + self.original_rule2
+                a = 1
 
             self.process_heading()
             self.process_rule()
@@ -36,19 +48,14 @@ class RuleSetLegacy(object):
 
 
     def process_heading(self):
-        if "05" in self.original_heading:
-            a = 1
         self.original_heading = self.original_heading.replace(u'\xa0', u' ')
+        self.original_heading = self.original_heading.replace("ex ex", "ex ")
         self.original_heading = self.original_heading.replace("  ", " ")
         if "ex" in self.original_heading:
             self.is_ex_code = True
         else:
             self.is_ex_code = False
-        if "\n" in self.original_heading:
-            if self.is_numeric(self.original_heading):
-                a = 1
-        if self.original_heading == "1604.20":
-            a = 1
+
         n = Normalizer()
         self.heading = n.normalize(self.original_heading)
         self.heading = self.heading.replace(".", "")
@@ -66,7 +73,7 @@ class RuleSetLegacy(object):
             self.heading = ""
             self.is_subdivision = True
         else:
-            if "-" in self.original_heading:
+            if "-" in self.original_heading or " to " in self.original_heading :
                 self.get_range()
             else:
                 self.extend_range_from_single()
@@ -89,6 +96,7 @@ class RuleSetLegacy(object):
             a = 1
 
     def extend_range_from_single(self):
+        self.headings = []
         if "ex" in self.heading:
             a = 1
         tmp = self.heading.lower()
@@ -101,11 +109,21 @@ class RuleSetLegacy(object):
             self.max = tmp + "99999999"
         else:
             tmp = tmp.replace(" ", "").strip()
+            self.headings.append(tmp)
             self.min = self.format_parts(tmp, 0)
             self.max = self.format_parts(tmp, 1)
 
     def get_range(self):
-        self.parts = self.heading.split("-")
+        if '5603 11' in self.heading:
+            a = 1
+        if "-" in self.heading:
+            self.parts = self.heading.split("-")
+        elif "to" in self.heading:
+            self.parts = self.heading.split("to")
+            
+        for i in range(0, len(self.parts)):
+            self.parts[i] = self.parts[i].replace(" ", "")
+
         index = 0
         for part in self.parts:
             if index == 0:
@@ -113,10 +131,26 @@ class RuleSetLegacy(object):
             else:
                 self.max = self.format_parts(part, index)
             index += 1
+            
+        self.headings = []
+        self.headings.append(self.parts[0])
+        tmp_min = int(self.parts[0])
+        tmp_max = int(self.parts[1])
+        proceed = True
+        while proceed:
+            tmp_min += 1
+            str_min = str(tmp_min).rjust(4, "0")
+            if str_min in g.all_headings:
+                self.headings.append(str_min)
+            if tmp_min == tmp_max:
+                proceed = False
+        a = 1
 
     def process_rule(self):
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
+        self.original_rule = self.original_rule.replace("ex ex", "ex ")
+        self.original_rule = re.sub("\([0-9]{1,2}\)", "", self.original_rule)
         self.rules = []
         tmp = self.original_rule.lower()
         # if self.original_heading == "04.01-04.10":
@@ -141,6 +175,7 @@ class RuleSetLegacy(object):
     def as_dict(self):
         s = {
             "heading": self.heading,
+            "headings": self.headings,
             "description": self.description,
             "subdivision": self.subdivision,
             "is_ex_code": self.is_ex_code,
@@ -156,6 +191,7 @@ class RuleSetLegacy(object):
     @staticmethod
     def format_parts(s, index):
         s = s.strip()
+        s = s.replace(" ", "")
         l = len(s)
         if index == 0:
             s = s + (10 - l) * "0"
