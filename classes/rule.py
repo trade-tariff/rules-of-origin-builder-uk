@@ -7,6 +7,8 @@ class Rule(object):
         self.rule_class = []
         self.rule_string = rule_string.strip()
         self.rule_string_original = rule_string.strip()
+        self.specific_processes = None
+        self.double_dash = False
         self.process_rule()
 
     def process_rule(self):
@@ -15,6 +17,18 @@ class Rule(object):
         self.fix_punctuation()
         self.embolden_percentages()
         self.link_headings()
+        self.get_specific_processes()
+        self.get_double_dash()
+        
+    def get_specific_processes(self):
+        if "specific process" in self.rule_string.lower():
+            self.specific_processes = True
+        else:
+            self.specific_processes = False
+            
+    def get_double_dash(self):
+        if "- -" in self.rule_string:
+            self.double_dash = True
 
     def cleanse(self):
         self.rule_string = self.rule_string.strip()
@@ -23,7 +37,7 @@ class Rule(object):
         self.rule_string = re.sub(r'MaxNOM ([0-9]{1,3}%) \(EXW\)', "A maximum of \\1 of the ex-works price is made up of non-originating parts", self.rule_string)
         self.rule_string = re.sub(r'RVC ([0-9]{1,3})% \(FOB\)', "Your goods contain a Regional Value Content (RVC) of at least \\1% of the Free on Board (FOB) cost of the goods", self.rule_string)
         self.rule_string = re.sub(r'([^\(])FOB', "\\1Free on Board (FOB) cost", self.rule_string)
-        # 
+
         if self.rule_string[0:4] == "and\n":
             self.boolean_operator = "and"
 
@@ -48,13 +62,14 @@ class Rule(object):
         self.rule_string = re.sub(r'\(([i]{1,3})\)', "\n- (\\1)", self.rule_string)
         self.rule_string = self.rule_string.replace("Production from", "Your goods are produced from")
         self.rule_string = self.rule_string.replace("ex- works", "ex-works")
+        self.rule_string = self.rule_string.replace("semi heated", "semi-heated")
+        self.rule_string = self.rule_string.replace("whether or note", "whether or not")
         self.rule_string = self.rule_string.replace("Manufacture from materials of any heading", "Your goods are manufactured from materials of any tariff heading")
         
         self.rule_string = self.rule_string.replace("\n- \n- ", "\n- ")
         self.rule_string = self.rule_string.replace(": - ", ":\n- ")
         self.rule_string = self.rule_string.replace("; - ", ";\n- ")
         self.rule_string = self.rule_string.replace("; and - ", "; and \n- ")
-        
 
         self.rule_string = self.rule_string.replace("\u2014", "-")
         if len(self.rule_string) > 0:
@@ -132,6 +147,8 @@ class Rule(object):
             "rule": self.rule_string,
             "original": self.rule_string_original,
             "class": self.rule_class,
-            "operator": self.boolean_operator
+            "operator": self.boolean_operator,
+            "specific_processes": self.specific_processes,
+            "double_dash": self.double_dash
         }
         return s
