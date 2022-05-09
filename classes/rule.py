@@ -64,6 +64,8 @@ class Rule(object):
         self.rule_string = self.rule_string.replace("ex- works", "ex-works")
         self.rule_string = self.rule_string.replace("semi heated", "semi-heated")
         self.rule_string = self.rule_string.replace("whether or note", "whether or not")
+        self.rule_string = self.rule_string.replace("Manufacture form", "Manufacture from")
+        
         self.rule_string = self.rule_string.replace("Manufacture from materials of any heading", "Your goods are manufactured from materials of any tariff heading")
         
         self.rule_string = self.rule_string.replace("\n- \n- ", "\n- ")
@@ -78,21 +80,28 @@ class Rule(object):
         self.rule_string = self.rule_string.replace("Weaving combined with making-up including cutting", "Weaving, combined with making-up, including cutting")
         self.rule_string = self.rule_string.replace("in column (3)", "in the rule above")
         self.rule_string = self.rule_string.replace("non originating", "non-originating")
+        self.rule_string = self.rule_string.replace("shall not exceed", "must not exceed")
 
         self.rule_string = self.rule_string.replace("EXW", "ex-works price (EXW)")
         # self.rule_string = self.rule_string.replace("FOB", "Free on Board (FOB)")
         # self.rule_string = self.rule_string.replace("RVC", "Regional Value Content (RVC)")
+        if self.rule_string == ".":
+            self.rule_string == ""
+            
         
     def embolden_percentages(self):
+        self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,2})%", "\\1.\\2%", self.rule_string)
         self.rule_string = re.sub("([0-9]{1,3}\%)", "<b>\\1</b>", self.rule_string)
+        self.rule_string = re.sub("([0-9]{1,3}\.[0-9]{1,2}%)", "<b>\\1</b>", self.rule_string)
         
     def link_headings(self):
         self.rule_string = re.sub(" ([0-9]{1,5})([ ,;])", " <a href='/headings/\\1' target='_blank'>\\1</a>\\2", self.rule_string)
                 
     def fix_punctuation(self):
-        self.rule_string = self.rule_string.replace(" ,", ",")
-        if self.rule_string[-1:] != ".":
-            self.rule_string += "."
+        self.rule_string = self.rule_string.replace(" ,", ",").strip()
+        if len(self.rule_string) > 0:
+            if self.rule_string[-1:] != ".":
+                self.rule_string += "."
         
 
     def get_rule_class(self):
@@ -143,9 +152,16 @@ class Rule(object):
         
 
     def as_dict(self):
+        # s = {
+        #     "rule": self.rule_string,
+        #     "original": self.rule_string_original,
+        #     "class": self.rule_class,
+        #     "operator": self.boolean_operator,
+        #     "specific_processes": self.specific_processes,
+        #     "double_dash": self.double_dash
+        # }
         s = {
             "rule": self.rule_string,
-            "original": self.rule_string_original,
             "class": self.rule_class,
             "operator": self.boolean_operator,
             "specific_processes": self.specific_processes,

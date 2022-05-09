@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 import unicodedata
+import re
 
 
 #: Control characters.
@@ -258,6 +259,17 @@ class Normalizer(BaseNormalizer):
         #text = text.replace('\u000b', ' ').replace('\u000c', ' ').replace(u'\u0085', ' ')
         text = text.replace('\u000b', ' ').replace(u'\u0085', ' ')
         text = text.replace('\u2028', '\n').replace('\u2029', '\n').replace('\r\n', '\n').replace('\r', '\n')
+        text = text.replace(u'\xa0', u' ')
+        text = re.sub(" {2,10}", " ", text)
+
+        text = text.replace(u'\u2013', u'-')
+        text = text.replace(u'\u2018', u"'")
+
+        text = text.replace('”', '"')
+        text = text.replace('“', '"')
+
+        text = text.replace("‘", "'")
+        text = text.replace("’", "'")
 
         # Normalize all hyphens, minuses and dashes to ascii hyphen-minus and remove soft hyphen entirely
         if self.hyphens:

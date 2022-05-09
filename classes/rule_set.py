@@ -55,16 +55,16 @@ class RuleSet(object):
             self.is_subdivision = True
         else:
             if "-" in self.original_heading:
-                self.get_range()
+                self.determine_minmax_from_range()
             else:
-                self.extend_range_from_single()
+                self.determine_minmax_from_single_term()
         pass
 
-    def extend_range_from_single(self):
+    def determine_minmax_from_single_term(self):
         self.min = self.format_parts(self.heading, 0)
         self.max = self.format_parts(self.heading, 1)
 
-    def get_range(self):
+    def determine_minmax_from_range(self):
         self.parts = self.heading.split("-")
         index = 0
         for part in self.parts:
