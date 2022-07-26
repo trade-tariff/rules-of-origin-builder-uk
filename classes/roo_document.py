@@ -1,3 +1,4 @@
+from re import sub
 import sys
 import os
 import json
@@ -13,7 +14,8 @@ from classes.comm_code_validator import CommCodeValidator
 import classes.globals as g
 
 class RooDocument(object):
-    def __init__(self):
+    def __init__(self, item = None):
+        self.item = item
         self.get_environment()
         self.get_chapter_codes()
         self.get_arguments()
@@ -32,6 +34,8 @@ class RooDocument(object):
 
         if self.validate_commodities:
             self.check_coverage()
+        
+        print("\nFinished processing {file}\n".format(file = self.docx_filename))
 
     def get_environment(self):
         load_dotenv('.env')
@@ -68,18 +72,23 @@ class RooDocument(object):
         a = 1
 
     def get_arguments(self):
-        if len(sys.argv) > 1:
-            self.docx_filename = sys.argv[1]
+        if self.item is not None:
+            self.docx_filename = self.item
             self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
         else:
-            print("Please supply an input document")
-            sys.exit()
+            if len(sys.argv) > 1:
+                self.docx_filename = sys.argv[1]
+                self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
+            else:
+                print("Please supply an input document")
+                sys.exit()
 
         self.export_folder = os.path.join(os.getcwd(), "export")
         self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "_").lower()
         self.export_filepath = os.path.join(self.export_folder, self.export_filename) + ".json"
 
     def open_document(self):
+        print("\nBeginning processing {file}\n".format(file = self.docx_filename))
         self.document = Document(self.docx_filepath)
 
     def get_document_type(self):
@@ -89,48 +98,9 @@ class RooDocument(object):
         else:
             self.modern = False
 
-    def validate_table(self):
-        if self.validate_tables:
-            self.count_document_tables()
-            self.count_document_table_row_cells()
-        
-    def count_document_table_row_cells(self):
-        print("Counting cells in each row")
-        table = self.document.tables[0]
-        cells = []
-        cell_previous = "UNSPECIFIED"
-        for i, row in enumerate(table.rows):
-            cell1 = row.cells[0].text.strip()
-            if cell1 == "":
-                print("\nERROR: Empty cell in first column not permitted - row after {cell_previous}.\n".format(cell_previous = cell_previous))
-                sys.exit()
-            cell_previous = cell1
-
-            # print(str(i), len(row.cells))
-            cell_count = len(row.cells)
-            if cell_count > 4:
-                print("\nERROR: There must not be more than 4 columns in the table")
-                sys.exit()
-
-            cells.append(cell_count)
-        cell_set = list(set(cells))
-
-        if len(cell_set) > 1:
-            print("\nERROR: Please ensure that all rows have the same number of columns and that they are of equal width.\n")
-            sys.exit()
-        
-    def count_document_tables(self):
-        print("Counting tables")
-        table_count = len(self.document.tables)
-        if table_count > 1:
-            print("\nERROR: Please ensure that there is only one table in the document.\n")
-            sys.exit()
-        elif table_count == 0:
-            print("\nERROR: Please ensure that there a table in the document.\n")
-            sys.exit()
 
     def read_table(self):
-        print("Reading table")
+        print("- Reading table for file {file}".format(file = self.docx_filename))
         table = self.document.tables[0]
         
         if self.modern:
@@ -173,7 +143,7 @@ class RooDocument(object):
                 self.rows.append(item)
 
     def process_table(self):
-        print("Processing table")
+        print("- Processing table for {file}".format(file = self.docx_filename))
         if self.modern:
             self.process_table_modern()
         else:
@@ -195,7 +165,7 @@ class RooDocument(object):
     def process_table_legacy(self):
         self.rule_sets = []
         for row in self.rows:
-            if row["original_heading"] == "ex Chapter 40":
+            if "ex Chapter 28" in row["original_heading"]:
                 a = 1
             rule_set = RuleSetLegacy(row)
             self.rule_sets.append(rule_set.as_dict())
@@ -204,7 +174,8 @@ class RooDocument(object):
 
     def normalise_chapters(self):
         for chapter in range(1, 98):
-            if chapter == 40:
+            all_ex_codes = True
+            if chapter == 30:
                 a = 1
             is_chapter_mentioned = False
             rule_set_count = 0
@@ -212,33 +183,36 @@ class RooDocument(object):
                 for rule_set in self.rule_sets:
                     if rule_set["chapter"] == chapter:
                         rule_set_count += 1
+                        if not rule_set["is_ex_code"]:
+                            all_ex_codes = False
                         if rule_set["is_chapter"]:
                             is_chapter_mentioned = True
 
-            if rule_set_count > 1 and is_chapter_mentioned:
-                # Check if there are any ex codes anywhere except for on the chapter itself
-                # If there are not, then we can just replicate rules, ignoring the headings that are exceptions
-                has_ex_code_headings = False
-                for rule_set in self.rule_sets:
-                    if rule_set["chapter"] == chapter:
-                        if "chapter" not in rule_set["heading"].lower():
-                            if "ex" in rule_set["heading"]:
-                                has_ex_code_headings = True
-                                break
+            if not all_ex_codes:  # If it is all ex-codes, then we can just leave it as-is
+                if rule_set_count > 1 and is_chapter_mentioned:
+                    # Check if there are any ex codes anywhere except for on the chapter itself
+                    # If there are not, then we can just replicate rules, ignoring the headings that are exceptions
+                    has_ex_code_headings = False
+                    for rule_set in self.rule_sets:
+                        if rule_set["chapter"] == chapter:
+                            if "chapter" not in rule_set["heading"].lower():
+                                if "ex" in rule_set["heading"]:
+                                    has_ex_code_headings = True
+                                    break
 
-                if not has_ex_code_headings:
-                    self.normalise_standard_chapter(chapter)
-                else:
-                    self.normalise_complex_chapter(chapter)
+                    if not has_ex_code_headings:
+                        self.normalise_standard_chapter(chapter)
+                    else:
+                        self.normalise_complex_chapter(chapter)
 
     def normalise_complex_chapter(self, chapter):
         # Get all the other rules in that chapter that are not the chapter heading
+        if chapter == 30:
+            a = 1
         matches = {}
         contains_subheading = False
         index = 0
         chapter_index = None
-        if chapter == 20:
-            a = 1
         for rule_set in self.rule_sets:
             if rule_set["chapter"] == chapter:
                 if rule_set["is_chapter"]:
@@ -317,10 +291,14 @@ class RooDocument(object):
 
                 if heading[0:2] > chapter_string:
                     break
+
+            # Finally, remove the old chapter code, as its value has been copied elsewhere now
+            self.rule_sets.pop(chapter_index)
         else:
-            a = 1
             # Firstly check for any headings under the chapter that have rules that are based on subheadings and not headings
             this_chapter_headings = []
+            headings_with_subheading_rules = []
+            headings_without_subheading_rules = []
             
             for heading in g.all_headings:
                 heading_contains_matches = False
@@ -347,15 +325,63 @@ class RooDocument(object):
                         "subheadings": subheadings
                     }}
                     this_chapter_headings.append(obj)
+                    if contains_subheadings:
+                        headings_with_subheading_rules.append(heading)
+                    else:
+                        headings_without_subheading_rules.append(heading + "00")
 
-            a = 1
-            
+            affected_subheadings = []
             for subheading in g.all_subheadings:
-                if subheading[0:2] == chapter_string:
-                    a = 1
+                if subheading[0:4] in headings_with_subheading_rules:
+                    affected_subheadings.append(subheading)
+            
+            full_list = headings_without_subheading_rules + affected_subheadings
+            full_list.sort()
+            additional_rulesets = []
+            for subheading in full_list:
+                for match in matches:
+                    if matches[match]["min"] <= str(subheading) + "0000" and matches[match]["max"] >= str(subheading) + "0000":
+                        new_min = subheading + "0000"
+                        if g.right(subheading, 2) == "00":
+                            new_max = subheading[0:4] + "999999"
+                        elif g.right(subheading, 1) == "0":
+                            new_max = subheading[0:5] + "99999"
+                        else:
+                            new_max = subheading + "9999"
+                        new_ruleset = self.copy_ruleset(matches[match], new_min, new_max)
+                        additional_rulesets.append(new_ruleset)
+                        a = 1
+            
+            # Remove any rulesets for the selected chapter, as these will all be replaced by the newly formed equivalents
+            ruleset_count = len(self.rule_sets)
+            for i in range(ruleset_count - 1, -1, -1):
+                rule_set = self.rule_sets[i]
+                if rule_set["chapter"] == chapter:
+                    self.rule_sets.pop(i)
+                    
+            # Then add the new rule sets onto the list 
+            self.rule_sets += additional_rulesets
 
-        # Finally, remove the old chapter code, as its value has been copied elsewhere now
-        self.rule_sets.pop(chapter_index)
+        
+    def copy_ruleset(self, match, new_min, new_max):
+        obj = {
+            "heading": match["heading"],
+            "headings": match["headings"],
+            "subheadings": match["subheadings"],
+            "chapter": match["chapter"],
+            "subdivision": match["subdivision"],
+            "prefix": match["prefix"],
+            "min": new_min,
+            "max": new_max,
+            "rules": match["rules"],
+            "is_ex_code": match["is_ex_code"],
+            "is_chapter": match["is_chapter"],
+            "is_heading": match["is_heading"],
+            "is_subheading": match["is_subheading"],
+            "is_range": match["is_range"],
+            "valid": match["valid"]
+        }
+        return obj
 
     def normalise_standard_chapter(self, chapter):
         # First, get the chapter's own rule-set
@@ -468,19 +494,60 @@ class RooDocument(object):
             except:
                 pass
 
+    def validate_table(self):
+        if self.validate_tables:
+            self.count_document_tables()
+            self.count_document_table_row_cells()
+        
+    def count_document_table_row_cells(self):
+        print("- Counting cells in each row for {file}".format(file = self.docx_filename))
+        table = self.document.tables[0]
+        cells = []
+        cell_previous = "UNSPECIFIED"
+        for i, row in enumerate(table.rows):
+            cell1 = row.cells[0].text.strip()
+            if cell1 == "":
+                print("\nERROR: Empty cell in first column not permitted - row after {cell_previous}.\n".format(cell_previous = cell_previous))
+                sys.exit()
+            cell_previous = cell1
+
+            # print(str(i), len(row.cells))
+            cell_count = len(row.cells)
+            if cell_count > 4:
+                print("\nERROR: There must not be more than 4 columns in the table")
+                sys.exit()
+
+            cells.append(cell_count)
+        cell_set = list(set(cells))
+
+        if len(cell_set) > 1:
+            print("\nERROR: Please ensure that all rows have the same number of columns and that they are of equal width.\n")
+            sys.exit()
+        
+    def count_document_tables(self):
+        print("- Counting tables for {file}".format(file = self.docx_filename))
+        table_count = len(self.document.tables)
+        if table_count > 1:
+            print("\nERROR: Please ensure that there is only one table in the document.\n")
+            sys.exit()
+        elif table_count == 0:
+            print("\nERROR: Please ensure that there a table in the document.\n")
+            sys.exit()
+
     def check_coverage(self):
-        print("Checking that all commodity codes are covered")
+        print("- Checking that all commodity codes are covered for {file}".format(file = self.docx_filename))
         self.comm_code_omissions = []
         f = open(self.export_filepath)
         json_obj = json.load(f)
         previous_heading = ""
         for comm_code in g.all_codes:
-            subheading = comm_code[0:4]
-            if subheading == "8443":
+            heading = comm_code[0:4]
+            if heading == "8443":
                 a = 1
             v = CommCodeValidator(comm_code, json_obj)
             ret = v.validate()
             if ret:
                 self.comm_code_omissions.append(comm_code)
                 print("No coverage for commodity code {comm_code}".format(comm_code = comm_code))
-        print("Finished validating")
+
+        print("Finished validating {file}".format(file = self.docx_filename))

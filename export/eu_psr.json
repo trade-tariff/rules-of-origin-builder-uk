@@ -24,7 +24,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "0201000000",
-                  "max": "0210999999",
+                  "max": "0219999999",
                   "rules": [
                         {
                               "rule": "Production in which all the materials of Chapters <a href='/headings/1' target='_blank'>1</a> and <a href='/headings/2' target='_blank'>2</a> used are wholly obtained.",
@@ -39,11 +39,11 @@
                   "valid": true
             },
             {
-                  "heading": "0301-0309",
+                  "heading": "0301-0308",
                   "subdivision": "",
                   "prefix": "",
                   "min": "0301000000",
-                  "max": "0309999999",
+                  "max": "0308999999",
                   "rules": [
                         {
                               "rule": "Production in which all the materials of Chapter <a href='/headings/3' target='_blank'>3</a> used are wholly obtained.",
@@ -62,7 +62,7 @@
                   "subdivision": "",
                   "prefix": "Production in which:",
                   "min": "0401000000",
-                  "max": "0410999999",
+                  "max": "0419999999",
                   "rules": [
                         {
                               "rule": "All the materials of Chapter <a href='/headings/4' target='_blank'>4</a> used are wholly obtained.",
@@ -171,7 +171,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "0901000000",
-                  "max": "0910999999",
+                  "max": "0919999999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from non-originating materials of any heading.",
@@ -343,7 +343,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "1509000000",
-                  "max": "1510999999",
+                  "max": "1519999999",
                   "rules": [
                         {
                               "rule": "Production in which all the vegetable materials used are wholly obtained.",
@@ -419,7 +419,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "1520000000",
-                  "max": "1520999999",
+                  "max": "1529999999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from non-originating materials of any heading.",
@@ -495,7 +495,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "1604200000",
-                  "max": "1604209999",
+                  "max": "1604299999",
                   "rules": [
                         {
                               "rule": "-.",
@@ -512,7 +512,7 @@
                   "subdivision": "Preparations of surimi",
                   "prefix": "",
                   "min": "1604200000",
-                  "max": "1604209999",
+                  "max": "1604299999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter).",
@@ -531,7 +531,7 @@
                   "subdivision": "Others",
                   "prefix": "",
                   "min": "1604200000",
-                  "max": "1604209999",
+                  "max": "1604299999",
                   "rules": [
                         {
                               "rule": "Production in which all the materials of Chapters <a href='/headings/3' target='_blank'>3</a> and <a href='/headings/16' target='_blank'>16</a> used are wholly obtained.",
@@ -726,7 +726,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "1806100000",
-                  "max": "1806109999",
+                  "max": "1806199999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n- all the materials of Chapter <a href='/headings/4' target='_blank'>4</a> used are wholly obtained.",
@@ -753,7 +753,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "1806200000",
-                  "max": "1806909999",
+                  "max": "1806999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that: \n- (a) all the materials of Chapter <a href='/headings/4' target='_blank'>4</a> used are wholly obtained.",
@@ -911,63 +911,11 @@
                   "valid": true
             },
             {
-                  "heading": "210310",
+                  "heading": "210310 210320 210390",
                   "subdivision": "",
                   "prefix": "",
-                  "min": "2103100000",
-                  "max": "2103109999",
-                  "rules": [
-                        {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        },
-                        {
-                              "rule": "However, non-originating mustard flour or meal or prepared mustard may be used.",
-                              "class": [],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "210320",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "2103200000",
-                  "max": "2103209999",
-                  "rules": [
-                        {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        },
-                        {
-                              "rule": "However, non-originating mustard flour or meal or prepared mustard may be used.",
-                              "class": [],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "210390",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "2103900000",
-                  "max": "2103909999",
+                  "min": "210310 210320 210390",
+                  "max": "210310 210320 210399",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -993,7 +941,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "2103300000",
-                  "max": "2103309999",
+                  "max": "2103399999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from non-originating materials of any heading.",
@@ -1134,7 +1082,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "2302100000",
-                  "max": "2303109999",
+                  "max": "2303199999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that the total weight of non-originating materials of Chapter <a href='/headings/10' target='_blank'>10</a> used does not exceed <b>20%</b> of the weight of the product.",
@@ -1226,7 +1174,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "2402100000",
-                  "max": "2402109999",
+                  "max": "2402199999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from non-originating materials of any heading, provided that the total weight of non-originating materials of heading 24.01 used does not exceed <b>30%</b> of the weight of materials of Chapter <a href='/headings/24' target='_blank'>24</a> used.",
@@ -1245,7 +1193,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "2402200000",
-                  "max": "2402209999",
+                  "max": "2402299999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from non-originating materials of any heading, except that of the product and of smoking tobacco of subheading 2403.19, and in which at least <b>10%</b> by weight of all materials of heading 24.01 used is wholly obtained.",
@@ -1265,7 +1213,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "2402900000",
-                  "max": "2402909999",
+                  "max": "2402999999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from non-originating materials of any heading, provided that the total weight of non-originating materials of heading 24.01 used does not exceed <b>30%</b> of the weight of materials of Chapter <a href='/headings/24' target='_blank'>24</a> used.",
@@ -1300,31 +1248,11 @@
                   "valid": true
             },
             {
-                  "heading": "2404",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "2404000000",
-                  "max": "2404999999",
-                  "rules": [
-                        {
-                              "rule": "Your goods are produced from non-originating materials of any heading, except that of the product (All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading)), in which at least <b>10%</b> by weight of all materials of heading 24.01 used are wholly obtained.",
-                              "class": [
-                                    "CTH",
-                                    "MaxNOM"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "2501-2530",
                   "subdivision": "",
                   "prefix": "",
                   "min": "2501000000",
-                  "max": "2530999999",
+                  "max": "2539999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -1388,7 +1316,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "2710000000",
-                  "max": "2710999999",
+                  "max": "2719999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating biodiesel of subheading 3824.99 or 3826.00.",
@@ -1791,7 +1719,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3302100000",
-                  "max": "3302109999",
+                  "max": "3302199999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), however, non-originating materials of subheading 3302.10 may be used, provided that their total value does not exceed <b>20%</b> of the ex-works price (EXW) of the product.",
@@ -1811,7 +1739,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3302900000",
-                  "max": "3302909999",
+                  "max": "3302999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -2099,7 +2027,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3809100000",
-                  "max": "3809109999",
+                  "max": "3809199999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of headings 11.08 and 35.05.",
@@ -2168,7 +2096,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3824100000",
-                  "max": "3824509999",
+                  "max": "3824599999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -2201,7 +2129,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3824600000",
-                  "max": "3824609999",
+                  "max": "3824699999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of subheadings 2905.43 and 2905.44.",
@@ -2220,7 +2148,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3824710000",
-                  "max": "3825909999",
+                  "max": "3825999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -2259,39 +2187,6 @@
                               "rule": "Production in which biodiesel is obtained through transesterification, esterification or hydro-treatment.",
                               "class": [],
                               "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "3827",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "3827000000",
-                  "max": "3827999999",
-                  "rules": [
-                        {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
-                              "class": [
-                                    "CTSH"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        },
-                        {
-                              "rule": "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone.",
-                              "class": [],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        },
-                        {
-                              "rule": "A maximum of <b>50%</b> of the ex-works price is made up of non-originating parts.",
-                              "class": [],
-                              "operator": "or",
                               "specific_processes": false,
                               "double_dash": false
                         }
@@ -2362,7 +2257,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3920000000",
-                  "max": "3920999999",
+                  "max": "3929999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -2414,7 +2309,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3923100000",
-                  "max": "3923509999",
+                  "max": "3923599999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -2440,7 +2335,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "3923900000",
-                  "max": "3925909999",
+                  "max": "3925999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -2606,7 +2501,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "4105100000",
-                  "max": "4105109999",
+                  "max": "4105199999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -2625,7 +2520,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "4105300000",
-                  "max": "4105309999",
+                  "max": "4105399999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -2701,7 +2596,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "4106320000",
-                  "max": "4106409999",
+                  "max": "4106499999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -2778,7 +2673,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "4114100000",
-                  "max": "4114109999",
+                  "max": "4114199999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -2797,7 +2692,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "4114200000",
-                  "max": "4114209999",
+                  "max": "4114299999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of subheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32, 4106.92 and 4107. However, non-originating materials of subheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32, 4106.92 and heading 41.07 may be used provided that they undergo a retanning operation.",
@@ -2862,7 +2757,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "4301100000",
-                  "max": "4302209999",
+                  "max": "4302299999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -2888,7 +2783,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "4302300000",
-                  "max": "4302309999",
+                  "max": "4302399999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -3351,7 +3246,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "5106000000",
-                  "max": "5110999999",
+                  "max": "5119999999",
                   "rules": [
                         {
                               "rule": "Spinning of natural fibres.",
@@ -4039,7 +3934,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "5604100000",
-                  "max": "5604109999",
+                  "max": "5604199999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from rubber thread or cord, not textile covered.",
@@ -4056,7 +3951,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "5604900000",
-                  "max": "5604909999",
+                  "max": "5604999999",
                   "rules": [
                         {
                               "rule": "Spinning of natural fibres.",
@@ -4390,7 +4285,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "5810000000",
-                  "max": "5810999999",
+                  "max": "5819999999",
                   "rules": [
                         {
                               "rule": "Embroidering in which the value of non-originating materials of any heading, except that of the product, used does not exceed <b>50%</b> of the ex-works price (EXW) of the product.",
@@ -5398,7 +5293,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "6210000000",
-                  "max": "6210999999",
+                  "max": "6219999999",
                   "rules": [
                         {
                               "rule": "-.",
@@ -5415,7 +5310,7 @@
                   "subdivision": "Fire\n-resistant equipment of fabric covered with foil of aluminised polyester",
                   "prefix": "",
                   "min": "6210000000",
-                  "max": "6210999999",
+                  "max": "6219999999",
                   "rules": [
                         {
                               "rule": "Weaving, combined with making-up, including cutting of fabric.",
@@ -5441,7 +5336,7 @@
                   "subdivision": "Others",
                   "prefix": "",
                   "min": "6210000000",
-                  "max": "6210999999",
+                  "max": "6219999999",
                   "rules": [
                         {
                               "rule": "Weaving, combined with making-up, including cutting of fabric.",
@@ -6080,7 +5975,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "6309000000",
-                  "max": "6310999999",
+                  "max": "6319999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -6272,7 +6167,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "7010000000",
-                  "max": "7010999999",
+                  "max": "7019999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -6336,7 +6231,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "7014000000",
-                  "max": "7020999999",
+                  "max": "7029999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -6553,7 +6448,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "7110000000",
-                  "max": "7110999999",
+                  "max": "7119999999",
                   "rules": [
                         {
                               "rule": "-.",
@@ -6570,7 +6465,7 @@
                   "subdivision": "Unwrought",
                   "prefix": "",
                   "min": "7110000000",
-                  "max": "7110999999",
+                  "max": "7119999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of headings 71.06, 71.08 and 71.10.",
@@ -6603,7 +6498,7 @@
                   "subdivision": "Semi\n-manufactured or in powder form",
                   "prefix": "",
                   "min": "7110000000",
-                  "max": "7110999999",
+                  "max": "7119999999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from non-originating unwrought precious metals.",
@@ -6791,7 +6686,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "7301100000",
-                  "max": "7301109999",
+                  "max": "7301199999",
                   "rules": [
                         {
                               "rule": "CC except from non-originating materials of headings 72.08 to 72.17.",
@@ -6808,7 +6703,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "7301200000",
-                  "max": "7301209999",
+                  "max": "7301299999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -6982,7 +6877,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "7315200000",
-                  "max": "7315209999",
+                  "max": "7315299999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -7008,7 +6903,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "7315810000",
-                  "max": "7326909999",
+                  "max": "7326999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -7236,7 +7131,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "7801100000",
-                  "max": "7801109999",
+                  "max": "7801199999",
                   "rules": [
                         {
                               "rule": "Your goods are produced from non-originating materials of any heading.",
@@ -7331,7 +7226,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8201100000",
-                  "max": "8205709999",
+                  "max": "8205799999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -7357,7 +7252,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8205900000",
-                  "max": "8205909999",
+                  "max": "8205999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), however, non-originating tools of heading 82.05 may be incorporated into the set, provided that their total value does not exceed <b>15%</b> of the ex-works price (EXW) of the set.",
@@ -7526,7 +7421,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8413110000",
-                  "max": "8415109999",
+                  "max": "8415199999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -7552,7 +7447,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8415200000",
-                  "max": "8415209999",
+                  "max": "8415299999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -7578,7 +7473,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8415810000",
-                  "max": "8415909999",
+                  "max": "8415999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -7604,7 +7499,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8416000000",
-                  "max": "8420999999",
+                  "max": "8429999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -7682,7 +7577,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8425000000",
-                  "max": "8430999999",
+                  "max": "8439999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of heading 84.31.",
@@ -7890,7 +7785,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8479100000",
-                  "max": "8479409999",
+                  "max": "8479499999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -7916,7 +7811,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8479500000",
-                  "max": "8479509999",
+                  "max": "8479599999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -7994,7 +7889,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8479900000",
-                  "max": "8479909999",
+                  "max": "8479999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
@@ -8020,7 +7915,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8480000000",
-                  "max": "8480999999",
+                  "max": "8489999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -8293,11 +8188,11 @@
                   "valid": true
             },
             {
-                  "heading": "8522-8524",
+                  "heading": "8522-8523",
                   "subdivision": "",
                   "prefix": "",
                   "min": "8522000000",
-                  "max": "8524999999",
+                  "max": "8523999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -8401,7 +8296,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8538100000",
-                  "max": "8541909999",
+                  "max": "8541999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -8460,7 +8355,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "8542900000",
-                  "max": "8543909999",
+                  "max": "8543999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -8482,11 +8377,11 @@
                   "valid": true
             },
             {
-                  "heading": "8544-8549",
+                  "heading": "8544-8548",
                   "subdivision": "",
                   "prefix": "",
                   "min": "8544000000",
-                  "max": "8549999999",
+                  "max": "8548999999",
                   "rules": [
                         {
                               "rule": "A maximum of <b>50%</b> of the ex-works price is made up of non-originating parts.",
@@ -8679,11 +8574,11 @@
                   "valid": true
             },
             {
-                  "heading": "8801-8807",
+                  "heading": "8801-8805",
                   "subdivision": "",
                   "prefix": "",
                   "min": "8801000000",
-                  "max": "8807999999",
+                  "max": "8805999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -8735,7 +8630,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "9001100000",
-                  "max": "9001409999",
+                  "max": "9001499999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -8761,7 +8656,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "9001500000",
-                  "max": "9001509999",
+                  "max": "9001599999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -8984,7 +8879,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "9606000000",
-                  "max": "9608409999",
+                  "max": "9608499999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -9010,7 +8905,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "9608500000",
-                  "max": "9608509999",
+                  "max": "9608599999",
                   "rules": [
                         {
                               "rule": "Each item in the set shall satisfy the rule which would apply to it if it were not included in the set, provided that non-originating articles may be incorporated, provided that their total value does not exceed <b>15%</b> of the ex-works price (EXW) of the set.",
@@ -9029,7 +8924,7 @@
                   "subdivision": "",
                   "prefix": "",
                   "min": "9608600000",
-                  "max": "9620999999",
+                  "max": "9629999999",
                   "rules": [
                         {
                               "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",

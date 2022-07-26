@@ -57,13 +57,15 @@ class RuleSetLegacy(object):
                 break
 
     def process_heading(self):
-        if "ex 2004" in self.original_heading:
-            a = 1
         self.original_heading = re.sub("([0-9]{4}) and ([0-9]{4})", "\\1 to \\2", self.original_heading)
         self.original_heading = self.original_heading.replace(u'\xa0', u' ')
         self.original_heading = self.original_heading.replace("ex ex", "ex ")
-        self.original_heading = self.original_heading.replace("  ", " ")
+        self.original_heading = self.original_heading.replace("\n", " ")
+        # self.original_heading = self.original_heading.replace("  ", " ")
+        self.original_heading = re.sub(" {2,10}", " ", self.original_heading)
 
+        if "300670" in self.original_heading:
+            a = 1
         n = Normalizer()
         self.heading = n.normalize(self.original_heading)
         

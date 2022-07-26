@@ -1,3 +1,6 @@
+from os import system, name
+
+
 all_headings = {}
 all_subheadings = {}
 all_codes = {}
@@ -14,6 +17,13 @@ def format_parts(s, index):
 
     return s
 
+def clear():
+    # for windows
+    if name == 'nt':
+        _ = system('cls')
+    else:
+        _ = system("printf '\33c\e[3J'")
+
 def is_numeric(s):
     s = s.strip()
     s = s.replace(" to ", "")
@@ -23,3 +33,12 @@ def is_numeric(s):
     s = s.replace(" ", "")
     ret = s.isnumeric()
     return ret
+
+def left(s, amount):
+    return s[:amount]
+
+def right(s, amount):
+    return s[-amount:]
+
+def mid(s, offset, amount):
+    return s[offset:offset+amount]

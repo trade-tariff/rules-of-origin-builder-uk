@@ -61,6 +61,7 @@ class RuleSet(object):
         pass
 
     def determine_minmax_from_single_term(self):
+        print(self.original_heading)
         self.min = self.format_parts(self.heading, 0)
         self.max = self.format_parts(self.heading, 1)
 
