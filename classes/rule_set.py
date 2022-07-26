@@ -35,7 +35,7 @@ class RuleSet(object):
         if "\n" in self.original_heading:
             if self.is_numeric(self.original_heading):
                 a = 1
-        if self.original_heading == "1604.20":
+        if "3822.00" in self.original_heading:
             a = 1
         n = Normalizer()
         self.heading = n.normalize(self.original_heading)
@@ -114,9 +114,15 @@ class RuleSet(object):
     def format_parts(s, index):
         s = s.strip()
         l = len(s)
+        if index == 1:
+            if l == 6:
+                if s[4:6] == "00":
+                    s = s[0:4] + "99"
         if index == 0:
             s = s + (10 - l) * "0"
         else:
+            if s[-1] == "0":
+                s = s[:-1] + "9"
             s = s + (10 - l) * "9"
 
         return s

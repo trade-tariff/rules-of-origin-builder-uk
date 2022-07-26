@@ -29,6 +29,7 @@ class RuleSetLegacy(object):
             self.original_heading = row["original_heading"].strip()
             self.description = ""
             self.subdivision = row["description"].strip()
+            self.subdivision = self.subdivision.replace("; except for:", "")
             self.original_rule = row["original_rule"].strip()
             self.original_rule2 = row["original_rule2"].strip()
             
@@ -36,7 +37,7 @@ class RuleSetLegacy(object):
                 self.original_rule += ";\n"
                 self.original_rule += "or " + self.original_rule2
 
-            self.switch_headings()
+            # self.switch_headings()
             self.process_heading()
             self.process_subdivision()
             self.process_rule()
@@ -56,6 +57,8 @@ class RuleSetLegacy(object):
                 break
 
     def process_heading(self):
+        if "ex 2004" in self.original_heading:
+            a = 1
         self.original_heading = re.sub("([0-9]{4}) and ([0-9]{4})", "\\1 to \\2", self.original_heading)
         self.original_heading = self.original_heading.replace(u'\xa0', u' ')
         self.original_heading = self.original_heading.replace("ex ex", "ex ")
@@ -84,6 +87,7 @@ class RuleSetLegacy(object):
         self.is_subheading = False
 
         # Check if this is the chapter and get the chapter number
+        # print(self.heading)
         if "chapter" in tmp:
             self.is_chapter = True
             tmp2 = tmp.replace("ex", "").strip()
@@ -247,7 +251,7 @@ class RuleSetLegacy(object):
         return my_dictionary
 
     def switch_headings(self):
-        # return
+        return
         data_file = "data/heading_replacements.json"
         with open(data_file) as jsonFile:
             heading_replacements = json.load(jsonFile)

@@ -9,6 +9,7 @@ from docx.api import Document
 
 from classes.rule_set import RuleSet
 from classes.rule_set_legacy import RuleSetLegacy
+from classes.comm_code_validator import CommCodeValidator
 import classes.globals as g
 
 class RooDocument(object):
@@ -16,28 +17,45 @@ class RooDocument(object):
         self.get_environment()
         self.get_chapter_codes()
         self.get_arguments()
-        self.open_document()
-        self.get_document_type()
-        self.read_table()
-        self.process_table()
-        if self.modern:
-            self.process_subdivisions()
-        else:
-            self.remove_working_nodes()
-        self.write_table()
-        self.kill_document()
+        if self.create_json:
+            self.open_document()
+            self.get_document_type()
+            self.validate_table()
+            self.read_table()
+            self.process_table()
+            if self.modern:
+                self.process_subdivisions()
+            else:
+                self.remove_working_nodes()
+            self.write_table()
+            self.kill_document()
+
+        if self.validate_commodities:
+            self.check_coverage()
 
     def get_environment(self):
         load_dotenv('.env')
         self.source_folder = os.getenv('source_folder')
+        self.validate_tables = int(os.getenv('validate_tables'))
         self.code_list = os.getenv('code_list')
+        modern_documents = os.getenv('modern_documents')
+        self.modern_documents = modern_documents.split(",")
+        self.create_json = os.getenv('create_json')
+        self.validate_commodities = os.getenv('validate_commodities')
 
     def get_chapter_codes(self):
         g.all_headings = {}
         g.all_subheadings = {}
+        g.all_codes = []
+        found_headings = []
         with open(self.code_list) as csv_file:
             csv_reader = csv.DictReader(csv_file)
             for row in csv_reader:
+                if row["Class"] == "commodity":
+                    if row["Commodity code"][0:4] not in found_headings:
+                        found_headings.append(row["Commodity code"][0:4])
+                        g.all_codes.append(row["Commodity code"])
+
                 if row["Commodity code"][-6:] == "000000" and row["Commodity code"][-8:] != "00000000":
                     heading = row["Commodity code"][0:4]
                     g.all_headings[heading] = row["Description"]
@@ -47,6 +65,7 @@ class RooDocument(object):
                     g.all_subheadings[subheading] = row["Description"]
 
         csv_file.close()
+        a = 1
 
     def get_arguments(self):
         if len(sys.argv) > 1:
@@ -65,16 +84,55 @@ class RooDocument(object):
 
     def get_document_type(self):
         filename_compare = self.docx_filename.replace(" PSR.docx", "")
-        modern_documents = [
-            "EU", "Japan", "Turkey", "Canada"
-        ]
-        if filename_compare in modern_documents:
+        if filename_compare in self.modern_documents:
             self.modern = True
         else:
             self.modern = False
 
-    def read_table(self):
+    def validate_table(self):
+        if self.validate_tables:
+            self.count_document_tables()
+            self.count_document_table_row_cells()
+        
+    def count_document_table_row_cells(self):
+        print("Counting cells in each row")
         table = self.document.tables[0]
+        cells = []
+        cell_previous = "UNSPECIFIED"
+        for i, row in enumerate(table.rows):
+            cell1 = row.cells[0].text.strip()
+            if cell1 == "":
+                print("\nERROR: Empty cell in first column not permitted - row after {cell_previous}.\n".format(cell_previous = cell_previous))
+                sys.exit()
+            cell_previous = cell1
+
+            # print(str(i), len(row.cells))
+            cell_count = len(row.cells)
+            if cell_count > 4:
+                print("\nERROR: There must not be more than 4 columns in the table")
+                sys.exit()
+
+            cells.append(cell_count)
+        cell_set = list(set(cells))
+
+        if len(cell_set) > 1:
+            print("\nERROR: Please ensure that all rows have the same number of columns and that they are of equal width.\n")
+            sys.exit()
+        
+    def count_document_tables(self):
+        print("Counting tables")
+        table_count = len(self.document.tables)
+        if table_count > 1:
+            print("\nERROR: Please ensure that there is only one table in the document.\n")
+            sys.exit()
+        elif table_count == 0:
+            print("\nERROR: Please ensure that there a table in the document.\n")
+            sys.exit()
+
+    def read_table(self):
+        print("Reading table")
+        table = self.document.tables[0]
+        
         if self.modern:
             rename_keys = {
                 "Classification": "original_heading",
@@ -115,6 +173,7 @@ class RooDocument(object):
                 self.rows.append(item)
 
     def process_table(self):
+        print("Processing table")
         if self.modern:
             self.process_table_modern()
         else:
@@ -136,14 +195,16 @@ class RooDocument(object):
     def process_table_legacy(self):
         self.rule_sets = []
         for row in self.rows:
+            if row["original_heading"] == "ex Chapter 40":
+                a = 1
             rule_set = RuleSetLegacy(row)
             self.rule_sets.append(rule_set.as_dict())
 
-        self.normalise_chapter()
+        self.normalise_chapters()
 
-    def normalise_chapter(self):
+    def normalise_chapters(self):
         for chapter in range(1, 98):
-            if chapter == 20:
+            if chapter == 40:
                 a = 1
             is_chapter_mentioned = False
             rule_set_count = 0
@@ -253,10 +314,7 @@ class RooDocument(object):
                                 "valid": True
                             }
                             self.rule_sets.append(obj)
-                            
-                            # self.rule_sets[match]["subdivision"] = matches[match]["subdivision"]
-                        
-                    
+
                 if heading[0:2] > chapter_string:
                     break
         else:
@@ -288,9 +346,8 @@ class RooDocument(object):
                         "contains_subheadings": contains_subheadings,
                         "subheadings": subheadings
                     }}
-                    this_chapter_headings.append (obj)
+                    this_chapter_headings.append(obj)
 
-                            
             a = 1
             
             for subheading in g.all_subheadings:
@@ -307,7 +364,11 @@ class RooDocument(object):
         index = -1
         for rule_set in self.rule_sets:
             index += 1
-            if string_to_find in rule_set["heading"].lower():
+            heading_string = rule_set["heading"].lower()
+            heading_string = heading_string.replace("ex", "")
+            heading_string = heading_string.replace("  ", " ")
+            heading_string = heading_string.strip()
+            if string_to_find == heading_string:
                 chapter_found = True
                 rule_set_rubric = RuleSetLegacy()
                 rule_set_rubric.rules = rule_set["rules"]
@@ -406,3 +467,20 @@ class RooDocument(object):
                 del rule_set["is_range"]
             except:
                 pass
+
+    def check_coverage(self):
+        print("Checking that all commodity codes are covered")
+        self.comm_code_omissions = []
+        f = open(self.export_filepath)
+        json_obj = json.load(f)
+        previous_heading = ""
+        for comm_code in g.all_codes:
+            subheading = comm_code[0:4]
+            if subheading == "8443":
+                a = 1
+            v = CommCodeValidator(comm_code, json_obj)
+            ret = v.validate()
+            if ret:
+                self.comm_code_omissions.append(comm_code)
+                print("No coverage for commodity code {comm_code}".format(comm_code = comm_code))
+        print("Finished validating")

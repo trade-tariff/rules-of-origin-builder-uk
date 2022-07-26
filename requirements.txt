@@ -1,8 +1,13 @@
 certifi==2021.10.8
 charset-normalizer==2.0.12
+decorator==5.1.1
 idna==3.3
+jmespath==1.0.1
+jsonpath-ng==1.5.3
 lxml==4.8.0
+ply==3.11
 python-docx==0.8.11
 python-dotenv==0.20.0
 requests==2.27.1
+six==1.16.0
 urllib3==1.26.9
