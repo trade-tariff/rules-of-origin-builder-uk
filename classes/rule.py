@@ -147,7 +147,7 @@ class Rule(object):
             self.rule_class = ["MaxNOM"]
         
         else:
-            a = 1
+            self.rule_class = ["Unspecified"]
             
         
 

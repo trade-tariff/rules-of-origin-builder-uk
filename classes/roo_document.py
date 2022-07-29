@@ -34,6 +34,8 @@ class RooDocument(object):
 
         if self.validate_commodities:
             self.check_coverage()
+        if self.validate_min_max:
+            self.validate_min_max_values()
         
         print("\nFinished processing {file}\n".format(file = self.docx_filename))
 
@@ -46,6 +48,7 @@ class RooDocument(object):
         self.modern_documents = modern_documents.split(",")
         self.create_json = os.getenv('create_json')
         self.validate_commodities = os.getenv('validate_commodities')
+        self.validate_min_max = os.getenv('validate_min_max')
 
     def get_chapter_codes(self):
         g.all_headings = {}
@@ -85,6 +88,7 @@ class RooDocument(object):
 
         self.export_folder = os.path.join(os.getcwd(), "export")
         self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "_").lower()
+        self.export_filename = self.export_filename.replace("_psr", "")
         self.export_filepath = os.path.join(self.export_folder, self.export_filename) + ".json"
 
     def open_document(self):
@@ -165,6 +169,7 @@ class RooDocument(object):
     def process_table_legacy(self):
         self.rule_sets = []
         for row in self.rows:
+            # print(row["original_heading"])
             if "ex Chapter 28" in row["original_heading"]:
                 a = 1
             rule_set = RuleSetLegacy(row)
@@ -206,6 +211,7 @@ class RooDocument(object):
                         self.normalise_complex_chapter(chapter)
 
     def normalise_complex_chapter(self, chapter):
+        # print(chapter)
         # Get all the other rules in that chapter that are not the chapter heading
         if chapter == 30:
             a = 1
@@ -511,7 +517,6 @@ class RooDocument(object):
                 sys.exit()
             cell_previous = cell1
 
-            # print(str(i), len(row.cells))
             cell_count = len(row.cells)
             if cell_count > 4:
                 print("\nERROR: There must not be more than 4 columns in the table")
@@ -551,3 +556,17 @@ class RooDocument(object):
                 print("No coverage for commodity code {comm_code}".format(comm_code = comm_code))
 
         print("Finished validating {file}".format(file = self.docx_filename))
+
+    def validate_min_max_values(self):
+        print("- Checking min max for {file}".format(file = self.docx_filename))
+        issues = []
+        for rule_set in self.rule_sets:
+            if rule_set["min"] is None:
+                issues.append(rule_set["heading"])
+        if len(issues) > 0:
+            s = "  - There are issues with null min and max values - please correct:\n\n  - "
+            s += "\n  - ".join(issues)
+            print(s)
+            sys.exit()
+        else:
+            print("  - All min max fine")

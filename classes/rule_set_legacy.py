@@ -38,6 +38,7 @@ class RuleSetLegacy(object):
                 self.original_rule += "or " + self.original_rule2
 
             # self.switch_headings()
+            
             self.process_heading()
             self.process_subdivision()
             self.process_rule()
@@ -89,7 +90,6 @@ class RuleSetLegacy(object):
         self.is_subheading = False
 
         # Check if this is the chapter and get the chapter number
-        # print(self.heading)
         if "chapter" in tmp:
             self.is_chapter = True
             tmp2 = tmp.replace("ex", "").strip()
@@ -210,6 +210,9 @@ class RuleSetLegacy(object):
             self.subdivision = g.parent_heading + " ➔ " + self.subdivision
 
     def process_rule(self):
+        if "6202" in self.original_heading:
+            a = 1
+            
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
         self.original_rule = self.original_rule.replace("ex ex", "ex ")
@@ -217,16 +220,17 @@ class RuleSetLegacy(object):
         self.rules = []
         tmp = self.original_rule.lower()
 
+        self.original_rule = self.original_rule.replace("\nOr\n", "\nor\n", )
+
         if "production in which:" in tmp:
             self.original_rule = self.original_rule.replace("Production in which:\n", "")
             self.original_rule = self.original_rule.replace("Production in which: ", "")
             self.rule_strings = self.original_rule.split(";")
             self.prefix = "Production in which:"
-            a = 1
-        # elif "provided that" in tmp:
-        #     self.rule_strings = [self.original_rule]
+
         else:
             self.rule_strings = self.original_rule.split(";")
+            self.rule_strings = self.original_rule.split("\nor\n")
 
         for rule_string in self.rule_strings:
             rule = Rule(rule_string)

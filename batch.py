@@ -3,20 +3,20 @@ import classes.globals as g
 
 
 list = [
-    "xAlbania PSR.docx",
-    "xAndean PSR.docx",
-    "xCameroon PSR.docx",
-    "xCanada PSR.docx",
-    "xCariforum PSR.docx",
-    "xCentral-America PSR.docx",
-    "xChile PSR.docx",
-    "xEgypt PSR.docx",
-    "xESA PSR.docx",
-    "xEU PSR.docx",
-    "xFaroe-Islands PSR.docx",
-    "xGeorgia PSR.docx",
-    "xGhana PSR.docx",
-    "xIceland-Norway PSR.docx",
+    "Albania PSR.docx",
+    "Andean PSR.docx",
+    "Cameroon PSR.docx",
+    "Canada PSR.docx",
+    "Cariforum PSR.docx",
+    "Central-America PSR.docx",
+    "Chile PSR.docx",
+    "Egypt PSR.docx",
+    "ESA PSR.docx",
+    "EU PSR.docx",
+    "Faroe-Islands PSR.docx",
+    "Georgia PSR.docx",
+    "Ghana PSR.docx",
+    "Iceland-Norway PSR.docx",
     "Israel PSR.docx",
     "Japan PSR.docx",
     "Jordan PSR.docx",
@@ -41,5 +41,5 @@ list = [
 
 g.clear()
 for item in list:
-    if item[0] != "x":
+    if item[0] != "":
         document = RooDocument(item)

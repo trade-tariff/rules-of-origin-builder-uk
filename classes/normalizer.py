@@ -220,7 +220,7 @@ class Normalizer(BaseNormalizer):
     on normal forms: http://docs.python.org/2/library/unicodedata.html#unicodedata.normalize
     """
 
-    def __init__(self, form='NFKC', strip=True, collapse=True, hyphens=False, quotes=False, ellipsis=False,
+    def __init__(self, form='NFKC', strip=True, collapse=False, hyphens=False, quotes=False, ellipsis=False,
                  slashes=False, tildes=False):
         """
 
@@ -260,7 +260,11 @@ class Normalizer(BaseNormalizer):
         text = text.replace('\u000b', ' ').replace(u'\u0085', ' ')
         text = text.replace('\u2028', '\n').replace('\u2029', '\n').replace('\r\n', '\n').replace('\r', '\n')
         text = text.replace(u'\xa0', u' ')
+        text = re.sub("\t", " ", text)
         text = re.sub(" {2,10}", " ", text)
+        for i in range(1, 4):
+            text = re.sub("\n\n", "\n", text)
+        # text = re.sub("\n", "<br>", text)
 
         text = text.replace(u'\u2013', u'-')
         text = text.replace(u'\u2018', u"'")
