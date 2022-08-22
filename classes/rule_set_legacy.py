@@ -1,4 +1,5 @@
 import re
+import os
 import json
 
 from classes.normalizer import Normalizer
@@ -7,7 +8,7 @@ import classes.globals as g
 
 
 class RuleSetLegacy(object):
-    def __init__(self, row = None):
+    def __init__(self, row=None):
         self.heading = ""
         self.switched_heading = ""
         self.subdivision = ""
@@ -30,27 +31,53 @@ class RuleSetLegacy(object):
             self.description = ""
             self.subdivision = row["description"].strip()
             self.subdivision = self.subdivision.replace("; except for:", "")
+
+            # Run the corrections
+            corrections_file = os.path.join(os.getcwd(), "data", "corrections.json")
+            f = open(corrections_file)
+            corrections = json.load(f)
+            for correction in corrections:
+                self.subdivision = self.subdivision.replace(correction["from"], correction["to"])
+
             self.original_rule = row["original_rule"].strip()
             self.original_rule2 = row["original_rule2"].strip()
-            
+
+            # Before
+            self.original_rule = self.deal_with_semicolons_in_manufacture_rules(self.original_rule)
+
+            # Concatenate the two columns of rules into one
             if self.original_rule2 != "":
-                self.original_rule += ";\n"
-                self.original_rule += "or " + self.original_rule2
+                self.original_rule2 = self.deal_with_semicolons_in_manufacture_rules(self.original_rule2)
+                self.original_rule += ";\n\n"
+                self.original_rule += "or\n\n" + self.original_rule2
 
             # self.switch_headings()
-            
+
             self.process_heading()
             self.process_subdivision()
             self.process_rule()
             self.capture_parent_description()
             self.set_valid_status()
-            
-       
+
+    def deal_with_semicolons_in_manufacture_rules(self, s):
+        if "0403" in self.original_heading:
+            a = 1
+        ret = s.strip()
+        ret = ret.replace("Manufacture in which;", "Manufacture in which:")
+        if ret.startswith("Manufacture:") or ret.startswith("Manufacture in which:"):
+            ret = ret.replace(";", "")
+            ret = ret.replace("\n", "\n- ")
+            ret = ret.replace("\n- \n", "\n\n")
+            ret = ret.replace("\n- - ", "\n- ")
+            a = 1
+
+        return ret
+
     def capture_parent_description(self):
         self.original_rule = self.original_rule.strip()
         if self.original_rule == "" or self.original_rule == "-":
             g.parent_heading = self.subdivision
-    
+
     def set_valid_status(self):
         for rule in self.rules:
             if rule["rule"] != "-" and rule["rule"] != "":
@@ -69,7 +96,7 @@ class RuleSetLegacy(object):
             a = 1
         n = Normalizer()
         self.heading = n.normalize(self.original_heading)
-        
+
         self.heading = self.heading.replace(".", "")
         self.heading = self.heading.replace(" - ", "-")
         self.heading = self.heading.replace(" to ", "-")
@@ -112,7 +139,7 @@ class RuleSetLegacy(object):
         tmp = tmp.replace("  ", " ")
         if "to" in tmp:
             self.is_range = True
-            
+
         # Check if this is a heading / subheading
         if tmp == "2002 to 2003":
             a = 1
@@ -155,7 +182,7 @@ class RuleSetLegacy(object):
             parts = self.heading.split("-")
         elif "to" in self.heading:
             parts = self.heading.split("to")
-            
+
         for i in range(0, len(self.parts)):
             parts[i] = parts[i].replace(" ", "")
 
@@ -167,7 +194,7 @@ class RuleSetLegacy(object):
             else:
                 self.max = g.format_parts(part, index)
             index += 1
-            
+
         if self.is_heading:
             # Work out the headings that this rule_set covers
             self.headings.append(parts[0])
@@ -194,25 +221,22 @@ class RuleSetLegacy(object):
                     self.subheadings.append(str_min)
                 if tmp_min == tmp_max:
                     proceed = False
-                    
-        a = 1
-        
+
     def process_subdivision(self):
-        if self.heading == "1902":
-            a = 1
-        if "2004" in self.heading:
-            a = 1
         n = Normalizer()
         self.subdivision = n.normalize(self.subdivision).strip()
         self.subdivision = self.subdivision.replace(" %", "%")
+        self.subdivision = self.subdivision.replace("— ", "\n- ")
+
         if self.subdivision[0:2] == "- ":
             self.subdivision = self.subdivision[2:]
             self.subdivision = g.parent_heading + " ➔ " + self.subdivision
 
+        self.subdivision = self.subdivision.replace("- - ", "- ")
+        self.subdivision = self.subdivision.replace("ex ex", "ex ")
+        self.subdivision = re.sub("^-([^-])", "- \\1", self.subdivision)
+
     def process_rule(self):
-        if "6202" in self.original_heading:
-            a = 1
-            
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
         self.original_rule = self.original_rule.replace("ex ex", "ex ")
@@ -222,18 +246,19 @@ class RuleSetLegacy(object):
 
         self.original_rule = self.original_rule.replace("\nOr\n", "\nor\n", )
 
-        if "production in which:" in tmp:
-            self.original_rule = self.original_rule.replace("Production in which:\n", "")
-            self.original_rule = self.original_rule.replace("Production in which: ", "")
-            self.rule_strings = self.original_rule.split(";")
-            self.prefix = "Production in which:"
-
-        else:
-            self.rule_strings = self.original_rule.split(";")
-            self.rule_strings = self.original_rule.split("\nor\n")
+        # Remove any residual references to footnotes from the original Word documents
+        self.original_rule = re.sub("\.[0-9]{1,2}$", ".", self.original_rule)
+        self.original_rule = self.original_rule.replace(";\nor", ";\n\nTEMPOR")
+        self.original_rule = self.original_rule.replace(";\n\nor", ";\n\nTEMPOR")
+        self.original_rule = self.original_rule.replace("\nor\n", ";\n\nor\n\n")
+        self.original_rule = self.original_rule.replace("TEMPOR", "or")
+        if "Chapter 07" in self.original_heading:
+            a = 1
+        self.original_rule = self.original_rule.strip(";")
+        self.rule_strings = self.original_rule.split(";")
 
         for rule_string in self.rule_strings:
-            rule = Rule(rule_string)
+            rule = Rule(rule_string, self.heading)
             self.rules.append(rule.as_dict())
 
     def as_dict(self):

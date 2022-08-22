@@ -21,13 +21,12 @@ class RuleSet(object):
         self.process_heading()
         self.process_rule()
         self.set_valid_status()
-        
+
     def set_valid_status(self):
         for rule in self.rules:
             if rule["rule"] != "-" and rule["rule"] != "":
                 self.valid = True
                 break
-
 
     def process_heading(self):
         if "Sodium" in self.original_heading:
@@ -61,7 +60,6 @@ class RuleSet(object):
         pass
 
     def determine_minmax_from_single_term(self):
-        print(self.original_heading)
         self.min = self.format_parts(self.heading, 0)
         self.max = self.format_parts(self.heading, 1)
 
@@ -79,24 +77,11 @@ class RuleSet(object):
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
         self.rules = []
-        tmp = self.original_rule.lower()
-        # if self.original_heading == "04.01-04.10":
-        if "62.17" in self.original_heading:
-            a = 1
-
-        if "production in which:" in tmp:
-            self.original_rule = self.original_rule.replace("Production in which:\n", "")
-            self.original_rule = self.original_rule.replace("Production in which: ", "")
-            self.rule_strings = self.original_rule.split(";")
-            self.prefix = "Production in which:"
-            a = 1
-        # elif "provided that" in tmp:
-        #     self.rule_strings = [self.original_rule]
-        else:
-            self.rule_strings = self.original_rule.split(";")
+        self.original_rule = self.original_rule.strip(";")
+        self.rule_strings = self.original_rule.split(";")
 
         for rule_string in self.rule_strings:
-            rule = Rule(rule_string)
+            rule = Rule(rule_string, self.original_heading)
             self.rules.append(rule.as_dict())
 
     def as_dict(self):
@@ -114,23 +99,23 @@ class RuleSet(object):
     @staticmethod
     def format_parts(s, index):
         s = s.strip()
-        l = len(s)
+        length = len(s)
         if index == 1:
-            if l == 6:
+            if length == 6:
                 if s[4:6] == "00":
                     s = s[0:4] + "99"
         if index == 0:
-            s = s + (10 - l) * "0"
+            s = s + (10 - length) * "0"
         else:
             if s[-1] == "0":
                 s = s[:-1] + "9"
-            s = s + (10 - l) * "9"
+            s = s + (10 - length) * "9"
 
         return s
 
     @staticmethod
-    def is_numeric(s):
-        s = s.strip()
+    def is_numeric(p):
+        s = p.strip()
         s = s.replace(" to ", "")
         s = s.replace("-", "")
         s = s.replace("\n", "")

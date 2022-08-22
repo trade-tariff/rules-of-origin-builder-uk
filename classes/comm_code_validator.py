@@ -1,7 +1,6 @@
 from jsonpath_ng import jsonpath, parse
 from jsonpath_ng.ext import parser
 import jmespath
-import classes.globals as g
 
 
 class CommCodeValidator(object):
@@ -9,7 +8,7 @@ class CommCodeValidator(object):
         self.comm_code = comm_code
         self.json_obj = json_obj
         # print(self.comm_code)
-        
+
     def validate(self):
         if self.comm_code >= "9800000000":
             return None

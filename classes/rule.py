@@ -1,8 +1,12 @@
 import re
+import os
+import json
+import classes.globals as g
 
 
 class Rule(object):
-    def __init__(self, rule_string):
+    def __init__(self, rule_string, heading):
+        self.heading = heading
         self.boolean_operator = None
         self.rule_class = []
         self.rule_string = rule_string.strip()
@@ -14,29 +18,70 @@ class Rule(object):
     def process_rule(self):
         self.cleanse()
         self.get_rule_class()
+        self.get_rule_class_lookup()
+        self.get_specific_processes()
         self.fix_punctuation()
         self.embolden_percentages()
-        self.link_headings()
-        self.get_specific_processes()
+        self.hyperlink_headings()
+        self.italicise_conjunctions()
+        self.double_up_newlines()
         self.get_double_dash()
-        
+        self.reinsert_colons()
+
+    def reinsert_colons(self):
+        self.rule_string = self.rule_string.replace("Manufacture\n", "Manufacture:\n")
+        self.rule_string = self.rule_string.replace("Manufacture in which\n", "Manufacture in which:\n")
+
+    def double_up_newlines(self):
+        self.rule_string = self.rule_string.replace("\n", "\n\n")
+        self.rule_string = self.rule_string.replace("\n\n\n", "\n\n")
+
+    def get_rule_class_lookup(self):
+        self.rules_alphanumeric_only = self.alphanumeric_only(self.rule_string)
+        try:
+            my_classes = g.all_rules_with_classes[self.rules_alphanumeric_only]
+            if len(my_classes) > 0:
+                # Remove unspecified if this has previously been added
+                if "Unspecified" in self.rule_class:
+                    self.rule_class.remove("Unspecified")
+
+                # Add in the classes that have been newly found by looking up in the XI data
+                for item in my_classes:
+                    items = item.upper().split("AND")
+                    for item2 in items:
+                        item2 = item2.strip()
+                        if item2 not in self.rule_class:
+                            self.rule_class.append(item2)
+            a = 1
+        except Exception as e:
+            pass
+
     def get_specific_processes(self):
         if "specific process" in self.rule_string.lower():
             self.specific_processes = True
         else:
             self.specific_processes = False
-            
+
+    def alphanumeric_only(self, s):
+        s2 = ''.join(ch for ch in s if ch.isalnum()).lower()
+        return s2
+
     def get_double_dash(self):
         if "- -" in self.rule_string:
             self.double_dash = True
 
     def cleanse(self):
+        # if self.h
         self.rule_string = self.rule_string.strip()
         self.rule_string = re.sub(r'[ \t]+', " ", self.rule_string)
         self.rule_string = self.rule_string.replace(" %", "%")
-        self.rule_string = re.sub(r'MaxNOM ([0-9]{1,3}%) \(EXW\)', "A maximum of \\1 of the ex-works price is made up of non-originating parts", self.rule_string)
+        self.rule_string = self.rule_string.replace(" cm", "&nbsp;cm")
+        self.rule_string = re.sub(r'MAXNOM ([0-9]{1,3}%) \(EXW\)', "A maximum of \\1 of the ex-works price is made up of non-originating parts", self.rule_string)
         self.rule_string = re.sub(r'RVC ([0-9]{1,3})% \(FOB\)', "Your goods contain a Regional Value Content (RVC) of at least \\1% of the Free on Board (FOB) cost of the goods", self.rule_string)
         self.rule_string = re.sub(r'([^\(])FOB', "\\1Free on Board (FOB) cost", self.rule_string)
+        self.rule_string = re.sub("\t", " ", self.rule_string)
+
+        self.rule_string = self.rule_string.replace("and/or", "and&nbsp;/&nbsp;or")
 
         if self.rule_string[0:4] == "and\n":
             self.boolean_operator = "and"
@@ -57,17 +102,17 @@ class Rule(object):
         self.rule_string = self.rule_string.removeprefix("- ")
         self.rule_string = self.rule_string.removesuffix(".")
         self.rule_string = self.rule_string.removeprefix("or ")
-        
-        self.rule_string = re.sub(r'\(([a-z])\)', "\n- (\\1)", self.rule_string)
-        self.rule_string = re.sub(r'\(([i]{1,3})\)', "\n- (\\1)", self.rule_string)
+
+        self.rule_string = re.sub("\(([a-z])\) ", "\n- (\\1) ", self.rule_string)
+        self.rule_string = re.sub("\(([a-z])\) ", "\\1) ", self.rule_string)
+        # self.rule_string = re.sub(r'\(([i]{1,3})\)', "\n- (\\1)", self.rule_string)
         self.rule_string = self.rule_string.replace("Production from", "Your goods are produced from")
         self.rule_string = self.rule_string.replace("ex- works", "ex-works")
         self.rule_string = self.rule_string.replace("semi heated", "semi-heated")
         self.rule_string = self.rule_string.replace("whether or note", "whether or not")
         self.rule_string = self.rule_string.replace("Manufacture form", "Manufacture from")
-        
-        self.rule_string = self.rule_string.replace("Manufacture from materials of any heading", "Your goods are manufactured from materials of any tariff heading")
-        
+        self.rule_string = self.rule_string.replace("nonassembled", "non-assembled")
+
         self.rule_string = self.rule_string.replace("\n- \n- ", "\n- ")
         self.rule_string = self.rule_string.replace(": - ", ":\n- ")
         self.rule_string = self.rule_string.replace("; - ", ";\n- ")
@@ -87,26 +132,119 @@ class Rule(object):
         # self.rule_string = self.rule_string.replace("RVC", "Regional Value Content (RVC)")
         if self.rule_string == ".":
             self.rule_string == ""
-            
-        
+
+        if "muci" in self.rule_string:
+            a = 1
+
+        corrections_file = os.path.join(os.getcwd(), "data", "corrections.json")
+        f = open(corrections_file)
+        corrections = json.load(f)
+        for correction in corrections:
+            self.rule_string = self.rule_string.replace(correction["from"], correction["to"])
+        self.rule_string = self.rule_string.replace("- - ", "- ")
+        self.rule_string = self.rule_string.replace(" per cent", "%")
+
+        self.remove_footnote_references()
+
+    def remove_footnote_references(self):
+        self.rule_string = re.sub("\( ([0-9]{1,3}) \)", "", self.rule_string)
+
     def embolden_percentages(self):
+        # self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,2})%", "\\1.\\2%", self.rule_string)
+        # self.rule_string = re.sub("([0-9]{1,3}\.[0-9]{1,2}%)", "<b>\\1</b>", self.rule_string)
+        # self.rule_string = re.sub("([0-9]{1,3}\%)", "<b>\\1</b>", self.rule_string)
+
+        # Use this if we need to use markdown for bold
         self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,2})%", "\\1.\\2%", self.rule_string)
-        self.rule_string = re.sub("([0-9]{1,3}\%)", "<b>\\1</b>", self.rule_string)
-        self.rule_string = re.sub("([0-9]{1,3}\.[0-9]{1,2}%)", "<b>\\1</b>", self.rule_string)
-        
-    def link_headings(self):
-        self.rule_string = re.sub(" ([0-9]{1,5})([ ,;])", " <a href='/headings/\\1' target='_blank'>\\1</a>\\2", self.rule_string)
-                
+        self.rule_string = re.sub("([0-9]{1,3}\%)", "**\\1**", self.rule_string)
+        self.rule_string = re.sub("([0-9]{1,3}\.[0-9]{1,2}%)", "**\\1**", self.rule_string)
+
+    def italicise_conjunctions(self):
+        return
+        self.rule_string = re.sub("and/or", "and&nbsp;/&nbsp;or", self.rule_string)
+        self.rule_string = re.sub("and&nbsp;/&nbsp;or", "*and&nbsp;/&nbsp;or*", self.rule_string)
+        self.rule_string = re.sub(" and\n", " *and*\n", self.rule_string)
+        self.rule_string = re.sub(" or\n", " *or*\n", self.rule_string)
+
+    def hyperlink_headings(self):
+        self.rule_string = self.rule_string.replace("heading No ", "heading ")
+        self.rule_string = self.rule_string.replace("heading Nos ", "heading ")
+        self.rule_string = self.rule_string.replace("sub-heading", "subheading")
+        self.rule_string = self.rule_string.replace("Sub-heading", "Subheading")
+        # self.rule_string = self.rule_string.replace("from Chapter", "from chapter")
+        # self.rule_string = self.rule_string.replace("of Chapter", "of chapter")
+        self.rule_string = self.rule_string.replace("Chapter", "chapter")
+        # self.rule_string = self.rule_string.replace("of this Chapter", "of this chapter")
+
+        self.rule_string = re.sub(" ([0-9]{2}).([0-9]{2})([., ])", " \\1\\2\\3", self.rule_string)
+        self.rule_string = re.sub(" ([0-9]{1,4}) through ([0-9]{1,4})([., ])", " \\1 to \\2\\3", self.rule_string)
+
+        # Deal with subheadings
+        self.rule_string = re.sub(" ([0-9]{4}).([0-9]{2})([., ])", " \\1\\2\\3", self.rule_string)
+        self.rule_string = re.sub("subheadings", "subheading", self.rule_string)
+        self.rule_string = re.sub(" subheading ([0-9]{4}) to ([0-9]{4})([., ])", " subheading \\1 to subheading \\2\\3", self.rule_string)
+
+        for i in range(0, 4):
+            self.rule_string = re.sub(" subheading ([0-9]{6}), ([0-9]{6})([., ])", " subheading \\1, subheading \\2\\3", self.rule_string)
+
+        self.rule_string = re.sub(" subheading ([0-9]{6}) and ([0-9]{6})([., ])", " subheading \\1 and subheading \\2\\3", self.rule_string)
+        self.rule_string = re.sub(" subheading ([0-9]{6}) and ([0-9]{6})$", " subheading \\1 and subheading \\2", self.rule_string)
+
+        self.rule_string = re.sub(" subheading ([0-9]{6}) or ([0-9]{6})([., ])", " subheading \\1 or subheading \\2\\3", self.rule_string)
+        self.rule_string = re.sub(" subheading ([0-9]{6}) or ([0-9]{6})$", " subheading \\1 or subheading \\2", self.rule_string)
+
+        self.rule_string = re.sub(" subheading ([0-9]{6}) to ([0-9]{6})([., ])", " subheading \\1 to subheading \\2\\3", self.rule_string)
+        self.rule_string = re.sub(" subheading ([0-9]{6}) to ([0-9]{6})$", " subheading \\1 to subheading \\2", self.rule_string)
+
+        self.rule_string = re.sub("([Ss]ubheading) ([0-9]{6})([ ,;.])", "<a href='/subheadings/\\2x0000-80' target='_blank'>\\1 \\2</a>\\3", self.rule_string)
+        self.rule_string = re.sub("x0000-80", "0000-80", self.rule_string)
+
+        # Deal with headings
+        self.rule_string = re.sub("headings", "heading", self.rule_string)
+        self.rule_string = re.sub(" heading ([0-9]{4}) to ([0-9]{4})([., ])", " heading \\1 to heading \\2\\3", self.rule_string)
+
+        for i in range(0, 4):
+            self.rule_string = re.sub(" heading ([0-9]{4}), ([0-9]{4})([., ])", " heading \\1, heading \\2\\3", self.rule_string)
+
+        self.rule_string = re.sub(" heading ([0-9]{4}) and ([0-9]{4})([., ])", " heading \\1 and heading \\2\\3", self.rule_string)
+        self.rule_string = re.sub(" heading ([0-9]{4}) and ([0-9]{4})$", " heading \\1 and heading \\2", self.rule_string)
+
+        self.rule_string = re.sub(" heading ([0-9]{4}) or ([0-9]{4})([., ])", " heading \\1 or heading \\2\\3", self.rule_string)
+        self.rule_string = re.sub(" heading ([0-9]{4}) or ([0-9]{4})$", " heading \\1 or heading \\2", self.rule_string)
+
+        self.rule_string = re.sub(" heading ([0-9]{4}) to ([0-9]{4})([., ])", " heading \\1 to heading \\2\\3", self.rule_string)
+        self.rule_string = re.sub(" heading ([0-9]{4}) to ([0-9]{4})$", " heading \\1 to heading \\2", self.rule_string)
+
+        self.rule_string = re.sub("([Hh]eading)(s*) ([0-9]{1,4})([ ,;.])", "<a href='/headings/\\3' target='_blank'>\\1\\2 \\3</a>\\4", self.rule_string)
+
+        # Deal with chapters
+        for i in range(0, 4):
+            self.rule_string = re.sub(" chapter ([0-9]{1,2}), ([0-9]{1,2})([ ,;.])", " chapter \\1, chapter \\2\\3", self.rule_string)
+
+        self.rule_string = re.sub("chapter ([0-9]{1,2}) to ([0-9]{1,2})([., ])", "chapter \\1 to chapter \\2\\3", self.rule_string)
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) and ([0-9]{1,2})", "<a href='/chapters/\\3' target='_blank'>\\1 \\3</a> and chapter \\4", self.rule_string)
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) or ([0-9]{1,2})", "<a href='/chapters/\\3' target='_blank'>\\1 \\3</a> or chapter \\4", self.rule_string)
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2})([ ,;.])", "<a href='/chapters/\\3' target='_blank'>\\1\\2  \\3</a>\\4", self.rule_string)
+
+        self.rule_string = re.sub(" +", " ", self.rule_string)
+        if self.heading == "Chapter 6":
+            a = 1
+
+        # Add in non-breaking spaces
+        self.rule_string = re.sub("chapter ([0-9]{1,2})", "chapter&nbsp;\\1", self.rule_string)
+        self.rule_string = re.sub("subheading ([0-9]{6})", "subheading&nbsp;\\1", self.rule_string)
+        self.rule_string = re.sub("heading ([0-9]{4})", "heading&nbsp;\\1", self.rule_string)
+
     def fix_punctuation(self):
         self.rule_string = self.rule_string.replace(" ,", ",").strip()
         if len(self.rule_string) > 0:
             if self.rule_string[-1:] != ".":
                 self.rule_string += "."
-        
+        self.rule_string = self.rule_string.replace(",.", ",")
 
     def get_rule_class(self):
-        self.rule_string_original = self.rule_string_original.replace("A change from any other heading", "CTH") # For Canada
-        
+        self.rule_string_original = self.rule_string_original.replace("A change from any other heading", "CTH")  # For Canada
+
         cth_string_full = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading). "
         cth_string_partial = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading)"
         tmp = self.rule_string.lower()
@@ -118,7 +256,7 @@ class Rule(object):
             self.rule_string = self.rule_string.replace("CTH", cth_string_partial)
             self.rule_class = ["CTH"]
             if "in which" in tmp or "provided that" in tmp:
-                self.rule_class.append("MaxNOM")
+                self.rule_class.append("MAXNOM")
 
         elif self.rule_string_original == "CTSH":
             self.rule_string = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading)."
@@ -127,12 +265,12 @@ class Rule(object):
         elif self.rule_string_original == "CC":
             self.rule_string = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter)."
             self.rule_class = ["CC"]
-            
+
         elif "your goods are produced from non-originating materials of any heading" in tmp \
-            or ("production from non-originating materials of any heading" in tmp and "except" not in tmp) :
+                or ("production from non-originating materials of any heading" in tmp and "except" not in tmp):
             self.rule_class.append("Insufficient processing")
             if "in which" in tmp:
-                self.rule_class.append("MaxNOM")
+                self.rule_class.append("MAXNOM")
 
         elif "wholly obtained" in self.rule_string:
             self.rule_class = ["WO"]
@@ -141,25 +279,15 @@ class Rule(object):
             self.rule_class = ["RVC"]
 
         elif "value of non-originating" in self.rule_string_original:
-            self.rule_class = ["MaxNOM"]
-            
+            self.rule_class = ["MAXNOM"]
+
         elif re.search("exceed[s]? [0-9]{1,3}% of", self.rule_string) and "value" in self.rule_string:
-            self.rule_class = ["MaxNOM"]
-        
+            self.rule_class = ["MAXNOM"]
+
         else:
             self.rule_class = ["Unspecified"]
-            
-        
 
     def as_dict(self):
-        # s = {
-        #     "rule": self.rule_string,
-        #     "original": self.rule_string_original,
-        #     "class": self.rule_class,
-        #     "operator": self.boolean_operator,
-        #     "specific_processes": self.specific_processes,
-        #     "double_dash": self.double_dash
-        # }
         s = {
             "rule": self.rule_string,
             "class": self.rule_class,

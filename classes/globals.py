@@ -4,16 +4,18 @@ from os import system, name
 all_headings = {}
 all_subheadings = {}
 all_codes = {}
+min_max_issues = []
+all_rules_with_classes = {}
 
 parent_heading = ""
 
 def format_parts(s, index):
     s = s.strip()
-    l = len(s)
+    string_length = len(s)
     if index == 0:
-        s = s + (10 - l) * "0"
+        s = s + (10 - string_length) * "0"
     else:
-        s = s + (10 - l) * "9"
+        s = s + (10 - string_length) * "9"
 
     return s
 
@@ -41,4 +43,4 @@ def right(s, amount):
     return s[-amount:]
 
 def mid(s, offset, amount):
-    return s[offset:offset+amount]
+    return s[offset:offset + amount]

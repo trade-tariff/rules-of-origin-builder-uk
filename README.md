@@ -1,5 +1,7 @@
 # Convert Word rules of origin documents to usable JSON format
 
+Used for OTT strategic - UK data
+
 ## Implementation steps
 
 - Create and activate a virtual environment, e.g.
@@ -20,6 +22,7 @@
 ### To translate a Word document:
 
 The following are in a modern 2-column format
+`python3 process.py "Albania PSR.docx"`
 `python3 process.py "Canada PSR.docx"`
 `python3 process.py "EU PSR.docx"`
 `python3 process.py "Turkey PSR.docx"`
