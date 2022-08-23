@@ -9,11 +9,14 @@ file_list = []
 source_folder = os.path.join(os.getcwd(), "source")
 for file in os.listdir(source_folder):
     if file.endswith("docx"):
-        file_list.append(file)
+        if "$" not in file:
+            if "~" not in file:
+                file_list.append(file)
 
 # omissions = ["Albania PSR.docx", "Cameroon PSR.docx"]
-omissions = ["Cote d'Ivoire PSR.docx"]
-start_at = "Egypt PSR.docx"
+omissions = ["CotedIvoire PSR.docx"]
+start_at = "Chile PSR.docx"
+# start_at = ""
 file_list.sort()
 index = 0
 max_files = 100

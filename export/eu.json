@@ -5439,7 +5439,7 @@
             },
             {
                   "heading": "6101-6117",
-                  "subdivision": "Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut\n-form or obtained directly\n-form",
+                  "subdivision": "Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "prefix": "",
                   "min": "6101000000",
                   "max": "6117999999",
@@ -6076,7 +6076,7 @@
             },
             {
                   "heading": "6212",
-                  "subdivision": "Knitted or crocheted obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut\n-form or obtained directly\n-form",
+                  "subdivision": "Knitted or crocheted obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "prefix": "",
                   "min": "6212000000",
                   "max": "6212999999",
@@ -8862,7 +8862,7 @@
             },
             {
                   "heading": "8507",
-                  "subdivision": "Accumulators containing one or more battery cells or battery modules and the circuitry\n-interconnect them amongst themselves, often referred\n-as \"battery packs\", of a kind used as the primary source of electrical power for propulsion of Vehicles of headings 8702, 8703 and 8704",
+                  "subdivision": "Accumulators containing one or more battery cells or battery modules and the circuitry to interconnect them amongst themselves, often referred to as \"battery packs\", of a kind used as the primary source of electrical power for propulsion of Vehicles of headings 8702, 8703 and 8704",
                   "prefix": "",
                   "min": "8507000000",
                   "max": "8507999999",
@@ -8890,7 +8890,7 @@
             },
             {
                   "heading": "8507",
-                  "subdivision": "Battery cells, battery modules and parts thereof, intended\n-be incorporated into an electric accumulator of a kind used as the primary source of electrical power for propulsion of vehicles of headings 8702, 8703 and 8704",
+                  "subdivision": "Battery cells, battery modules and parts thereof, intended to be incorporated into an electric accumulator of a kind used as the primary source of electrical power for propulsion of vehicles of headings 8702, 8703 and 8704",
                   "prefix": "",
                   "min": "8507000000",
                   "max": "8507999999",
@@ -9292,7 +9292,7 @@
             },
             {
                   "heading": "8702-8704",
-                  "subdivision": "vehicles with both internal combustion piston engine and electric motor as motors for propulsion capable of being charged by plugging\n-external source of electric power ('plug\n-in hybrid');\n\n- vehicles with only electric motor for propulsion",
+                  "subdivision": "vehicles with both internal combustion piston engine and electric motor as motors for propulsion capable of being charged by plugging to external source of electric power ('plug\n-in hybrid');\n\n- vehicles with only electric motor for propulsion",
                   "prefix": "",
                   "min": "8702000000",
                   "max": "8704999999",

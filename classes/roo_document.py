@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from docx import Document
 from docx.api import Document
 
-from classes.rule_set import RuleSet
+from classes.rule_set_modern import RuleSetModern
 from classes.rule_set_legacy import RuleSetLegacy
 from classes.comm_code_validator import CommCodeValidator
 import classes.globals as g
@@ -28,6 +28,7 @@ class RooDocument(object):
             self.process_table()
             if self.modern:
                 self.process_subdivisions()
+                self.remove_invalid_entries()
             else:
                 self.remove_working_nodes()
             self.write_table()
@@ -39,6 +40,13 @@ class RooDocument(object):
             self.validate_min_max_values()
 
         print("\nFinished processing {file}\n".format(file=self.docx_filename))
+
+    def remove_invalid_entries(self):
+        for i in range(len(self.rule_sets) - 1, -1, -1):
+            rule_set = self.rule_sets[i]
+            if rule_set["valid"] is False:
+                a = 1
+                self.rule_sets.pop(i)
 
     def get_all_rules_with_classes(self):
         my_path = "/Users/mattlavis/sites and projects/1. Online Tariff/rules of origin/02 roo XI downloader/all_rules.json"
@@ -170,10 +178,10 @@ class RooDocument(object):
             elif "Chapter" in row["original_heading"]:
                 pass
             else:
-                rule_set = RuleSet(row)
-                if 1 > 0:
-                    # if rule_set.valid:
-                    self.rule_sets.append(rule_set.as_dict())
+                if "61.01-61.17" in row["original_heading"]:
+                    a = 1
+                rule_set = RuleSetModern(row)
+                self.rule_sets.append(rule_set.as_dict())
 
     def process_table_legacy(self):
         self.rule_sets = []

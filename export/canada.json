@@ -5387,25 +5387,6 @@
             },
             {
                   "heading": "560490",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "5604900000",
-                  "max": "5604999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "560490",
                   "subdivision": "Rubber thread (textile covered)",
                   "prefix": "",
                   "min": "5604900000",
@@ -5921,25 +5902,6 @@
             },
             {
                   "heading": "5902",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "5902000000",
-                  "max": "5902999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "5902",
                   "subdivision": "Containing not more than 90 per cent by weight of textile materials",
                   "prefix": "",
                   "min": "5902000000",
@@ -6028,25 +5990,6 @@
             },
             {
                   "heading": "5905",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "5905000000",
-                  "max": "5905999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "5905",
                   "subdivision": "Impregnated, coated, covered or laminated with rubber, plastics or other materials",
                   "prefix": "",
                   "min": "5905000000",
@@ -6103,25 +6046,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "5906",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "5906000000",
-                  "max": "5906999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "5906",
@@ -6258,25 +6182,6 @@
             },
             {
                   "heading": "5908",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "5908000000",
-                  "max": "5908999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "5908",
                   "subdivision": "Incandescent gas mantles, impregnated",
                   "prefix": "",
                   "min": "5908000000",
@@ -6312,25 +6217,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "5909-5911",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "5909000000",
-                  "max": "5911999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "5909-5911",
@@ -6468,26 +6354,7 @@
             },
             {
                   "heading": "6101-6117",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6101000000",
-                  "max": "6117999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "6101-6117",
-                  "subdivision": "Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut\n-form or obtained directly\n-form",
+                  "subdivision": "Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "prefix": "",
                   "min": "6101000000",
                   "max": "6117999999",
@@ -6506,7 +6373,7 @@
             },
             {
                   "heading": "6101-6117",
-                  "subdivision": "Other (knit\n-shape products)",
+                  "subdivision": "Other (knit to shape products)",
                   "prefix": "",
                   "min": "6101000000",
                   "max": "6117999999",
@@ -6561,25 +6428,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "6202",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6202000000",
-                  "max": "6202999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "6202",
@@ -6670,25 +6518,6 @@
             },
             {
                   "heading": "6204",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6204000000",
-                  "max": "6204999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "6204",
                   "subdivision": "Women's, or girls' clothing, embroidered",
                   "prefix": "",
                   "min": "6204000000",
@@ -6773,25 +6602,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "6206",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6206000000",
-                  "max": "6206999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "6206",
@@ -6882,25 +6692,6 @@
             },
             {
                   "heading": "6209",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6209000000",
-                  "max": "6209999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "6209",
                   "subdivision": "Women's, or girls' clothing, embroidered",
                   "prefix": "",
                   "min": "6209000000",
@@ -6959,25 +6750,6 @@
             },
             {
                   "heading": "6210",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6210000000",
-                  "max": "6219999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "6210",
                   "subdivision": "Fire\n-resistant equipment of fabric covered with foil of aluminised polyester",
                   "prefix": "",
                   "min": "6210000000",
@@ -7032,25 +6804,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "6211",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6211000000",
-                  "max": "6211999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "6211",
@@ -7138,25 +6891,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "6213-6214",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6213000000",
-                  "max": "6214999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "6213-6214",
@@ -7256,25 +6990,6 @@
             },
             {
                   "heading": "6216",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6216000000",
-                  "max": "6216999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
-            },
-            {
-                  "heading": "6216",
                   "subdivision": "Fire\n-resistant equipment of fabric covered with foil of aluminised polyester",
                   "prefix": "",
                   "min": "6216000000",
@@ -7329,25 +7044,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "6217",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6217000000",
-                  "max": "6217999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "6217",
@@ -7426,25 +7122,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "6301-6304",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6301000000",
-                  "max": "6304999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "6301-6304",
@@ -7543,25 +7220,6 @@
                         }
                   ],
                   "valid": true
-            },
-            {
-                  "heading": "6306",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "6306000000",
-                  "max": "6306999999",
-                  "rules": [
-                        {
-                              "rule": "",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": false
             },
             {
                   "heading": "6306",
