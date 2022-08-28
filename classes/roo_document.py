@@ -16,8 +16,8 @@ import classes.globals as g
 class RooDocument(object):
     def __init__(self, file=None):
         self.file = file
-        self.get_all_rules_with_classes()
         self.get_environment()
+        self.get_all_rules_with_classes()
         self.get_chapter_codes()
         self.get_arguments()
         if self.create_json:
@@ -41,6 +41,23 @@ class RooDocument(object):
 
         print("\nFinished processing {file}\n".format(file=self.docx_filename))
 
+    def get_environment(self):
+        load_dotenv('.env')
+        self.source_folder = os.path.join(os.getcwd(), "source")
+
+        # Get paths
+        self.code_list = os.getenv('code_list')
+        self.ott_path = os.getenv('ott_path')
+        self.all_rules_path = os.getenv('all_rules_path')
+
+        # Get features
+        modern_documents = os.getenv('modern_documents')
+        self.validate_tables = int(os.getenv('validate_tables'))
+        self.modern_documents = modern_documents.split(",")
+        self.create_json = os.getenv('create_json')
+        self.validate_commodities = int(os.getenv('validate_commodities'))
+        self.validate_min_max = int(os.getenv('validate_min_max'))
+
     def remove_invalid_entries(self):
         for i in range(len(self.rule_sets) - 1, -1, -1):
             rule_set = self.rule_sets[i]
@@ -49,22 +66,10 @@ class RooDocument(object):
                 self.rule_sets.pop(i)
 
     def get_all_rules_with_classes(self):
-        my_path = "/Users/mattlavis/sites and projects/1. Online Tariff/rules of origin/02 roo XI downloader/all_rules.json"
-        f = open(my_path)
+        f = open(self.all_rules_path)
         g.all_rules_with_classes = json.load(f)
         f.close()
         a = 1
-
-    def get_environment(self):
-        load_dotenv('.env')
-        self.source_folder = os.path.join(os.getcwd(), "source")
-        self.validate_tables = int(os.getenv('validate_tables'))
-        self.code_list = os.getenv('code_list')
-        modern_documents = os.getenv('modern_documents')
-        self.modern_documents = modern_documents.split(",")
-        self.create_json = os.getenv('create_json')
-        self.validate_commodities = int(os.getenv('validate_commodities'))
-        self.validate_min_max = int(os.getenv('validate_min_max'))
 
     def get_chapter_codes(self):
         g.all_headings = {}
@@ -468,8 +473,7 @@ class RooDocument(object):
         out_file = open(self.export_filepath, "w")
         json.dump({"rule_sets": self.rule_sets}, out_file, indent=6)
         out_file.close()
-
-        dest = "/Users/mattlavis/sites and projects/1. Online Tariff/ott prototype/app/data/roo/uk/psr_new/" + self.export_filename + ".json"
+        dest = self.ott_path + self.export_filename + ".json"
         shutil.copy(self.export_filepath, dest)
 
     def kill_document(self):
