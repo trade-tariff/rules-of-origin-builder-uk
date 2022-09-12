@@ -34,10 +34,17 @@ Used for OTT strategic - UK data
 ### To translate a Word document:
 
 The following are in a modern 2-column format
-`python3 process.py "Albania PSR.docx"`
-`python3 process.py "Canada PSR.docx"`
-`python3 process.py "EU PSR.docx"`
-`python3 process.py "Turkey PSR.docx"`
-`python3 process.py "Japan PSR.docx"`
-`python3 process.py "SACUM PSR.docx"`
-`python3 process.py "Ukraine PSR.docx"`
+- `python3 process.py "EU PSR.docx"`
+- `python3 process.py "Japan PSR.docx"`
+- `python3 process.py "Turkey PSR.docx"`
+- `python3 process.py "Canada PSR.docx"`
+- `python3 process.py "Albania PSR.docx"`
+
+The following are in an inherited 3- or 4 column format
+- `python3 process.py "SACUM PSR.docx"`
+- `python3 process.py "Ukraine PSR.docx"`
+etc.
+
+
+To batch process all documents (both new and legacy)
+- `python3 batch.py`
