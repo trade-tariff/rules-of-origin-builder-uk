@@ -15,7 +15,7 @@ for file in os.listdir(source_folder):
 
 # omissions = ["Albania PSR.docx", "Cameroon PSR.docx"]
 omissions = ["CotedIvoire PSR.docx"]
-start_at = "Chile PSR.docx"
+start_at = "Andean PSR.docx"
 # start_at = ""
 file_list.sort()
 index = 0
