@@ -31,6 +31,7 @@ class RooDocument(object):
                 self.remove_invalid_entries()
             else:
                 self.remove_working_nodes()
+            self.sort_by_minmax()
             self.write_table()
             self.kill_document()
 
@@ -41,6 +42,18 @@ class RooDocument(object):
 
         print("\nFinished processing {file}\n".format(file=self.docx_filename))
 
+    def sort_by_minmax(self):
+        a = 1
+        self.rule_sets = sorted(self.rule_sets, key=self.sort_by_max)
+        self.rule_sets = sorted(self.rule_sets, key=self.sort_by_min)
+        a = 1
+        
+    def sort_by_max(self, list):
+        return list["max"]
+
+    def sort_by_min(self, list):
+        return list["min"]
+    
     def get_environment(self):
         load_dotenv('.env')
         self.source_folder = os.path.join(os.getcwd(), "source")
@@ -192,7 +205,7 @@ class RooDocument(object):
         self.rule_sets = []
         for row in self.rows:
             # print(row["original_heading"])
-            if "ex Chapter 28" in row["original_heading"]:
+            if "ex Chapter 9" in row["original_heading"]:
                 a = 1
             rule_set = RuleSetLegacy(row)
             if rule_set.valid:
@@ -203,7 +216,7 @@ class RooDocument(object):
     def normalise_chapters(self):
         for chapter in range(1, 98):
             all_ex_codes = True
-            if chapter == 30:
+            if chapter == 9:
                 a = 1
             is_chapter_mentioned = False
             rule_set_count = 0
@@ -236,7 +249,7 @@ class RooDocument(object):
     def normalise_complex_chapter(self, chapter):
         # print(chapter)
         # Get all the other rules in that chapter that are not the chapter heading
-        if chapter == 30:
+        if chapter == 9:
             a = 1
         matches = {}
         contains_subheading = False
@@ -260,6 +273,8 @@ class RooDocument(object):
         chapter_string = str(chapter).rjust(2, "0")
         if contains_subheading is False:
             for heading in g.all_headings:
+                if heading == "0903":
+                    a = 1
                 if heading[0:2] == chapter_string:
                     heading_exists_in_rule_set = False
                     for match in matches:
