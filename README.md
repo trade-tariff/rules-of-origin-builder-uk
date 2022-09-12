@@ -7,11 +7,23 @@ Used for OTT strategic - UK data
 - Create and activate a virtual environment, e.g.
 
   `python3 -m venv venv/`
+
   `source venv/bin/activate`
 
 ## Environment variable settings:
 
-- source_folder: location of the source documents
+### Paths to lookups
+
+- code_list=file where latest commodity coe list is stored
+- all_rules_path=where the XI rule classes are stored
+- ott_path=folder in which to copy files for OTT prototype preview
+
+### Configurations
+- modern_documents="EU,Japan,Turkey,Canada"
+- validate_tables=[0|1]
+- create_json=[0|1]
+- validate_commodities=[0|1]
+- validate_min_max=[0|1]
 
 ## Installation
 
