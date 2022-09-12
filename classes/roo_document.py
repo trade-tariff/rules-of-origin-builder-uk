@@ -473,7 +473,7 @@ class RooDocument(object):
         out_file = open(self.export_filepath, "w")
         json.dump({"rule_sets": self.rule_sets}, out_file, indent=6)
         out_file.close()
-        dest = self.ott_path + self.export_filename + ".json"
+        dest = os.path.join(self.ott_path, self.export_filename + ".json")
         shutil.copy(self.export_filepath, dest)
 
     def kill_document(self):
