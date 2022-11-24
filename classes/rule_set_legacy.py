@@ -12,7 +12,6 @@ class RuleSetLegacy(object):
         self.heading = ""
         self.switched_heading = ""
         self.subdivision = ""
-        self.prefix = ""
         self.rule = ""
         self.is_ex_code = False
         self.parts = []
@@ -89,7 +88,6 @@ class RuleSetLegacy(object):
         self.original_heading = self.original_heading.replace(u'\xa0', u' ')
         self.original_heading = self.original_heading.replace("ex ex", "ex ")
         self.original_heading = self.original_heading.replace("\n", " ")
-        # self.original_heading = self.original_heading.replace("  ", " ")
         self.original_heading = re.sub(" {2,10}", " ", self.original_heading)
 
         if "300670" in self.original_heading:
@@ -223,6 +221,12 @@ class RuleSetLegacy(object):
                     proceed = False
 
     def process_subdivision(self):
+        # Especially dodgy hyphen chars
+        self.subdivision = self.subdivision.replace("—", "–")
+        self.subdivision = self.subdivision.replace("–", "-")
+        self.subdivision = self.subdivision.replace("-", "- ")
+        self.subdivision = self.subdivision.replace("  ", " ")
+
         n = Normalizer()
         self.subdivision = n.normalize(self.subdivision).strip()
         self.subdivision = self.subdivision.replace(" %", "%")
@@ -235,6 +239,9 @@ class RuleSetLegacy(object):
         self.subdivision = self.subdivision.replace("- - ", "- ")
         self.subdivision = self.subdivision.replace("ex ex", "ex ")
         self.subdivision = re.sub("^-([^-])", "- \\1", self.subdivision)
+        if len(self.subdivision) > 1:
+            if self.subdivision[0:3] == "\n- ":
+                self.subdivision = self.subdivision[3:]
 
     def process_rule(self):
         n = Normalizer()
@@ -268,7 +275,6 @@ class RuleSetLegacy(object):
             "subheadings": self.subheadings,
             "chapter": self.chapter,
             "subdivision": self.subdivision,
-            "prefix": self.prefix,
             "min": self.min,
             "max": self.max,
             "rules": self.rules,

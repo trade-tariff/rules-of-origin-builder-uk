@@ -39,6 +39,10 @@ The following are in a modern 2-column format
 - `python3 process.py "Turkey PSR.docx"`
 - `python3 process.py "Canada PSR.docx"`
 - `python3 process.py "Albania PSR.docx"`
+- `python3 process.py "South Korea PSR.docx"`
+- `python3 process.py "Central-America PSR.docx"`
+- `python3 process.py "Chile PSR.docx"`
+- `python3 process.py "Singapore PSR.docx"`
 
 The following are in an inherited 3- or 4 column format
 - `python3 process.py "SACUM PSR.docx"`

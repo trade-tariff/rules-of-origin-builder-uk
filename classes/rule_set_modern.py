@@ -12,7 +12,6 @@ class RuleSetModern(object):
 
         self.heading = ""
         self.subdivision = ""
-        self.prefix = ""
         self.rule = ""
         self.parts = []
         self.is_subdivision = False
@@ -81,6 +80,7 @@ class RuleSetModern(object):
         self.original_rule = n.normalize(self.original_rule)
         self.rules = []
         self.original_rule = self.original_rule.strip(";")
+        self.original_rule = self.original_rule.replace("; and", ", and")
         self.rule_strings = self.original_rule.split(";")
 
         for rule_string in self.rule_strings:
@@ -91,7 +91,6 @@ class RuleSetModern(object):
         s = {
             "heading": self.heading,
             "subdivision": self.subdivision,
-            "prefix": self.prefix,
             "min": self.min,
             "max": self.max,
             "rules": self.rules,
@@ -110,8 +109,9 @@ class RuleSetModern(object):
         if index == 0:
             s = s + (10 - length) * "0"
         else:
-            if s[-1] == "0":
-                s = s[:-1] + "9"
+            if length > 4:
+                if s[-1] == "0":
+                    s = s[:-1] + "9"
             s = s + (10 - length) * "9"
 
         return s

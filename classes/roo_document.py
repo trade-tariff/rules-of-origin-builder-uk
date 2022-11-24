@@ -12,6 +12,7 @@ from classes.rule_set_modern import RuleSetModern
 from classes.rule_set_legacy import RuleSetLegacy
 from classes.comm_code_validator import CommCodeValidator
 import classes.globals as g
+import classes.functions as func
 
 class RooDocument(object):
     def __init__(self, file=None):
@@ -121,8 +122,9 @@ class RooDocument(object):
                 sys.exit()
 
         self.export_folder = os.path.join(os.getcwd(), "export")
-        self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "_").lower()
+        self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "-").lower()
         self.export_filename = self.export_filename.replace("_psr", "")
+        self.export_filename = self.export_filename.replace("-psr", "")
         self.export_filepath = os.path.join(self.export_folder, self.export_filename) + ".json"
 
     def open_document(self):
@@ -185,6 +187,7 @@ class RooDocument(object):
             self.process_table_modern()
         else:
             self.process_table_legacy()
+        a = 1
 
     def process_table_modern(self):
         self.rule_sets = []
@@ -196,7 +199,7 @@ class RooDocument(object):
             elif "Chapter" in row["original_heading"]:
                 pass
             else:
-                if "61.01-61.17" in row["original_heading"]:
+                if "15.09" in row["original_heading"]:
                     a = 1
                 rule_set = RuleSetModern(row)
                 self.rule_sets.append(rule_set.as_dict())
@@ -205,7 +208,7 @@ class RooDocument(object):
         self.rule_sets = []
         for row in self.rows:
             # print(row["original_heading"])
-            if "ex Chapter 9" in row["original_heading"]:
+            if "ex Chapter 04" in row["original_heading"]:
                 a = 1
             rule_set = RuleSetLegacy(row)
             if rule_set.valid:
@@ -216,7 +219,7 @@ class RooDocument(object):
     def normalise_chapters(self):
         for chapter in range(1, 98):
             all_ex_codes = True
-            if chapter == 9:
+            if chapter == 52:
                 a = 1
             is_chapter_mentioned = False
             rule_set_count = 0
@@ -235,6 +238,7 @@ class RooDocument(object):
                     # If there are not, then we can just replicate rules, ignoring the headings that are exceptions
                     has_ex_code_headings = False
                     for rule_set in self.rule_sets:
+                        a = rule_set["heading"]
                         if rule_set["chapter"] == chapter:
                             if "chapter" not in rule_set["heading"].lower():
                                 if "ex" in rule_set["heading"]:
@@ -247,9 +251,9 @@ class RooDocument(object):
                         self.normalise_complex_chapter(chapter)
 
     def normalise_complex_chapter(self, chapter):
-        # print(chapter)
+        chapter_string = str(chapter).rjust(2, "0")
         # Get all the other rules in that chapter that are not the chapter heading
-        if chapter == 9:
+        if chapter == 15:
             a = 1
         matches = {}
         contains_subheading = False
@@ -269,38 +273,63 @@ class RooDocument(object):
         # Loop through all of the headings in chapter (according to the DB)
         # If the heading is missing:
         #   add in the heading as a copy of the chapter rule_set
+        
+        # The matches variable captures all of the rules for the current chapter
 
-        chapter_string = str(chapter).rjust(2, "0")
+        my_headings = {}
+        for heading in g.all_headings:
+            if heading[0:2] == chapter_string:
+                my_headings[heading] = g.all_headings[heading]
+        
         if contains_subheading is False:
-            for heading in g.all_headings:
-                if heading == "0903":
-                    a = 1
-                if heading[0:2] == chapter_string:
-                    heading_exists_in_rule_set = False
-                    for match in matches:
-                        if heading in matches[match]["headings"]:
-                            heading_exists_in_rule_set = True
-                            if matches[match]["is_ex_code"]:
-                                process_ex_code = True
-                            else:
-                                process_ex_code = False
-                            break
+            for heading in my_headings:
+                heading_exists_in_rule_set = False
+                for match in matches:
+                    if heading in matches[match]["headings"]:
+                        heading_exists_in_rule_set = True
+                        if matches[match]["is_ex_code"]:
+                            process_ex_code = True
+                        else:
+                            process_ex_code = False
+                        break
 
-                    if not heading_exists_in_rule_set:
-                        # In expanding out the definition of a chapter to its subheadings, we will need
-                        # to copy the rules from the chapter down to the headings that did not previously
-                        # exist. In such cases, we need to create those headings and add them to the rule set.
+                if not heading_exists_in_rule_set:
+                    # In expanding out the definition of a chapter to its subheadings, we will need
+                    # to copy the rules from the chapter down to the headings that did not previously
+                    # exist. In such cases, we need to create those headings and add them to the rule set.
+                    obj = {
+                        "heading": heading,
+                        "headings": [heading],
+                        "subheadings": [],
+                        "chapter": chapter,
+                        "subdivision": matches[chapter_index]["subdivision"],
+                        "min": g.format_parts(heading, 0),
+                        "max": g.format_parts(heading, 1),
+                        "rules": matches[chapter_index]["rules"],
+                        "is_ex_code": False,
+                        "is_chapter": False,
+                        "is_heading": True,
+                        "is_subheading": False,
+                        "is_range": False,
+                        "valid": True
+                    }
+                    self.rule_sets.append(obj)
+                else:
+                    if process_ex_code:
+                        # This takes the definition of the chapter, reduced to 'Any other product'
+                        # and assigns it to the matched heading as a counterpoint to the existing
+                        # ex code, to cover all commodities that are not catered for within the
+                        # specific ex code.
                         obj = {
-                            "heading": heading,
-                            "headings": [heading],
+                            "heading": matches[match]["heading"],
+                            "headings": [],
                             "subheadings": [],
                             "chapter": chapter,
-                            "subdivision": matches[chapter_index]["subdivision"],
-                            "prefix": "",
-                            "min": g.format_parts(heading, 0),
-                            "max": g.format_parts(heading, 1),
+                            "subdivision": "Any other product",
+                            "min": matches[match]["min"],
+                            "max": matches[match]["max"],
                             "rules": matches[chapter_index]["rules"],
-                            "is_ex_code": False,
+                            "is_ex_code": True,
                             "is_chapter": False,
                             "is_heading": True,
                             "is_subheading": False,
@@ -308,33 +337,6 @@ class RooDocument(object):
                             "valid": True
                         }
                         self.rule_sets.append(obj)
-                    else:
-                        if process_ex_code:
-                            # This takes the definition of the chapter, reduced to 'Any other product'
-                            # and assigns it to the matched heading as a counterpoint to the existing
-                            # ex code, to cover all commodities that are not catered for within the
-                            # specific ex code.
-                            obj = {
-                                "heading": matches[match]["heading"],
-                                "headings": [],
-                                "subheadings": [],
-                                "chapter": chapter,
-                                "subdivision": "Any other product",
-                                "prefix": "",
-                                "min": matches[match]["min"],
-                                "max": matches[match]["max"],
-                                "rules": matches[chapter_index]["rules"],
-                                "is_ex_code": True,
-                                "is_chapter": False,
-                                "is_heading": True,
-                                "is_subheading": False,
-                                "is_range": False,
-                                "valid": True
-                            }
-                            self.rule_sets.append(obj)
-
-                if heading[0:2] > chapter_string:
-                    break
 
             # Finally, remove the old chapter code, as its value has been copied elsewhere now
             self.rule_sets.pop(chapter_index)
@@ -406,6 +408,70 @@ class RooDocument(object):
             # Then add the new rule sets onto the list
             self.rule_sets += additional_rulesets
 
+    def normalise_standard_chapter(self, chapter):
+        # The chapter has an ex code in its chapter definition
+        # But there are no other ex codes withi the chapter
+        rules_for_ex_chapter = []
+        rulesets_to_pop = []
+        rules_for_current_chapter = []
+        if chapter == 15:
+            a = 1
+        # First, get the chapter's own rule-set
+        string_to_find = "chapter " + str(chapter)
+        string_to_find2 = "chapter 0" + str(chapter)
+        index = -1
+        for rule_set in self.rule_sets:
+            if rule_set["chapter"] == chapter:
+                rules_for_current_chapter.append(rule_set)
+            index += 1
+            heading_string = rule_set["heading"].lower()
+            heading_string = heading_string.replace("ex", "")
+            heading_string = heading_string.replace("  ", " ")
+            heading_string = heading_string.strip()
+            if (heading_string == string_to_find) or (heading_string == string_to_find2):
+                rules_for_ex_chapter.append(rule_set)
+                rulesets_to_pop.append(index)
+
+        # Then, get all headings that do not have rulesets
+        # and assign the rulesets to them
+        chapter_string = str(chapter).rjust(2, "0")
+        if (len(rules_for_ex_chapter)) > 0:
+            for chapter_definition in rules_for_ex_chapter:
+                for heading in g.all_headings:
+                    if heading[0:2] == chapter_string:
+                        matched = False
+                        for rule_set in rules_for_current_chapter:  # self.rule_sets:
+                            # if "5203" in rule_set["heading"] or "5204" in rule_set["heading"] :
+                            #     a = 1
+                            rule_matches_heading = func.range_matches_heading(rule_set["heading"], heading)
+                            if rule_matches_heading:
+                                matched = True
+                                break
+                        if not matched:
+                            obj = {
+                                "heading": heading,
+                                "description": g.all_headings[heading],
+                                "subdivision": chapter_definition["subdivision"],
+                                "is_ex_code": False,
+                                "min": heading + "000000",
+                                "max": heading + "999999",
+                                "rules": chapter_definition["rules"],
+                                "valid": True,
+                                "chapter": chapter
+                            }
+                            self.rule_sets.append(obj)
+
+                    # When looping through the heading,
+                    # break out of the loop when the heading
+                    # exceeds the chapter
+                    if heading[0:2] > chapter_string:
+                        break
+
+        if len(rulesets_to_pop) > 0:
+            for i in range(len(rulesets_to_pop) - 1, -1, -1):
+                ruleset_to_pop = rulesets_to_pop[i]
+                self.rule_sets.pop(ruleset_to_pop)
+
     def copy_ruleset(self, match, new_min, new_max):
         obj = {
             "heading": match["heading"],
@@ -413,7 +479,6 @@ class RooDocument(object):
             "subheadings": match["subheadings"],
             "chapter": match["chapter"],
             "subdivision": match["subdivision"],
-            "prefix": match["prefix"],
             "min": new_min,
             "max": new_max,
             "rules": match["rules"],
@@ -425,54 +490,6 @@ class RooDocument(object):
             "valid": match["valid"]
         }
         return obj
-
-    def normalise_standard_chapter(self, chapter):
-        # First, get the chapter's own rule-set
-        chapter_found = False
-        string_to_find = "chapter " + str(chapter)
-        index = -1
-        for rule_set in self.rule_sets:
-            index += 1
-            heading_string = rule_set["heading"].lower()
-            heading_string = heading_string.replace("ex", "")
-            heading_string = heading_string.replace("  ", " ")
-            heading_string = heading_string.strip()
-            if string_to_find == heading_string:
-                chapter_found = True
-                rule_set_rubric = RuleSetLegacy()
-                rule_set_rubric.rules = rule_set["rules"]
-                break
-
-        # Then, get all headings that do not have rulesets
-        # and assign the rulesets to them
-        chapter_string = str(chapter).rjust(2, "0")
-        for heading in g.all_headings:
-            if heading[0:2] == chapter_string:
-                matched = False
-                for rule_set in self.rule_sets:
-                    if rule_set["heading"] == heading:
-                        matched = True
-                        break
-                if not matched:
-                    obj = {
-                        "heading": heading,
-                        "description": g.all_headings[heading],
-                        "subdivision": "",
-                        "is_ex_code": False,
-                        "prefix": "",
-                        "min": heading + "000000",
-                        "max": heading + "999999",
-                        "rules": rule_set["rules"],
-                        "valid": True,
-                        "chapter": chapter
-                    }
-                    self.rule_sets.append(obj)
-
-            if heading[0:2] > chapter_string:
-                break
-
-        if chapter_found:
-            self.rule_sets.pop(index)
 
     def process_subdivisions(self):
         previous_ruleset = None

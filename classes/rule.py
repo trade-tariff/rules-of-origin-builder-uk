@@ -27,6 +27,13 @@ class Rule(object):
         self.double_up_newlines()
         self.get_double_dash()
         self.reinsert_colons()
+        self.final_formatting()
+        
+    def final_formatting(self):
+        self.rule_string = self.rule_string.replace(" and\n\n", " *and*\n\n")
+        self.rule_string = self.rule_string.replace("()", "")
+        self.rule_string = self.rule_string.replace(" .", ".")
+        
 
     def reinsert_colons(self):
         self.rule_string = self.rule_string.replace("Manufacture\n", "Manufacture:\n")
@@ -71,12 +78,16 @@ class Rule(object):
             self.double_dash = True
 
     def cleanse(self):
-        # if self.h
+        if "88" in self.heading:
+            a = 1
+        self.rule_string = self.rule_string.replace("; and", ", and")
+        self.rule_string = self.rule_string.replace("Manufacture in which;", "Manufacture in which:")
+        self.rule_string = self.rule_string.replace("MaxNOM", "MAXNOM")
         self.rule_string = self.rule_string.strip()
         self.rule_string = re.sub(r'[ \t]+', " ", self.rule_string)
         self.rule_string = self.rule_string.replace(" %", "%")
         self.rule_string = self.rule_string.replace(" cm", "&nbsp;cm")
-        self.rule_string = re.sub(r'MAXNOM ([0-9]{1,3}%) \(EXW\)', "A maximum of \\1 of the ex-works price is made up of non-originating parts", self.rule_string)
+        self.rule_string = re.sub(r'MAXNOM ([0-9]{1,3}%) \(EXW\)', "A maximum of \\1 of the EXW is made up of non-originating parts (MaxNOM)", self.rule_string)
         self.rule_string = re.sub(r'RVC ([0-9]{1,3})% \(FOB\)', "Your goods contain a Regional Value Content (RVC) of at least \\1% of the Free on Board (FOB) cost of the goods", self.rule_string)
         self.rule_string = re.sub(r'([^\(])FOB', "\\1Free on Board (FOB) cost", self.rule_string)
         self.rule_string = re.sub("\t", " ", self.rule_string)
@@ -143,6 +154,10 @@ class Rule(object):
             self.rule_string = self.rule_string.replace(correction["from"], correction["to"])
         self.rule_string = self.rule_string.replace("- - ", "- ")
         self.rule_string = self.rule_string.replace(" per cent", "%")
+        if "8537" in self.heading:
+            a = 1
+        self.rule_string = self.rule_string.replace(",\n- and\n\n", ", and\n")
+        self.rule_string = self.rule_string.replace(",\n- and\n", ", and\n")
 
         self.remove_footnote_references()
 
@@ -167,6 +182,9 @@ class Rule(object):
         self.rule_string = re.sub(" or\n", " *or*\n", self.rule_string)
 
     def hyperlink_headings(self):
+        if "7225" in self.heading:
+            a = 1
+        self.rule_string = self.rule_string.replace("headings No ", "heading ")
         self.rule_string = self.rule_string.replace("heading No ", "heading ")
         self.rule_string = self.rule_string.replace("heading Nos ", "heading ")
         self.rule_string = self.rule_string.replace("sub-heading", "subheading")
@@ -196,7 +214,8 @@ class Rule(object):
         self.rule_string = re.sub(" subheading ([0-9]{6}) to ([0-9]{6})([., ])", " subheading \\1 to subheading \\2\\3", self.rule_string)
         self.rule_string = re.sub(" subheading ([0-9]{6}) to ([0-9]{6})$", " subheading \\1 to subheading \\2", self.rule_string)
 
-        self.rule_string = re.sub("([Ss]ubheading) ([0-9]{6})([ ,;.])", "<a href='/subheadings/\\2x0000-80' target='_blank'>\\1 \\2</a>\\3", self.rule_string)
+        # self.rule_string = re.sub("([Ss]ubheading) ([0-9]{6})([ ,;.])", "<a href='/subheadings/\\2x0000-80' target='_blank'>\\1 \\2</a>\\3", self.rule_string)
+        self.rule_string = re.sub("([Ss]ubheading) ([0-9]{6})([ ,;.])", "[\\1 \\2](/subheadings/\\2x0000-80)\\3", self.rule_string)  # Links in markdown
         self.rule_string = re.sub("x0000-80", "0000-80", self.rule_string)
 
         # Deal with headings
@@ -215,16 +234,25 @@ class Rule(object):
         self.rule_string = re.sub(" heading ([0-9]{4}) to ([0-9]{4})([., ])", " heading \\1 to heading \\2\\3", self.rule_string)
         self.rule_string = re.sub(" heading ([0-9]{4}) to ([0-9]{4})$", " heading \\1 to heading \\2", self.rule_string)
 
-        self.rule_string = re.sub("([Hh]eading)(s*) ([0-9]{1,4})([ ,;.])", "<a href='/headings/\\3' target='_blank'>\\1\\2 \\3</a>\\4", self.rule_string)
+        self.rule_string = re.sub(" heading ([0-9]{4})$", " heading \\1", self.rule_string)
+
+        # self.rule_string = re.sub("([Hh]eading)(s*) ([0-9]{1,4})([ ,;.])", "<a href='/headings/\\3' target='_blank'>\\1\\2 \\3</a>\\4", self.rule_string)  # Links in HTML
+        self.rule_string = re.sub("([Hh]eading)(s*) ([0-9]{1,4})([ ,;.])", "[\\1\\2 \\3](/headings/\\3)\\4", self.rule_string)  # Links in markdown
+
 
         # Deal with chapters
         for i in range(0, 4):
             self.rule_string = re.sub(" chapter ([0-9]{1,2}), ([0-9]{1,2})([ ,;.])", " chapter \\1, chapter \\2\\3", self.rule_string)
 
         self.rule_string = re.sub("chapter ([0-9]{1,2}) to ([0-9]{1,2})([., ])", "chapter \\1 to chapter \\2\\3", self.rule_string)
-        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) and ([0-9]{1,2})", "<a href='/chapters/\\3' target='_blank'>\\1 \\3</a> and chapter \\4", self.rule_string)
-        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) or ([0-9]{1,2})", "<a href='/chapters/\\3' target='_blank'>\\1 \\3</a> or chapter \\4", self.rule_string)
-        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2})([ ,;.])", "<a href='/chapters/\\3' target='_blank'>\\1\\2  \\3</a>\\4", self.rule_string)
+
+        # self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) and ([0-9]{1,2})", "<a href='/chapters/\\3' target='_blank'>\\1 \\3</a> and chapter \\4", self.rule_string)  # Links in HTML
+        # self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) or ([0-9]{1,2})", "<a href='/chapters/\\3' target='_blank'>\\1 \\3</a> or chapter \\4", self.rule_string)  # Links in HTML
+        # self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2})([ ,;.])", "<a href='/chapters/\\3' target='_blank'>\\1\\2  \\3</a>\\4", self.rule_string)  # Links in HTML
+
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) and ([0-9]{1,2})", "[\\1 \\3](/chapters/\\3) and chapter \\4", self.rule_string)  # Links in markdown
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) or ([0-9]{1,2})", "[\\1 \\3](/chapters/\\3) or chapter \\4", self.rule_string)  # Links in markdown
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2})([ ,;.])", "[\\1\\2  \\3](/chapters/\\3)\\4", self.rule_string)  # Links in markdown
 
         self.rule_string = re.sub(" +", " ", self.rule_string)
         if self.heading == "Chapter 6":
@@ -288,11 +316,16 @@ class Rule(object):
             self.rule_class = ["Unspecified"]
 
     def as_dict(self):
+        # s = {
+        #     "rule": self.rule_string,
+        #     "class": self.rule_class,
+        #     "operator": self.boolean_operator,
+        #     "specific_processes": self.specific_processes,
+        #     "double_dash": self.double_dash
+        # }
         s = {
             "rule": self.rule_string,
             "class": self.rule_class,
-            "operator": self.boolean_operator,
-            "specific_processes": self.specific_processes,
-            "double_dash": self.double_dash
+            "operator": self.boolean_operator
         }
         return s
