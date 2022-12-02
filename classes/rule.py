@@ -246,12 +246,9 @@ class Rule(object):
 
         self.rule_string = re.sub("chapter ([0-9]{1,2}) to ([0-9]{1,2})([., ])", "chapter \\1 to chapter \\2\\3", self.rule_string)
 
-        # self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) and ([0-9]{1,2})", "<a href='/chapters/\\3' target='_blank'>\\1 \\3</a> and chapter \\4", self.rule_string)  # Links in HTML
-        # self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) or ([0-9]{1,2})", "<a href='/chapters/\\3' target='_blank'>\\1 \\3</a> or chapter \\4", self.rule_string)  # Links in HTML
-        # self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2})([ ,;.])", "<a href='/chapters/\\3' target='_blank'>\\1\\2  \\3</a>\\4", self.rule_string)  # Links in HTML
-
         self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) and ([0-9]{1,2})", "[\\1 \\3](/chapters/\\3) and chapter \\4", self.rule_string)  # Links in markdown
         self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) or ([0-9]{1,2})", "[\\1 \\3](/chapters/\\3) or chapter \\4", self.rule_string)  # Links in markdown
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9])([ ,;.])", "[\\1\\2  \\3](/chapters/0\\3)\\4", self.rule_string)  # Links in markdown
         self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2})([ ,;.])", "[\\1\\2  \\3](/chapters/\\3)\\4", self.rule_string)  # Links in markdown
 
         self.rule_string = re.sub(" +", " ", self.rule_string)
