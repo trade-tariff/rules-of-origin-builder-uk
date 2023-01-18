@@ -30,6 +30,7 @@ class RuleSetLegacy(object):
             self.description = ""
             self.subdivision = row["description"].strip()
             self.subdivision = self.subdivision.replace("; except for:", "")
+            self.subdivision = self.subdivision.replace("\n<b>", "<br><b>")
 
             # Run the corrections
             corrections_file = os.path.join(os.getcwd(), "data", "corrections.json")

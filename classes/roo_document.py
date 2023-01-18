@@ -14,6 +14,7 @@ from classes.comm_code_validator import CommCodeValidator
 import classes.globals as g
 import classes.functions as func
 
+
 class RooDocument(object):
     def __init__(self, file=None):
         self.file = file
@@ -44,17 +45,15 @@ class RooDocument(object):
         print("\nFinished processing {file}\n".format(file=self.docx_filename))
 
     def sort_by_minmax(self):
-        a = 1
         self.rule_sets = sorted(self.rule_sets, key=self.sort_by_max)
         self.rule_sets = sorted(self.rule_sets, key=self.sort_by_min)
-        a = 1
-        
+
     def sort_by_max(self, list):
         return list["max"]
 
     def sort_by_min(self, list):
         return list["min"]
-    
+
     def get_environment(self):
         load_dotenv('.env')
         self.source_folder = os.path.join(os.getcwd(), "source")
@@ -208,8 +207,6 @@ class RooDocument(object):
         self.rule_sets = []
         for row in self.rows:
             # print(row["original_heading"])
-            if "ex Chapter 04" in row["original_heading"]:
-                a = 1
             rule_set = RuleSetLegacy(row)
             if rule_set.valid:
                 self.rule_sets.append(rule_set.as_dict())
@@ -218,6 +215,7 @@ class RooDocument(object):
 
     def normalise_chapters(self):
         for chapter in range(1, 98):
+            print(chapter)
             all_ex_codes = True
             if chapter == 52:
                 a = 1
@@ -273,14 +271,14 @@ class RooDocument(object):
         # Loop through all of the headings in chapter (according to the DB)
         # If the heading is missing:
         #   add in the heading as a copy of the chapter rule_set
-        
+
         # The matches variable captures all of the rules for the current chapter
 
         my_headings = {}
         for heading in g.all_headings:
             if heading[0:2] == chapter_string:
                 my_headings[heading] = g.all_headings[heading]
-        
+
         if contains_subheading is False:
             for heading in my_headings:
                 heading_exists_in_rule_set = False
