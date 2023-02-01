@@ -8,6 +8,9 @@ class Rule(object):
     def __init__(self, rule_string, heading):
         self.heading = heading
         self.boolean_operator = None
+        self.quota = False
+        self.is_import = True
+        self.is_export = True
         self.rule_class = []
         self.rule_string = rule_string.strip()
         self.rule_string_original = rule_string.strip()
@@ -28,12 +31,25 @@ class Rule(object):
         self.get_double_dash()
         self.reinsert_colons()
         self.final_formatting()
-        
+        self.check_for_quota()
+        self.check_trade_direction()
+
+    def check_for_quota(self):
+        if "quota" in self.rule_string:
+            self.quota = True
+
+    def check_trade_direction(self):
+        if "to the UK" in self.rule_string or "to the United Kingdom" in self.rule_string:
+            self.is_import = True
+            self.is_export = False
+        if "from the UK" in self.rule_string or "from the United Kingdom" in self.rule_string:
+            self.is_import = False
+            self.is_export = True
+
     def final_formatting(self):
         self.rule_string = self.rule_string.replace(" and\n\n", " *and*\n\n")
         self.rule_string = self.rule_string.replace("()", "")
         self.rule_string = self.rule_string.replace(" .", ".")
-        
 
     def reinsert_colons(self):
         self.rule_string = self.rule_string.replace("Manufacture\n", "Manufacture:\n")
@@ -57,6 +73,8 @@ class Rule(object):
                     items = item.upper().split("AND")
                     for item2 in items:
                         item2 = item2.strip()
+                        item2 = item2.replace("(", "")
+                        item2 = item2.replace(")", "")
                         if item2 not in self.rule_class:
                             self.rule_class.append(item2)
             a = 1
@@ -153,11 +171,15 @@ class Rule(object):
         for correction in corrections:
             self.rule_string = self.rule_string.replace(correction["from"], correction["to"])
         self.rule_string = self.rule_string.replace("- - ", "- ")
-        self.rule_string = self.rule_string.replace(" per cent", "%")
+        # self.rule_string = self.rule_string.replace(" per cent", "%")
         if "8537" in self.heading:
             a = 1
         self.rule_string = self.rule_string.replace(",\n- and\n\n", ", and\n")
         self.rule_string = self.rule_string.replace(",\n- and\n", ", and\n")
+
+        # Remove deliberately inserted <b> tags and replace with markdown
+        self.rule_string = self.rule_string.replace("<b>", "**")
+        self.rule_string = self.rule_string.replace("</b>", "**")
 
         self.remove_footnote_references()
 
@@ -170,9 +192,12 @@ class Rule(object):
         # self.rule_string = re.sub("([0-9]{1,3}\%)", "<b>\\1</b>", self.rule_string)
 
         # Use this if we need to use markdown for bold
-        self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,2})%", "\\1.\\2%", self.rule_string)
-        self.rule_string = re.sub("([0-9]{1,3}\%)", "**\\1**", self.rule_string)
+        if "62" in self.heading:
+            a = 1
         self.rule_string = re.sub("([0-9]{1,3}\.[0-9]{1,2}%)", "**\\1**", self.rule_string)
+        self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,2})\%", "\\1.\\2%", self.rule_string)
+        self.rule_string = re.sub(" ([0-9]{1,3}\%)", " **\\1**", self.rule_string)
+        self.rule_string = self.rule_string.replace(" per cent", "%")
 
     def italicise_conjunctions(self):
         return
@@ -182,17 +207,12 @@ class Rule(object):
         self.rule_string = re.sub(" or\n", " *or*\n", self.rule_string)
 
     def hyperlink_headings(self):
-        if "7225" in self.heading:
-            a = 1
         self.rule_string = self.rule_string.replace("headings No ", "heading ")
         self.rule_string = self.rule_string.replace("heading No ", "heading ")
         self.rule_string = self.rule_string.replace("heading Nos ", "heading ")
         self.rule_string = self.rule_string.replace("sub-heading", "subheading")
         self.rule_string = self.rule_string.replace("Sub-heading", "Subheading")
-        # self.rule_string = self.rule_string.replace("from Chapter", "from chapter")
-        # self.rule_string = self.rule_string.replace("of Chapter", "of chapter")
         self.rule_string = self.rule_string.replace("Chapter", "chapter")
-        # self.rule_string = self.rule_string.replace("of this Chapter", "of this chapter")
 
         self.rule_string = re.sub(" ([0-9]{2}).([0-9]{2})([., ])", " \\1\\2\\3", self.rule_string)
         self.rule_string = re.sub(" ([0-9]{1,4}) through ([0-9]{1,4})([., ])", " \\1 to \\2\\3", self.rule_string)
@@ -236,9 +256,7 @@ class Rule(object):
 
         self.rule_string = re.sub(" heading ([0-9]{4})$", " heading \\1", self.rule_string)
 
-        # self.rule_string = re.sub("([Hh]eading)(s*) ([0-9]{1,4})([ ,;.])", "<a href='/headings/\\3' target='_blank'>\\1\\2 \\3</a>\\4", self.rule_string)  # Links in HTML
         self.rule_string = re.sub("([Hh]eading)(s*) ([0-9]{1,4})([ ,;.])", "[\\1\\2 \\3](/headings/\\3)\\4", self.rule_string)  # Links in markdown
-
 
         # Deal with chapters
         for i in range(0, 4):
@@ -253,8 +271,6 @@ class Rule(object):
         self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2})([ ,;.])", "[\\1\\2 \\3](/chapters/\\3)\\4", self.rule_string)  # Links in markdown
 
         self.rule_string = re.sub(" +", " ", self.rule_string)
-        if self.heading == "Chapter 6":
-            a = 1
 
         # Add in non-breaking spaces
         self.rule_string = re.sub("chapter ([0-9]{1,2})", "chapter&nbsp;\\1", self.rule_string)
@@ -314,16 +330,12 @@ class Rule(object):
             self.rule_class = ["Unspecified"]
 
     def as_dict(self):
-        # s = {
-        #     "rule": self.rule_string,
-        #     "class": self.rule_class,
-        #     "operator": self.boolean_operator,
-        #     "specific_processes": self.specific_processes,
-        #     "double_dash": self.double_dash
-        # }
         s = {
             "rule": self.rule_string,
             "class": self.rule_class,
-            "operator": self.boolean_operator
+            "operator": self.boolean_operator,
+            "quota": self.quota,
+            "import": self.is_import,
+            "export": self.is_export,
         }
         return s

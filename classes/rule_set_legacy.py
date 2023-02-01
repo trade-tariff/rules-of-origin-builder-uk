@@ -43,6 +43,8 @@ class RuleSetLegacy(object):
             self.original_rule2 = row["original_rule2"].strip()
 
             # Before
+            if "Chapter 16" in self.original_heading:
+                a = 1
             self.original_rule = self.deal_with_semicolons_in_manufacture_rules(self.original_rule)
 
             # Concatenate the two columns of rules into one
@@ -65,7 +67,8 @@ class RuleSetLegacy(object):
         ret = s.strip()
         ret = ret.replace("Manufacture in which;", "Manufacture in which:")
         if ret.startswith("Manufacture:") or ret.startswith("Manufacture in which:"):
-            ret = ret.replace(";", "")
+            if ret.count("Manufacture") == 1:
+                ret = ret.replace(";", "")
             ret = ret.replace("\n", "\n- ")
             ret = ret.replace("\n- \n", "\n\n")
             ret = ret.replace("\n- - ", "\n- ")
@@ -108,6 +111,7 @@ class RuleSetLegacy(object):
             self.determine_minmax_from_single_term()
 
     def get_heading_class(self):
+        # print(self.heading)
         tmp = self.heading.lower()
         self.is_ex_code = False
         self.is_range = False
@@ -225,7 +229,7 @@ class RuleSetLegacy(object):
         # Especially dodgy hyphen chars
         self.subdivision = self.subdivision.replace("—", "–")
         self.subdivision = self.subdivision.replace("–", "-")
-        self.subdivision = self.subdivision.replace("-", "- ")
+        # self.subdivision = self.subdivision.replace("-", "- ")
         self.subdivision = self.subdivision.replace("  ", " ")
 
         n = Normalizer()
@@ -245,6 +249,8 @@ class RuleSetLegacy(object):
                 self.subdivision = self.subdivision[3:]
 
     def process_rule(self):
+        if "Chapter 16" in self.original_heading:
+            a = 1
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
         self.original_rule = self.original_rule.replace("ex ex", "ex ")
@@ -260,8 +266,6 @@ class RuleSetLegacy(object):
         self.original_rule = self.original_rule.replace(";\n\nor", ";\n\nTEMPOR")
         self.original_rule = self.original_rule.replace("\nor\n", ";\n\nor\n\n")
         self.original_rule = self.original_rule.replace("TEMPOR", "or")
-        if "Chapter 07" in self.original_heading:
-            a = 1
         self.original_rule = self.original_rule.strip(";")
         self.rule_strings = self.original_rule.split(";")
 

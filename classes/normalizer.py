@@ -256,7 +256,7 @@ class Normalizer(BaseNormalizer):
             text = text.replace(control, '')
 
         # Normalize unusual whitespace not caught by unicodedata
-        #text = text.replace('\u000b', ' ').replace('\u000c', ' ').replace(u'\u0085', ' ')
+        # text = text.replace('\u000b', ' ').replace('\u000c', ' ').replace(u'\u0085', ' ')
         text = text.replace('\u000b', ' ').replace(u'\u0085', ' ')
         text = text.replace('\u2028', '\n').replace('\u2029', '\n').replace('\r\n', '\n').replace('\r', '\n')
         text = text.replace(u'\xa0', u' ')
@@ -314,7 +314,7 @@ class Normalizer(BaseNormalizer):
         if self.collapse:
             pages = [x.strip() for x in text.split("\f")]
             text = "\f".join([" ".join(x.split()) for x in pages])
-            #text = ' '.join(text.split())
+            # text = ' '.join(text.split())
 
         return text
 
