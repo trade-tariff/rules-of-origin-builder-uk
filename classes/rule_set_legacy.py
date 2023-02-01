@@ -1,6 +1,6 @@
 import re
-import os
 import json
+import os
 
 from classes.normalizer import Normalizer
 from classes.rule import Rule

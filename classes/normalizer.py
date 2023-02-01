@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-import unicodedata
 import re
+import unicodedata
 
 
 #: Control characters.
