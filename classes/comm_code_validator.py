@@ -7,7 +7,6 @@ class CommCodeValidator(object):
     def __init__(self, comm_code, json_obj):
         self.comm_code = comm_code
         self.json_obj = json_obj
-        # print(self.comm_code)
 
     def validate(self):
         if self.comm_code >= "9800000000":

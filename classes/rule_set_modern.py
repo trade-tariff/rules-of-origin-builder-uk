@@ -100,6 +100,9 @@ class RuleSetModern(object):
 
     @staticmethod
     def format_parts(s, index):
+        if "ex" in s:
+            s = s.replace("ex.", "")
+            s = s.replace("ex", "")
         s = s.strip()
         length = len(s)
         if index == 1:

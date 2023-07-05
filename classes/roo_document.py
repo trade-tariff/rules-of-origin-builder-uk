@@ -22,20 +22,20 @@ class RooDocument(object):
         self.get_all_rules_with_classes()
         self.get_chapter_codes()
         self.get_arguments()
-        if self.create_json:
-            self.open_document()
-            self.get_document_type()
-            self.validate_table()
-            self.read_table()
-            self.process_table()
-            if self.modern:
-                self.process_subdivisions()
-                self.remove_invalid_entries()
-            else:
-                self.remove_working_nodes()
-            self.sort_by_minmax()
-            self.write_table()
-            self.kill_document()
+        self.get_config()
+        self.open_document()
+        self.get_document_type()
+        self.validate_table()
+        self.read_table()
+        self.process_table()
+        if self.modern:
+            self.process_subdivisions()
+            self.remove_invalid_entries()
+        else:
+            self.remove_working_nodes()
+        self.sort_by_minmax()
+        self.write_table()
+        self.kill_document()
 
         if self.validate_commodities:
             self.check_coverage()
@@ -67,7 +67,6 @@ class RooDocument(object):
         modern_documents = os.getenv('modern_documents')
         self.validate_tables = int(os.getenv('validate_tables'))
         self.modern_documents = modern_documents.split(",")
-        self.create_json = os.getenv('create_json')
         self.validate_commodities = int(os.getenv('validate_commodities'))
         self.validate_min_max = int(os.getenv('validate_min_max'))
 
@@ -125,6 +124,18 @@ class RooDocument(object):
         self.export_filename = self.export_filename.replace("_psr", "")
         self.export_filename = self.export_filename.replace("-psr", "")
         self.export_filepath = os.path.join(self.export_folder, self.export_filename) + ".json"
+
+        self.config_filepath = os.path.join(os.getcwd(), "config")
+        self.config_filename = os.path.join(self.config_filepath, "config-" + self.export_filename + ".json")
+        a = 1
+
+    def get_config(self):
+        self.footnotes = {}
+        if os.path.exists(self.config_filename):
+            a = 1
+            f = open(self.config_filename)
+            self.footnotes = json.load(f)
+        a = 1
 
     def open_document(self):
         print("\nBeginning processing {file}\n".format(file=self.docx_filename))
@@ -207,7 +218,7 @@ class RooDocument(object):
         self.rule_sets = []
         for row in self.rows:
             # print(row["original_heading"])
-            rule_set = RuleSetLegacy(row)
+            rule_set = RuleSetLegacy(row, self.footnotes)
             if rule_set.valid:
                 self.rule_sets.append(rule_set.as_dict())
 
@@ -215,7 +226,6 @@ class RooDocument(object):
 
     def normalise_chapters(self):
         for chapter in range(1, 98):
-            print(chapter)
             all_ex_codes = True
             if chapter == 52:
                 a = 1

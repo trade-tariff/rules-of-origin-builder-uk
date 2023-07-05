@@ -50,6 +50,7 @@ class Rule(object):
         self.rule_string = self.rule_string.replace(" and\n\n", " *and*\n\n")
         self.rule_string = self.rule_string.replace("()", "")
         self.rule_string = self.rule_string.replace(" .", ".")
+        self.rule_string = self.rule_string.replace("%**%", "%**")
 
     def reinsert_colons(self):
         self.rule_string = self.rule_string.replace("Manufacture\n", "Manufacture:\n")
@@ -96,10 +97,9 @@ class Rule(object):
             self.double_dash = True
 
     def cleanse(self):
-        if "88" in self.heading:
-            a = 1
         self.rule_string = self.rule_string.replace("; and", ", and")
         self.rule_string = self.rule_string.replace("Manufacture in which;", "Manufacture in which:")
+        self.rule_string = self.rule_string.replace("Manufacture;", "Manufacture:")
         self.rule_string = self.rule_string.replace("MaxNOM", "MAXNOM")
         self.rule_string = self.rule_string.strip()
         self.rule_string = re.sub(r'[ \t]+', " ", self.rule_string)
@@ -135,7 +135,7 @@ class Rule(object):
         self.rule_string = re.sub("\(([a-z])\) ", "\n- (\\1) ", self.rule_string)
         self.rule_string = re.sub("\(([a-z])\) ", "\\1) ", self.rule_string)
         # self.rule_string = re.sub(r'\(([i]{1,3})\)', "\n- (\\1)", self.rule_string)
-        self.rule_string = self.rule_string.replace("Production from", "Your goods are produced from")
+        # self.rule_string = self.rule_string.replace("Production from", "Your goods are produced from")
         self.rule_string = self.rule_string.replace("ex- works", "ex-works")
         self.rule_string = self.rule_string.replace("semi heated", "semi-heated")
         self.rule_string = self.rule_string.replace("whether or note", "whether or not")
@@ -156,7 +156,7 @@ class Rule(object):
         self.rule_string = self.rule_string.replace("non originating", "non-originating")
         self.rule_string = self.rule_string.replace("shall not exceed", "must not exceed")
 
-        self.rule_string = self.rule_string.replace("EXW", "ex-works price (EXW)")
+        # self.rule_string = self.rule_string.replace("EXW", "ex-works price (EXW)")
         # self.rule_string = self.rule_string.replace("FOB", "Free on Board (FOB)")
         # self.rule_string = self.rule_string.replace("RVC", "Regional Value Content (RVC)")
         if self.rule_string == ".":
@@ -171,7 +171,6 @@ class Rule(object):
         for correction in corrections:
             self.rule_string = self.rule_string.replace(correction["from"], correction["to"])
         self.rule_string = self.rule_string.replace("- - ", "- ")
-        # self.rule_string = self.rule_string.replace(" per cent", "%")
         if "8537" in self.heading:
             a = 1
         self.rule_string = self.rule_string.replace(",\n- and\n\n", ", and\n")
@@ -192,12 +191,16 @@ class Rule(object):
         # self.rule_string = re.sub("([0-9]{1,3}\%)", "<b>\\1</b>", self.rule_string)
 
         # Use this if we need to use markdown for bold
-        if "62" in self.heading:
-            a = 1
+        if "ex Chapter 58" in self.heading:
+            if "47" in self.rule_string:
+                a = 1
+        self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,3}([ %]))", "\\1.\\2\\3", self.rule_string)
+        self.rule_string = self.rule_string.replace(" per cent", "%")
+        self.rule_string = self.rule_string.replace("  ", " ")
+        self.rule_string = self.rule_string.replace(" %", "%")
         self.rule_string = re.sub("([0-9]{1,3}\.[0-9]{1,2}%)", "**\\1**", self.rule_string)
         self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,2})\%", "\\1.\\2%", self.rule_string)
         self.rule_string = re.sub(" ([0-9]{1,3}\%)", " **\\1**", self.rule_string)
-        self.rule_string = self.rule_string.replace(" per cent", "%")
 
     def italicise_conjunctions(self):
         return
@@ -207,6 +210,9 @@ class Rule(object):
         self.rule_string = re.sub(" or\n", " *or*\n", self.rule_string)
 
     def hyperlink_headings(self):
+        if self.heading == "ex Chapter 20":
+            a = 1
+        # print(self.heading)
         self.rule_string = self.rule_string.replace("headings No ", "heading ")
         self.rule_string = self.rule_string.replace("heading No ", "heading ")
         self.rule_string = self.rule_string.replace("heading Nos ", "heading ")
@@ -264,11 +270,13 @@ class Rule(object):
 
         self.rule_string = re.sub("chapter ([0-9]{1,2}) to ([0-9]{1,2})([., ])", "chapter \\1 to chapter \\2\\3", self.rule_string)
 
-        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9])([ ,;.])", "\\1\\2 0\\3\\4", self.rule_string)  # Links in markdown
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9])([ ,;.])", "\\1\\2 0\\3\\4", self.rule_string)
+        self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9][0-9]) and ([1-9]) ", "\\1\\2 \\3 and 0\\4 ", self.rule_string)
         self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) and ([0-9]{1,2})", "[\\1 \\3](/chapters/\\3) and chapter \\4", self.rule_string)  # Links in markdown
         self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2}) or ([0-9]{1,2})", "[\\1 \\3](/chapters/\\3) or chapter \\4", self.rule_string)  # Links in markdown
         self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9])([ ,;.])", "[\\1\\2  \\3](/chapters/0\\3)\\4", self.rule_string)  # Links in markdown
         self.rule_string = re.sub("([Cc]hapter)(s*) ([0-9]{1,2})([ ,;.])", "[\\1\\2 \\3](/chapters/\\3)\\4", self.rule_string)  # Links in markdown
+        self.rule_string = re.sub("chapter 0([1-9])", "chapter \\1", self.rule_string)
 
         self.rule_string = re.sub(" +", " ", self.rule_string)
 
@@ -285,57 +293,85 @@ class Rule(object):
         self.rule_string = self.rule_string.replace(",.", ",")
 
     def get_rule_class(self):
+        if "27" in self.heading:
+            a = 1
+        self.rule_class = []
         self.rule_string_original = self.rule_string_original.replace("A change from any other heading", "CTH")  # For Canada
 
-        cth_string_full = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading). "
-        cth_string_partial = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading)"
+        cc_string = "<abbr title='Change of tariff chapter'>CC</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter)"
+        cth_string = "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading)"
+
         tmp = self.rule_string.lower()
         if self.rule_string_original == "CTH":
-            self.rule_string = cth_string_full
+            self.rule_string = cth_string
             self.rule_class = ["CTH"]
 
         elif "CTH" in self.rule_string_original:
-            self.rule_string = self.rule_string.replace("CTH", cth_string_partial)
+            self.rule_string = self.rule_string.replace("CTH", cth_string)
             self.rule_class = ["CTH"]
             if "in which" in tmp or "provided that" in tmp:
                 self.rule_class.append("MAXNOM")
 
-        elif self.rule_string_original == "CTSH":
-            self.rule_string = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading)."
+        if self.rule_string_original == "WO":
+            self.rule_string = "All goods must be wholly obtained."
+            self.rule_class = ["WO"]
+
+        if self.rule_string_original == "CTSH":
+            self.rule_string = "<abbr title='Change of tariff subheading'>CTSH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading)."
             self.rule_class = ["CTSH"]
 
-        elif self.rule_string_original == "CC":
-            self.rule_string = "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter)."
+        if self.rule_string_original == "CC":
+            self.rule_string = "<abbr title='Change of tariff chapter'>CC</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter)."
             self.rule_class = ["CC"]
 
-        elif "your goods are produced from non-originating materials of any heading" in tmp \
+        elif "CC" in self.rule_string_original:
+            self.rule_string = self.rule_string.replace("CC", cc_string)
+            self.rule_class = ["CC"]
+
+        # Deal with MaxNOMs
+        self.rule_string = self.rule_string.replace("Max Nom", "MAXNOM")
+        self.rule_string = self.rule_string.replace("MaxNom", "MAXNOM")
+        self.rule_string = self.rule_string.replace("MaxNOM", "MAXNOM")
+        self.rule_string = self.rule_string.replace("MAXNOM (EXW)", "MAXNOM of the EXW of the good")
+
+        if "MAXNOM" in self.rule_string:
+            self.rule_string = re.sub("([0-9]{1,3})% MAXNOM", "The maximum value of non-originating materials (MaxNOM) cannot exceed \\1%", self.rule_string)
+            self.rule_class.append("MAXNOM")
+
+        if "your goods are produced from non-originating materials of any heading" in tmp \
                 or ("production from non-originating materials of any heading" in tmp and "except" not in tmp):
             self.rule_class.append("Insufficient processing")
             if "in which" in tmp:
                 self.rule_class.append("MAXNOM")
 
-        elif "wholly obtained" in self.rule_string:
+        if "wholly obtained" in self.rule_string:
             self.rule_class = ["WO"]
 
-        elif "RVC" in self.rule_string:
+        if "RVC" in self.rule_string:
             self.rule_class = ["RVC"]
 
-        elif "value of non-originating" in self.rule_string_original:
+        if "value of non-originating" in self.rule_string_original:
             self.rule_class = ["MAXNOM"]
 
-        elif re.search("exceed[s]? [0-9]{1,3}% of", self.rule_string) and "value" in self.rule_string:
+        if re.search("exceed[s]? [0-9]{1,3}% of", self.rule_string) and "value" in self.rule_string:
             self.rule_class = ["MAXNOM"]
 
-        else:
-            self.rule_class = ["Unspecified"]
+        self.rule_string = self.rule_string.replace("EXW", "ex-works price (EXW)")
 
     def as_dict(self):
         s = {
             "rule": self.rule_string,
             "class": self.rule_class,
+            "footnotes": [],
             "operator": self.boolean_operator,
             "quota": self.quota,
             "import": self.is_import,
             "export": self.is_export,
         }
+
+        # s = {
+        #     "rule": self.rule_string,
+        #     "class": self.rule_class,
+        #     "operator": self.boolean_operator
+        # }
         return s

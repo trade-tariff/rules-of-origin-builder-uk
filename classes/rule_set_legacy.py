@@ -8,8 +8,11 @@ import classes.globals as g
 
 
 class RuleSetLegacy(object):
-    def __init__(self, row=None):
+    def __init__(self, row, footnotes_lookup):
+        self.hierarchy_divider = " ➔ "
+        self.hierarchy_divider = " ▸ "
         self.heading = ""
+        self.footnotes_lookup = footnotes_lookup
         self.switched_heading = ""
         self.subdivision = ""
         self.rule = ""
@@ -40,6 +43,7 @@ class RuleSetLegacy(object):
                 self.subdivision = self.subdivision.replace(correction["from"], correction["to"])
 
             self.original_rule = row["original_rule"].strip()
+            self.original_rule = self.original_rule.replace("Manufacture;", "Manufacture:")
             self.original_rule2 = row["original_rule2"].strip()
 
             # Before
@@ -237,9 +241,16 @@ class RuleSetLegacy(object):
         self.subdivision = self.subdivision.replace(" %", "%")
         self.subdivision = self.subdivision.replace("— ", "\n- ")
 
+        if "Other" in self.subdivision:
+            if self.heading == "1302":
+                a = 1
+
+        if self.subdivision[0:1] == "-" and self.subdivision[1:2] != " ":
+            self.subdivision = "- " + self.subdivision[1:]
+
         if self.subdivision[0:2] == "- ":
             self.subdivision = self.subdivision[2:]
-            self.subdivision = g.parent_heading + " ➔ " + self.subdivision
+            self.subdivision = g.parent_heading.replace(":", " ").strip() + self.hierarchy_divider + self.subdivision
 
         self.subdivision = self.subdivision.replace("- - ", "- ")
         self.subdivision = self.subdivision.replace("ex ex", "ex ")
@@ -248,13 +259,28 @@ class RuleSetLegacy(object):
             if self.subdivision[0:3] == "\n- ":
                 self.subdivision = self.subdivision[3:]
 
+    def process_footnotes(self):
+        if len(self.footnotes_lookup) > 0:
+            matches = re.findall(r"\([0-9]{1,2}\)", self.original_rule)
+            for match in matches:
+                index = re.sub(r"[\(\)]", "", match)
+                if index in self.footnotes_lookup["footnotes"]:
+                    self.original_rule = self.original_rule.replace(match, "(" + self.footnotes_lookup["footnotes"][index] + ")")
+                else:
+                    self.original_rule = self.original_rule.replace(match, "")
+        else:
+            self.original_rule = re.sub("\([0-9]{1,2}\)", "", self.original_rule)
+
+        self.original_rule = self.original_rule.replace("from :", "from:")
+
     def process_rule(self):
-        if "Chapter 16" in self.original_heading:
-            a = 1
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
         self.original_rule = self.original_rule.replace("ex ex", "ex ")
-        self.original_rule = re.sub("\([0-9]{1,2}\)", "", self.original_rule)
+
+        # Do not delete footnotes
+        # self.original_rule = re.sub("\([0-9]{1,2}\)", "", self.original_rule)
+        self.process_footnotes()
         self.rules = []
         tmp = self.original_rule.lower()
 
