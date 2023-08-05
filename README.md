@@ -6,7 +6,7 @@ Used for OTT strategic - UK data
 
 - Create and activate a virtual environment, e.g.
 
-  `python3 -m venv venv/`
+  `python -m venv venv/`
 
   `source venv/bin/activate`
 
@@ -27,7 +27,7 @@ Used for OTT strategic - UK data
 
 ## Installation
 
-- Install necessary Python modules via `pip3 install -r requirements.txt`
+- Install necessary Python modules via `pip install -r requirements.txt`
 
 ## Usage
 
@@ -35,46 +35,46 @@ Used for OTT strategic - UK data
 
 The following are in a modern 2-column format
 
-- `python3 process.py "Albania PSR.docx"`
-- `python3 process.py "Andean PSR.docx"`
-- `python3 process.py "Cameroon PSR.docx"` -- does not work
-- `python3 process.py "Canada PSR.docx"`
-- `python3 process.py "Cariforum PSR.docx"`
-- `python3 process.py "Central-America PSR.docx"`
-- `python3 process.py "Chile PSR.docx"`
-- `python3 process.py "CotedIvoire PSR.docx"`
-- `python3 process.py "DCTS-General-Enhanced.docx"`
-- `python3 process.py "DCTS-LDCS PSR.docx"`
-- `python3 process.py "ESA PSR.docx"`
-- `python3 process.py "EU PSR.docx"`
-- `python3 process.py "Faroe-Islands PSR.docx"`
-- `python3 process.py "Georgia PSR.docx"`
-- `python3 process.py "Ghana PSR.docx"`
-- `python3 process.py "GSP PSR.docx"`
-- `python3 process.py "Iceland-Norway PSR.docx"`
-- `python3 process.py "Israel PSR.docx"`
-- `python3 process.py "Japan PSR.docx"`
-- `python3 process.py "Jordan PSR.docx"` -- Done
-- `python3 process.py "Kenya PSR.docx"`
-- `python3 process.py "Kosovo PSR.docx"`
-- `python3 process.py "Lebanon PSR.docx"`
-- `python3 process.py "Mexico PSR.docx"`
-- `python3 process.py "Moldova PSR.docx"`
-- `python3 process.py "Morocco PSR.docx"`
-- `python3 process.py "North-Macedonia PSR.docx"`
-- `python3 process.py "OCT PSR.docx"`
-- `python3 process.py "Pacific PSR.docx"`
-- `python3 process.py "Palestinian-Authority PSR.docx"`
-- `python3 process.py "SACUM PSR.docx"`
-- `python3 process.py "Serbia PSR.docx"`
-- `python3 process.py "Singapore PSR.docx"`
-- `python3 process.py "South Korea PSR.docx"`
-- `python3 process.py "Switzerland-Liechtenstein PSR.docx"`
-- `python3 process.py "Tunisia PSR.docx"`
-- `python3 process.py "Turkey PSR.docx"`
-- `python3 process.py "Ukraine PSR.docx"`
-- `python3 process.py "Vietnam PSR.docx"`
+- `python process.py "Albania PSR.docx"`
+- `python process.py "Andean PSR.docx"`
+- `python process.py "Cameroon PSR.docx"` -- does not work
+- `python process.py "Canada PSR.docx"`
+- `python process.py "Cariforum PSR.docx"`
+- `python process.py "Central-America PSR.docx"`
+- `python process.py "Chile PSR.docx"`
+- `python process.py "CotedIvoire PSR.docx"`
+- `python process.py "DCTS-General-Enhanced.docx"`
+- `python process.py "DCTS-LDCS PSR.docx"`
+- `python process.py "ESA PSR.docx"`
+- `python process.py "EU PSR.docx"`
+- `python process.py "Faroe-Islands PSR.docx"`
+- `python process.py "Georgia PSR.docx"`
+- `python process.py "Ghana PSR.docx"`
+- `python process.py "GSP PSR.docx"`
+- `python process.py "Iceland-Norway PSR.docx"`
+- `python process.py "Israel PSR.docx"`
+- `python process.py "Japan PSR.docx"`
+- `python process.py "Jordan PSR.docx"` -- Done
+- `python process.py "Kenya PSR.docx"`
+- `python process.py "Kosovo PSR.docx"`
+- `python process.py "Lebanon PSR.docx"`
+- `python process.py "Mexico PSR.docx"`
+- `python process.py "Moldova PSR.docx"`
+- `python process.py "Morocco PSR.docx"`
+- `python process.py "North-Macedonia PSR.docx"`
+- `python process.py "OCT PSR.docx"`
+- `python process.py "Pacific PSR.docx"`
+- `python process.py "Palestinian-Authority PSR.docx"`
+- `python process.py "SACUM PSR.docx"`
+- `python process.py "Serbia PSR.docx"`
+- `python process.py "Singapore PSR.docx"`
+- `python process.py "South Korea PSR.docx"`
+- `python process.py "Switzerland-Liechtenstein PSR.docx"`
+- `python process.py "Tunisia PSR.docx"`
+- `python process.py "Turkey PSR.docx"`
+- `python process.py "Ukraine PSR.docx"`
+- `python process.py "Vietnam PSR.docx"`
 
 
 To batch process all documents (both new and legacy)
-- `python3 batch.py`
+- `python batch.py`
