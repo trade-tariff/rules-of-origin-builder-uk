@@ -302,7 +302,7 @@
                   "max": "0499999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained in the country or territory, *and*\n\n- the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained in the country or territory, *and*\n\n- the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [
                                     "WO"
                               ],
@@ -407,7 +407,7 @@
                   "max": "0899999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit, nuts and peels of citrus fruits or melons of [chapter&nbsp;8](/chapters/08) used are wholly obtained in the country or territory, *and*\n\n- the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture in which:\n\n- all the fruit, nuts and peels of citrus fruits or melons of [chapter&nbsp;8](/chapters/08) used are wholly obtained in the country or territory, *and*\n\n- the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [
                                     "WO"
                               ],
@@ -531,7 +531,7 @@
                   "max": "1399999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, in which the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, in which the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -980,7 +980,7 @@
                   "max": "1704999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -999,7 +999,7 @@
                   "max": "1899999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1018,7 +1018,7 @@
                   "max": "1999999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe weight of the materials of [chapters 02](/chapters/02), 3 and 16 used does not exceed **20%** of the weight of the final good, *and*\n\nthe weight of the materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the final good, *and*\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe weight of the materials of [chapters 02](/chapters/02), 3 and 16 used does not exceed **20%** of the weight of the final good, *and*\n\nthe weight of the materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the final good, *and*\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1036,7 +1036,7 @@
                   "max": "2001999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1076,7 +1076,7 @@
                   "max": "2004999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1095,7 +1095,7 @@
                   "max": "2005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1114,7 +1114,7 @@
                   "max": "2006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1133,7 +1133,7 @@
                   "max": "2007999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1152,7 +1152,7 @@
                   "max": "2008999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1171,7 +1171,7 @@
                   "max": "2009999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1190,7 +1190,7 @@
                   "max": "2101999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1209,7 +1209,7 @@
                   "max": "2102999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1268,7 +1268,7 @@
                   "max": "2104999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1287,7 +1287,7 @@
                   "max": "2105999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1306,7 +1306,7 @@
                   "max": "2106999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1326,7 +1326,7 @@
                   "max": "2299999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good and [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), in which:\n\nall the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80), [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained in the country or territory, *and*\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good and [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), in which:\n\nall the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80), [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained in the country or territory, *and*\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [
                                     "WO"
                               ],
@@ -1518,7 +1518,7 @@
                   "max": "2309999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nall the materials of [chapter&nbsp;2](/chapters/02) and [chapter&nbsp;3](/chapters/03) used are wholly obtained in the country or territory, *and*\n\nthe weight of materials of [chapter&nbsp;10](/chapters/10) and [chapter&nbsp;11](/chapters/11) and [heading&nbsp;2302](/headings/2302) and [heading&nbsp;2303](/headings/2303) used does not exceed **20%** of the weight of the final good, *and*\n\nthe individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\nall the materials of [chapter&nbsp;2](/chapters/02) and [chapter&nbsp;3](/chapters/03) used are wholly obtained in the country or territory, *and*\n\nthe weight of materials of [chapter&nbsp;10](/chapters/10) and [chapter&nbsp;11](/chapters/11) and [heading&nbsp;2302](/headings/2302) and [heading&nbsp;2303](/headings/2303) used does not exceed **20%** of the weight of the final good, *and*\n\nthe individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\nthe total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [
                                     "WO"
                               ],
@@ -1878,7 +1878,7 @@
                   "max": "2707999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and one or more specific processes.",
+                              "rule": "Operations of refining and one or more specific processes (for the special conditions relating to \u201cspecific processes\u201d, see Notes 6.1 and 6.3 in Part 1 of this Schedule).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1998,7 +1998,7 @@
                   "max": "2710999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and one or more specific processes.",
+                              "rule": "Operations of refining and one or more specific processes (for the special conditions relating to \u201cspecific processes\u201d, see Note 6.2 in Part 1 of this Schedule).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2028,7 +2028,7 @@
                   "max": "2711999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and one or more specific processes.",
+                              "rule": "Operations of refining and one or more specific processes (for the special conditions relating to \u201cspecific processes\u201d, see Note 6.2 in Part 1 of this Schedule).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2058,7 +2058,7 @@
                   "max": "2712999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and one or more specific processes.",
+                              "rule": "Operations of refining and one or more specific processes (for the special conditions relating to \u201cspecific processes\u201d, see Note 6.2 in Part 1 of this Schedule).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2088,7 +2088,7 @@
                   "max": "2713999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and one or more specific processes.",
+                              "rule": "Operations of refining and one or more specific processes (for the special conditions relating to \u201cspecific processes\u201d, see Notes 6.1 and 6.3 in Part 1 of this Schedule).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9061,7 +9061,7 @@
                   "max": "3907999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good. However, materials of the same heading as the good may be used, provided that their total value does not exceed **50%** of the ex-works price of the good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good. However, materials of the same heading as the good may be used, provided that their total value does not exceed **50%** of the ex-works price of the good (a \u201cgroup\u201d is regarded as any part of the heading separated from the rest by a semi-colon).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -9166,10 +9166,8 @@
                   "max": "3921999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from highly-transparent polyester-foils with a thickness of less than 23 micron.",
-                              "class": [
-                                    "PRODUCTION FROM"
-                              ],
+                              "rule": "Manufacture from highly-transparent polyester-foils with a thickness of less than 23 micron (in the case of the goods composed of materials classified within both [heading&nbsp;3901](/headings/3901) to [heading&nbsp;3906](/headings/3906), on the one hand, and within [heading&nbsp;3907](/headings/3907) to [heading&nbsp;3911](/headings/3911), on the other hand, this restriction only applies to that group of materials which predominates by weight in the good).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -10496,10 +10494,8 @@
                   "max": "5006999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning or twisting.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning or twisting (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -10546,7 +10542,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -10660,10 +10656,8 @@
                   "max": "5110999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -10710,7 +10704,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -10786,10 +10780,8 @@
                   "max": "5207999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -10836,7 +10828,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -10931,10 +10923,8 @@
                   "max": "5308999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -10981,7 +10971,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11000,10 +10990,8 @@
                   "max": "5406999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -11050,7 +11038,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11090,10 +11078,8 @@
                   "max": "5511999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -11140,7 +11126,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11187,7 +11173,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11218,7 +11204,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Fabric formation alone in the case of felt made from natural fibres.",
+                              "rule": "Fabric formation alone in the case of felt made from natural fibres (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11248,7 +11234,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Fabric formation alone in the case of other felt made from natural fibres.",
+                              "rule": "Fabric formation alone in the case of other felt made from natural fibres (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11309,10 +11295,8 @@
                   "max": "5604999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -11330,10 +11314,8 @@
                   "max": "5605999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural or man-made staple fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural or man-made staple fibres (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -11371,7 +11353,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Flocking accompanied by dyeing.",
+                              "rule": "Flocking accompanied by dyeing (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11418,7 +11400,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11466,7 +11448,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11514,7 +11496,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11563,7 +11545,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Tufting accompanied by dyeing or by printing\n\nExtrusion of man-made fibres accompanied by non-woven techniques including needle punching \n\nHowever:\n\n- polypropylene filament of [heading&nbsp;5402](/headings/5402),\n\n- polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), or\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501),\n\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the good\n\nJute fabric may be used as a backing.",
+                              "rule": "Tufting accompanied by dyeing or by printing\n\nExtrusion of man-made fibres accompanied by non-woven techniques including needle punching (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)\n\nHowever:\n\n- polypropylene filament of [heading&nbsp;5402](/headings/5402),\n\n- polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), or\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501),\n\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the good\n\nJute fabric may be used as a backing.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -11621,7 +11603,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11678,7 +11660,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11735,7 +11717,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11792,7 +11774,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11868,7 +11850,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11925,7 +11907,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -11982,7 +11964,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12039,7 +12021,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12117,7 +12099,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12233,7 +12215,7 @@
                   "max": "5904999999",
                   "rules": [
                         {
-                              "rule": "Weaving accompanied by dyeing or by coating.",
+                              "rule": "Weaving accompanied by dyeing or by coating (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12291,7 +12273,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good :.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**):.",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12330,7 +12312,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12524,7 +12506,7 @@
                   "max": "5911999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made filament yarn or spinning of natural or man-made staple fibres, accompanied by weaving.",
+                              "rule": "Extrusion of man-made filament yarn or spinning of natural or man-made staple fibres, accompanied by weaving (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12608,7 +12590,7 @@
                   "max": "6101999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12636,7 +12618,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12655,7 +12637,7 @@
                   "max": "6102999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12683,7 +12665,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12702,7 +12684,7 @@
                   "max": "6103999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12730,7 +12712,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12749,7 +12731,7 @@
                   "max": "6104999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12777,7 +12759,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12796,7 +12778,7 @@
                   "max": "6105999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12824,7 +12806,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12843,7 +12825,7 @@
                   "max": "6106999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12871,7 +12853,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12890,7 +12872,7 @@
                   "max": "6107999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12918,7 +12900,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12937,7 +12919,7 @@
                   "max": "6108999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -12965,7 +12947,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -12984,7 +12966,7 @@
                   "max": "6109999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13012,7 +12994,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13031,7 +13013,7 @@
                   "max": "6110999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13059,7 +13041,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13078,7 +13060,7 @@
                   "max": "6111999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13106,7 +13088,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13125,7 +13107,7 @@
                   "max": "6112999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13153,7 +13135,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13172,7 +13154,7 @@
                   "max": "6113999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13200,7 +13182,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13219,7 +13201,7 @@
                   "max": "6114999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13247,7 +13229,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13266,7 +13248,7 @@
                   "max": "6115999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13294,7 +13276,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13313,7 +13295,7 @@
                   "max": "6116999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13341,7 +13323,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13360,7 +13342,7 @@
                   "max": "6117999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13388,7 +13370,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13419,7 +13401,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13449,7 +13431,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13481,7 +13463,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13511,7 +13493,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13541,7 +13523,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13573,7 +13555,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13603,7 +13585,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13633,7 +13615,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13665,7 +13647,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13695,7 +13677,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13725,7 +13707,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13755,7 +13737,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13787,7 +13769,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13817,7 +13799,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Coating provided that the value of the uncoated fabric used does not exceed **40%** of the ex-works price of the good, accompanied by making-up (including cutting).",
+                              "rule": "Coating provided that the value of the uncoated fabric used does not exceed **40%** of the ex-works price of the good, accompanied by making-up (including cutting) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13849,7 +13831,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13879,7 +13861,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13911,7 +13893,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13930,7 +13912,7 @@
                   "max": "6212999999",
                   "rules": [
                         {
-                              "rule": "Knitting and making-up (including cutting).",
+                              "rule": "Knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**) (see Note 5 in Part 1 of this Schedule).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -13958,7 +13940,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (see Note 5 in Part 1 of this Schedule).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -13988,7 +13970,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -14018,7 +14000,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -14029,7 +14011,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -14059,7 +14041,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -14089,7 +14071,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -14119,7 +14101,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Coating provided that the value of the uncoated fabric used does not exceed **40%** of the ex-works price of the good, accompanied by making-up (including cutting).",
+                              "rule": "Coating provided that the value of the uncoated fabric used does not exceed **40%** of the ex-works price of the good, accompanied by making-up (including cutting) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -14151,7 +14133,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending, and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -14181,7 +14163,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -14213,7 +14195,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Coating provided that the value of the uncoated fabric used does not exceed **40%** of the ex-works price of the good, accompanied by making-up (including cutting).",
+                              "rule": "Coating provided that the value of the uncoated fabric used does not exceed **40%** of the ex-works price of the good, accompanied by making-up (including cutting) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -14255,10 +14237,8 @@
                   "max": "6217999999",
                   "rules": [
                         {
-                              "rule": "Weaving accompanied by making-up (including cutting).",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Weaving accompanied by making-up (including cutting) (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -14276,10 +14256,8 @@
                   "max": "6304999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres or use of natural fibres in each case accompanied by non-woven process including needle punching and making-up (including cutting).",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres or use of natural fibres in each case accompanied by non-woven process including needle punching and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -14308,7 +14286,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good (the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery)(see Note 4 in Part 1 of this Schedule).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -14350,7 +14328,7 @@
                   "max": "6305999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres or spinning of natural or man-made staple fibres accompanied by weaving or knitting and making-up (including cutting).",
+                              "rule": "Extrusion of man-made fibres or spinning of natural or man-made staple fibres accompanied by weaving or knitting and making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -14390,10 +14368,8 @@
                   "max": "6306999999",
                   "rules": [
                         {
-                              "rule": "Weaving accompanied by making-up (including cutting).",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Weaving accompanied by making-up (including cutting) (the following foils are to be considered as highly transparent: foils, the optical dimming of which, measured according to ASTM-D 1003-16(5) by Gardner Hazemeter (i.e. Hazefactor), is less than **2%**)(the use of this material is restricted to the manufacture of woven fabrics of a kind used in paper-making machinery).",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -14962,7 +14938,7 @@
             {
                   "heading": "7006",
                   "chapter": 70,
-                  "subdivision": "Glass of heading 7003, 7004 or 7005, bent, edge-worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials \u25b8 Glass-plate substrates, coated with a dielectric thin film, and of a semiconductor grade in accordance with SEMII (Semiconductor Equipment and Materials Institute Incorporated) -standards",
+                  "subdivision": "Glass of heading 7003, 7004 or 7005, bent, edge-worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials \u25b8 Glass-plate substrates, coated with a dielectric thin film, and of a semiconductor grade in accordance with SEMII (Semiconductor Equipment and Materials Institute Incorporated) -standards (7)",
                   "min": "7006000000",
                   "max": "7006999999",
                   "rules": [
