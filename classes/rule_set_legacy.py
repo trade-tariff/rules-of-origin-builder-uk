@@ -37,7 +37,7 @@ class RuleSetLegacy(object):
             self.subdivision = self.subdivision.replace("\n<b>", "<br><b>")
 
             # Run the corrections
-            corrections_file = os.path.join(os.getcwd(), "data", "corrections.json")
+            corrections_file = os.path.join(os.getcwd(), "resources", "data", "corrections.json")
             f = open(corrections_file)
             corrections = json.load(f)
             for correction in corrections:
@@ -55,8 +55,6 @@ class RuleSetLegacy(object):
                 self.original_rule2 = self.deal_with_semicolons_in_manufacture_rules(self.original_rule2)
                 self.original_rule += ";\n\n"
                 self.original_rule += "or\n\n" + self.original_rule2
-
-            # self.switch_headings()
 
             self.process_heading()
             self.process_subdivision()
@@ -308,18 +306,3 @@ class RuleSetLegacy(object):
             "valid": self.valid
         }
         return my_dictionary
-
-    def switch_headings(self):
-        return
-        data_file = "data/heading_replacements.json"
-        with open(data_file) as jsonFile:
-            heading_replacements = json.load(jsonFile)
-            jsonFile.close()
-
-        if self.original_heading in heading_replacements:
-            obj = heading_replacements[self.original_heading]
-            tmp = obj["dest"].replace("ex ", "")
-            self.min = g.format_parts(tmp, 0)
-            self.max = g.format_parts(tmp, 1)
-            self.switched_heading = self.original_heading
-            self.original_heading = obj["dest"]

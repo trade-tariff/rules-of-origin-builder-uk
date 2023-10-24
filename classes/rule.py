@@ -131,8 +131,6 @@ class Rule(object):
 
         self.rule_string = re.sub("\(([a-z])\) ", "\n- (\\1) ", self.rule_string)
         self.rule_string = re.sub("\(([a-z])\) ", "\\1) ", self.rule_string)
-        # self.rule_string = re.sub(r'\(([i]{1,3})\)', "\n- (\\1)", self.rule_string)
-        # self.rule_string = self.rule_string.replace("Production from", "Your goods are produced from")
         self.rule_string = self.rule_string.replace("ex- works", "ex-works")
         self.rule_string = self.rule_string.replace("semi heated", "semi-heated")
         self.rule_string = self.rule_string.replace("whether or note", "whether or not")
@@ -153,9 +151,6 @@ class Rule(object):
         self.rule_string = self.rule_string.replace("non originating", "non-originating")
         self.rule_string = self.rule_string.replace("shall not exceed", "must not exceed")
 
-        # self.rule_string = self.rule_string.replace("EXW", "ex-works price (EXW)")
-        # self.rule_string = self.rule_string.replace("FOB", "Free on Board (FOB)")
-        # self.rule_string = self.rule_string.replace("RVC", "Regional Value Content (RVC)")
         if self.rule_string == ".":
             self.rule_string == ""
 
@@ -352,10 +347,4 @@ class Rule(object):
             "import": self.is_import,
             "export": self.is_export,
         }
-
-        # s = {
-        #     "rule": self.rule_string,
-        #     "class": self.rule_class,
-        #     "operator": self.boolean_operator
-        # }
         return s
