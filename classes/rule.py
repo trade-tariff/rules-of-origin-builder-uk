@@ -20,78 +20,19 @@ class Rule(object):
 
     def process_rule(self):
         self.cleanse()
+        self.remove_footnote_references()
         self.get_rule_class()
         self.get_rule_class_lookup()
         self.get_specific_processes()
         self.fix_punctuation()
         self.embolden_percentages()
         self.hyperlink_headings()
-        self.italicise_conjunctions()
         self.double_up_newlines()
         self.get_double_dash()
         self.reinsert_colons()
         self.final_formatting()
         self.check_for_quota()
         self.check_trade_direction()
-
-    def check_for_quota(self):
-        if "quota" in self.rule_string:
-            self.quota = True
-
-    def check_trade_direction(self):
-        if "to the UK" in self.rule_string or "to the United Kingdom" in self.rule_string:
-            self.is_import = True
-            self.is_export = False
-        if "from the UK" in self.rule_string or "from the United Kingdom" in self.rule_string:
-            self.is_import = False
-            self.is_export = True
-
-    def final_formatting(self):
-        self.rule_string = self.rule_string.replace(" and\n\n", " *and*\n\n")
-        self.rule_string = self.rule_string.replace("()", "")
-        self.rule_string = self.rule_string.replace(" .", ".")
-        self.rule_string = self.rule_string.replace("%**%", "%**")
-
-    def reinsert_colons(self):
-        self.rule_string = self.rule_string.replace("Manufacture\n", "Manufacture:\n")
-        self.rule_string = self.rule_string.replace("Manufacture in which\n", "Manufacture in which:\n")
-
-    def double_up_newlines(self):
-        self.rule_string = self.rule_string.replace("\n", "\n\n")
-        self.rule_string = self.rule_string.replace("\n\n\n", "\n\n")
-
-    def get_rule_class_lookup(self):
-        self.rules_alphanumeric_only = self.alphanumeric_only(self.rule_string)
-        if self.rules_alphanumeric_only in g.all_rules_with_classes:
-            my_classes = g.all_rules_with_classes[self.rules_alphanumeric_only]
-            if len(my_classes) > 0:
-                # Remove unspecified if this has previously been added
-                if "Unspecified" in self.rule_class:
-                    self.rule_class.remove("Unspecified")
-
-                # Add in the classes that have been newly found by looking up in the XI data
-                for item in my_classes:
-                    items = item.upper().split("AND")
-                    for item2 in items:
-                        item2 = item2.strip()
-                        item2 = item2.replace("(", "")
-                        item2 = item2.replace(")", "")
-                        if item2 not in self.rule_class:
-                            self.rule_class.append(item2)
-
-    def get_specific_processes(self):
-        if "specific process" in self.rule_string.lower():
-            self.specific_processes = True
-        else:
-            self.specific_processes = False
-
-    def alphanumeric_only(self, s):
-        s2 = ''.join(ch for ch in s if ch.isalnum()).lower()
-        return s2
-
-    def get_double_dash(self):
-        if "- -" in self.rule_string:
-            self.double_dash = True
 
     def cleanse(self):
         self.rule_string = self.rule_string.replace("; and", ", and")
@@ -167,17 +108,69 @@ class Rule(object):
         self.rule_string = self.rule_string.replace("<b>", "**")
         self.rule_string = self.rule_string.replace("</b>", "**")
 
-        self.remove_footnote_references()
-
     def remove_footnote_references(self):
         self.rule_string = re.sub("\( ([0-9]{1,3}) \)", "", self.rule_string)
 
-    def embolden_percentages(self):
-        # self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,2})%", "\\1.\\2%", self.rule_string)
-        # self.rule_string = re.sub("([0-9]{1,3}\.[0-9]{1,2}%)", "<b>\\1</b>", self.rule_string)
-        # self.rule_string = re.sub("([0-9]{1,3}\%)", "<b>\\1</b>", self.rule_string)
+    def check_for_quota(self):
+        if "quota" in self.rule_string:
+            self.quota = True
 
-        # Use this if we need to use markdown for bold
+    def check_trade_direction(self):
+        if "to the UK" in self.rule_string or "to the United Kingdom" in self.rule_string:
+            self.is_import = True
+            self.is_export = False
+        if "from the UK" in self.rule_string or "from the United Kingdom" in self.rule_string:
+            self.is_import = False
+            self.is_export = True
+
+    def final_formatting(self):
+        self.rule_string = self.rule_string.replace(" and\n\n", " *and*\n\n")
+        self.rule_string = self.rule_string.replace("()", "")
+        self.rule_string = self.rule_string.replace(" .", ".")
+        self.rule_string = self.rule_string.replace("%**%", "%**")
+
+    def reinsert_colons(self):
+        self.rule_string = self.rule_string.replace("Manufacture\n", "Manufacture:\n")
+        self.rule_string = self.rule_string.replace("Manufacture in which\n", "Manufacture in which:\n")
+
+    def double_up_newlines(self):
+        self.rule_string = self.rule_string.replace("\n", "\n\n")
+        self.rule_string = self.rule_string.replace("\n\n\n", "\n\n")
+
+    def get_rule_class_lookup(self):
+        self.rules_alphanumeric_only = self.alphanumeric_only(self.rule_string)
+        if self.rules_alphanumeric_only in g.all_rules_with_classes:
+            my_classes = g.all_rules_with_classes[self.rules_alphanumeric_only]
+            if len(my_classes) > 0:
+                # Remove unspecified if this has previously been added
+                if "Unspecified" in self.rule_class:
+                    self.rule_class.remove("Unspecified")
+
+                # Add in the classes that have been newly found by looking up in the XI data
+                for item in my_classes:
+                    items = item.upper().split("AND")
+                    for item2 in items:
+                        item2 = item2.strip()
+                        item2 = item2.replace("(", "")
+                        item2 = item2.replace(")", "")
+                        if item2 not in self.rule_class:
+                            self.rule_class.append(item2)
+
+    def get_specific_processes(self):
+        if "specific process" in self.rule_string.lower():
+            self.specific_processes = True
+        else:
+            self.specific_processes = False
+
+    def alphanumeric_only(self, s):
+        s2 = ''.join(ch for ch in s if ch.isalnum()).lower()
+        return s2
+
+    def get_double_dash(self):
+        if "- -" in self.rule_string:
+            self.double_dash = True
+
+    def embolden_percentages(self):
         self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,3}([ %]))", "\\1.\\2\\3", self.rule_string)
         self.rule_string = self.rule_string.replace(" per cent", "%")
         self.rule_string = self.rule_string.replace("  ", " ")
@@ -185,13 +178,6 @@ class Rule(object):
         self.rule_string = re.sub("([0-9]{1,3}\.[0-9]{1,2}%)", "**\\1**", self.rule_string)
         self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,2})\%", "\\1.\\2%", self.rule_string)
         self.rule_string = re.sub(" ([0-9]{1,3}\%)", " **\\1**", self.rule_string)
-
-    def italicise_conjunctions(self):
-        return
-        self.rule_string = re.sub("and/or", "and&nbsp;/&nbsp;or", self.rule_string)
-        self.rule_string = re.sub("and&nbsp;/&nbsp;or", "*and&nbsp;/&nbsp;or*", self.rule_string)
-        self.rule_string = re.sub(" and\n", " *and*\n", self.rule_string)
-        self.rule_string = re.sub(" or\n", " *or*\n", self.rule_string)
 
     def hyperlink_headings(self):
         self.rule_string = self.rule_string.replace("headings No ", "heading ")
@@ -221,7 +207,6 @@ class Rule(object):
         self.rule_string = re.sub(" subheading ([0-9]{6}) to ([0-9]{6})([., ])", " subheading \\1 to subheading \\2\\3", self.rule_string)
         self.rule_string = re.sub(" subheading ([0-9]{6}) to ([0-9]{6})$", " subheading \\1 to subheading \\2", self.rule_string)
 
-        # self.rule_string = re.sub("([Ss]ubheading) ([0-9]{6})([ ,;.])", "<a href='/subheadings/\\2x0000-80' target='_blank'>\\1 \\2</a>\\3", self.rule_string)
         self.rule_string = re.sub("([Ss]ubheading) ([0-9]{6})([ ,;.])", "[\\1 \\2](/subheadings/\\2x0000-80)\\3", self.rule_string)  # Links in markdown
         self.rule_string = re.sub("x0000-80", "0000-80", self.rule_string)
 
