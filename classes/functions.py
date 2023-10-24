@@ -7,7 +7,6 @@ def range_matches_heading(my_range, my_heading):
             potential_matches.append(parts[0])
             for i in range(1, difference + 1):
                 potential_matches.append(str(to_integer(parts[0]) + i))
-            a = 1
             if str(my_heading) in potential_matches:
                 matched = True
             else:

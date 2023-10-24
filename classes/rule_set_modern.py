@@ -30,18 +30,10 @@ class RuleSetModern(object):
                 break
 
     def process_heading(self):
-        if "Sodium" in self.original_heading:
-            a = 1
-        if "\n" in self.original_heading:
-            if self.is_numeric(self.original_heading):
-                a = 1
-        if "3822.00" in self.original_heading:
-            a = 1
         n = Normalizer()
         self.heading = n.normalize(self.original_heading)
         self.heading = self.heading.replace(".", "")
         self.heading = self.heading.replace(" - ", "-")
-        # self.heading = self.heading.replace(" to ", "-")  # NO
         self.heading = re.sub("([0-9]) to ([0-9])", "\\1 - \\2", self.heading)
         if ":" in self.original_heading or self.original_heading.startswith("-"):
             self.heading = self.heading.removeprefix("- ")

@@ -4,13 +4,13 @@ import json
 import shutil
 import csv
 from dotenv import load_dotenv
-# from docx import Document
 from docx.api import Document
 
 from classes.rule_set_modern import RuleSetModern
 from classes.rule_set_legacy import RuleSetLegacy
 from classes.comm_code_validator import CommCodeValidator
 from classes.environment_variable import EnvironmentVariable
+from classes.error import Error
 import classes.globals as g
 import classes.functions as func
 
@@ -22,11 +22,11 @@ class RooDocument(object):
         self.get_footnotes()
         self.get_all_rules_with_classes()
         self.get_commodities()
-        self.open_document()
+        self.open_psr_source_document()
         self.get_document_type()
-        self.validate_table()
-        self.read_table()
-        self.process_table()
+        self.validate_psr_table()
+        self.read_psr_table()
+        self.process_psr_table()
         if self.modern:
             self.process_subdivisions()
             self.remove_invalid_entries()
@@ -59,11 +59,11 @@ class RooDocument(object):
         self.all_rules_path = EnvironmentVariable('all_rules_path', 'string', permit_omission=True).value
 
         # Get features
-        modern_documents = os.getenv('modern_documents')
-        self.validate_tables = int(os.getenv('validate_tables'))
+        self.validate_psr_tables = EnvironmentVariable('validate_psr_tables', 'int', permit_omission=False).value
+        self.validate_commodities = EnvironmentVariable('validate_commodities', 'int', permit_omission=False).value
+        self.validate_min_max = EnvironmentVariable('validate_min_max', 'int', permit_omission=False).value
+        modern_documents = EnvironmentVariable('modern_documents', 'string', permit_omission=False).value
         self.modern_documents = modern_documents.split(",")
-        self.validate_commodities = int(os.getenv('validate_commodities'))
-        self.validate_min_max = int(os.getenv('validate_min_max'))
 
         if self.psr_source_file is not None:
             self.docx_filename = self.psr_source_file
@@ -73,8 +73,7 @@ class RooDocument(object):
                 self.docx_filename = sys.argv[1]
                 self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
             else:
-                print("Please supply an input document")
-                sys.exit()
+                Error("Please supply an input document")
 
         # Export paths
         self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "-").lower()
@@ -82,21 +81,24 @@ class RooDocument(object):
         self.export_filename = self.export_filename.replace("-psr", "")
         self.export_filepath = os.path.join(self.export_folder, self.export_filename) + ".json"
 
-        self.config_filepath = os.path.join(self.config_folder, "config")
-        self.config_filename = os.path.join(self.config_filepath, "config-" + self.export_filename + ".json")
+        # Configuration / footnotes
+        self.footnotes_filename = os.path.join(self.config_folder, "config-" + self.export_filename + ".json")
 
     def get_footnotes(self):
+        """ Gets a list of the footnotes associated with the selected scheme
+        Footnotes are rare ... they only exist on later documents, as the functionality
+        did not initially exist."""
         # Load footnotes
         self.footnotes = {}
-        if os.path.exists(self.config_filename):
-            f = open(self.config_filename)
+        if os.path.exists(self.footnotes_filename):
+            f = open(self.footnotes_filename)
             self.footnotes = json.load(f)
 
     def get_all_rules_with_classes(self):
         """ Function to pull in a list of all of the rules from the XI tariff and the
-        classes of rule that are associated with each of these. These are used (for example) 
+        classes of rule that are associated with each of these. These are used (for example)
         in determining if a rule is wholly-obtained, and to populate the 'class' node
-        in the resultant JSON file"""
+        in the resultant JSON file."""
         if not os.path.exists(self.all_rules_path):
             self.all_rules_path = os.path.join(self.defaults_folder, "all_rules.json")
         f = open(self.all_rules_path)
@@ -130,12 +132,20 @@ class RooDocument(object):
         csv_file.close()
 
     def check_preferred_code_list_file_exists(self):
+        """ The commodity code list is used to work out the chapters, headings and subheadings
+        that are covered by the rules of origin (PSRs). If the file that is specified in the
+        environment variables does not exist, then the default file, which exists within this
+        repository.
+        """
         # Get default commodity code list file
         self.default_code_list_file = os.path.join(self.defaults_folder, "uk_commodities_2023-10-23.csv")
         if not os.path.exists(self.preferred_code_list_file):
             self.preferred_code_list_file = self.default_code_list_file
 
     def export_min_max(self):
+        """ This is a function that is used for debug purposes. It extracts the full list
+        of headings, min and max values, so that any issues can be debugged. The file is
+        put into the temp folder (in resources)."""
         filename = os.path.join(self.resources_folder, "temp", "temp.csv")
         f = open(filename, "w")
         for rs in self.rule_sets:
@@ -145,43 +155,53 @@ class RooDocument(object):
         f.close()
 
     def sort_by_minmax(self):
+        """ The final extract file needs to be extracted in sequence, according to the min,
+        then the max values"""
         error_count = 0
         self.export_min_max()
         for rs in self.rule_sets:
             if rs["min"] is None or rs["max"] is None:
+                # If there is a record with a min or max of 'None', this means that the document
+                # has not been formated properly and needs to be resolved.
                 error_count += 1
                 print("Max or min of 'None' found", rs["min"], rs["max"], rs["heading"])
 
         if error_count > 0:
-            print("Aborting until issues are resolved in the source data file")
+            Error("Aborting until issues are resolved in the source data file")
 
+        # If we have not aborted, then sort the rules
         self.rule_sets = sorted(self.rule_sets, key=self.sort_by_max)
         self.rule_sets = sorted(self.rule_sets, key=self.sort_by_min)
 
     def sort_by_max(self, list):
+        """ Sorts the list of rules according to the max value """
         return list["max"]
 
     def sort_by_min(self, list):
+        """ Sorts the list of rules according to the min value """
         return list["min"]
 
     def remove_invalid_entries(self):
+        """ If any entries have been created that are not valid, then this function removes them """
         for i in range(len(self.rule_sets) - 1, -1, -1):
             rule_set = self.rule_sets[i]
             if rule_set["valid"] is False:
                 self.rule_sets.pop(i)
 
-    def open_document(self):
+    def open_psr_source_document(self):
         print("\nBeginning processing {file}\n".format(file=self.docx_filename))
         self.document = Document(self.docx_filepath)
 
     def get_document_type(self):
+        """ Work out whether the document is modern or legacy
+        The two document types are processed and structured very differently """
         filename_compare = self.docx_filename.replace(" PSR.docx", "")
         if filename_compare in self.modern_documents:
             self.modern = True
         else:
             self.modern = False
 
-    def read_table(self):
+    def read_psr_table(self):
         print("- Reading table for file {file}".format(file=self.docx_filename))
         table = self.document.tables[0]
 
@@ -224,14 +244,14 @@ class RooDocument(object):
 
                 self.rows.append(item)
 
-    def process_table(self):
+    def process_psr_table(self):
         print("- Processing table for {file}".format(file=self.docx_filename))
         if self.modern:
-            self.process_table_modern()
+            self.process_psr_table_modern()
         else:
-            self.process_table_legacy()
+            self.process_psr_table_legacy()
 
-    def process_table_modern(self):
+    def process_psr_table_modern(self):
         self.rule_sets = []
         for row in self.rows:
             if "Section" in row["original_heading"]:
@@ -244,7 +264,7 @@ class RooDocument(object):
                 rule_set = RuleSetModern(row)
                 self.rule_sets.append(rule_set.as_dict())
 
-    def process_table_legacy(self):
+    def process_psr_table_legacy(self):
         self.rule_sets = []
         for row in self.rows:
             rule_set = RuleSetLegacy(row, self.footnotes)
@@ -254,6 +274,7 @@ class RooDocument(object):
         self.normalise_chapters()
 
     def normalise_chapters(self):
+        print("- Normalising chapters:")
         for chapter in range(1, 98):
             all_ex_codes = True
             is_chapter_mentioned = False
@@ -286,7 +307,7 @@ class RooDocument(object):
 
     def normalise_complex_chapter(self, chapter):
         chapter_string = str(chapter).rjust(2, "0")
-        print("Normalising complex chapter {chapter}".format(
+        print("  - Normalising complex chapter {chapter}".format(
             chapter=chapter_string
         ))
         # Get all the other rules in that chapter that are not the chapter heading
@@ -444,6 +465,9 @@ class RooDocument(object):
     def normalise_standard_chapter(self, chapter):
         # The chapter has an ex code in its chapter definition
         # But there are no other ex codes withi the chapter
+        print("  - Normalising standard chapter {chapter}".format(
+            chapter=chapter
+        ))
         rules_for_ex_chapter = []
         rulesets_to_pop = []
         rules_for_current_chapter = []
@@ -472,8 +496,6 @@ class RooDocument(object):
                     if heading[0:2] == chapter_string:
                         matched = False
                         for rule_set in rules_for_current_chapter:  # self.rule_sets:
-                            # if "5203" in rule_set["heading"] or "5204" in rule_set["heading"] :
-                            #     a = 1
                             rule_matches_heading = func.range_matches_heading(rule_set["heading"], heading)
                             if rule_matches_heading:
                                 matched = True
@@ -544,48 +566,32 @@ class RooDocument(object):
 
     def remove_working_nodes(self):
         for rule_set in self.rule_sets:
-            try:
+            if "description" in rule_set:
                 del rule_set["description"]
-            except Exception as e:
-                print(e.args)
 
-            try:
+            if "headings" in rule_set:
                 del rule_set["headings"]
-            except Exception as e:
-                print(e.args)
 
-            try:
+            if "subheadings" in rule_set:
                 del rule_set["subheadings"]
-            except Exception as e:
-                print(e.args)
 
-            try:
+            if "is_ex_code" in rule_set:
                 del rule_set["is_ex_code"]
-            except Exception as e:
-                print(e.args)
 
-            try:
+            if "is_chapter" in rule_set:
                 del rule_set["is_chapter"]
-            except Exception as e:
-                print(e.args)
 
-            try:
+            if "is_heading" in rule_set:
                 del rule_set["is_heading"]
-            except Exception as e:
-                print(e.args)
 
-            try:
+            if "is_subheading" in rule_set:
                 del rule_set["is_subheading"]
-            except Exception as e:
-                print(e.args)
 
-            try:
+            if "is_range" in rule_set:
                 del rule_set["is_range"]
-            except Exception as e:
-                print(e.args)
 
-    def validate_table(self):
-        if self.validate_tables:
+    def validate_psr_table(self):
+        if self.validate_psr_tables:
             self.count_document_tables()
             self.count_document_table_row_cells()
 
@@ -597,31 +603,27 @@ class RooDocument(object):
         for i, row in enumerate(table.rows):
             cell1 = row.cells[0].text.strip()
             if cell1 == "":
-                print("\nERROR: Empty cell in first column not permitted - row after {cell_previous}.\n".format(cell_previous=cell_previous))
-                sys.exit()
+                Error("Empty cell in first column not permitted - row after {cell_previous}.".format(cell_previous=cell_previous))
             cell_previous = cell1
 
             cell_count = len(row.cells)
             if cell_count > 4:
-                print("\nERROR: There must not be more than 4 columns in the table")
-                sys.exit()
+                Error("There must not be more than 4 columns in the table")
 
             cells.append(cell_count)
         cell_set = list(set(cells))
 
         if len(cell_set) > 1:
-            print("\nERROR: Please ensure that all rows have the same number of columns and that they are of equal width.\n")
-            sys.exit()
+            Error("Please ensure that all rows have the same number of columns and that they are of equal width.")
 
     def count_document_tables(self):
+        """ If there is more than a single table in the document, then the process stops """
         print("- Counting tables for {file}".format(file=self.docx_filename))
         table_count = len(self.document.tables)
         if table_count > 1:
-            print("\nERROR: Please ensure that there is only one table in the document.\n")
-            sys.exit()
+            Error("Please ensure that there is only one table in the document.")
         elif table_count == 0:
-            print("\nERROR: Please ensure that there a table in the document.\n")
-            sys.exit()
+            Error("Please ensure that there a table in the document.")
 
     def check_coverage(self):
         print("- Checking that all commodity codes are covered for {file}".format(file=self.docx_filename))
@@ -641,25 +643,12 @@ class RooDocument(object):
         print("- Checking min max for {file}".format(file=self.docx_filename))
         issues = []
         for rule_set in self.rule_sets:
-            if rule_set["min"] is None or \
-                len(rule_set["min"]) != 10 or \
-                "," in rule_set["min"] or \
-                "and" in rule_set["min"] or \
-                rule_set["max"] is None or \
-                len(rule_set["max"]) != 10 or \
-                "," in rule_set["max"] or \
-                    "and" in rule_set["max"]:
+            if rule_set["min"] is None or len(rule_set["min"]) != 10 or "," in rule_set["min"] or "and" in rule_set["min"] or rule_set["max"] is None or len(rule_set["max"]) != 10 or "," in rule_set["max"] or "and" in rule_set["max"]:
                 issues.append(rule_set["heading"])
-                obj = {
-                    "document": self.docx_filename,
-                    "heading": rule_set["heading"],
-                }
-                g.min_max_issues.append(obj)
 
         if len(issues) > 0:
             s = "  - There are issues with null min and max values - please correct:\n\n  - "
             s += "\n  - ".join(issues)
             print(s)
-            # sys.exit()
         else:
             print("  - All min max fine")

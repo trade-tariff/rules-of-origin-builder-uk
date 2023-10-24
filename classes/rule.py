@@ -62,7 +62,7 @@ class Rule(object):
 
     def get_rule_class_lookup(self):
         self.rules_alphanumeric_only = self.alphanumeric_only(self.rule_string)
-        try:
+        if self.rules_alphanumeric_only in g.all_rules_with_classes:
             my_classes = g.all_rules_with_classes[self.rules_alphanumeric_only]
             if len(my_classes) > 0:
                 # Remove unspecified if this has previously been added
@@ -78,9 +78,6 @@ class Rule(object):
                         item2 = item2.replace(")", "")
                         if item2 not in self.rule_class:
                             self.rule_class.append(item2)
-        except Exception as e:
-            print(e.args)
-            pass
 
     def get_specific_processes(self):
         if "specific process" in self.rule_string.lower():
