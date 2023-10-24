@@ -104,10 +104,6 @@ venv.bak/
 .mypy_cache/
 
 __pycache__/
-csv/
-temp/
 .vscode/
 .DS_Store
-instructions.md
-resources/
 ~*

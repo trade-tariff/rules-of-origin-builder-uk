@@ -1,5 +1,3 @@
-from jsonpath_ng import jsonpath, parse
-from jsonpath_ng.ext import parser
 import jmespath
 
 
@@ -11,7 +9,6 @@ class CommCodeValidator(object):
     def validate(self):
         if self.comm_code >= "9800000000":
             return None
-        # query = "$.rule_sets[?((@.min <= '{code}') && (@.max >= '{code}'))]".format(code=self.comm_code)
         query = "rule_sets[?min <= '{code}' && max >= '{code}']".format(code=self.comm_code)
         expression = jmespath.compile(query)
         ret = expression.search(self.json_obj)

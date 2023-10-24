@@ -1,6 +1,7 @@
 import re
 import json
 import os
+import sys
 
 from classes.normalizer import Normalizer
 from classes.rule import Rule
@@ -47,8 +48,6 @@ class RuleSetLegacy(object):
             self.original_rule2 = row["original_rule2"].strip()
 
             # Before
-            if "Chapter 16" in self.original_heading:
-                a = 1
             self.original_rule = self.deal_with_semicolons_in_manufacture_rules(self.original_rule)
 
             # Concatenate the two columns of rules into one
@@ -66,8 +65,6 @@ class RuleSetLegacy(object):
             self.set_valid_status()
 
     def deal_with_semicolons_in_manufacture_rules(self, s):
-        if "0403" in self.original_heading:
-            a = 1
         ret = s.strip()
         ret = ret.replace("Manufacture in which;", "Manufacture in which:")
         if ret.startswith("Manufacture:") or ret.startswith("Manufacture in which:"):
@@ -76,7 +73,6 @@ class RuleSetLegacy(object):
             ret = ret.replace("\n", "\n- ")
             ret = ret.replace("\n- \n", "\n\n")
             ret = ret.replace("\n- - ", "\n- ")
-            a = 1
 
         return ret
 
@@ -96,10 +92,10 @@ class RuleSetLegacy(object):
         self.original_heading = self.original_heading.replace(u'\xa0', u' ')
         self.original_heading = self.original_heading.replace("ex ex", "ex ")
         self.original_heading = self.original_heading.replace("\n", " ")
+        self.original_heading = re.sub("\s+", " ", self.original_heading)
+        self.original_heading = re.sub("([0-9]{4}) ([0-9]{2})", "\\1\\2", self.original_heading)
         self.original_heading = re.sub(" {2,10}", " ", self.original_heading)
 
-        if "300670" in self.original_heading:
-            a = 1
         n = Normalizer()
         self.heading = n.normalize(self.original_heading)
 
@@ -115,7 +111,6 @@ class RuleSetLegacy(object):
             self.determine_minmax_from_single_term()
 
     def get_heading_class(self):
-        # print(self.heading)
         tmp = self.heading.lower()
         self.is_ex_code = False
         self.is_range = False
@@ -124,17 +119,21 @@ class RuleSetLegacy(object):
         self.is_subheading = False
 
         # Check if this is the chapter and get the chapter number
-        if "chapter" in tmp:
-            self.is_chapter = True
-            tmp2 = tmp.replace("ex", "").strip()
-            tmp2 = tmp2.replace("chapter", "").strip()
-            tmp2 = int(tmp2)
-            self.chapter = tmp2
-        else:
-            tmp2 = tmp.replace("ex", "").strip()
-            tmp2 = tmp2.strip()[0:2]
-            tmp2 = int(tmp2)
-            self.chapter = tmp2
+        try:
+            if "chapter" in tmp:
+                self.is_chapter = True
+                tmp2 = tmp.replace("ex", "").strip()
+                tmp2 = tmp2.replace("chapter", "").strip()
+                tmp2 = int(tmp2)
+                self.chapter = tmp2
+            else:
+                tmp2 = tmp.replace("ex", "").strip()
+                tmp2 = tmp2.strip()[0:2]
+                tmp2 = int(tmp2)
+                self.chapter = tmp2
+        except Exception as e:
+            print(e.args, self.heading)
+            sys.exit()
 
         # Check if this is an excode
         if "ex" in tmp:
@@ -148,8 +147,6 @@ class RuleSetLegacy(object):
             self.is_range = True
 
         # Check if this is a heading / subheading
-        if tmp == "2002 to 2003":
-            a = 1
         tmp = tmp.replace("ex ex", "").strip()
         tmp = tmp.replace("ex", "").strip()
         if self.is_range:
@@ -241,10 +238,6 @@ class RuleSetLegacy(object):
         self.subdivision = self.subdivision.replace(" %", "%")
         self.subdivision = self.subdivision.replace("— ", "\n- ")
 
-        if "Other" in self.subdivision:
-            if self.heading == "1302":
-                a = 1
-
         if self.subdivision[0:1] == "-" and self.subdivision[1:2] != " ":
             self.subdivision = "- " + self.subdivision[1:]
 
@@ -282,8 +275,6 @@ class RuleSetLegacy(object):
         # self.original_rule = re.sub("\([0-9]{1,2}\)", "", self.original_rule)
         self.process_footnotes()
         self.rules = []
-        tmp = self.original_rule.lower()
-
         self.original_rule = self.original_rule.replace("\nOr\n", "\nor\n", )
 
         # Remove any residual references to footnotes from the original Word documents

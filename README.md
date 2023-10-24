@@ -16,7 +16,7 @@ Used for OTT strategic - UK data
 
 - code_list=file where latest commodity code list is stored
 - all_rules_path=where the XI rule classes are stored
-- ott_path=folder in which to copy files for OTT prototype preview
+- ott_prototype_path=folder in which to copy files for OTT prototype preview
 
 ### Configurations
 - modern_documents="EU,Japan,Turkey,Canada"
@@ -43,7 +43,7 @@ The following are in a modern 2-column format
 - `python process.py "Central-America PSR.docx"`
 - `python process.py "Chile PSR.docx"`
 - `python process.py "CotedIvoire PSR.docx"`
-- `python process.py "DCTS-General-Enhanced.docx"`
+- `python process.py "DCTS-General-Enhanced PSR.docx"`
 - `python process.py "DCTS-LDCS PSR.docx"`
 - `python process.py "ESA PSR.docx"`
 - `python process.py "EU PSR.docx"`

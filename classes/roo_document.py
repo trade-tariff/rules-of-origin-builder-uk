@@ -1,28 +1,27 @@
-from re import sub
 import sys
 import os
 import json
 import shutil
 import csv
 from dotenv import load_dotenv
-from docx import Document
+# from docx import Document
 from docx.api import Document
 
 from classes.rule_set_modern import RuleSetModern
 from classes.rule_set_legacy import RuleSetLegacy
 from classes.comm_code_validator import CommCodeValidator
+from classes.environment_variable import EnvironmentVariable
 import classes.globals as g
 import classes.functions as func
 
 
 class RooDocument(object):
-    def __init__(self, file=None):
-        self.file = file
-        self.get_environment()
-        self.get_all_rules_with_classes()
-        self.get_chapter_codes()
-        self.get_arguments()
+    def __init__(self, psr_source_file=None):
+        self.psr_source_file = psr_source_file
         self.get_config()
+        self.get_footnotes()
+        self.get_all_rules_with_classes()
+        self.get_commodities()
         self.open_document()
         self.get_document_type()
         self.validate_table()
@@ -44,24 +43,20 @@ class RooDocument(object):
 
         print("\nFinished processing {file}\n".format(file=self.docx_filename))
 
-    def sort_by_minmax(self):
-        self.rule_sets = sorted(self.rule_sets, key=self.sort_by_max)
-        self.rule_sets = sorted(self.rule_sets, key=self.sort_by_min)
+    def get_config(self):
+        """ Works out paths and other configuration settings """
 
-    def sort_by_max(self, list):
-        return list["max"]
-
-    def sort_by_min(self, list):
-        return list["min"]
-
-    def get_environment(self):
         load_dotenv('.env')
-        self.source_folder = os.path.join(os.getcwd(), "source")
+        self.resources_folder = os.path.join(os.getcwd(), "resources")
+        self.source_folder = os.path.join(self.resources_folder, "source")
+        self.export_folder = os.path.join(self.resources_folder, "export")
+        self.config_folder = os.path.join(self.resources_folder, "config")
+        self.defaults_folder = os.path.join(self.resources_folder, "defaults")
 
-        # Get paths
-        self.code_list = os.getenv('code_list')
-        self.ott_path = os.getenv('ott_path')
-        self.all_rules_path = os.getenv('all_rules_path')
+        # Get paths from environment variables
+        self.preferred_code_list_file = EnvironmentVariable('preferred_code_list_file', 'string', permit_omission=True).value
+        self.ott_prototype_path = EnvironmentVariable('ott_prototype_path', 'string', permit_omission=True).value
+        self.all_rules_path = EnvironmentVariable('all_rules_path', 'string', permit_omission=True).value
 
         # Get features
         modern_documents = os.getenv('modern_documents')
@@ -70,25 +65,53 @@ class RooDocument(object):
         self.validate_commodities = int(os.getenv('validate_commodities'))
         self.validate_min_max = int(os.getenv('validate_min_max'))
 
-    def remove_invalid_entries(self):
-        for i in range(len(self.rule_sets) - 1, -1, -1):
-            rule_set = self.rule_sets[i]
-            if rule_set["valid"] is False:
-                a = 1
-                self.rule_sets.pop(i)
+        if self.psr_source_file is not None:
+            self.docx_filename = self.psr_source_file
+            self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
+        else:
+            if len(sys.argv) > 1:
+                self.docx_filename = sys.argv[1]
+                self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
+            else:
+                print("Please supply an input document")
+                sys.exit()
+
+        # Export paths
+        self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "-").lower()
+        self.export_filename = self.export_filename.replace("_psr", "")
+        self.export_filename = self.export_filename.replace("-psr", "")
+        self.export_filepath = os.path.join(self.export_folder, self.export_filename) + ".json"
+
+        self.config_filepath = os.path.join(self.config_folder, "config")
+        self.config_filename = os.path.join(self.config_filepath, "config-" + self.export_filename + ".json")
+
+    def get_footnotes(self):
+        # Load footnotes
+        self.footnotes = {}
+        if os.path.exists(self.config_filename):
+            f = open(self.config_filename)
+            self.footnotes = json.load(f)
 
     def get_all_rules_with_classes(self):
+        """ Function to pull in a list of all of the rules from the XI tariff and the
+        classes of rule that are associated with each of these. These are used (for example) 
+        in determining if a rule is wholly-obtained, and to populate the 'class' node
+        in the resultant JSON file"""
+        if not os.path.exists(self.all_rules_path):
+            self.all_rules_path = os.path.join(self.defaults_folder, "all_rules.json")
         f = open(self.all_rules_path)
         g.all_rules_with_classes = json.load(f)
         f.close()
-        a = 1
 
-    def get_chapter_codes(self):
+    def get_commodities(self):
+        """ Function to retrieve all of the commodity codes (latest version) from an external CSV file
+        """
         g.all_headings = {}
         g.all_subheadings = {}
         g.all_codes = []
         found_headings = []
-        with open(self.code_list) as csv_file:
+        self.check_preferred_code_list_file_exists()
+        with open(self.preferred_code_list_file) as csv_file:
             csv_reader = csv.DictReader(csv_file)
             for row in csv_reader:
                 if row["Class"] == "commodity":
@@ -105,37 +128,47 @@ class RooDocument(object):
                     g.all_subheadings[subheading] = row["Description"]
 
         csv_file.close()
-        a = 1
 
-    def get_arguments(self):
-        if self.file is not None:
-            self.docx_filename = self.file
-            self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
-        else:
-            if len(sys.argv) > 1:
-                self.docx_filename = sys.argv[1]
-                self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
-            else:
-                print("Please supply an input document")
-                sys.exit()
+    def check_preferred_code_list_file_exists(self):
+        # Get default commodity code list file
+        self.default_code_list_file = os.path.join(self.defaults_folder, "uk_commodities_2023-10-23.csv")
+        if not os.path.exists(self.preferred_code_list_file):
+            self.preferred_code_list_file = self.default_code_list_file
 
-        self.export_folder = os.path.join(os.getcwd(), "export")
-        self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "-").lower()
-        self.export_filename = self.export_filename.replace("_psr", "")
-        self.export_filename = self.export_filename.replace("-psr", "")
-        self.export_filepath = os.path.join(self.export_folder, self.export_filename) + ".json"
+    def export_min_max(self):
+        filename = os.path.join(self.resources_folder, "temp", "temp.csv")
+        f = open(filename, "w")
+        for rs in self.rule_sets:
+            f.write("'" + rs["heading"] + "',")
+            f.write(rs["min"] + ",")
+            f.write(rs["max"] + "\n")
+        f.close()
 
-        self.config_filepath = os.path.join(os.getcwd(), "config")
-        self.config_filename = os.path.join(self.config_filepath, "config-" + self.export_filename + ".json")
-        a = 1
+    def sort_by_minmax(self):
+        error_count = 0
+        self.export_min_max()
+        for rs in self.rule_sets:
+            if rs["min"] is None or rs["max"] is None:
+                error_count += 1
+                print("Max or min of 'None' found", rs["min"], rs["max"], rs["heading"])
 
-    def get_config(self):
-        self.footnotes = {}
-        if os.path.exists(self.config_filename):
-            a = 1
-            f = open(self.config_filename)
-            self.footnotes = json.load(f)
-        a = 1
+        if error_count > 0:
+            print("Aborting until issues are resolved in the source data file")
+
+        self.rule_sets = sorted(self.rule_sets, key=self.sort_by_max)
+        self.rule_sets = sorted(self.rule_sets, key=self.sort_by_min)
+
+    def sort_by_max(self, list):
+        return list["max"]
+
+    def sort_by_min(self, list):
+        return list["min"]
+
+    def remove_invalid_entries(self):
+        for i in range(len(self.rule_sets) - 1, -1, -1):
+            rule_set = self.rule_sets[i]
+            if rule_set["valid"] is False:
+                self.rule_sets.pop(i)
 
     def open_document(self):
         print("\nBeginning processing {file}\n".format(file=self.docx_filename))
@@ -197,7 +230,6 @@ class RooDocument(object):
             self.process_table_modern()
         else:
             self.process_table_legacy()
-        a = 1
 
     def process_table_modern(self):
         self.rule_sets = []
@@ -209,15 +241,12 @@ class RooDocument(object):
             elif "Chapter" in row["original_heading"]:
                 pass
             else:
-                if "15.09" in row["original_heading"]:
-                    a = 1
                 rule_set = RuleSetModern(row)
                 self.rule_sets.append(rule_set.as_dict())
 
     def process_table_legacy(self):
         self.rule_sets = []
         for row in self.rows:
-            # print(row["original_heading"])
             rule_set = RuleSetLegacy(row, self.footnotes)
             if rule_set.valid:
                 self.rule_sets.append(rule_set.as_dict())
@@ -227,8 +256,6 @@ class RooDocument(object):
     def normalise_chapters(self):
         for chapter in range(1, 98):
             all_ex_codes = True
-            if chapter == 52:
-                a = 1
             is_chapter_mentioned = False
             rule_set_count = 0
             if chapter != 77:
@@ -246,7 +273,6 @@ class RooDocument(object):
                     # If there are not, then we can just replicate rules, ignoring the headings that are exceptions
                     has_ex_code_headings = False
                     for rule_set in self.rule_sets:
-                        a = rule_set["heading"]
                         if rule_set["chapter"] == chapter:
                             if "chapter" not in rule_set["heading"].lower():
                                 if "ex" in rule_set["heading"]:
@@ -260,9 +286,10 @@ class RooDocument(object):
 
     def normalise_complex_chapter(self, chapter):
         chapter_string = str(chapter).rjust(2, "0")
+        print("Normalising complex chapter {chapter}".format(
+            chapter=chapter_string
+        ))
         # Get all the other rules in that chapter that are not the chapter heading
-        if chapter == 15:
-            a = 1
         matches = {}
         contains_subheading = False
         index = 0
@@ -355,7 +382,6 @@ class RooDocument(object):
             headings_without_subheading_rules = []
 
             for heading in g.all_headings:
-                heading_contains_matches = False
                 if heading[0:2] == chapter_string:
                     subheadings = []
                     contains_subheadings = False
@@ -404,7 +430,6 @@ class RooDocument(object):
                             new_max = subheading + "9999"
                         new_ruleset = self.copy_ruleset(matches[match], new_min, new_max)
                         additional_rulesets.append(new_ruleset)
-                        a = 1
 
             # Remove any rulesets for the selected chapter, as these will all be replaced by the newly formed equivalents
             ruleset_count = len(self.rule_sets)
@@ -422,8 +447,6 @@ class RooDocument(object):
         rules_for_ex_chapter = []
         rulesets_to_pop = []
         rules_for_current_chapter = []
-        if chapter == 15:
-            a = 1
         # First, get the chapter's own rule-set
         string_to_find = "chapter " + str(chapter)
         string_to_find2 = "chapter 0" + str(chapter)
@@ -513,7 +536,7 @@ class RooDocument(object):
         out_file = open(self.export_filepath, "w")
         json.dump({"rule_sets": self.rule_sets}, out_file, indent=6)
         out_file.close()
-        dest = os.path.join(self.ott_path, self.export_filename + ".json")
+        dest = os.path.join(self.ott_prototype_path, self.export_filename + ".json")
         shutil.copy(self.export_filepath, dest)
 
     def kill_document(self):
@@ -524,42 +547,42 @@ class RooDocument(object):
             try:
                 del rule_set["description"]
             except Exception as e:
-                pass
+                print(e.args)
 
             try:
                 del rule_set["headings"]
             except Exception as e:
-                pass
+                print(e.args)
 
             try:
                 del rule_set["subheadings"]
             except Exception as e:
-                pass
+                print(e.args)
 
             try:
                 del rule_set["is_ex_code"]
             except Exception as e:
-                pass
+                print(e.args)
 
             try:
                 del rule_set["is_chapter"]
             except Exception as e:
-                pass
+                print(e.args)
 
             try:
                 del rule_set["is_heading"]
             except Exception as e:
-                pass
+                print(e.args)
 
             try:
                 del rule_set["is_subheading"]
             except Exception as e:
-                pass
+                print(e.args)
 
             try:
                 del rule_set["is_range"]
             except Exception as e:
-                pass
+                print(e.args)
 
     def validate_table(self):
         if self.validate_tables:
@@ -605,11 +628,7 @@ class RooDocument(object):
         self.comm_code_omissions = []
         f = open(self.export_filepath)
         json_obj = json.load(f)
-        previous_heading = ""
         for comm_code in g.all_codes:
-            heading = comm_code[0:4]
-            if heading == "8443":
-                a = 1
             v = CommCodeValidator(comm_code, json_obj)
             ret = v.validate()
             if ret:

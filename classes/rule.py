@@ -78,8 +78,8 @@ class Rule(object):
                         item2 = item2.replace(")", "")
                         if item2 not in self.rule_class:
                             self.rule_class.append(item2)
-            a = 1
         except Exception as e:
+            print(e.args)
             pass
 
     def get_specific_processes(self):
@@ -162,17 +162,12 @@ class Rule(object):
         if self.rule_string == ".":
             self.rule_string == ""
 
-        if "muci" in self.rule_string:
-            a = 1
-
         corrections_file = os.path.join(os.getcwd(), "data", "corrections.json")
         f = open(corrections_file)
         corrections = json.load(f)
         for correction in corrections:
             self.rule_string = self.rule_string.replace(correction["from"], correction["to"])
         self.rule_string = self.rule_string.replace("- - ", "- ")
-        if "8537" in self.heading:
-            a = 1
         self.rule_string = self.rule_string.replace(",\n- and\n\n", ", and\n")
         self.rule_string = self.rule_string.replace(",\n- and\n", ", and\n")
 
@@ -191,9 +186,6 @@ class Rule(object):
         # self.rule_string = re.sub("([0-9]{1,3}\%)", "<b>\\1</b>", self.rule_string)
 
         # Use this if we need to use markdown for bold
-        if "ex Chapter 58" in self.heading:
-            if "47" in self.rule_string:
-                a = 1
         self.rule_string = re.sub("([0-9]{1,3}),([0-9]{1,3}([ %]))", "\\1.\\2\\3", self.rule_string)
         self.rule_string = self.rule_string.replace(" per cent", "%")
         self.rule_string = self.rule_string.replace("  ", " ")
@@ -210,9 +202,6 @@ class Rule(object):
         self.rule_string = re.sub(" or\n", " *or*\n", self.rule_string)
 
     def hyperlink_headings(self):
-        if self.heading == "ex Chapter 20":
-            a = 1
-        # print(self.heading)
         self.rule_string = self.rule_string.replace("headings No ", "heading ")
         self.rule_string = self.rule_string.replace("heading No ", "heading ")
         self.rule_string = self.rule_string.replace("heading Nos ", "heading ")
@@ -293,8 +282,6 @@ class Rule(object):
         self.rule_string = self.rule_string.replace(",.", ",")
 
     def get_rule_class(self):
-        if "27" in self.heading:
-            a = 1
         self.rule_class = []
         self.rule_string_original = self.rule_string_original.replace("A change from any other heading", "CTH")  # For Canada
 

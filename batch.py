@@ -6,7 +6,7 @@ import classes.globals as g
 
 g.clear()
 file_list = []
-source_folder = os.path.join(os.getcwd(), "source")
+source_folder = os.path.join(os.getcwd(), "resources", "source")
 for file in os.listdir(source_folder):
     if file.endswith("docx"):
         if "$" not in file:
