@@ -1,15 +1,16 @@
 import re
 import json
 import os
-import sys
 
 from classes.normalizer import Normalizer
 from classes.rule import Rule
+from classes.error import Error
 import classes.globals as g
 
 
 class RuleSetLegacy(object):
-    def __init__(self, row, footnotes_lookup):
+    def __init__(self, row, row_index, footnotes_lookup):
+        self.row_index = row_index
         self.hierarchy_divider = " ➔ "
         self.hierarchy_divider = " ▸ "
         self.heading = ""
@@ -90,9 +91,30 @@ class RuleSetLegacy(object):
         self.original_heading = self.original_heading.replace(u'\xa0', u' ')
         self.original_heading = self.original_heading.replace("ex ex", "ex ")
         self.original_heading = self.original_heading.replace("\n", " ")
+        self.original_heading = self.original_heading.replace(";", ",")
         self.original_heading = re.sub("\s+", " ", self.original_heading)
         self.original_heading = re.sub("([0-9]{4}) ([0-9]{2})", "\\1\\2", self.original_heading)
         self.original_heading = re.sub(" {2,10}", " ", self.original_heading)
+
+        # Check if the use of a comma could actually be replaced by a "to"
+        # which would be the case if the items are consecutive
+        if "," in self.original_heading:
+            if "ex" not in self.original_heading:
+                if "-" not in self.original_heading:
+                    parts = self.original_heading.split(",")
+                    if len(parts) == 2:
+                        if int(parts[0].strip()) == int(parts[1].strip()) - 1:
+                            self.original_heading = self.original_heading.replace(", ", " to ")
+
+        # Check if the use of an "and" could actually be replaced by a "to"
+        # which would be the case if the items are consecutive
+        if "and" in self.original_heading:
+            if "ex" not in self.original_heading:
+                if "-" not in self.original_heading:
+                    parts = self.original_heading.split("and")
+                    if len(parts) == 2:
+                        if int(parts[0].strip()) == int(parts[1].strip()) - 1:
+                            self.original_heading = self.original_heading.replace("and", "to")
 
         n = Normalizer()
         self.heading = n.normalize(self.original_heading)
@@ -130,8 +152,15 @@ class RuleSetLegacy(object):
                 tmp2 = int(tmp2)
                 self.chapter = tmp2
         except Exception as e:
-            print(e.args, self.heading)
-            sys.exit()
+            if self.heading is None or self.heading == "":
+                self.heading = "Not supplied"
+            msg = "Get heading class error on heading {heading} on row {row_index} of the table. This is typically caused by the presence of " + \
+                "an empty cell in the left-hand column. You may need to merge the cell with the cell above in order to process fhe file correctly."
+            msg = msg.format(
+                heading=self.heading,
+                row_index=str(self.row_index)
+            )
+            Error(msg, show_additional_information=True, exception=e)
 
         # Check if this is an excode
         if "ex" in tmp:
@@ -139,7 +168,7 @@ class RuleSetLegacy(object):
 
         # Check if this is a range
         tmp = tmp.replace("-", " to ")
-        tmp = tmp.replace("and", " to ")
+        # tmp = tmp.replace("and", " to ")
         tmp = tmp.replace("  ", " ")
         if "to" in tmp:
             self.is_range = True
@@ -159,6 +188,9 @@ class RuleSetLegacy(object):
                 self.is_heading = True
             elif len(tmp) == 6:
                 self.is_subheading = True
+
+        if not self.is_ex_code:
+            self.heading = tmp
 
     def determine_minmax_from_single_term(self):
         tmp = self.heading.lower()

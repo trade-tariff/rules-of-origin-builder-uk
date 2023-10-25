@@ -73,7 +73,7 @@ class RooDocument(object):
                 self.docx_filename = sys.argv[1]
                 self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
             else:
-                Error("Please supply an input document")
+                Error("Please supply an input document.", show_additional_information=False)
 
         # Export paths
         self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "-").lower()
@@ -149,6 +149,9 @@ class RooDocument(object):
         filename = os.path.join(self.resources_folder, "temp", "temp.csv")
         f = open(filename, "w")
         for rs in self.rule_sets:
+            if rs["min"] is None or rs["min"] is None:
+                print("Error with min or max of None on heading", rs["heading"])
+                sys.exit()
             f.write("'" + rs["heading"] + "',")
             f.write(rs["min"] + ",")
             f.write(rs["max"] + "\n")
@@ -167,7 +170,7 @@ class RooDocument(object):
                 print("Max or min of 'None' found", rs["min"], rs["max"], rs["heading"])
 
         if error_count > 0:
-            Error("Aborting until issues are resolved in the source data file")
+            Error("Aborting until issues are resolved in the source data file.", show_additional_information=False)
 
         # If we have not aborted, then sort the rules
         self.rule_sets = sorted(self.rule_sets, key=self.sort_by_max)
@@ -210,15 +213,20 @@ class RooDocument(object):
                 "Classification": "original_heading",
                 "PSR": "original_rule"
             }
+            required_keys = ["original_heading", "original_rule"]
         else:
             rename_keys = {
+                "Heading": "original_heading",
                 "Classification": "original_heading",
                 "Description": "description",
+                "Description of goods": "description",
+                "Conditions": "original_rule",
                 "PSR": "original_rule",
                 "PSR2": "original_rule2"
             }
+            required_keys = ["original_heading", "description", "original_rule", "original_rule2"]
 
-        data = []
+        raw_table_row_data = []
 
         keys = None
         for i, row in enumerate(table.rows):
@@ -233,16 +241,26 @@ class RooDocument(object):
             # Construct a dictionary for this row, mapping
             # keys to values for this row
             row_data = dict(zip(keys, text))
-            data.append(row_data)
+            raw_table_row_data.append(row_data)
 
-        self.rows = []
-        for item in data:
+        self.table_rows = []
+        for item in raw_table_row_data:
             if item != {}:
                 for old_key in rename_keys:
-                    new_key = rename_keys[old_key]
-                    item[new_key] = item.pop(old_key)
+                    if old_key in item.keys():
+                        new_key = rename_keys[old_key]
+                        item[new_key] = item.pop(old_key)
 
-                self.rows.append(item)
+                self.table_rows.append(item)
+
+        sample_table_row = self.table_rows[0]
+        table_is_valid = True
+        for required_key in required_keys:
+            if required_key not in sample_table_row.keys():
+                table_is_valid = False
+                break
+        if not table_is_valid:
+            Error("The source table is not valid. Please check that all columns are labelled correctly.", show_additional_information=False)
 
     def process_psr_table(self):
         print("- Processing table for {file}".format(file=self.docx_filename))
@@ -253,7 +271,7 @@ class RooDocument(object):
 
     def process_psr_table_modern(self):
         self.rule_sets = []
-        for row in self.rows:
+        for row in self.table_rows:
             if "Section" in row["original_heading"]:
                 pass
             elif "SECTION" in row["original_heading"]:
@@ -265,13 +283,120 @@ class RooDocument(object):
                 self.rule_sets.append(rule_set.as_dict())
 
     def process_psr_table_legacy(self):
+        self.check_psr_table_validity()
         self.rule_sets = []
-        for row in self.rows:
-            rule_set = RuleSetLegacy(row, self.footnotes)
+        row_index = 0
+        for row in self.table_rows:
+            rule_set = RuleSetLegacy(row, row_index, self.footnotes)
             if rule_set.valid:
                 self.rule_sets.append(rule_set.as_dict())
+            row_index += 1
 
         self.normalise_chapters()
+
+    def check_psr_table_validity(self):
+        """ Checks for:
+
+        1. empty cells in the first column
+        2. Check for ex being used more than once in a cell
+
+        All of these issues need to be manually corrected in the source Word document
+        """
+        empty_rows = []
+        double_ex_rows = []
+        mixed_conjunctions = []
+        more_than_one_comma = []
+        row_index = 0
+        last_valid_heading = ""
+        for row in self.table_rows:
+            original_heading = row["original_heading"]
+            original_heading = original_heading.replace(";", ",")
+            # if "4410" in row["original_heading"]:
+            #     a = 1
+            if original_heading == "" or original_heading is None:
+                empty_rows.append((row_index, last_valid_heading))
+            else:
+                last_valid_heading = original_heading
+
+            if self.is_double_ex(original_heading):
+                double_ex_rows.append((row_index, last_valid_heading))
+
+            if self.has_mixed_conjunctions(original_heading):
+                mixed_conjunctions.append((row_index, last_valid_heading))
+
+            if self.has_more_than_one_comma(original_heading):
+                more_than_one_comma.append((row_index, last_valid_heading))
+
+            row_index += 1
+
+        # Priority 1 - report on empty column 1 cells
+        if len(empty_rows) > 0:
+            msg = "\nThere are errors in the table with empty cells in column 1. Please correct these issues before processing can complete. " + \
+                "This is likely to need the empty cell to be merged in MS Word into the cell above.\n\n"
+            for error_row in empty_rows:
+                msg += "Line " + str(error_row[0]) + ", under heading " + error_row[1] + "\n"
+            print(msg)
+            sys.exit()
+
+        # Priority 2 - report on instances where ex is used more than once in a cell
+        if len(double_ex_rows) > 0:
+            msg = "\nThere are errors in the table with cells in column 1 that feature multiple ex codes. The system cannot work with cells such as these. " + \
+                "Please split the rows into multiple rows, one per ex code.\n\n"
+            for double_ex_row in double_ex_rows:
+                msg += "Line " + str(double_ex_row[0]) + ", under heading " + double_ex_row[1] + "\n"
+            print(msg)
+            sys.exit()
+
+        # Priority 3 - report on mixed conjunctions in a cell, e.g. a comma, and, to and hyphen
+        if len(mixed_conjunctions) > 0:
+            msg = "\nThere are errors in the table with cells in column 1 that feature multiple conjunctions such as commas, ands, tos and hyphens. " + \
+                "The system cannot work with cells such as these.\n\n" + \
+                "Please split the rows into multiple rows, one per item.\n\n"
+            for mixed_conjunction in mixed_conjunctions:
+                msg += "Line " + str(mixed_conjunction[0]) + ", under heading " + mixed_conjunction[1] + "\n"
+            print(msg)
+            sys.exit()
+
+        # Priority 4 - report on more than one comma
+        if len(more_than_one_comma) > 0:
+            msg = "\nThere are errors in the table with cells in column 1 that feature more than one comma or semi-colon. " + \
+                "The system cannot work with cells such as these.\n\n" + \
+                "Please split the rows into multiple rows, one per item.\n\n"
+            for item in more_than_one_comma:
+                msg += "Line " + str(item[0]) + ", under heading " + item[1] + "\n"
+            print(msg)
+            sys.exit()
+
+    def is_double_ex(self, s):
+        # if "4410" in s:
+        #     a = 1
+        if s is not None:
+            occurrence_count = s.count("ex")
+            return True if occurrence_count > 1 else False
+        else:
+            return False
+
+    def has_more_than_one_comma(self, s):
+        if s is not None:
+            occurrence_count = s.count(",")
+            return True if occurrence_count > 1 else False
+        else:
+            return False
+
+    def has_mixed_conjunctions(self, s):
+        if s is not None:
+            conjunction_count = 0
+            if "," in s:
+                conjunction_count += 1
+            if "to" in s:
+                conjunction_count += 1
+            if "-" in s:
+                conjunction_count += 1
+            if "and" in s:
+                conjunction_count += 1
+            return True if conjunction_count > 1 else False
+        else:
+            return False
 
     def normalise_chapters(self):
         print("- Normalising chapters:")
@@ -603,27 +728,27 @@ class RooDocument(object):
         for i, row in enumerate(table.rows):
             cell1 = row.cells[0].text.strip()
             if cell1 == "":
-                Error("Empty cell in first column not permitted - row after {cell_previous}.".format(cell_previous=cell_previous))
+                Error("Empty cell in first column not permitted - row after {cell_previous}.".format(cell_previous=cell_previous), show_additional_information=False)
             cell_previous = cell1
 
             cell_count = len(row.cells)
             if cell_count > 4:
-                Error("There must not be more than 4 columns in the table")
+                Error("There must not be more than 4 columns in the table.", show_additional_information=False)
 
             cells.append(cell_count)
         cell_set = list(set(cells))
 
         if len(cell_set) > 1:
-            Error("Please ensure that all rows have the same number of columns and that they are of equal width.")
+            Error("Please ensure that all rows have the same number of columns and that they are of equal width.", show_additional_information=False)
 
     def count_document_tables(self):
         """ If there is more than a single table in the document, then the process stops """
         print("- Counting tables for {file}".format(file=self.docx_filename))
         table_count = len(self.document.tables)
         if table_count > 1:
-            Error("Please ensure that there is only one table in the document.")
+            Error("Please ensure that there is only one table in the document.", show_additional_information=False)
         elif table_count == 0:
-            Error("Please ensure that there a table in the document.")
+            Error("Please ensure that there is exactly one table in the document. There are currently no tables.", show_additional_information=False)
 
     def check_coverage(self):
         print("- Checking that all commodity codes are covered for {file}".format(file=self.docx_filename))

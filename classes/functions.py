@@ -1,3 +1,6 @@
+import logging
+
+
 def range_matches_heading(my_range, my_heading):
     potential_matches = []
     if "-" in my_range:
@@ -21,9 +24,11 @@ def range_matches_heading(my_range, my_heading):
 
     return matched
 
+
 def to_integer(s):
     try:
         i = int(s)
     except Exception as e:
+        logging.debug('to_integer', e.args)
         i = 0
     return i

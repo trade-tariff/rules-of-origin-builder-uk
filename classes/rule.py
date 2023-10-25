@@ -95,7 +95,7 @@ class Rule(object):
         if self.rule_string == ".":
             self.rule_string == ""
 
-        corrections_file = os.path.join(os.getcwd(), "data", "corrections.json")
+        corrections_file = os.path.join(os.getcwd(), "resources", "data", "corrections.json")
         f = open(corrections_file)
         corrections = json.load(f)
         for correction in corrections:
