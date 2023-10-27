@@ -321,6 +321,7 @@ class Rule(object):
             self.rule_class = ["MAXNOM"]
 
         self.rule_string = self.rule_string.replace("EXW", "ex-works price (EXW)")
+        self.rule_string = self.rule_string.replace("I.C.C.A.T.", "ICCAT")
 
     def as_dict(self):
         s = {
