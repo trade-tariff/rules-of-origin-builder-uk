@@ -35,10 +35,16 @@ Used for OTT strategic - UK data
 
 The following are in a modern 2-column format
 
+- `python process.py "Canada PSR.docx"`
+- `python process.py "EU PSR.docx"`
+- `python process.py "Japan PSR.docx"`
+- `python process.py "Turkey PSR.docx"`
+
+And these are in the older but more common format
+
 - `python process.py "Albania PSR.docx"`
 - `python process.py "Andean PSR.docx"`
 - `python process.py "Cameroon PSR.docx"`
-- `python process.py "Canada PSR.docx"`
 - `python process.py "Cariforum PSR.docx"`
 - `python process.py "Central-America PSR.docx"`
 - `python process.py "Chile PSR.docx"`
@@ -46,14 +52,12 @@ The following are in a modern 2-column format
 - `python process.py "DCTS-General-Enhanced PSR.docx"`
 - `python process.py "DCTS-LDCS PSR.docx"`
 - `python process.py "ESA PSR.docx"`
-- `python process.py "EU PSR.docx"`
 - `python process.py "Faroe-Islands PSR.docx"`
 - `python process.py "Georgia PSR.docx"`
 - `python process.py "Ghana PSR.docx"`
 - `python process.py "GSP PSR.docx"`
 - `python process.py "Iceland-Norway PSR.docx"`
 - `python process.py "Israel PSR.docx"`
-- `python process.py "Japan PSR.docx"`
 - `python process.py "Jordan PSR.docx"`
 - `python process.py "Kenya PSR.docx"`
 - `python process.py "Kosovo PSR.docx"`
@@ -71,7 +75,6 @@ The following are in a modern 2-column format
 - `python process.py "South Korea PSR.docx"`
 - `python process.py "Switzerland-Liechtenstein PSR.docx"`
 - `python process.py "Tunisia PSR.docx"`
-- `python process.py "Turkey PSR.docx"`
 - `python process.py "Ukraine PSR.docx"`
 - `python process.py "Vietnam PSR.docx"`
 
