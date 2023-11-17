@@ -206,6 +206,10 @@ class RooDocument(object):
 
     def read_psr_table(self):
         print("- Reading table for file {file}".format(file=self.docx_filename))
+        # Count the tables - if there is more than one then error out
+        table_count = len(self.document.tables)
+        if table_count > 1:
+            Error("Ensure there is only one table in the document and re-run", show_additional_information=False)
         table = self.document.tables[0]
 
         if self.modern:
@@ -260,7 +264,10 @@ class RooDocument(object):
                 table_is_valid = False
                 break
         if not table_is_valid:
-            Error("The source table is not valid. Please check that all columns are labelled correctly.", show_additional_information=False)
+            Error(
+                "The source table is not valid. Please check that all columns are labelled correctly.\n\nFor 2-columns documents, ensure that there is a single table where the two columns are entitled\n\n- Classification\n- PSR",
+                show_additional_information=False
+            )
 
     def process_psr_table(self):
         print("- Processing table for {file}".format(file=self.docx_filename))

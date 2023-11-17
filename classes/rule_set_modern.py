@@ -1,4 +1,5 @@
 import re
+import sys
 
 from classes.normalizer import Normalizer
 from classes.rule import Rule
@@ -8,7 +9,11 @@ class RuleSetModern(object):
     def __init__(self, row):
         # A rule set essentially equates to a row on the table
         self.original_heading = row["original_heading"].strip()
-        self.original_rule = row["original_rule"].strip()
+        try:
+            self.original_rule = row["original_rule"].strip()
+        except Exception as e:
+            print(e.args)
+            sys.exit()
 
         self.heading = ""
         self.subdivision = ""
