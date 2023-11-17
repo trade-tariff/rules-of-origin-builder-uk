@@ -37,7 +37,7 @@ The following are in a modern 2-column format
 
 - `python process.py "Albania PSR.docx"`
 - `python process.py "Andean PSR.docx"`
-- `python process.py "Cameroon PSR.docx"` -- does not work
+- `python process.py "Cameroon PSR.docx"`
 - `python process.py "Canada PSR.docx"`
 - `python process.py "Cariforum PSR.docx"`
 - `python process.py "Central-America PSR.docx"`
@@ -54,7 +54,7 @@ The following are in a modern 2-column format
 - `python process.py "Iceland-Norway PSR.docx"`
 - `python process.py "Israel PSR.docx"`
 - `python process.py "Japan PSR.docx"`
-- `python process.py "Jordan PSR.docx"` -- Done
+- `python process.py "Jordan PSR.docx"`
 - `python process.py "Kenya PSR.docx"`
 - `python process.py "Kosovo PSR.docx"`
 - `python process.py "Lebanon PSR.docx"`

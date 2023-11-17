@@ -311,8 +311,9 @@ class RooDocument(object):
         for row in self.table_rows:
             original_heading = row["original_heading"]
             original_heading = original_heading.replace(";", ",")
-            # if "4410" in row["original_heading"]:
-            #     a = 1
+            original_heading = original_heading.replace(u'\xa0', u' ')
+            original_heading = original_heading.replace("ex ex", "ex")
+
             if original_heading == "" or original_heading is None:
                 empty_rows.append((row_index, last_valid_heading))
             else:
