@@ -55,7 +55,7 @@ And these are in the older but more common format
 - `python process.py "Faroe-Islands PSR.docx"`
 - `python process.py "Georgia PSR.docx"`
 - `python process.py "Ghana PSR.docx"`
-- `python process.py "GSP PSR.docx"`
+- `python process.py "GSP PSR.docx"` -- No longer needed
 - `python process.py "Iceland-Norway PSR.docx"`
 - `python process.py "Israel PSR.docx"`
 - `python process.py "Jordan PSR.docx"`
@@ -77,6 +77,7 @@ And these are in the older but more common format
 - `python process.py "Tunisia PSR.docx"`
 - `python process.py "Ukraine PSR.docx"`
 - `python process.py "Vietnam PSR.docx"`
+- `python process.py "Non-Preferential PSR.docx"`
 
 
 To batch process all documents (both new and legacy)

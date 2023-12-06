@@ -92,8 +92,8 @@ class Rule(object):
         self.rule_string = self.rule_string.replace("non originating", "non-originating")
         self.rule_string = self.rule_string.replace("shall not exceed", "must not exceed")
 
-        if self.rule_string == ".":
-            self.rule_string == ""
+        if self.rule_string == "." or self.rule_string.lower().startswith("as specified for"):
+            self.rule_string = ""
 
         corrections_file = os.path.join(os.getcwd(), "resources", "data", "corrections.json")
         f = open(corrections_file)
@@ -264,11 +264,31 @@ class Rule(object):
 
         cc_string = "<abbr title='Change of tariff chapter'>CC</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter)"
         cth_string = "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading)"
+        cths_string = "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading"
+        ctshs_string = "<abbr title='Change to the split subheading'>CTSHS</abbr>: change to the split subheading in question from any other split of this subheading or from any other subheading or heading"
 
         tmp = self.rule_string.lower()
         if self.rule_string_original == "CTH":
             self.rule_string = cth_string
             self.rule_class = ["CTH"]
+
+        elif "CTSHS" in self.rule_string_original:
+            self.rule_string = self.rule_string.replace("CTSHS", ctshs_string)
+            self.rule_class = ["CTSHS"]
+            if "in which" in tmp or "provided that" in tmp:
+                self.rule_class.append("MAXNOM")
+
+        elif "CTHS" in self.rule_string_original:
+            self.rule_string = self.rule_string.replace("CTHS", cths_string)
+            self.rule_class = ["CTHS"]
+            if "in which" in tmp or "provided that" in tmp:
+                self.rule_class.append("MAXNOM")
+
+        elif "CTSH" in self.rule_string_original:
+            self.rule_string = self.rule_string.replace("CTSH", cth_string)
+            self.rule_class = ["CTSH"]
+            if "in which" in tmp or "provided that" in tmp:
+                self.rule_class.append("MAXNOM")
 
         elif "CTH" in self.rule_string_original:
             self.rule_string = self.rule_string.replace("CTH", cth_string)

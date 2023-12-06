@@ -77,6 +77,8 @@ class RuleSetLegacy(object):
 
     def capture_parent_description(self):
         self.original_rule = self.original_rule.strip()
+        if self.original_rule == "As specified for split headings":
+            self.original_rule = ""
         if self.original_rule == "" or self.original_rule == "-":
             g.parent_heading = self.subdivision
 
@@ -87,8 +89,12 @@ class RuleSetLegacy(object):
                 break
 
     def process_heading(self):
+        self.original_heading = re.sub("\s+", " ", self.original_heading)
+        self.original_heading = re.sub("\s\([a-z]\)", "", self.original_heading)
+        self.original_heading = re.sub("ex\s+([0-9]{1,2}) ([0-9]{1,2})", "ex \\1\\2", self.original_heading)
         self.original_heading = re.sub("([0-9]{4}) and ([0-9]{4})", "\\1 to \\2", self.original_heading)
         self.original_heading = self.original_heading.replace(u'\xa0', u' ')
+        self.original_heading = self.original_heading.replace("–", "-")
         self.original_heading = self.original_heading.replace("ex ex", "ex ")
         self.original_heading = self.original_heading.replace("\n", " ")
         self.original_heading = self.original_heading.replace(";", ",")
@@ -273,7 +279,7 @@ class RuleSetLegacy(object):
 
         if self.subdivision[0:2] == "- ":
             self.subdivision = self.subdivision[2:]
-            self.subdivision = g.parent_heading.replace(":", " ").strip() + self.hierarchy_divider + self.subdivision
+            self.subdivision = g.parent_heading.replace(":", " ").strip().strip(".") + self.hierarchy_divider + self.subdivision.capitalize()
 
         self.subdivision = self.subdivision.replace("- - ", "- ")
         self.subdivision = self.subdivision.replace("ex ex", "ex ")
