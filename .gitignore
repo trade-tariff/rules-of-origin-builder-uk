@@ -107,3 +107,4 @@ __pycache__/
 .vscode/
 .DS_Store
 ~*
+resources/temp/
