@@ -36,12 +36,26 @@ class RooDocument(object):
         self.write_table()
         self.kill_document()
 
+        self.check_opening_dash_in_rule()
         if self.validate_commodities:
             self.check_coverage()
         if self.validate_min_max:
             self.validate_min_max_values()
 
         print("\nFinished processing {file}\n".format(file=self.docx_filename))
+
+    def check_opening_dash_in_rule(self):
+        if not self.modern:
+            errors = []
+            for rule_set in self.rule_sets:
+                for rule in rule_set["rules"]:
+                    if rule["rule"][0:1] == "-":
+                        errors.append(rule_set["heading"])  # + " : " + rule_set["subdivision"] )
+                    a = 1
+            if len(errors) > 0:
+                Error(
+                    "Rule starts with a hyphen ... Check for incorrect cell merging on headings {headings}".format(headings=", ".join(errors)), show_additional_information=False
+                    )
 
     def get_config(self):
         """ Works out paths and other configuration settings """

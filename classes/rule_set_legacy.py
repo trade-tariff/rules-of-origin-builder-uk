@@ -35,6 +35,7 @@ class RuleSetLegacy(object):
             self.description = ""
             self.subdivision = row["description"].strip()
             self.subdivision = self.subdivision.replace("; except for:", "")
+            self.subdivision = self.subdivision.replace(", except for:", "")
             self.subdivision = self.subdivision.replace("\n<b>", "<br><b>")
 
             # Run the corrections
@@ -135,6 +136,7 @@ class RuleSetLegacy(object):
             self.determine_minmax_from_range()
         else:
             self.determine_minmax_from_single_term()
+        self.heading = self.heading.replace("chapter ", "Chapter ")
 
     def get_heading_class(self):
         tmp = self.heading.lower()
@@ -263,10 +265,11 @@ class RuleSetLegacy(object):
                     proceed = False
 
     def process_subdivision(self):
-        # Especially dodgy hyphen chars
+        if "chapter 61" in self.heading.lower():
+            a = 1
+        # Standardise different hyphen characters
         self.subdivision = self.subdivision.replace("—", "–")
         self.subdivision = self.subdivision.replace("–", "-")
-        # self.subdivision = self.subdivision.replace("-", "- ")
         self.subdivision = self.subdivision.replace("  ", " ")
 
         n = Normalizer()
@@ -279,7 +282,7 @@ class RuleSetLegacy(object):
 
         if self.subdivision[0:2] == "- ":
             self.subdivision = self.subdivision[2:]
-            self.subdivision = g.parent_heading.replace(":", " ").strip().strip(".") + self.hierarchy_divider + self.subdivision.capitalize()
+            self.subdivision = g.parent_heading.replace(":", " ").strip() + self.hierarchy_divider + self.subdivision  # .capitalize()
 
         self.subdivision = self.subdivision.replace("- - ", "- ")
         self.subdivision = self.subdivision.replace("ex ex", "ex ")
@@ -287,6 +290,8 @@ class RuleSetLegacy(object):
         if len(self.subdivision) > 1:
             if self.subdivision[0:3] == "\n- ":
                 self.subdivision = self.subdivision[3:]
+
+        self.subdivision = self.subdivision.replace("\nsee also", "\nSee also")
 
     def process_footnotes(self):
         if len(self.footnotes_lookup) > 0:
