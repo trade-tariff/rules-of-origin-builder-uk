@@ -82,3 +82,6 @@ And these are in the older but more common format
 
 To batch process all documents (both new and legacy)
 - `python batch.py`
+
+
+python process.py "Iceland-Norway PSR - step 3.docx"
