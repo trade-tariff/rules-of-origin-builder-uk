@@ -1,7 +1,7 @@
 {
       "rule_sets": [
             {
-                  "heading": "chapter 1",
+                  "heading": "Chapter 1",
                   "chapter": 1,
                   "subdivision": "Live animals",
                   "min": "0100000000",
@@ -22,7 +22,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 2",
+                  "heading": "Chapter 2",
                   "chapter": 2,
                   "subdivision": "Meat and edible meat offal",
                   "min": "0200000000",
@@ -43,7 +43,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 3",
+                  "heading": "Chapter 3",
                   "chapter": 3,
                   "subdivision": "Fish and crustaceans, molluscs and other aquatic invertebrates",
                   "min": "0300000000",
@@ -64,7 +64,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 4",
+                  "heading": "Chapter 4",
                   "chapter": 4,
                   "subdivision": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
                   "min": "0400000000",
@@ -127,7 +127,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 6",
+                  "heading": "Chapter 6",
                   "chapter": 6,
                   "subdivision": "Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",
                   "min": "0600000000",
@@ -148,7 +148,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 7",
+                  "heading": "Chapter 7",
                   "chapter": 7,
                   "subdivision": "Edible vegetables and certain roots and tubers",
                   "min": "0700000000",
@@ -169,7 +169,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 8",
+                  "heading": "Chapter 8",
                   "chapter": 8,
                   "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
                   "min": "0800000000",
@@ -190,7 +190,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 9",
+                  "heading": "Chapter 9",
                   "chapter": 9,
                   "subdivision": "Coffee, tea, mat\u00e9 and spices",
                   "min": "0900000000",
@@ -211,7 +211,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 10",
+                  "heading": "Chapter 10",
                   "chapter": 10,
                   "subdivision": "Cereals",
                   "min": "1000000000",
@@ -232,14 +232,14 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 11",
+                  "heading": "Chapter 11",
                   "chapter": 11,
                   "subdivision": "Products of the milling industry; malt; starches; inulin; wheat gluten",
                   "min": "1100000000",
                   "max": "1199999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapters 08](/chapters/08), 10 and 11, [heading&nbsp;0701](/headings/0701), [heading&nbsp;0714](/headings/0714), [heading&nbsp;2302](/headings/2302) and [heading&nbsp;2303](/headings/2303), and [subheading&nbsp;071010](/subheading/0710100000-80) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;8](/chapters/08), [chapter&nbsp;10](/chapters/10) and [chapter&nbsp;11](/chapters/11), [heading&nbsp;0701](/headings/0701), [heading&nbsp;0714](/headings/0714), [heading&nbsp;2302](/headings/2302) and [heading&nbsp;2303](/headings/2303), and [subheading&nbsp;071010](/subheading/0710100000-80) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -253,7 +253,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 12",
+                  "heading": "Chapter 12",
                   "chapter": 12,
                   "subdivision": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal plants; straw and fodder",
                   "min": "1200000000",
@@ -314,7 +314,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 14",
+                  "heading": "Chapter 14",
                   "chapter": 14,
                   "subdivision": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
                   "min": "1400000000",
@@ -398,27 +398,6 @@
                   "valid": true
             },
             {
-                  "heading": "1504",
-                  "chapter": 15,
-                  "subdivision": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",
-                  "min": "1504000000",
-                  "max": "1504999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from materials of any heading, except that of the product.",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "1504 to 1506",
                   "chapter": 15,
                   "subdivision": "Fats and oils and their fractions, of fish or marine mammals; wool grease and fatty substances derived therefrom (including lanolin); other animal fats and oils and their fractions, whether or not refined, but not chemically modified",
@@ -470,27 +449,6 @@
                         {
                               "rule": "Manufacture from materials of any subheading, except that of the product.",
                               "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "1509",
-                  "chapter": 15,
-                  "subdivision": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",
-                  "min": "1509000000",
-                  "max": "1509999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from materials of any heading, except that of the product.",
-                              "class": [
-                                    "CTH"
-                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -812,7 +770,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 16",
+                  "heading": "Chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1600000000",
@@ -850,8 +808,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 17
+                  "chapter": 17,
+                  "valid": true
             },
             {
                   "heading": "1702",
@@ -911,8 +869,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 17
+                  "chapter": 17,
+                  "valid": true
             },
             {
                   "heading": "1704",
@@ -922,7 +880,7 @@
                   "max": "1704999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the exworks price of the product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1057,7 +1015,7 @@
                   "max": "1806199999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the exworks price of the product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1116,7 +1074,7 @@
                   "max": "1806299999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the exworks price of the product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1156,7 +1114,7 @@
                   "max": "1806319999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the exworks price of the product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1196,7 +1154,7 @@
                   "max": "1806329999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the exworks price of the product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1236,7 +1194,7 @@
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the exworks price of the product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product or\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1297,7 +1255,7 @@
                   "max": "1902999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of the materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the final product, *and*\n\n- the weight of the materials of [chapters 02](/chapters/02), 3 and 16 used does not exceed **20%** of the weight of the final product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of the materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the final product, *and*\n\n- the weight of the materials of [chapter&nbsp;2](/chapters/02), [chapter&nbsp;3](/chapters/03) and [chapter&nbsp;16](/chapters/16) used does not exceed **20%** of the weight of the final product.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1373,27 +1331,6 @@
                   "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
                   "min": "2001000000",
                   "max": "2001999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from materials of any heading, except that of the product.",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "2002",
-                  "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
-                  "min": "2002000000",
-                  "max": "2002999999",
                   "rules": [
                         {
                               "rule": "Manufacture from materials of any heading, except that of the product.",
@@ -1587,8 +1524,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 21
+                  "chapter": 21,
+                  "valid": true
             },
             {
                   "heading": "2102",
@@ -1608,8 +1545,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 21
+                  "chapter": 21,
+                  "valid": true
             },
             {
                   "heading": "2103",
@@ -1671,8 +1608,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 21
+                  "chapter": 21,
+                  "valid": true
             },
             {
                   "heading": "2105",
@@ -1730,8 +1667,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2202",
@@ -1772,8 +1709,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2204",
@@ -1793,8 +1730,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2205",
@@ -1814,8 +1751,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2206",
@@ -1835,8 +1772,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2207",
@@ -1856,8 +1793,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2207 to 2208",
@@ -1898,8 +1835,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2209",
@@ -1919,8 +1856,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2301",
@@ -1940,8 +1877,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 23
+                  "chapter": 23,
+                  "valid": true
             },
             {
                   "heading": "2302",
@@ -1961,8 +1898,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 23
+                  "chapter": 23,
+                  "valid": true
             },
             {
                   "heading": "2303",
@@ -1982,8 +1919,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 23
+                  "chapter": 23,
+                  "valid": true
             },
             {
                   "heading": "2304",
@@ -2003,8 +1940,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 23
+                  "chapter": 23,
+                  "valid": true
             },
             {
                   "heading": "2305",
@@ -2024,8 +1961,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 23
+                  "chapter": 23,
+                  "valid": true
             },
             {
                   "heading": "2306",
@@ -2045,8 +1982,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 23
+                  "chapter": 23,
+                  "valid": true
             },
             {
                   "heading": "2307",
@@ -2066,8 +2003,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 23
+                  "chapter": 23,
+                  "valid": true
             },
             {
                   "heading": "2308",
@@ -2087,8 +2024,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 23
+                  "chapter": 23,
+                  "valid": true
             },
             {
                   "heading": "2309",
@@ -2285,7 +2222,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 26",
+                  "heading": "Chapter 26",
                   "chapter": 26,
                   "subdivision": "Ores, slag and ash",
                   "min": "2600000000",
@@ -2514,7 +2451,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2640,7 +2577,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2670,7 +2607,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2700,7 +2637,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2730,7 +2667,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2840,7 +2777,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 28",
+                  "heading": "Chapter 28",
                   "chapter": 28,
                   "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
                   "min": "2800000000",
@@ -3041,7 +2978,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 30",
+                  "heading": "Chapter 30",
                   "chapter": 30,
                   "subdivision": "Pharmaceutical products",
                   "min": "3000000000",
@@ -3071,7 +3008,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 31",
+                  "heading": "Chapter 31",
                   "chapter": 31,
                   "subdivision": "Fertilizers",
                   "min": "3100000000",
@@ -3104,7 +3041,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 32",
+                  "heading": "Chapter 32",
                   "chapter": 32,
                   "subdivision": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints and varnishes; putty and other mastics; inks",
                   "min": "3200000000",
@@ -3146,7 +3083,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 33",
+                  "heading": "Chapter 33",
                   "chapter": 33,
                   "subdivision": "Essential oils and resinoids; perfumery, cosmetic or toilet preparations",
                   "min": "3300000000",
@@ -3188,7 +3125,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 34",
+                  "heading": "Chapter 34",
                   "chapter": 34,
                   "subdivision": "Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, \"dental waxes\" and dental preparations with a basis of plaster",
                   "min": "3400000000",
@@ -3230,7 +3167,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 35",
+                  "heading": "Chapter 35",
                   "chapter": 35,
                   "subdivision": "Albuminoidal substances; modified starches; glues; enzymes",
                   "min": "3500000000",
@@ -3272,7 +3209,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 36",
+                  "heading": "Chapter 36",
                   "chapter": 36,
                   "subdivision": "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations",
                   "min": "3600000000",
@@ -3314,7 +3251,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 37",
+                  "heading": "Chapter 37",
                   "chapter": 37,
                   "subdivision": "Photographic or cinematographic goods",
                   "min": "3700000000",
@@ -3435,7 +3372,7 @@
                   "max": "3824999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which biodiesel is obtained through transesterification and&nbsp;/&nbsp;or esterification or through hydrotreatment.",
+                              "rule": "Manufacture in which biodiesel is obtained through transesterification and&nbsp;/&nbsp;or esterification or through hydro-treatment.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3454,7 +3391,7 @@
                   "max": "3826009999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which biodiesel is obtained through transesterification and&nbsp;/&nbsp;or esterification or through hydrotreatment.",
+                              "rule": "Manufacture in which biodiesel is obtained through transesterification and&nbsp;/&nbsp;or esterification or through hydro-treatment.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3466,7 +3403,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 39",
+                  "heading": "Chapter 39",
                   "chapter": 39,
                   "subdivision": "Plastics and articles thereof",
                   "min": "3900000000",
@@ -3577,8 +3514,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4102",
@@ -3598,8 +3535,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4103",
@@ -3619,8 +3556,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4104",
@@ -3640,8 +3577,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4104 to 4106",
@@ -3693,8 +3630,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4106",
@@ -3714,8 +3651,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4107",
@@ -3735,8 +3672,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4112",
@@ -3756,8 +3693,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4113",
@@ -3777,8 +3714,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4114",
@@ -3798,8 +3735,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
                   "heading": "4115",
@@ -3819,11 +3756,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 41
+                  "chapter": 41,
+                  "valid": true
             },
             {
-                  "heading": "chapter 42",
+                  "heading": "Chapter 42",
                   "chapter": 42,
                   "subdivision": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk worm gut)",
                   "min": "4200000000",
@@ -4015,7 +3952,7 @@
             {
                   "heading": "ex 4407",
                   "chapter": 44,
-                  "subdivision": "Wood sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6 mm, planed, sanded or endjointed",
+                  "subdivision": "Wood sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6 mm, planed, sanded or end-jointed",
                   "min": "4407000000",
                   "max": "4407999999",
                   "rules": [
@@ -4041,7 +3978,7 @@
                   "max": "4408999999",
                   "rules": [
                         {
-                              "rule": "Splicing, planing, sanding or endjointing.",
+                              "rule": "Splicing, planing, sanding or end-jointing.",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -4223,7 +4160,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 45",
+                  "heading": "Chapter 45",
                   "chapter": 45,
                   "subdivision": "Cork and articles of cork",
                   "min": "4500000000",
@@ -4255,7 +4192,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 46",
+                  "heading": "Chapter 46",
                   "chapter": 46,
                   "subdivision": "Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
                   "min": "4600000000",
@@ -4287,7 +4224,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 47",
+                  "heading": "Chapter 47",
                   "chapter": 47,
                   "subdivision": "Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard",
                   "min": "4700000000",
@@ -4319,7 +4256,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 48",
+                  "heading": "Chapter 48",
                   "chapter": 48,
                   "subdivision": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
                   "min": "4800000000",
@@ -4351,7 +4288,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 49",
+                  "heading": "Chapter 49",
                   "chapter": 49,
                   "subdivision": "Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",
                   "min": "4900000000",
@@ -4451,27 +4388,6 @@
                   "subdivision": "Any other product",
                   "min": "5003000000",
                   "max": "5003999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from materials of any heading, except that of the product.",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "5004",
-                  "chapter": 50,
-                  "subdivision": "Silk",
-                  "min": "5004000000",
-                  "max": "5004999999",
                   "rules": [
                         {
                               "rule": "Manufacture from materials of any heading, except that of the product.",
@@ -4697,8 +4613,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5102",
@@ -4718,8 +4634,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5103",
@@ -4739,8 +4655,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5104",
@@ -4760,8 +4676,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5105",
@@ -4781,8 +4697,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5106",
@@ -4802,8 +4718,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5106 to 5110",
@@ -4864,8 +4780,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5108",
@@ -4885,8 +4801,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5109",
@@ -4906,8 +4822,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5110",
@@ -4927,8 +4843,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5111",
@@ -4948,8 +4864,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5111 to 5113",
@@ -5035,8 +4951,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5113",
@@ -5056,8 +4972,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5201",
@@ -5077,8 +4993,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5202",
@@ -5098,8 +5014,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5203",
@@ -5119,8 +5035,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5204",
@@ -5140,8 +5056,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5204 to 5207",
@@ -5202,8 +5118,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5206",
@@ -5223,8 +5139,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5207",
@@ -5244,8 +5160,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5208",
@@ -5265,8 +5181,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5208 to 5212",
@@ -5363,8 +5279,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5210",
@@ -5384,8 +5300,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5211",
@@ -5405,8 +5321,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5212",
@@ -5426,8 +5342,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5301",
@@ -5447,8 +5363,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5302",
@@ -5468,8 +5384,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5303",
@@ -5489,8 +5405,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5305",
@@ -5510,8 +5426,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5306",
@@ -5531,8 +5447,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5306 to 5308",
@@ -5593,8 +5509,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5308",
@@ -5614,8 +5530,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5309",
@@ -5635,8 +5551,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5309 to 5311",
@@ -5724,8 +5640,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5311",
@@ -5745,8 +5661,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5401 to 5406",
@@ -6146,8 +6062,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
                   "heading": "560311 to 560314",
@@ -6291,7 +6207,7 @@
             {
                   "heading": "5606",
                   "chapter": 56,
-                  "subdivision": "Gimped yarn, and strip and the like of heading 5404 or 5405, gimped (other than those of heading 5605 and gimped horsehair yarn); chenille yarn (including flock chenille yarn); loop waleyarn",
+                  "subdivision": "Gimped yarn, and strip and the like of heading 5404 or 5405, gimped (other than those of heading 5605 and gimped horsehair yarn); chenille yarn (including flock chenille yarn); loop wale-yarn",
                   "min": "5606000000",
                   "max": "5606999999",
                   "rules": [
@@ -6365,8 +6281,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
                   "heading": "5608",
@@ -6397,8 +6313,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
                   "heading": "5609",
@@ -6429,11 +6345,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
-                  "heading": "chapter 57",
+                  "heading": "Chapter 57",
                   "chapter": 57,
                   "subdivision": "Carpets and other textile floor coverings:",
                   "min": "5700000000",
@@ -6581,8 +6497,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5802",
@@ -6667,8 +6583,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5803",
@@ -6753,8 +6669,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5804",
@@ -6839,8 +6755,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5805",
@@ -6946,8 +6862,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5807",
@@ -7032,8 +6948,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5808",
@@ -7118,8 +7034,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5809",
@@ -7204,8 +7120,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5810",
@@ -7311,8 +7227,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5901",
@@ -7551,7 +7467,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Rubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of all the materials used does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Rubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -7611,7 +7527,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Rubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of all the materials used does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Rubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -7742,7 +7658,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Coating, flocking, laminating or metalizing combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of all the materials used does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Coating, flocking, laminating or metalizing combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -7756,7 +7672,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 60",
+                  "heading": "Chapter 60",
                   "chapter": 60,
                   "subdivision": "Knitted or crocheted fabrics",
                   "min": "6000000000",
@@ -7841,8 +7757,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6101",
@@ -7878,8 +7794,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6102",
@@ -7899,8 +7815,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6102",
@@ -7936,8 +7852,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6103",
@@ -7957,8 +7873,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6103",
@@ -7994,8 +7910,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6104",
@@ -8015,8 +7931,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6104",
@@ -8052,8 +7968,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6105",
@@ -8073,8 +7989,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6105",
@@ -8110,8 +8026,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6106",
@@ -8131,8 +8047,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6106",
@@ -8168,8 +8084,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6107",
@@ -8189,8 +8105,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6107",
@@ -8226,8 +8142,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6108",
@@ -8247,8 +8163,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6108",
@@ -8284,8 +8200,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6109",
@@ -8305,8 +8221,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6109",
@@ -8342,8 +8258,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6110",
@@ -8363,8 +8279,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6110",
@@ -8400,8 +8316,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6111",
@@ -8421,8 +8337,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6111",
@@ -8458,8 +8374,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6112",
@@ -8479,8 +8395,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6112",
@@ -8516,8 +8432,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6113",
@@ -8537,8 +8453,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6113",
@@ -8574,8 +8490,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6114",
@@ -8595,8 +8511,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6114",
@@ -8632,8 +8548,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6115",
@@ -8653,8 +8569,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6115",
@@ -8690,8 +8606,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6116",
@@ -8711,8 +8627,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6116",
@@ -8748,8 +8664,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6117",
@@ -8769,8 +8685,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6117",
@@ -8806,8 +8722,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6201",
@@ -8860,7 +8776,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the exworks price of the product.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -8956,7 +8872,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the exworks price of the product.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -9052,7 +8968,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the exworks price of the product.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -9180,7 +9096,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the exworks price of the product.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -9308,7 +9224,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the exworks price of the product.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -9418,38 +9334,6 @@
                   "valid": true
             },
             {
-                  "heading": "6213",
-                  "chapter": 62,
-                  "subdivision": "Articles of apparel and clothing accessories, not knitted or crocheted",
-                  "min": "6213000000",
-                  "max": "6213999999",
-                  "rules": [
-                        {
-                              "rule": "Weaving, combined with making-up, including cutting of fabric.",
-                              "class": [
-                                    "PROCESSING_TEXTILE"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Making-up including cutting of fabric preceded by printing (as standalone operation).",
-                              "class": [
-                                    "PROCESSING_TEXTILE"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "6213 to 6214",
                   "chapter": 62,
                   "subdivision": "Handkerchiefs, shawls, scarves, mufflers, mantillas, veils and the like \u25b8 Embroidered",
@@ -9468,7 +9352,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the exworks price of the product.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -9637,7 +9521,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the exworks price of the product.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -9752,8 +9636,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6301 to 6304",
@@ -9843,8 +9727,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6303",
@@ -9864,8 +9748,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6304",
@@ -9885,8 +9769,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6305",
@@ -9978,7 +9862,7 @@
                   "max": "6308999999",
                   "rules": [
                         {
-                              "rule": "Each item in the set must satisfy the rule which would apply to it if it were not included in the set. However, no originating articles may be incorporated, provided that their total value does not exceed **15%** of the exworks price of the set.",
+                              "rule": "Each item in the set must satisfy the rule which would apply to it if it were not included in the set. However, no originating articles may be incorporated, provided that their total value does not exceed **15%** of the ex-works price of the set.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -10009,8 +9893,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6310",
@@ -10030,8 +9914,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6401",
@@ -10051,8 +9935,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6402",
@@ -10072,8 +9956,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6403",
@@ -10093,8 +9977,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6404",
@@ -10114,8 +9998,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6405",
@@ -10135,13 +10019,13 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6406",
                   "chapter": 64,
-                  "subdivision": "Parts of footwear (including uppers whether or not attached to soles other than outer soles); removable insoles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof",
+                  "subdivision": "Parts of footwear (including uppers whether or not attached to soles other than outer soles); removable in-soles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof",
                   "min": "6406000000",
                   "max": "6406999999",
                   "rules": [
@@ -10160,7 +10044,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 65",
+                  "heading": "Chapter 65",
                   "chapter": 65,
                   "subdivision": "Headgear and parts thereof",
                   "min": "6500000000",
@@ -10181,7 +10065,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 66",
+                  "heading": "Chapter 66",
                   "chapter": 66,
                   "subdivision": "Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops, and parts thereof:",
                   "min": "6600000000",
@@ -10213,7 +10097,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 67",
+                  "heading": "Chapter 67",
                   "chapter": 67,
                   "subdivision": "Prepared feathers and down and articles made of feathers or of down; artificial flowers; articles of human hair",
                   "min": "6700000000",
@@ -10245,7 +10129,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 68",
+                  "heading": "Chapter 68",
                   "chapter": 68,
                   "subdivision": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
                   "min": "6800000000",
@@ -10277,7 +10161,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 69",
+                  "heading": "Chapter 69",
                   "chapter": 69,
                   "subdivision": "Ceramic products",
                   "min": "6900000000",
@@ -10326,8 +10210,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7002",
@@ -10358,8 +10242,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7003",
@@ -10390,8 +10274,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7004",
@@ -10422,8 +10306,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7005",
@@ -10454,8 +10338,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7006",
@@ -10486,8 +10370,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7007",
@@ -10518,8 +10402,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7008",
@@ -10550,8 +10434,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7009",
@@ -10582,8 +10466,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7010",
@@ -10646,8 +10530,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7013",
@@ -10699,8 +10583,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7015",
@@ -10731,8 +10615,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7016",
@@ -10763,8 +10647,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7017",
@@ -10795,8 +10679,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7018",
@@ -10827,8 +10711,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7019",
@@ -10859,8 +10743,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7020",
@@ -10891,8 +10775,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 70
+                  "chapter": 70,
+                  "valid": true
             },
             {
                   "heading": "7101",
@@ -11632,8 +11516,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7202",
@@ -11653,8 +11537,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7203",
@@ -11674,8 +11558,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7204",
@@ -11695,8 +11579,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7205",
@@ -11716,8 +11600,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7206",
@@ -11737,8 +11621,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7207",
@@ -11779,8 +11663,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7208 to 7212",
@@ -11821,8 +11705,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7210",
@@ -11842,8 +11726,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7211",
@@ -11863,8 +11747,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7212",
@@ -11884,8 +11768,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7213",
@@ -11905,8 +11789,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7213 to 7216",
@@ -11947,8 +11831,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7215",
@@ -11968,8 +11852,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7216",
@@ -11989,8 +11873,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7217",
@@ -12031,8 +11915,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "721891",
@@ -12094,8 +11978,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7219 to 7222",
@@ -12136,8 +12020,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7221",
@@ -12157,8 +12041,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7222",
@@ -12178,8 +12062,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7223",
@@ -12220,8 +12104,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "722490",
@@ -12262,8 +12146,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7225 to 7228",
@@ -12304,8 +12188,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7227",
@@ -12325,8 +12209,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7228",
@@ -12346,8 +12230,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 72
+                  "chapter": 72,
+                  "valid": true
             },
             {
                   "heading": "7229",
@@ -12437,27 +12321,6 @@
                   "subdivision": "Articles of iron or steel",
                   "min": "7303000000",
                   "max": "7303999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from materials of any heading, except that of the product.",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "7304",
-                  "chapter": 73,
-                  "subdivision": "Articles of iron or steel",
-                  "min": "7304000000",
-                  "max": "7304999999",
                   "rules": [
                         {
                               "rule": "Manufacture from materials of any heading, except that of the product.",
@@ -12973,8 +12836,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7402",
@@ -12994,8 +12857,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7403",
@@ -13036,8 +12899,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7405",
@@ -13057,8 +12920,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7406",
@@ -13078,8 +12941,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7407",
@@ -13099,8 +12962,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7408",
@@ -13110,7 +12973,7 @@
                   "max": "7408999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\n- From materials of any heading, except that of the product, *and*\n\n- In which the value of all the materials used does not exceed **50%** of the exworks price of the product.",
+                              "rule": "Manufacture:\n\n- From materials of any heading, except that of the product, *and*\n\n- In which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
                                     "CTH"
@@ -13142,8 +13005,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7410",
@@ -13163,8 +13026,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7411",
@@ -13184,8 +13047,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7412",
@@ -13205,8 +13068,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7413",
@@ -13226,8 +13089,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7415",
@@ -13247,8 +13110,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7418",
@@ -13268,8 +13131,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7419",
@@ -13289,11 +13152,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
-                  "heading": "chapter 75",
+                  "heading": "Chapter 75",
                   "chapter": 75,
                   "subdivision": "Nickel and articles thereof",
                   "min": "7500000000",
@@ -13321,12 +13184,22 @@
                   "max": "7601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\n- From materials of any heading, except that of the product, *and*\n\n- In which the value of all the materials used does not exceed **50%** of the ex-works price of the product\n\n- or\n\n- Manufacture by thermal or electrolytic treatment from unalloyed aluminium or waste and scrap of aluminium.",
+                              "rule": "Manufacture:\n\n- From materials of any heading, except that of the product, *and*\n\n- In which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
-                                    "MAXNOM"
+                                    "MAXNOM",
+                                    "CTH"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture by thermal or electrolytic treatment from unalloyed aluminium or waste and scrap of aluminium.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -13686,7 +13559,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 78",
+                  "heading": "Chapter 78",
                   "chapter": 78,
                   "subdivision": "Lead and articles thereof",
                   "min": "7800000000",
@@ -13707,7 +13580,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 79",
+                  "heading": "Chapter 79",
                   "chapter": 79,
                   "subdivision": "Zinc and articles thereof",
                   "min": "7900000000",
@@ -13728,7 +13601,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 80",
+                  "heading": "Chapter 80",
                   "chapter": 80,
                   "subdivision": "Tin and articles thereof",
                   "min": "8000000000",
@@ -13749,7 +13622,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 81",
+                  "heading": "Chapter 81",
                   "chapter": 81,
                   "subdivision": "Other base metals; cermets; articles thereof",
                   "min": "8100000000",
@@ -13798,8 +13671,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8202",
@@ -13830,8 +13703,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8203",
@@ -13862,8 +13735,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8204",
@@ -13894,8 +13767,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8205",
@@ -13926,8 +13799,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8206",
@@ -13980,8 +13853,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8208",
@@ -14012,8 +13885,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8209",
@@ -14044,8 +13917,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8210",
@@ -14076,8 +13949,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8211",
@@ -14108,8 +13981,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8212",
@@ -14140,8 +14013,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8213",
@@ -14172,8 +14045,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8214",
@@ -14204,8 +14077,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
                   "heading": "8215",
@@ -14236,11 +14109,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 82
+                  "chapter": 82,
+                  "valid": true
             },
             {
-                  "heading": "chapter 83",
+                  "heading": "Chapter 83",
                   "chapter": 83,
                   "subdivision": "Miscellaneous articles of base metal",
                   "min": "8300000000",
@@ -14300,8 +14173,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8402",
@@ -14332,8 +14205,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8403",
@@ -14364,8 +14237,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8404",
@@ -14396,8 +14269,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8405",
@@ -14428,8 +14301,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8406",
@@ -14460,8 +14333,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8407",
@@ -14534,8 +14407,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8410",
@@ -14566,8 +14439,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8411",
@@ -14598,8 +14471,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8412",
@@ -14630,8 +14503,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8413",
@@ -14662,8 +14535,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8414",
@@ -14694,8 +14567,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8415",
@@ -14726,8 +14599,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8416",
@@ -14758,8 +14631,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8417",
@@ -14790,8 +14663,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8418",
@@ -14822,8 +14695,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8419",
@@ -14854,8 +14727,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8420",
@@ -14886,8 +14759,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8421",
@@ -14918,8 +14791,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8422",
@@ -14950,8 +14823,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8423",
@@ -14982,8 +14855,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8424",
@@ -15014,8 +14887,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8425",
@@ -15046,8 +14919,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8425 to 8430",
@@ -15108,8 +14981,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8427",
@@ -15140,8 +15013,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8428",
@@ -15172,8 +15045,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8429",
@@ -15204,8 +15077,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8430",
@@ -15236,8 +15109,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8431",
@@ -15268,8 +15141,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8432",
@@ -15300,8 +15173,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8433",
@@ -15332,8 +15205,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8434",
@@ -15364,8 +15237,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8435",
@@ -15396,8 +15269,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8436",
@@ -15428,8 +15301,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8437",
@@ -15460,8 +15333,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8438",
@@ -15492,8 +15365,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8439",
@@ -15524,8 +15397,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8440",
@@ -15556,8 +15429,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8441",
@@ -15588,8 +15461,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8442",
@@ -15620,8 +15493,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8443",
@@ -15652,8 +15525,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8444",
@@ -15684,8 +15557,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8444 to 8447",
@@ -15746,8 +15619,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8446",
@@ -15778,8 +15651,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8447",
@@ -15810,8 +15683,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8448",
@@ -15842,8 +15715,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8449",
@@ -15874,8 +15747,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8450",
@@ -15906,8 +15779,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8451",
@@ -15938,8 +15811,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8452",
@@ -15970,8 +15843,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8453",
@@ -16002,8 +15875,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8454",
@@ -16034,8 +15907,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8455",
@@ -16066,8 +15939,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8456",
@@ -16098,8 +15971,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8456 to 8465",
@@ -16160,8 +16033,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8458",
@@ -16192,8 +16065,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8459",
@@ -16224,8 +16097,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8460",
@@ -16256,8 +16129,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8461",
@@ -16288,8 +16161,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8462",
@@ -16320,8 +16193,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8463",
@@ -16352,8 +16225,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8464",
@@ -16384,8 +16257,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8465",
@@ -16416,8 +16289,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8466",
@@ -16448,8 +16321,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8467",
@@ -16480,8 +16353,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8468",
@@ -16512,8 +16385,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8470",
@@ -16544,8 +16417,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8470 to 8472",
@@ -16606,8 +16479,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8472",
@@ -16638,8 +16511,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8473",
@@ -16670,8 +16543,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8474",
@@ -16702,8 +16575,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8475",
@@ -16734,8 +16607,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8476",
@@ -16766,8 +16639,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8477",
@@ -16798,8 +16671,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8478",
@@ -16830,8 +16703,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8479",
@@ -16862,8 +16735,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8480",
@@ -16894,8 +16767,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8481",
@@ -16926,8 +16799,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8482",
@@ -16958,8 +16831,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8483",
@@ -16990,8 +16863,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8484",
@@ -17022,8 +16895,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8485",
@@ -17054,8 +16927,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8486",
@@ -17086,8 +16959,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8487",
@@ -17118,8 +16991,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 84
+                  "chapter": 84,
+                  "valid": true
             },
             {
                   "heading": "8501",
@@ -17150,8 +17023,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8501 to 8502",
@@ -17212,8 +17085,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8503",
@@ -17244,8 +17117,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8504",
@@ -17276,8 +17149,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8505",
@@ -17308,8 +17181,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8506",
@@ -17340,8 +17213,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8507",
@@ -17372,8 +17245,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8508",
@@ -17404,8 +17277,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8509",
@@ -17436,8 +17309,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8510",
@@ -17468,8 +17341,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8511",
@@ -17500,8 +17373,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8512",
@@ -17532,8 +17405,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8513",
@@ -17564,8 +17437,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8514",
@@ -17596,8 +17469,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8515",
@@ -17628,8 +17501,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8516",
@@ -17660,8 +17533,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8517",
@@ -17692,8 +17565,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8518",
@@ -17724,8 +17597,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8519",
@@ -17816,8 +17689,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8523",
@@ -17848,8 +17721,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8524",
@@ -17880,8 +17753,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8525",
@@ -17912,8 +17785,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8525 to 8528",
@@ -17974,8 +17847,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8527",
@@ -18006,8 +17879,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8528",
@@ -18038,8 +17911,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8529",
@@ -18070,8 +17943,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8530",
@@ -18102,8 +17975,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8531",
@@ -18134,8 +18007,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8532",
@@ -18166,8 +18039,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8533",
@@ -18198,8 +18071,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8534",
@@ -18230,8 +18103,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8535",
@@ -18262,8 +18135,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8535 to 8537",
@@ -18324,8 +18197,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8537",
@@ -18356,8 +18229,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8538",
@@ -18388,8 +18261,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8539",
@@ -18420,8 +18293,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8540",
@@ -18452,8 +18325,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8541",
@@ -18484,8 +18357,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8542",
@@ -18516,8 +18389,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "854231 to 854239",
@@ -18527,7 +18400,7 @@
                   "max": "8542399999",
                   "rules": [
                         {
-                              "rule": "Diffusion in which integrated circuits are formed on a semiconductor substrate by the selective introduction of an appropriate dopant assembled or not and&nbsp;/&nbsp;or tested in a non-party.",
+                              "rule": "Diffusion in which integrated circuits are formed on a semi-conductor substrate by the selective introduction of an appropriate dopant assembled or not and&nbsp;/&nbsp;or tested in a non-party.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -18578,8 +18451,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8544",
@@ -18610,8 +18483,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8544 to 8548",
@@ -18663,8 +18536,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8546",
@@ -18695,8 +18568,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8547",
@@ -18727,8 +18600,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8548",
@@ -18759,8 +18632,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
                   "heading": "8549",
@@ -18791,11 +18664,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 85
+                  "chapter": 85,
+                  "valid": true
             },
             {
-                  "heading": "chapter 86",
+                  "heading": "Chapter 86",
                   "chapter": 86,
                   "subdivision": "Railway or tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",
                   "min": "8600000000",
@@ -18833,8 +18706,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8702",
@@ -18854,8 +18727,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8703",
@@ -18875,8 +18748,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8704",
@@ -18896,8 +18769,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8705",
@@ -18917,8 +18790,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8706",
@@ -18938,8 +18811,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8707",
@@ -18959,8 +18832,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8708",
@@ -19012,8 +18885,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8710",
@@ -19033,8 +18906,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8711",
@@ -19086,8 +18959,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8713",
@@ -19107,8 +18980,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8714",
@@ -19128,8 +19001,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8715",
@@ -19149,8 +19022,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
                   "heading": "8716",
@@ -19170,11 +19043,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 87
+                  "chapter": 87,
+                  "valid": true
             },
             {
-                  "heading": "chapter 88",
+                  "heading": "Chapter 88",
                   "chapter": 88,
                   "subdivision": "Aircraft, spacecraft, and parts thereof",
                   "min": "8800000000",
@@ -19206,7 +19079,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 89",
+                  "heading": "Chapter 89",
                   "chapter": 89,
                   "subdivision": "Ships, boats and floating structures",
                   "min": "8900000000",
@@ -19275,8 +19148,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "900150",
@@ -19348,8 +19221,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9003",
@@ -19380,8 +19253,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9004",
@@ -19412,8 +19285,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9005",
@@ -19444,8 +19317,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9006",
@@ -19476,8 +19349,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9007",
@@ -19508,8 +19381,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9008",
@@ -19540,8 +19413,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9010",
@@ -19572,8 +19445,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9011",
@@ -19604,8 +19477,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9012",
@@ -19636,8 +19509,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9013",
@@ -19668,8 +19541,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9014",
@@ -19700,8 +19573,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9015",
@@ -19732,8 +19605,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9016",
@@ -19764,8 +19637,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9017",
@@ -19796,8 +19669,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9018",
@@ -19828,8 +19701,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9019",
@@ -19860,8 +19733,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9020",
@@ -19892,8 +19765,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9021",
@@ -19924,8 +19797,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9022",
@@ -19956,8 +19829,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9023",
@@ -19988,8 +19861,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9024",
@@ -20020,8 +19893,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9025",
@@ -20052,8 +19925,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9026",
@@ -20084,8 +19957,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9027",
@@ -20116,8 +19989,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9028",
@@ -20148,8 +20021,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9029",
@@ -20180,8 +20053,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9030",
@@ -20212,8 +20085,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9031",
@@ -20244,8 +20117,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9032",
@@ -20276,8 +20149,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
                   "heading": "9033",
@@ -20308,11 +20181,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 90
+                  "chapter": 90,
+                  "valid": true
             },
             {
-                  "heading": "chapter 91",
+                  "heading": "Chapter 91",
                   "chapter": 91,
                   "subdivision": "Clocks and watches and parts thereof",
                   "min": "9100000000",
@@ -20333,7 +20206,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 92",
+                  "heading": "Chapter 92",
                   "chapter": 92,
                   "subdivision": "Musical instruments; parts and accessories of such articles",
                   "min": "9200000000",
@@ -20354,7 +20227,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 93",
+                  "heading": "Chapter 93",
                   "chapter": 93,
                   "subdivision": "Arms and ammunition; parts and accessories thereof",
                   "min": "9300000000",
@@ -20375,7 +20248,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 94",
+                  "heading": "Chapter 94",
                   "chapter": 94,
                   "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like; prefabricated buildings",
                   "min": "9400000000",
@@ -20407,7 +20280,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 95",
+                  "heading": "Chapter 95",
                   "chapter": 95,
                   "subdivision": "Toys, games and sports requisites; parts and accessories thereof",
                   "min": "9500000000",
@@ -20439,7 +20312,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 96",
+                  "heading": "Chapter 96",
                   "chapter": 96,
                   "subdivision": "Miscellaneous manufactured articles",
                   "min": "9600000000",
@@ -20471,7 +20344,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 97",
+                  "heading": "Chapter 97",
                   "chapter": 97,
                   "subdivision": "Works of art, collectors' pieces and antiques",
                   "min": "9700000000",

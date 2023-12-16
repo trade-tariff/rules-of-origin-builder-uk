@@ -2,7 +2,7 @@
       "rule_sets": [
             {
                   "heading": "0101-0106",
-                  "subdivision": "",
+                  "subdivision": "0101-0106",
                   "min": "0101000000",
                   "max": "0106999999",
                   "rules": [
@@ -22,7 +22,7 @@
             },
             {
                   "heading": "0201-0210",
-                  "subdivision": "",
+                  "subdivision": "0201-0210",
                   "min": "0201000000",
                   "max": "0210999999",
                   "rules": [
@@ -42,7 +42,7 @@
             },
             {
                   "heading": "0301-0309",
-                  "subdivision": "",
+                  "subdivision": "0301-0309",
                   "min": "0301000000",
                   "max": "0309999999",
                   "rules": [
@@ -62,7 +62,7 @@
             },
             {
                   "heading": "0401-0410",
-                  "subdivision": "",
+                  "subdivision": "0401-0410",
                   "min": "0401000000",
                   "max": "0410999999",
                   "rules": [
@@ -83,7 +83,7 @@
             },
             {
                   "heading": "0501-0511",
-                  "subdivision": "",
+                  "subdivision": "0501-0511",
                   "min": "0501000000",
                   "max": "0511999999",
                   "rules": [
@@ -104,7 +104,7 @@
             },
             {
                   "heading": "0601-0604",
-                  "subdivision": "",
+                  "subdivision": "0601-0604",
                   "min": "0601000000",
                   "max": "0604999999",
                   "rules": [
@@ -124,7 +124,7 @@
             },
             {
                   "heading": "0701-0714",
-                  "subdivision": "",
+                  "subdivision": "0701-0714",
                   "min": "0701000000",
                   "max": "0714999999",
                   "rules": [
@@ -144,7 +144,7 @@
             },
             {
                   "heading": "0801-0814",
-                  "subdivision": "",
+                  "subdivision": "0801-0814",
                   "min": "0801000000",
                   "max": "0814999999",
                   "rules": [
@@ -165,7 +165,7 @@
             },
             {
                   "heading": "0901-0910",
-                  "subdivision": "",
+                  "subdivision": "0901-0910",
                   "min": "0901000000",
                   "max": "0910999999",
                   "rules": [
@@ -186,7 +186,7 @@
             },
             {
                   "heading": "1001-1008",
-                  "subdivision": "",
+                  "subdivision": "1001-1008",
                   "min": "1001000000",
                   "max": "1008999999",
                   "rules": [
@@ -206,7 +206,7 @@
             },
             {
                   "heading": "1101-1109",
-                  "subdivision": "",
+                  "subdivision": "1101-1109",
                   "min": "1101000000",
                   "max": "1109999999",
                   "rules": [
@@ -226,7 +226,7 @@
             },
             {
                   "heading": "1201-1214",
-                  "subdivision": "",
+                  "subdivision": "1201-1214",
                   "min": "1201000000",
                   "max": "1214999999",
                   "rules": [
@@ -246,7 +246,7 @@
             },
             {
                   "heading": "1301-1302",
-                  "subdivision": "",
+                  "subdivision": "1301-1302",
                   "min": "1301000000",
                   "max": "1302999999",
                   "rules": [
@@ -269,7 +269,7 @@
             },
             {
                   "heading": "1401-1404",
-                  "subdivision": "",
+                  "subdivision": "1401-1404",
                   "min": "1401000000",
                   "max": "1404999999",
                   "rules": [
@@ -290,7 +290,7 @@
             },
             {
                   "heading": "1501-1504",
-                  "subdivision": "",
+                  "subdivision": "1501-1504",
                   "min": "1501000000",
                   "max": "1504999999",
                   "rules": [
@@ -310,7 +310,7 @@
             },
             {
                   "heading": "1505-1506",
-                  "subdivision": "",
+                  "subdivision": "1505-1506",
                   "min": "1505000000",
                   "max": "1506999999",
                   "rules": [
@@ -331,7 +331,7 @@
             },
             {
                   "heading": "1507-1508",
-                  "subdivision": "",
+                  "subdivision": "1507-1508",
                   "min": "1507000000",
                   "max": "1508999999",
                   "rules": [
@@ -351,7 +351,7 @@
             },
             {
                   "heading": "1509-1510",
-                  "subdivision": "",
+                  "subdivision": "1509-1510",
                   "min": "1509000000",
                   "max": "1510999999",
                   "rules": [
@@ -371,7 +371,7 @@
             },
             {
                   "heading": "1511-1515",
-                  "subdivision": "",
+                  "subdivision": "1511-1515",
                   "min": "1511000000",
                   "max": "1515999999",
                   "rules": [
@@ -391,7 +391,7 @@
             },
             {
                   "heading": "1516-1517",
-                  "subdivision": "",
+                  "subdivision": "1516-1517",
                   "min": "1516000000",
                   "max": "1517999999",
                   "rules": [
@@ -411,7 +411,7 @@
             },
             {
                   "heading": "1518-1519",
-                  "subdivision": "",
+                  "subdivision": "1518-1519",
                   "min": "1518000000",
                   "max": "1519999999",
                   "rules": [
@@ -431,7 +431,7 @@
             },
             {
                   "heading": "1520",
-                  "subdivision": "",
+                  "subdivision": "Heading 1520",
                   "min": "1520000000",
                   "max": "1520999999",
                   "rules": [
@@ -452,7 +452,7 @@
             },
             {
                   "heading": "1521-1522",
-                  "subdivision": "",
+                  "subdivision": "1521-1522",
                   "min": "1521000000",
                   "max": "1522999999",
                   "rules": [
@@ -472,12 +472,12 @@
             },
             {
                   "heading": "160100-160418",
-                  "subdivision": "",
+                  "subdivision": "160100-160418",
                   "min": "1601000000",
                   "max": "1604189999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapters 01](/chapters/01), 2, 3 and 16 used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapter&nbsp;1](/chapters/01), [chapter&nbsp;2](/chapters/02), [chapter&nbsp;3](/chapters/03) and [chapter&nbsp;16](/chapters/16) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -492,7 +492,7 @@
             },
             {
                   "heading": "160414",
-                  "subdivision": "",
+                  "subdivision": "Subheading 160414",
                   "min": "1604140000",
                   "max": "1604149999",
                   "rules": [
@@ -512,7 +512,7 @@
             },
             {
                   "heading": "160419",
-                  "subdivision": "",
+                  "subdivision": "Subheading 160419",
                   "min": "1604190000",
                   "max": "1604199999",
                   "rules": [
@@ -592,7 +592,7 @@
             },
             {
                   "heading": "160431-160569",
-                  "subdivision": "",
+                  "subdivision": "160431-160569",
                   "min": "1604310000",
                   "max": "1605699999",
                   "rules": [
@@ -612,7 +612,7 @@
             },
             {
                   "heading": "1701",
-                  "subdivision": "",
+                  "subdivision": "Heading 1701",
                   "min": "1701000000",
                   "max": "1701999999",
                   "rules": [
@@ -632,7 +632,7 @@
             },
             {
                   "heading": "1702",
-                  "subdivision": "",
+                  "subdivision": "Heading 1702",
                   "min": "1702000000",
                   "max": "1702999999",
                   "rules": [
@@ -653,7 +653,7 @@
             },
             {
                   "heading": "1703",
-                  "subdivision": "",
+                  "subdivision": "Heading 1703",
                   "min": "1703000000",
                   "max": "1703999999",
                   "rules": [
@@ -678,23 +678,12 @@
                   "max": "1704999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n\n- a) all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n\n- b) \n\n- i) the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
-                              "class": [
-                                    "WO"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "(ii) the value of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n- either the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product or the value of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
-                              "operator": "or",
+                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -724,7 +713,7 @@
             },
             {
                   "heading": "1801-1805",
-                  "subdivision": "",
+                  "subdivision": "1801-1805",
                   "min": "1801000000",
                   "max": "1805999999",
                   "rules": [
@@ -744,7 +733,7 @@
             },
             {
                   "heading": "180610",
-                  "subdivision": "",
+                  "subdivision": "Subheading 180610",
                   "min": "1806100000",
                   "max": "1806199999",
                   "rules": [
@@ -764,12 +753,12 @@
             },
             {
                   "heading": "180620-180690",
-                  "subdivision": "",
+                  "subdivision": "180620-180690",
                   "min": "1806200000",
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n\n- a) all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n\n- b) the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product, or the value of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product, or the value of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -784,12 +773,12 @@
             },
             {
                   "heading": "1901-1905",
-                  "subdivision": "",
+                  "subdivision": "1901-1905",
                   "min": "1901000000",
                   "max": "1905999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [chapters 02](/chapters/02), 3 and 16 used does not exceed **20%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [chapter&nbsp;2](/chapters/02), [chapter&nbsp;3](/chapters/03) and [chapter&nbsp;16](/chapters/16) used does not exceed **20%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -804,7 +793,7 @@
             },
             {
                   "heading": "2001",
-                  "subdivision": "",
+                  "subdivision": "Heading 2001",
                   "min": "2001000000",
                   "max": "2001999999",
                   "rules": [
@@ -824,7 +813,7 @@
             },
             {
                   "heading": "2002-2003",
-                  "subdivision": "",
+                  "subdivision": "2002-2003",
                   "min": "2002000000",
                   "max": "2003999999",
                   "rules": [
@@ -844,7 +833,7 @@
             },
             {
                   "heading": "2004-2009",
-                  "subdivision": "",
+                  "subdivision": "2004-2009",
                   "min": "2004000000",
                   "max": "2009999999",
                   "rules": [
@@ -865,7 +854,7 @@
             },
             {
                   "heading": "2101-2102",
-                  "subdivision": "",
+                  "subdivision": "2101-2102",
                   "min": "2101000000",
                   "max": "2102999999",
                   "rules": [
@@ -885,7 +874,7 @@
             },
             {
                   "heading": "210310",
-                  "subdivision": "",
+                  "subdivision": "Subheading 210310",
                   "min": "2103100000",
                   "max": "2103199999",
                   "rules": [
@@ -914,7 +903,7 @@
             },
             {
                   "heading": "210320",
-                  "subdivision": "",
+                  "subdivision": "Subheading 210320",
                   "min": "2103200000",
                   "max": "2103299999",
                   "rules": [
@@ -943,7 +932,7 @@
             },
             {
                   "heading": "210330",
-                  "subdivision": "",
+                  "subdivision": "Subheading 210330",
                   "min": "2103300000",
                   "max": "2103399999",
                   "rules": [
@@ -964,7 +953,7 @@
             },
             {
                   "heading": "210390",
-                  "subdivision": "",
+                  "subdivision": "Subheading 210390",
                   "min": "2103900000",
                   "max": "2103999999",
                   "rules": [
@@ -993,7 +982,7 @@
             },
             {
                   "heading": "2104-2106",
-                  "subdivision": "",
+                  "subdivision": "2104-2106",
                   "min": "2104000000",
                   "max": "2106999999",
                   "rules": [
@@ -1013,7 +1002,7 @@
             },
             {
                   "heading": "2201-2206",
-                  "subdivision": "",
+                  "subdivision": "2201-2206",
                   "min": "2201000000",
                   "max": "2206999999",
                   "rules": [
@@ -1033,7 +1022,7 @@
             },
             {
                   "heading": "2207",
-                  "subdivision": "",
+                  "subdivision": "Heading 2207",
                   "min": "2207000000",
                   "max": "2207999999",
                   "rules": [
@@ -1053,7 +1042,7 @@
             },
             {
                   "heading": "2208-2209",
-                  "subdivision": "",
+                  "subdivision": "2208-2209",
                   "min": "2208000000",
                   "max": "2209999999",
                   "rules": [
@@ -1073,7 +1062,7 @@
             },
             {
                   "heading": "2301",
-                  "subdivision": "",
+                  "subdivision": "Heading 2301",
                   "min": "2301000000",
                   "max": "2301999999",
                   "rules": [
@@ -1093,7 +1082,7 @@
             },
             {
                   "heading": "230210-230310",
-                  "subdivision": "",
+                  "subdivision": "230210-230310",
                   "min": "2302100000",
                   "max": "2303199999",
                   "rules": [
@@ -1114,7 +1103,7 @@
             },
             {
                   "heading": "230320-230800",
-                  "subdivision": "",
+                  "subdivision": "230320-230800",
                   "min": "2303200000",
                   "max": "2308999999",
                   "rules": [
@@ -1134,7 +1123,7 @@
             },
             {
                   "heading": "2309",
-                  "subdivision": "",
+                  "subdivision": "Heading 2309",
                   "min": "2309000000",
                   "max": "2309999999",
                   "rules": [
@@ -1154,7 +1143,7 @@
             },
             {
                   "heading": "2401",
-                  "subdivision": "",
+                  "subdivision": "Heading 2401",
                   "min": "2401000000",
                   "max": "2401999999",
                   "rules": [
@@ -1174,7 +1163,7 @@
             },
             {
                   "heading": "240210",
-                  "subdivision": "",
+                  "subdivision": "Subheading 240210",
                   "min": "2402100000",
                   "max": "2402199999",
                   "rules": [
@@ -1195,7 +1184,7 @@
             },
             {
                   "heading": "240220",
-                  "subdivision": "",
+                  "subdivision": "Subheading 240220",
                   "min": "2402200000",
                   "max": "2402299999",
                   "rules": [
@@ -1216,7 +1205,7 @@
             },
             {
                   "heading": "240290",
-                  "subdivision": "",
+                  "subdivision": "Subheading 240290",
                   "min": "2402900000",
                   "max": "2402999999",
                   "rules": [
@@ -1237,7 +1226,7 @@
             },
             {
                   "heading": "2403",
-                  "subdivision": "",
+                  "subdivision": "Heading 2403",
                   "min": "2403000000",
                   "max": "2403999999",
                   "rules": [
@@ -1257,7 +1246,7 @@
             },
             {
                   "heading": "2404",
-                  "subdivision": "",
+                  "subdivision": "Heading 2404",
                   "min": "2404000000",
                   "max": "2404999999",
                   "rules": [
@@ -1277,7 +1266,7 @@
             },
             {
                   "heading": "2501-2530",
-                  "subdivision": "",
+                  "subdivision": "2501-2530",
                   "min": "2501000000",
                   "max": "2530999999",
                   "rules": [
@@ -1308,7 +1297,7 @@
             },
             {
                   "heading": "2601-2621",
-                  "subdivision": "",
+                  "subdivision": "2601-2621",
                   "min": "2601000000",
                   "max": "2621999999",
                   "rules": [
@@ -1328,7 +1317,7 @@
             },
             {
                   "heading": "2701-2709",
-                  "subdivision": "",
+                  "subdivision": "2701-2709",
                   "min": "2701000000",
                   "max": "2709999999",
                   "rules": [
@@ -1349,7 +1338,7 @@
             },
             {
                   "heading": "2710",
-                  "subdivision": "",
+                  "subdivision": "Heading 2710",
                   "min": "2710000000",
                   "max": "2710999999",
                   "rules": [
@@ -1378,7 +1367,7 @@
             },
             {
                   "heading": "2711-2715",
-                  "subdivision": "",
+                  "subdivision": "2711-2715",
                   "min": "2711000000",
                   "max": "2715999999",
                   "rules": [
@@ -1399,7 +1388,7 @@
             },
             {
                   "heading": "2801-2853",
-                  "subdivision": "",
+                  "subdivision": "2801-2853",
                   "min": "2801000000",
                   "max": "2853999999",
                   "rules": [
@@ -1439,7 +1428,7 @@
             },
             {
                   "heading": "290110-290542",
-                  "subdivision": "",
+                  "subdivision": "290110-290542",
                   "min": "2901100000",
                   "max": "2905429999",
                   "rules": [
@@ -1459,7 +1448,7 @@
             },
             {
                   "heading": "290110-290542",
-                  "subdivision": "",
+                  "subdivision": "290110-290542",
                   "min": "2901100000",
                   "max": "2905429999",
                   "rules": [
@@ -1488,7 +1477,7 @@
             },
             {
                   "heading": "290543-290544",
-                  "subdivision": "",
+                  "subdivision": "290543-290544",
                   "min": "2905430000",
                   "max": "2905449999",
                   "rules": [
@@ -1508,12 +1497,12 @@
             },
             {
                   "heading": "290545",
-                  "subdivision": "",
+                  "subdivision": "Subheading 290545",
                   "min": "2905450000",
                   "max": "2905459999",
                   "rules": [
                         {
-                              "rule": "CTSH, however, non-originating materials of the same subheading as the product may be used, provided that their total value does not exceed **20%** of the ex-works price of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), however, non-originating materials of the same subheading as the product may be used, provided that their total value does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1539,7 +1528,7 @@
             },
             {
                   "heading": "290549-2942",
-                  "subdivision": "",
+                  "subdivision": "290549-2942",
                   "min": "2905490000",
                   "max": "2942999999",
                   "rules": [
@@ -1579,7 +1568,7 @@
             },
             {
                   "heading": "3001-3006",
-                  "subdivision": "",
+                  "subdivision": "3001-3006",
                   "min": "3001000000",
                   "max": "3006999999",
                   "rules": [
@@ -1619,7 +1608,7 @@
             },
             {
                   "heading": "3101-3104",
-                  "subdivision": "",
+                  "subdivision": "3101-3104",
                   "min": "3101000000",
                   "max": "3104999999",
                   "rules": [
@@ -1650,7 +1639,7 @@
             },
             {
                   "heading": "3105",
-                  "subdivision": "Sodium nitrate\n\n- Calcium cyanamide\n\n- Potassium sulphate\n\n- Magnesium potassium sulphate",
+                  "subdivision": "Any of:\n\n- Sodium nitrate\n\n- Calcium cyanamide\n\n- Potassium sulphate\n\n- Magnesium potassium sulphate",
                   "min": "3105000000",
                   "max": "3105999999",
                   "rules": [
@@ -1712,7 +1701,7 @@
             },
             {
                   "heading": "3201-3215",
-                  "subdivision": "",
+                  "subdivision": "3201-3215",
                   "min": "3201000000",
                   "max": "3215999999",
                   "rules": [
@@ -1752,7 +1741,7 @@
             },
             {
                   "heading": "3301",
-                  "subdivision": "",
+                  "subdivision": "Heading 3301",
                   "min": "3301000000",
                   "max": "3301999999",
                   "rules": [
@@ -1792,7 +1781,7 @@
             },
             {
                   "heading": "330210",
-                  "subdivision": "",
+                  "subdivision": "Subheading 330210",
                   "min": "3302100000",
                   "max": "3302199999",
                   "rules": [
@@ -1812,7 +1801,7 @@
             },
             {
                   "heading": "330290",
-                  "subdivision": "",
+                  "subdivision": "Subheading 330290",
                   "min": "3302900000",
                   "max": "3302999999",
                   "rules": [
@@ -1852,7 +1841,7 @@
             },
             {
                   "heading": "3303",
-                  "subdivision": "",
+                  "subdivision": "Heading 3303",
                   "min": "3303000000",
                   "max": "3303999999",
                   "rules": [
@@ -1873,7 +1862,7 @@
             },
             {
                   "heading": "3304 -3307",
-                  "subdivision": "",
+                  "subdivision": "3304 -3307",
                   "min": "3304000000",
                   "max": "3307999999",
                   "rules": [
@@ -1913,7 +1902,7 @@
             },
             {
                   "heading": "3401-3407",
-                  "subdivision": "",
+                  "subdivision": "3401-3407",
                   "min": "3401000000",
                   "max": "3407999999",
                   "rules": [
@@ -1953,7 +1942,7 @@
             },
             {
                   "heading": "3501-3504",
-                  "subdivision": "",
+                  "subdivision": "3501-3504",
                   "min": "3501000000",
                   "max": "3504999999",
                   "rules": [
@@ -1973,7 +1962,7 @@
             },
             {
                   "heading": "3505",
-                  "subdivision": "",
+                  "subdivision": "Heading 3505",
                   "min": "3505000000",
                   "max": "3505999999",
                   "rules": [
@@ -1993,7 +1982,7 @@
             },
             {
                   "heading": "3506-3507",
-                  "subdivision": "",
+                  "subdivision": "3506-3507",
                   "min": "3506000000",
                   "max": "3507999999",
                   "rules": [
@@ -2033,7 +2022,7 @@
             },
             {
                   "heading": "3601-3606",
-                  "subdivision": "",
+                  "subdivision": "3601-3606",
                   "min": "3601000000",
                   "max": "3606999999",
                   "rules": [
@@ -2073,7 +2062,7 @@
             },
             {
                   "heading": "3701-3707",
-                  "subdivision": "",
+                  "subdivision": "3701-3707",
                   "min": "3701000000",
                   "max": "3707999999",
                   "rules": [
@@ -2113,7 +2102,7 @@
             },
             {
                   "heading": "3801-3808",
-                  "subdivision": "",
+                  "subdivision": "3801-3808",
                   "min": "3801000000",
                   "max": "3808999999",
                   "rules": [
@@ -2153,7 +2142,7 @@
             },
             {
                   "heading": "380910",
-                  "subdivision": "",
+                  "subdivision": "Subheading 380910",
                   "min": "3809100000",
                   "max": "3809199999",
                   "rules": [
@@ -2173,7 +2162,7 @@
             },
             {
                   "heading": "380991-382200",
-                  "subdivision": "",
+                  "subdivision": "380991-382200",
                   "min": "3809910000",
                   "max": "3822999999",
                   "rules": [
@@ -2213,7 +2202,7 @@
             },
             {
                   "heading": "3823",
-                  "subdivision": "",
+                  "subdivision": "Heading 3823",
                   "min": "3823000000",
                   "max": "3823999999",
                   "rules": [
@@ -2233,7 +2222,7 @@
             },
             {
                   "heading": "382410-382450",
-                  "subdivision": "",
+                  "subdivision": "382410-382450",
                   "min": "3824100000",
                   "max": "3824599999",
                   "rules": [
@@ -2273,7 +2262,7 @@
             },
             {
                   "heading": "382460",
-                  "subdivision": "",
+                  "subdivision": "Subheading 382460",
                   "min": "3824600000",
                   "max": "3824699999",
                   "rules": [
@@ -2293,7 +2282,7 @@
             },
             {
                   "heading": "382471-382590",
-                  "subdivision": "",
+                  "subdivision": "382471-382590",
                   "min": "3824710000",
                   "max": "3825999999",
                   "rules": [
@@ -2333,7 +2322,7 @@
             },
             {
                   "heading": "3826",
-                  "subdivision": "",
+                  "subdivision": "Heading 3826",
                   "min": "3826000000",
                   "max": "3826999999",
                   "rules": [
@@ -2353,7 +2342,7 @@
             },
             {
                   "heading": "3827",
-                  "subdivision": "",
+                  "subdivision": "Heading 3827",
                   "min": "3827000000",
                   "max": "3827999999",
                   "rules": [
@@ -2393,7 +2382,7 @@
             },
             {
                   "heading": "3901-3915",
-                  "subdivision": "",
+                  "subdivision": "3901-3915",
                   "min": "3901000000",
                   "max": "3915999999",
                   "rules": [
@@ -2433,7 +2422,7 @@
             },
             {
                   "heading": "3916-3919",
-                  "subdivision": "",
+                  "subdivision": "3916-3919",
                   "min": "3916000000",
                   "max": "3919999999",
                   "rules": [
@@ -2464,7 +2453,7 @@
             },
             {
                   "heading": "3920",
-                  "subdivision": "",
+                  "subdivision": "Heading 3920",
                   "min": "3920000000",
                   "max": "3920999999",
                   "rules": [
@@ -2495,7 +2484,7 @@
             },
             {
                   "heading": "3921-3922",
-                  "subdivision": "",
+                  "subdivision": "3921-3922",
                   "min": "3921000000",
                   "max": "3922999999",
                   "rules": [
@@ -2526,7 +2515,7 @@
             },
             {
                   "heading": "392310-392350",
-                  "subdivision": "",
+                  "subdivision": "392310-392350",
                   "min": "3923100000",
                   "max": "3923599999",
                   "rules": [
@@ -2557,7 +2546,7 @@
             },
             {
                   "heading": "392390-392590",
-                  "subdivision": "",
+                  "subdivision": "392390-392590",
                   "min": "3923900000",
                   "max": "3925999999",
                   "rules": [
@@ -2588,7 +2577,7 @@
             },
             {
                   "heading": "3926",
-                  "subdivision": "",
+                  "subdivision": "Heading 3926",
                   "min": "3926000000",
                   "max": "3926999999",
                   "rules": [
@@ -2619,7 +2608,7 @@
             },
             {
                   "heading": "4001-4011",
-                  "subdivision": "",
+                  "subdivision": "4001-4011",
                   "min": "4001000000",
                   "max": "4011999999",
                   "rules": [
@@ -2650,7 +2639,7 @@
             },
             {
                   "heading": "401211-401219",
-                  "subdivision": "",
+                  "subdivision": "401211-401219",
                   "min": "4012110000",
                   "max": "4012199999",
                   "rules": [
@@ -2681,7 +2670,7 @@
             },
             {
                   "heading": "401220-401700",
-                  "subdivision": "",
+                  "subdivision": "401220-401700",
                   "min": "4012200000",
                   "max": "4017999999",
                   "rules": [
@@ -2712,7 +2701,7 @@
             },
             {
                   "heading": "4101-410419",
-                  "subdivision": "",
+                  "subdivision": "4101-410419",
                   "min": "4101000000",
                   "max": "4104199999",
                   "rules": [
@@ -2732,13 +2721,15 @@
             },
             {
                   "heading": "410441-410449",
-                  "subdivision": "",
+                  "subdivision": "410441-410449",
                   "min": "4104410000",
                   "max": "4104499999",
                   "rules": [
                         {
-                              "rule": "CTSH except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80) to [subheading&nbsp;410449](/subheading/4104490000-80).",
-                              "class": [],
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80) to [subheading&nbsp;410449](/subheading/4104490000-80).",
+                              "class": [
+                                    "CTSH"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -2750,7 +2741,7 @@
             },
             {
                   "heading": "410510",
-                  "subdivision": "",
+                  "subdivision": "Subheading 410510",
                   "min": "4105100000",
                   "max": "4105199999",
                   "rules": [
@@ -2770,7 +2761,7 @@
             },
             {
                   "heading": "410530",
-                  "subdivision": "",
+                  "subdivision": "Subheading 410530",
                   "min": "4105300000",
                   "max": "4105399999",
                   "rules": [
@@ -2790,7 +2781,7 @@
             },
             {
                   "heading": "410621",
-                  "subdivision": "",
+                  "subdivision": "Subheading 410621",
                   "min": "4106210000",
                   "max": "4106219999",
                   "rules": [
@@ -2810,7 +2801,7 @@
             },
             {
                   "heading": "410622",
-                  "subdivision": "",
+                  "subdivision": "Subheading 410622",
                   "min": "4106220000",
                   "max": "4106229999",
                   "rules": [
@@ -2830,7 +2821,7 @@
             },
             {
                   "heading": "410631",
-                  "subdivision": "",
+                  "subdivision": "Subheading 410631",
                   "min": "4106310000",
                   "max": "4106319999",
                   "rules": [
@@ -2850,7 +2841,7 @@
             },
             {
                   "heading": "410632-410640",
-                  "subdivision": "",
+                  "subdivision": "410632-410640",
                   "min": "4106320000",
                   "max": "4106499999",
                   "rules": [
@@ -2870,7 +2861,7 @@
             },
             {
                   "heading": "410691",
-                  "subdivision": "",
+                  "subdivision": "Subheading 410691",
                   "min": "4106910000",
                   "max": "4106919999",
                   "rules": [
@@ -2890,7 +2881,7 @@
             },
             {
                   "heading": "410692",
-                  "subdivision": "",
+                  "subdivision": "Subheading 410692",
                   "min": "4106920000",
                   "max": "4106929999",
                   "rules": [
@@ -2910,12 +2901,12 @@
             },
             {
                   "heading": "4107-4113",
-                  "subdivision": "",
+                  "subdivision": "4107-4113",
                   "min": "4107000000",
                   "max": "4113999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80) and [subheading&nbsp;410692](/subheading/4106920000-80). However, non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80) or [subheading&nbsp;410692](/subheading/4106920000-80) may be used provided that they undergo a retanning operation.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80) and [subheading&nbsp;410692](/subheading/4106920000-80).\n\nHowever, non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80) or [subheading&nbsp;410692](/subheading/4106920000-80) may be used provided that they undergo a retanning operation.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -2931,7 +2922,7 @@
             },
             {
                   "heading": "411410",
-                  "subdivision": "",
+                  "subdivision": "Subheading 411410",
                   "min": "4114100000",
                   "max": "4114199999",
                   "rules": [
@@ -2951,12 +2942,12 @@
             },
             {
                   "heading": "411420",
-                  "subdivision": "",
+                  "subdivision": "Subheading 411420",
                   "min": "4114200000",
                   "max": "4114299999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80), 410692 and 4107. However, non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80), 410692 and [heading&nbsp;4107](/headings/4107) may be used provided that they undergo a retanning operation.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80), 410692 and 4107.\n\nHowever, non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80), 410692 and [heading&nbsp;4107](/headings/4107) may be used provided that they undergo a retanning operation.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -2972,7 +2963,7 @@
             },
             {
                   "heading": "4115",
-                  "subdivision": "",
+                  "subdivision": "Heading 4115",
                   "min": "4115000000",
                   "max": "4115999999",
                   "rules": [
@@ -2992,7 +2983,7 @@
             },
             {
                   "heading": "4201-4206",
-                  "subdivision": "",
+                  "subdivision": "4201-4206",
                   "min": "4201000000",
                   "max": "4206999999",
                   "rules": [
@@ -3023,7 +3014,7 @@
             },
             {
                   "heading": "430110-430220",
-                  "subdivision": "",
+                  "subdivision": "430110-430220",
                   "min": "4301100000",
                   "max": "4302299999",
                   "rules": [
@@ -3054,7 +3045,7 @@
             },
             {
                   "heading": "430230",
-                  "subdivision": "",
+                  "subdivision": "Subheading 430230",
                   "min": "4302300000",
                   "max": "4302399999",
                   "rules": [
@@ -3074,7 +3065,7 @@
             },
             {
                   "heading": "4303-4304",
-                  "subdivision": "",
+                  "subdivision": "4303-4304",
                   "min": "4303000000",
                   "max": "4304999999",
                   "rules": [
@@ -3105,7 +3096,7 @@
             },
             {
                   "heading": "4401-4421",
-                  "subdivision": "",
+                  "subdivision": "4401-4421",
                   "min": "4401000000",
                   "max": "4421999999",
                   "rules": [
@@ -3136,7 +3127,7 @@
             },
             {
                   "heading": "4501-4504",
-                  "subdivision": "",
+                  "subdivision": "4501-4504",
                   "min": "4501000000",
                   "max": "4504999999",
                   "rules": [
@@ -3167,7 +3158,7 @@
             },
             {
                   "heading": "4601-4602",
-                  "subdivision": "",
+                  "subdivision": "4601-4602",
                   "min": "4601000000",
                   "max": "4602999999",
                   "rules": [
@@ -3198,7 +3189,7 @@
             },
             {
                   "heading": "4701-4707",
-                  "subdivision": "",
+                  "subdivision": "4701-4707",
                   "min": "4701000000",
                   "max": "4707999999",
                   "rules": [
@@ -3229,7 +3220,7 @@
             },
             {
                   "heading": "4801-4823",
-                  "subdivision": "",
+                  "subdivision": "4801-4823",
                   "min": "4801000000",
                   "max": "4823999999",
                   "rules": [
@@ -3260,7 +3251,7 @@
             },
             {
                   "heading": "4901-4911",
-                  "subdivision": "",
+                  "subdivision": "4901-4911",
                   "min": "4901000000",
                   "max": "4911999999",
                   "rules": [
@@ -3291,7 +3282,7 @@
             },
             {
                   "heading": "5001-5002",
-                  "subdivision": "",
+                  "subdivision": "5001-5002",
                   "min": "5001000000",
                   "max": "5002999999",
                   "rules": [
@@ -3351,7 +3342,7 @@
             },
             {
                   "heading": "5004-5005",
-                  "subdivision": "",
+                  "subdivision": "5004-5005",
                   "min": "5004000000",
                   "max": "5005999999",
                   "rules": [
@@ -3465,7 +3456,7 @@
             },
             {
                   "heading": "5007",
-                  "subdivision": "",
+                  "subdivision": "Heading 5007",
                   "min": "5007000000",
                   "max": "5007999999",
                   "rules": [
@@ -3541,7 +3532,7 @@
             },
             {
                   "heading": "5101-5105",
-                  "subdivision": "",
+                  "subdivision": "5101-5105",
                   "min": "5101000000",
                   "max": "5105999999",
                   "rules": [
@@ -3561,7 +3552,7 @@
             },
             {
                   "heading": "5106-5110",
-                  "subdivision": "",
+                  "subdivision": "5106-5110",
                   "min": "5106000000",
                   "max": "5110999999",
                   "rules": [
@@ -3601,7 +3592,7 @@
             },
             {
                   "heading": "5111-5113",
-                  "subdivision": "",
+                  "subdivision": "5111-5113",
                   "min": "5111000000",
                   "max": "5113999999",
                   "rules": [
@@ -3668,7 +3659,7 @@
             },
             {
                   "heading": "5201-5203",
-                  "subdivision": "",
+                  "subdivision": "5201-5203",
                   "min": "5201000000",
                   "max": "5203999999",
                   "rules": [
@@ -3688,7 +3679,7 @@
             },
             {
                   "heading": "5204-5207",
-                  "subdivision": "",
+                  "subdivision": "5204-5207",
                   "min": "5204000000",
                   "max": "5207999999",
                   "rules": [
@@ -3728,7 +3719,7 @@
             },
             {
                   "heading": "5208-5212",
-                  "subdivision": "",
+                  "subdivision": "5208-5212",
                   "min": "5208000000",
                   "max": "5212999999",
                   "rules": [
@@ -3806,7 +3797,7 @@
             },
             {
                   "heading": "5301-5305",
-                  "subdivision": "",
+                  "subdivision": "5301-5305",
                   "min": "5301000000",
                   "max": "5305999999",
                   "rules": [
@@ -3826,7 +3817,7 @@
             },
             {
                   "heading": "5306-5308",
-                  "subdivision": "",
+                  "subdivision": "5306-5308",
                   "min": "5306000000",
                   "max": "5308999999",
                   "rules": [
@@ -3866,7 +3857,7 @@
             },
             {
                   "heading": "5309-5311",
-                  "subdivision": "",
+                  "subdivision": "5309-5311",
                   "min": "5309000000",
                   "max": "5311999999",
                   "rules": [
@@ -3935,7 +3926,7 @@
             },
             {
                   "heading": "5401-5406",
-                  "subdivision": "",
+                  "subdivision": "5401-5406",
                   "min": "5401000000",
                   "max": "5406999999",
                   "rules": [
@@ -3975,7 +3966,7 @@
             },
             {
                   "heading": "5407-5408",
-                  "subdivision": "",
+                  "subdivision": "5407-5408",
                   "min": "5407000000",
                   "max": "5408999999",
                   "rules": [
@@ -4053,7 +4044,7 @@
             },
             {
                   "heading": "5501-5507",
-                  "subdivision": "",
+                  "subdivision": "5501-5507",
                   "min": "5501000000",
                   "max": "5507999999",
                   "rules": [
@@ -4073,7 +4064,7 @@
             },
             {
                   "heading": "5508-5511",
-                  "subdivision": "",
+                  "subdivision": "5508-5511",
                   "min": "5508000000",
                   "max": "5511999999",
                   "rules": [
@@ -4113,7 +4104,7 @@
             },
             {
                   "heading": "5512-5516",
-                  "subdivision": "",
+                  "subdivision": "5512-5516",
                   "min": "5512000000",
                   "max": "5516999999",
                   "rules": [
@@ -4191,7 +4182,7 @@
             },
             {
                   "heading": "5601",
-                  "subdivision": "",
+                  "subdivision": "Heading 5601",
                   "min": "5601000000",
                   "max": "5601999999",
                   "rules": [
@@ -4249,47 +4240,10 @@
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres combined with fabric formation.",
+                              "rule": "Extrusion of man-made fibres combined with fabric formation, however:\n\n- non-originating polypropylene filament of [heading&nbsp;5402](/heading/5402)\n\n- non-originating polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), or\n\n- non-originating polypropylene filament tow of [heading&nbsp;5501](/heading/5501)\n\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price (EXW) of the product.",
                               "class": [
-                                    "PROCESSING_TEXTILE"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "However:\n\n- non-originating polypropylene filament of [heading&nbsp;5402](/headings/5402).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Non-originating polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Non-originating polypropylene filament tow of [heading&nbsp;5501](/headings/5501).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Of which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price (EXW) of the product.",
-                              "class": [
-                                    "MAXNOM"
+                                    "MAXNOM",
+                                    "PROCESSING_TEXTILE TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -4340,31 +4294,15 @@
             },
             {
                   "heading": "560311-560314",
-                  "subdivision": "",
+                  "subdivision": "560311-560314",
                   "min": "5603110000",
                   "max": "5603149999",
                   "rules": [
                         {
-                              "rule": "Production from\n\n- directionally or randomly oriented filaments.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Substances or polymers of natural or man-made origin.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Followed in both cases by bonding into a nonwoven.",
-                              "class": [],
+                              "rule": "Production from:\n\n- directionally or randomly oriented filaments, or\n\n- substances or polymers of natural or man-made origin\n\nfollowed in both cases by bonding into a nonwoven.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -4376,31 +4314,15 @@
             },
             {
                   "heading": "560391-560394",
-                  "subdivision": "",
+                  "subdivision": "560391-560394",
                   "min": "5603910000",
                   "max": "5603949999",
                   "rules": [
                         {
-                              "rule": "Production from\n\n- directionally or randomly oriented staple fibres.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Chopped yarns, of natural or man-made origin.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Followed in both cases by bonding into a nonwoven.",
-                              "class": [],
+                              "rule": "Production from:\n\n- directionally or randomly oriented staple fibres, or\n\n- chopped yarns, of natural or man-made origin\n\nfollowed in both cases by bonding into a nonwoven.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -4412,7 +4334,7 @@
             },
             {
                   "heading": "560410",
-                  "subdivision": "",
+                  "subdivision": "Subheading 560410",
                   "min": "5604100000",
                   "max": "5604199999",
                   "rules": [
@@ -4432,7 +4354,7 @@
             },
             {
                   "heading": "560490",
-                  "subdivision": "",
+                  "subdivision": "Subheading 560490",
                   "min": "5604900000",
                   "max": "5604999999",
                   "rules": [
@@ -4472,7 +4394,7 @@
             },
             {
                   "heading": "5605",
-                  "subdivision": "",
+                  "subdivision": "Heading 5605",
                   "min": "5605000000",
                   "max": "5605999999",
                   "rules": [
@@ -4512,7 +4434,7 @@
             },
             {
                   "heading": "5606",
-                  "subdivision": "",
+                  "subdivision": "Heading 5606",
                   "min": "5606000000",
                   "max": "5606999999",
                   "rules": [
@@ -4561,7 +4483,7 @@
             },
             {
                   "heading": "5607-5609",
-                  "subdivision": "",
+                  "subdivision": "5607-5609",
                   "min": "5607000000",
                   "max": "5609999999",
                   "rules": [
@@ -4592,7 +4514,7 @@
             },
             {
                   "heading": "5701-5705",
-                  "subdivision": "",
+                  "subdivision": "5701-5705",
                   "min": "5701000000",
                   "max": "5705999999",
                   "rules": [
@@ -4668,7 +4590,7 @@
             },
             {
                   "heading": "5801-5804",
-                  "subdivision": "",
+                  "subdivision": "5801-5804",
                   "min": "5801000000",
                   "max": "5804999999",
                   "rules": [
@@ -4755,7 +4677,7 @@
             },
             {
                   "heading": "5805",
-                  "subdivision": "",
+                  "subdivision": "Heading 5805",
                   "min": "5805000000",
                   "max": "5805999999",
                   "rules": [
@@ -4775,7 +4697,7 @@
             },
             {
                   "heading": "5806-5809",
-                  "subdivision": "",
+                  "subdivision": "5806-5809",
                   "min": "5806000000",
                   "max": "5809999999",
                   "rules": [
@@ -4862,7 +4784,7 @@
             },
             {
                   "heading": "5810",
-                  "subdivision": "",
+                  "subdivision": "Heading 5810",
                   "min": "5810000000",
                   "max": "5810999999",
                   "rules": [
@@ -4884,7 +4806,7 @@
             },
             {
                   "heading": "5811",
-                  "subdivision": "",
+                  "subdivision": "Heading 5811",
                   "min": "5811000000",
                   "max": "5811999999",
                   "rules": [
@@ -4971,7 +4893,7 @@
             },
             {
                   "heading": "5901",
-                  "subdivision": "",
+                  "subdivision": "Heading 5901",
                   "min": "5901000000",
                   "max": "5901999999",
                   "rules": [
@@ -5042,7 +4964,7 @@
             },
             {
                   "heading": "5903",
-                  "subdivision": "",
+                  "subdivision": "Heading 5903",
                   "min": "5903000000",
                   "max": "5903999999",
                   "rules": [
@@ -5080,7 +5002,7 @@
             },
             {
                   "heading": "5904",
-                  "subdivision": "",
+                  "subdivision": "Heading 5904",
                   "min": "5904000000",
                   "max": "5904999999",
                   "rules": [
@@ -5292,7 +5214,7 @@
             },
             {
                   "heading": "5907",
-                  "subdivision": "",
+                  "subdivision": "Heading 5907",
                   "min": "5907000000",
                   "max": "5907999999",
                   "rules": [
@@ -5372,7 +5294,7 @@
             },
             {
                   "heading": "5909-5911",
-                  "subdivision": "",
+                  "subdivision": "5909-5911",
                   "min": "5909000000",
                   "max": "5911999999",
                   "rules": [
@@ -5425,7 +5347,7 @@
             },
             {
                   "heading": "6001-6006",
-                  "subdivision": "",
+                  "subdivision": "6001-6006",
                   "min": "6001000000",
                   "max": "6006999999",
                   "rules": [
@@ -5552,7 +5474,7 @@
             },
             {
                   "heading": "6201",
-                  "subdivision": "",
+                  "subdivision": "Heading 6201",
                   "min": "6201000000",
                   "max": "6201999999",
                   "rules": [
@@ -5645,7 +5567,7 @@
             },
             {
                   "heading": "6203",
-                  "subdivision": "",
+                  "subdivision": "Heading 6203",
                   "min": "6203000000",
                   "max": "6203999999",
                   "rules": [
@@ -5738,7 +5660,7 @@
             },
             {
                   "heading": "6205",
-                  "subdivision": "",
+                  "subdivision": "Heading 6205",
                   "min": "6205000000",
                   "max": "6205999999",
                   "rules": [
@@ -5831,7 +5753,7 @@
             },
             {
                   "heading": "6207-6208",
-                  "subdivision": "",
+                  "subdivision": "6207-6208",
                   "min": "6207000000",
                   "max": "6208999999",
                   "rules": [
@@ -6183,7 +6105,7 @@
             },
             {
                   "heading": "6215",
-                  "subdivision": "",
+                  "subdivision": "Heading 6215",
                   "min": "6215000000",
                   "max": "6215999999",
                   "rules": [
@@ -6409,7 +6331,7 @@
             },
             {
                   "heading": "6301-6304",
-                  "subdivision": "\n-\n- Embroidered",
+                  "subdivision": "- - Embroidered",
                   "min": "6301000000",
                   "max": "6304999999",
                   "rules": [
@@ -6440,7 +6362,7 @@
             },
             {
                   "heading": "6301-6304",
-                  "subdivision": "\n-\n- Others",
+                  "subdivision": "- - Others",
                   "min": "6301000000",
                   "max": "6304999999",
                   "rules": [
@@ -6460,7 +6382,7 @@
             },
             {
                   "heading": "6305",
-                  "subdivision": "",
+                  "subdivision": "Heading 6305",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -6520,7 +6442,7 @@
             },
             {
                   "heading": "6307",
-                  "subdivision": "",
+                  "subdivision": "Heading 6307",
                   "min": "6307000000",
                   "max": "6307999999",
                   "rules": [
@@ -6540,7 +6462,7 @@
             },
             {
                   "heading": "6308",
-                  "subdivision": "",
+                  "subdivision": "Heading 6308",
                   "min": "6308000000",
                   "max": "6308999999",
                   "rules": [
@@ -6569,7 +6491,7 @@
             },
             {
                   "heading": "6309-6310",
-                  "subdivision": "",
+                  "subdivision": "6309-6310",
                   "min": "6309000000",
                   "max": "6310999999",
                   "rules": [
@@ -6589,7 +6511,7 @@
             },
             {
                   "heading": "6401-6405",
-                  "subdivision": "",
+                  "subdivision": "6401-6405",
                   "min": "6401000000",
                   "max": "6405999999",
                   "rules": [
@@ -6609,7 +6531,7 @@
             },
             {
                   "heading": "6406",
-                  "subdivision": "",
+                  "subdivision": "Heading 6406",
                   "min": "6406000000",
                   "max": "6406999999",
                   "rules": [
@@ -6629,7 +6551,7 @@
             },
             {
                   "heading": "6501-6507",
-                  "subdivision": "",
+                  "subdivision": "6501-6507",
                   "min": "6501000000",
                   "max": "6507999999",
                   "rules": [
@@ -6649,7 +6571,7 @@
             },
             {
                   "heading": "6601-6603",
-                  "subdivision": "",
+                  "subdivision": "6601-6603",
                   "min": "6601000000",
                   "max": "6603999999",
                   "rules": [
@@ -6680,7 +6602,7 @@
             },
             {
                   "heading": "6701-6704",
-                  "subdivision": "",
+                  "subdivision": "6701-6704",
                   "min": "6701000000",
                   "max": "6704999999",
                   "rules": [
@@ -6700,7 +6622,7 @@
             },
             {
                   "heading": "6801-6815",
-                  "subdivision": "",
+                  "subdivision": "6801-6815",
                   "min": "6801000000",
                   "max": "6815999999",
                   "rules": [
@@ -6731,7 +6653,7 @@
             },
             {
                   "heading": "6901-6914",
-                  "subdivision": "",
+                  "subdivision": "6901-6914",
                   "min": "6901000000",
                   "max": "6914999999",
                   "rules": [
@@ -6751,7 +6673,7 @@
             },
             {
                   "heading": "7001-7009",
-                  "subdivision": "",
+                  "subdivision": "7001-7009",
                   "min": "7001000000",
                   "max": "7009999999",
                   "rules": [
@@ -6782,7 +6704,7 @@
             },
             {
                   "heading": "7010",
-                  "subdivision": "",
+                  "subdivision": "Heading 7010",
                   "min": "7010000000",
                   "max": "7010999999",
                   "rules": [
@@ -6802,7 +6724,7 @@
             },
             {
                   "heading": "7011",
-                  "subdivision": "",
+                  "subdivision": "Heading 7011",
                   "min": "7011000000",
                   "max": "7011999999",
                   "rules": [
@@ -6833,7 +6755,7 @@
             },
             {
                   "heading": "7013",
-                  "subdivision": "",
+                  "subdivision": "Heading 7013",
                   "min": "7013000000",
                   "max": "7013999999",
                   "rules": [
@@ -6853,7 +6775,7 @@
             },
             {
                   "heading": "7014-7020",
-                  "subdivision": "",
+                  "subdivision": "7014-7020",
                   "min": "7014000000",
                   "max": "7020999999",
                   "rules": [
@@ -6884,7 +6806,7 @@
             },
             {
                   "heading": "7101-7105",
-                  "subdivision": "",
+                  "subdivision": "7101-7105",
                   "min": "7101000000",
                   "max": "7105999999",
                   "rules": [
@@ -6963,7 +6885,7 @@
             },
             {
                   "heading": "7107",
-                  "subdivision": "",
+                  "subdivision": "Heading 7107",
                   "min": "7107000000",
                   "max": "7107999999",
                   "rules": [
@@ -7042,7 +6964,7 @@
             },
             {
                   "heading": "7109",
-                  "subdivision": "",
+                  "subdivision": "Heading 7109",
                   "min": "7109000000",
                   "max": "7109999999",
                   "rules": [
@@ -7121,7 +7043,7 @@
             },
             {
                   "heading": "7111",
-                  "subdivision": "",
+                  "subdivision": "Heading 7111",
                   "min": "7111000000",
                   "max": "7111999999",
                   "rules": [
@@ -7142,7 +7064,7 @@
             },
             {
                   "heading": "7112-7118",
-                  "subdivision": "",
+                  "subdivision": "7112-7118",
                   "min": "7112000000",
                   "max": "7118999999",
                   "rules": [
@@ -7162,7 +7084,7 @@
             },
             {
                   "heading": "7201-7206",
-                  "subdivision": "",
+                  "subdivision": "7201-7206",
                   "min": "7201000000",
                   "max": "7206999999",
                   "rules": [
@@ -7182,7 +7104,7 @@
             },
             {
                   "heading": "7207",
-                  "subdivision": "",
+                  "subdivision": "Heading 7207",
                   "min": "7207000000",
                   "max": "7207999999",
                   "rules": [
@@ -7202,7 +7124,7 @@
             },
             {
                   "heading": "7208-7217",
-                  "subdivision": "",
+                  "subdivision": "7208-7217",
                   "min": "7208000000",
                   "max": "7217999999",
                   "rules": [
@@ -7222,7 +7144,7 @@
             },
             {
                   "heading": "7218",
-                  "subdivision": "",
+                  "subdivision": "Heading 7218",
                   "min": "7218000000",
                   "max": "7218999999",
                   "rules": [
@@ -7242,7 +7164,7 @@
             },
             {
                   "heading": "7219-7223",
-                  "subdivision": "",
+                  "subdivision": "7219-7223",
                   "min": "7219000000",
                   "max": "7223999999",
                   "rules": [
@@ -7262,7 +7184,7 @@
             },
             {
                   "heading": "7224",
-                  "subdivision": "",
+                  "subdivision": "Heading 7224",
                   "min": "7224000000",
                   "max": "7224999999",
                   "rules": [
@@ -7282,7 +7204,7 @@
             },
             {
                   "heading": "7225-7229",
-                  "subdivision": "",
+                  "subdivision": "7225-7229",
                   "min": "7225000000",
                   "max": "7229999999",
                   "rules": [
@@ -7302,7 +7224,7 @@
             },
             {
                   "heading": "730110",
-                  "subdivision": "",
+                  "subdivision": "Subheading 730110",
                   "min": "7301100000",
                   "max": "7301199999",
                   "rules": [
@@ -7322,7 +7244,7 @@
             },
             {
                   "heading": "730120",
-                  "subdivision": "",
+                  "subdivision": "Subheading 730120",
                   "min": "7301200000",
                   "max": "7301299999",
                   "rules": [
@@ -7342,7 +7264,7 @@
             },
             {
                   "heading": "7302",
-                  "subdivision": "",
+                  "subdivision": "Heading 7302",
                   "min": "7302000000",
                   "max": "7302999999",
                   "rules": [
@@ -7362,7 +7284,7 @@
             },
             {
                   "heading": "7303",
-                  "subdivision": "",
+                  "subdivision": "Heading 7303",
                   "min": "7303000000",
                   "max": "7303999999",
                   "rules": [
@@ -7382,7 +7304,7 @@
             },
             {
                   "heading": "7304-7306",
-                  "subdivision": "",
+                  "subdivision": "7304-7306",
                   "min": "7304000000",
                   "max": "7306999999",
                   "rules": [
@@ -7453,7 +7375,7 @@
             },
             {
                   "heading": "7308",
-                  "subdivision": "",
+                  "subdivision": "Heading 7308",
                   "min": "7308000000",
                   "max": "7308999999",
                   "rules": [
@@ -7473,7 +7395,7 @@
             },
             {
                   "heading": "730900-731519",
-                  "subdivision": "",
+                  "subdivision": "730900-731519",
                   "min": "7309000000",
                   "max": "7315199999",
                   "rules": [
@@ -7493,7 +7415,7 @@
             },
             {
                   "heading": "731520",
-                  "subdivision": "",
+                  "subdivision": "Subheading 731520",
                   "min": "7315200000",
                   "max": "7315299999",
                   "rules": [
@@ -7524,7 +7446,7 @@
             },
             {
                   "heading": "731581-732690",
-                  "subdivision": "",
+                  "subdivision": "731581-732690",
                   "min": "7315810000",
                   "max": "7326999999",
                   "rules": [
@@ -7544,7 +7466,7 @@
             },
             {
                   "heading": "7401-7402",
-                  "subdivision": "",
+                  "subdivision": "7401-7402",
                   "min": "7401000000",
                   "max": "7402999999",
                   "rules": [
@@ -7564,7 +7486,7 @@
             },
             {
                   "heading": "7403",
-                  "subdivision": "",
+                  "subdivision": "Heading 7403",
                   "min": "7403000000",
                   "max": "7403999999",
                   "rules": [
@@ -7585,7 +7507,7 @@
             },
             {
                   "heading": "7404-7407",
-                  "subdivision": "",
+                  "subdivision": "7404-7407",
                   "min": "7404000000",
                   "max": "7407999999",
                   "rules": [
@@ -7605,7 +7527,7 @@
             },
             {
                   "heading": "7408",
-                  "subdivision": "",
+                  "subdivision": "Heading 7408",
                   "min": "7408000000",
                   "max": "7408999999",
                   "rules": [
@@ -7626,7 +7548,7 @@
             },
             {
                   "heading": "7409-7419",
-                  "subdivision": "",
+                  "subdivision": "7409-7419",
                   "min": "7409000000",
                   "max": "7419999999",
                   "rules": [
@@ -7646,7 +7568,7 @@
             },
             {
                   "heading": "7501",
-                  "subdivision": "",
+                  "subdivision": "Heading 7501",
                   "min": "7501000000",
                   "max": "7501999999",
                   "rules": [
@@ -7666,7 +7588,7 @@
             },
             {
                   "heading": "7502",
-                  "subdivision": "",
+                  "subdivision": "Heading 7502",
                   "min": "7502000000",
                   "max": "7502999999",
                   "rules": [
@@ -7687,7 +7609,7 @@
             },
             {
                   "heading": "7503-7508",
-                  "subdivision": "",
+                  "subdivision": "7503-7508",
                   "min": "7503000000",
                   "max": "7508999999",
                   "rules": [
@@ -7707,7 +7629,7 @@
             },
             {
                   "heading": "7601",
-                  "subdivision": "",
+                  "subdivision": "Heading 7601",
                   "min": "7601000000",
                   "max": "7601999999",
                   "rules": [
@@ -7728,7 +7650,7 @@
             },
             {
                   "heading": "7602",
-                  "subdivision": "",
+                  "subdivision": "Heading 7602",
                   "min": "7602000000",
                   "max": "7602999999",
                   "rules": [
@@ -7748,7 +7670,7 @@
             },
             {
                   "heading": "7603-7604",
-                  "subdivision": "",
+                  "subdivision": "7603-7604",
                   "min": "7603000000",
                   "max": "7604999999",
                   "rules": [
@@ -7768,7 +7690,7 @@
             },
             {
                   "heading": "7603-7616",
-                  "subdivision": "",
+                  "subdivision": "7603-7616",
                   "min": "7603000000",
                   "max": "7616999999",
                   "rules": [
@@ -7789,7 +7711,7 @@
             },
             {
                   "heading": "7605",
-                  "subdivision": "",
+                  "subdivision": "Heading 7605",
                   "min": "7605000000",
                   "max": "7605999999",
                   "rules": [
@@ -7809,7 +7731,7 @@
             },
             {
                   "heading": "7606",
-                  "subdivision": "",
+                  "subdivision": "Heading 7606",
                   "min": "7606000000",
                   "max": "7606999999",
                   "rules": [
@@ -7829,7 +7751,7 @@
             },
             {
                   "heading": "7607",
-                  "subdivision": "",
+                  "subdivision": "Heading 7607",
                   "min": "7607000000",
                   "max": "7607999999",
                   "rules": [
@@ -7849,7 +7771,7 @@
             },
             {
                   "heading": "7608-7616",
-                  "subdivision": "",
+                  "subdivision": "7608-7616",
                   "min": "7608000000",
                   "max": "7616999999",
                   "rules": [
@@ -7869,7 +7791,7 @@
             },
             {
                   "heading": "780110",
-                  "subdivision": "",
+                  "subdivision": "Subheading 780110",
                   "min": "7801100000",
                   "max": "7801199999",
                   "rules": [
@@ -7890,7 +7812,7 @@
             },
             {
                   "heading": "780191-780600",
-                  "subdivision": "",
+                  "subdivision": "780191-780600",
                   "min": "7801910000",
                   "max": "7806999999",
                   "rules": [
@@ -7910,7 +7832,7 @@
             },
             {
                   "heading": "7901-7907",
-                  "subdivision": "",
+                  "subdivision": "7901-7907",
                   "min": "7901000000",
                   "max": "7907999999",
                   "rules": [
@@ -7930,7 +7852,7 @@
             },
             {
                   "heading": "8001-8007",
-                  "subdivision": "",
+                  "subdivision": "8001-8007",
                   "min": "8001000000",
                   "max": "8007999999",
                   "rules": [
@@ -7950,7 +7872,7 @@
             },
             {
                   "heading": "8101-8113",
-                  "subdivision": "",
+                  "subdivision": "8101-8113",
                   "min": "8101000000",
                   "max": "8113999999",
                   "rules": [
@@ -7971,7 +7893,7 @@
             },
             {
                   "heading": "820110-820570",
-                  "subdivision": "",
+                  "subdivision": "820110-820570",
                   "min": "8201100000",
                   "max": "8205799999",
                   "rules": [
@@ -8002,7 +7924,7 @@
             },
             {
                   "heading": "820590",
-                  "subdivision": "",
+                  "subdivision": "Subheading 820590",
                   "min": "8205900000",
                   "max": "8205999999",
                   "rules": [
@@ -8022,7 +7944,7 @@
             },
             {
                   "heading": "8206",
-                  "subdivision": "",
+                  "subdivision": "Heading 8206",
                   "min": "8206000000",
                   "max": "8206999999",
                   "rules": [
@@ -8053,7 +7975,7 @@
             },
             {
                   "heading": "8207-8215",
-                  "subdivision": "",
+                  "subdivision": "8207-8215",
                   "min": "8207000000",
                   "max": "8215999999",
                   "rules": [
@@ -8084,7 +8006,7 @@
             },
             {
                   "heading": "8301-8311",
-                  "subdivision": "",
+                  "subdivision": "8301-8311",
                   "min": "8301000000",
                   "max": "8311999999",
                   "rules": [
@@ -8115,7 +8037,7 @@
             },
             {
                   "heading": "8401-8406",
-                  "subdivision": "",
+                  "subdivision": "8401-8406",
                   "min": "8401000000",
                   "max": "8406999999",
                   "rules": [
@@ -8146,7 +8068,7 @@
             },
             {
                   "heading": "8407-8408",
-                  "subdivision": "",
+                  "subdivision": "8407-8408",
                   "min": "8407000000",
                   "max": "8408999999",
                   "rules": [
@@ -8166,7 +8088,7 @@
             },
             {
                   "heading": "8409-8412",
-                  "subdivision": "",
+                  "subdivision": "8409-8412",
                   "min": "8409000000",
                   "max": "8412999999",
                   "rules": [
@@ -8197,7 +8119,7 @@
             },
             {
                   "heading": "841311-841510",
-                  "subdivision": "",
+                  "subdivision": "841311-841510",
                   "min": "8413110000",
                   "max": "8415199999",
                   "rules": [
@@ -8228,7 +8150,7 @@
             },
             {
                   "heading": "841520",
-                  "subdivision": "",
+                  "subdivision": "Subheading 841520",
                   "min": "8415200000",
                   "max": "8415299999",
                   "rules": [
@@ -8259,7 +8181,7 @@
             },
             {
                   "heading": "841581-841590",
-                  "subdivision": "",
+                  "subdivision": "841581-841590",
                   "min": "8415810000",
                   "max": "8415999999",
                   "rules": [
@@ -8290,7 +8212,7 @@
             },
             {
                   "heading": "8416-8420",
-                  "subdivision": "",
+                  "subdivision": "8416-8420",
                   "min": "8416000000",
                   "max": "8420999999",
                   "rules": [
@@ -8321,7 +8243,7 @@
             },
             {
                   "heading": "8421",
-                  "subdivision": "",
+                  "subdivision": "Heading 8421",
                   "min": "8421000000",
                   "max": "8421999999",
                   "rules": [
@@ -8352,7 +8274,7 @@
             },
             {
                   "heading": "8422-8424",
-                  "subdivision": "",
+                  "subdivision": "8422-8424",
                   "min": "8422000000",
                   "max": "8424999999",
                   "rules": [
@@ -8383,7 +8305,7 @@
             },
             {
                   "heading": "8425-8430",
-                  "subdivision": "",
+                  "subdivision": "8425-8430",
                   "min": "8425000000",
                   "max": "8430999999",
                   "rules": [
@@ -8414,7 +8336,7 @@
             },
             {
                   "heading": "8431-8443",
-                  "subdivision": "",
+                  "subdivision": "8431-8443",
                   "min": "8431000000",
                   "max": "8443999999",
                   "rules": [
@@ -8445,7 +8367,7 @@
             },
             {
                   "heading": "8444-8447",
-                  "subdivision": "",
+                  "subdivision": "8444-8447",
                   "min": "8444000000",
                   "max": "8447999999",
                   "rules": [
@@ -8476,7 +8398,7 @@
             },
             {
                   "heading": "8448-8455",
-                  "subdivision": "",
+                  "subdivision": "8448-8455",
                   "min": "8448000000",
                   "max": "8455999999",
                   "rules": [
@@ -8507,7 +8429,7 @@
             },
             {
                   "heading": "8456-8465",
-                  "subdivision": "",
+                  "subdivision": "8456-8465",
                   "min": "8456000000",
                   "max": "8465999999",
                   "rules": [
@@ -8538,7 +8460,7 @@
             },
             {
                   "heading": "8466-8468",
-                  "subdivision": "",
+                  "subdivision": "8466-8468",
                   "min": "8466000000",
                   "max": "8468999999",
                   "rules": [
@@ -8569,7 +8491,7 @@
             },
             {
                   "heading": "8470-8472",
-                  "subdivision": "",
+                  "subdivision": "8470-8472",
                   "min": "8470000000",
                   "max": "8472999999",
                   "rules": [
@@ -8600,7 +8522,7 @@
             },
             {
                   "heading": "8473-8478",
-                  "subdivision": "",
+                  "subdivision": "8473-8478",
                   "min": "8473000000",
                   "max": "8478999999",
                   "rules": [
@@ -8631,7 +8553,7 @@
             },
             {
                   "heading": "847910-847940",
-                  "subdivision": "",
+                  "subdivision": "847910-847940",
                   "min": "8479100000",
                   "max": "8479499999",
                   "rules": [
@@ -8662,7 +8584,7 @@
             },
             {
                   "heading": "847950",
-                  "subdivision": "",
+                  "subdivision": "Subheading 847950",
                   "min": "8479500000",
                   "max": "8479599999",
                   "rules": [
@@ -8693,7 +8615,7 @@
             },
             {
                   "heading": "847960-847982",
-                  "subdivision": "",
+                  "subdivision": "847960-847982",
                   "min": "8479600000",
                   "max": "8479829999",
                   "rules": [
@@ -8724,7 +8646,7 @@
             },
             {
                   "heading": "847989",
-                  "subdivision": "",
+                  "subdivision": "Subheading 847989",
                   "min": "8479890000",
                   "max": "8479899999",
                   "rules": [
@@ -8755,7 +8677,7 @@
             },
             {
                   "heading": "847990",
-                  "subdivision": "",
+                  "subdivision": "Subheading 847990",
                   "min": "8479900000",
                   "max": "8479999999",
                   "rules": [
@@ -8786,7 +8708,7 @@
             },
             {
                   "heading": "8480",
-                  "subdivision": "",
+                  "subdivision": "Heading 8480",
                   "min": "8480000000",
                   "max": "8480999999",
                   "rules": [
@@ -8817,7 +8739,7 @@
             },
             {
                   "heading": "8481",
-                  "subdivision": "",
+                  "subdivision": "Heading 8481",
                   "min": "8481000000",
                   "max": "8481999999",
                   "rules": [
@@ -8848,7 +8770,7 @@
             },
             {
                   "heading": "8482-8487",
-                  "subdivision": "",
+                  "subdivision": "8482-8487",
                   "min": "8482000000",
                   "max": "8487999999",
                   "rules": [
@@ -8879,7 +8801,7 @@
             },
             {
                   "heading": "8501-8502",
-                  "subdivision": "",
+                  "subdivision": "8501-8502",
                   "min": "8501000000",
                   "max": "8502999999",
                   "rules": [
@@ -8910,7 +8832,7 @@
             },
             {
                   "heading": "8503-8506",
-                  "subdivision": "",
+                  "subdivision": "8503-8506",
                   "min": "8503000000",
                   "max": "8506999999",
                   "rules": [
@@ -8968,8 +8890,10 @@
                               "export": true
                         },
                         {
-                              "rule": "CTSH (until 31 December 2023).",
-                              "class": [],
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) (until 31 December 2023).",
+                              "class": [
+                                    "CTSH"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -9085,7 +9009,7 @@
             },
             {
                   "heading": "8508-8518",
-                  "subdivision": "",
+                  "subdivision": "8508-8518",
                   "min": "8508000000",
                   "max": "8518999999",
                   "rules": [
@@ -9116,7 +9040,7 @@
             },
             {
                   "heading": "8519-8521",
-                  "subdivision": "",
+                  "subdivision": "8519-8521",
                   "min": "8519000000",
                   "max": "8521999999",
                   "rules": [
@@ -9147,7 +9071,7 @@
             },
             {
                   "heading": "8522-8523",
-                  "subdivision": "",
+                  "subdivision": "8522-8523",
                   "min": "8522000000",
                   "max": "8523999999",
                   "rules": [
@@ -9178,7 +9102,7 @@
             },
             {
                   "heading": "8525-8527",
-                  "subdivision": "",
+                  "subdivision": "8525-8527",
                   "min": "8525000000",
                   "max": "8527999999",
                   "rules": [
@@ -9209,7 +9133,7 @@
             },
             {
                   "heading": "8528-8534",
-                  "subdivision": "",
+                  "subdivision": "8528-8534",
                   "min": "8528000000",
                   "max": "8534999999",
                   "rules": [
@@ -9240,7 +9164,7 @@
             },
             {
                   "heading": "8535-8537",
-                  "subdivision": "",
+                  "subdivision": "8535-8537",
                   "min": "8535000000",
                   "max": "8537999999",
                   "rules": [
@@ -9271,7 +9195,7 @@
             },
             {
                   "heading": "853810-854190",
-                  "subdivision": "",
+                  "subdivision": "853810-854190",
                   "min": "8538100000",
                   "max": "8541999999",
                   "rules": [
@@ -9302,7 +9226,7 @@
             },
             {
                   "heading": "854231-854239",
-                  "subdivision": "",
+                  "subdivision": "854231-854239",
                   "min": "8542310000",
                   "max": "8542399999",
                   "rules": [
@@ -9342,7 +9266,7 @@
             },
             {
                   "heading": "854290-854390",
-                  "subdivision": "",
+                  "subdivision": "854290-854390",
                   "min": "8542900000",
                   "max": "8543999999",
                   "rules": [
@@ -9373,7 +9297,7 @@
             },
             {
                   "heading": "8544-8549",
-                  "subdivision": "",
+                  "subdivision": "8544-8549",
                   "min": "8544000000",
                   "max": "8549999999",
                   "rules": [
@@ -9393,7 +9317,7 @@
             },
             {
                   "heading": "8601-8609",
-                  "subdivision": "",
+                  "subdivision": "8601-8609",
                   "min": "8601000000",
                   "max": "8609999999",
                   "rules": [
@@ -9424,7 +9348,7 @@
             },
             {
                   "heading": "8701",
-                  "subdivision": "",
+                  "subdivision": "Heading 8701",
                   "min": "8701000000",
                   "max": "8701999999",
                   "rules": [
@@ -9484,7 +9408,7 @@
             },
             {
                   "heading": "8705-8707",
-                  "subdivision": "",
+                  "subdivision": "8705-8707",
                   "min": "8705000000",
                   "max": "8707999999",
                   "rules": [
@@ -9504,7 +9428,7 @@
             },
             {
                   "heading": "8708-8711",
-                  "subdivision": "",
+                  "subdivision": "8708-8711",
                   "min": "8708000000",
                   "max": "8711999999",
                   "rules": [
@@ -9535,7 +9459,7 @@
             },
             {
                   "heading": "8712",
-                  "subdivision": "",
+                  "subdivision": "Heading 8712",
                   "min": "8712000000",
                   "max": "8712999999",
                   "rules": [
@@ -9555,7 +9479,7 @@
             },
             {
                   "heading": "8713-8716",
-                  "subdivision": "",
+                  "subdivision": "8713-8716",
                   "min": "8713000000",
                   "max": "8716999999",
                   "rules": [
@@ -9586,7 +9510,7 @@
             },
             {
                   "heading": "8801-8807",
-                  "subdivision": "",
+                  "subdivision": "8801-8807",
                   "min": "8801000000",
                   "max": "8807999999",
                   "rules": [
@@ -9617,7 +9541,7 @@
             },
             {
                   "heading": "8901-8908",
-                  "subdivision": "",
+                  "subdivision": "8901-8908",
                   "min": "8901000000",
                   "max": "8908999999",
                   "rules": [
@@ -9648,7 +9572,7 @@
             },
             {
                   "heading": "900110-900140",
-                  "subdivision": "",
+                  "subdivision": "900110-900140",
                   "min": "9001100000",
                   "max": "9001499999",
                   "rules": [
@@ -9679,7 +9603,7 @@
             },
             {
                   "heading": "900150",
-                  "subdivision": "",
+                  "subdivision": "Subheading 900150",
                   "min": "9001500000",
                   "max": "9001599999",
                   "rules": [
@@ -9728,7 +9652,7 @@
             },
             {
                   "heading": "900190-903300",
-                  "subdivision": "",
+                  "subdivision": "900190-903300",
                   "min": "9001900000",
                   "max": "9033999999",
                   "rules": [
@@ -9759,7 +9683,7 @@
             },
             {
                   "heading": "9101-9114",
-                  "subdivision": "",
+                  "subdivision": "9101-9114",
                   "min": "9101000000",
                   "max": "9114999999",
                   "rules": [
@@ -9790,7 +9714,7 @@
             },
             {
                   "heading": "9201-9209",
-                  "subdivision": "",
+                  "subdivision": "9201-9209",
                   "min": "9201000000",
                   "max": "9209999999",
                   "rules": [
@@ -9810,7 +9734,7 @@
             },
             {
                   "heading": "9301-9307",
-                  "subdivision": "",
+                  "subdivision": "9301-9307",
                   "min": "9301000000",
                   "max": "9307999999",
                   "rules": [
@@ -9830,7 +9754,7 @@
             },
             {
                   "heading": "9401-9406",
-                  "subdivision": "",
+                  "subdivision": "9401-9406",
                   "min": "9401000000",
                   "max": "9406999999",
                   "rules": [
@@ -9861,7 +9785,7 @@
             },
             {
                   "heading": "9503-9508",
-                  "subdivision": "",
+                  "subdivision": "9503-9508",
                   "min": "9503000000",
                   "max": "9508999999",
                   "rules": [
@@ -9892,7 +9816,7 @@
             },
             {
                   "heading": "9601-9604",
-                  "subdivision": "",
+                  "subdivision": "9601-9604",
                   "min": "9601000000",
                   "max": "9604999999",
                   "rules": [
@@ -9923,7 +9847,7 @@
             },
             {
                   "heading": "9605",
-                  "subdivision": "",
+                  "subdivision": "Heading 9605",
                   "min": "9605000000",
                   "max": "9605999999",
                   "rules": [
@@ -9944,7 +9868,7 @@
             },
             {
                   "heading": "9606-960840",
-                  "subdivision": "",
+                  "subdivision": "9606-960840",
                   "min": "9606000000",
                   "max": "9608499999",
                   "rules": [
@@ -9975,7 +9899,7 @@
             },
             {
                   "heading": "960850",
-                  "subdivision": "",
+                  "subdivision": "Subheading 960850",
                   "min": "9608500000",
                   "max": "9608599999",
                   "rules": [
@@ -9996,7 +9920,7 @@
             },
             {
                   "heading": "960860-9620",
-                  "subdivision": "",
+                  "subdivision": "960860-9620",
                   "min": "9608600000",
                   "max": "9620999999",
                   "rules": [
@@ -10027,7 +9951,7 @@
             },
             {
                   "heading": "9701-9706",
-                  "subdivision": "",
+                  "subdivision": "9701-9706",
                   "min": "9701000000",
                   "max": "9706999999",
                   "rules": [

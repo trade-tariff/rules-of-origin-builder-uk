@@ -40,13 +40,18 @@ class RuleSetModern(object):
         self.heading = self.heading.replace(".", "")
         self.heading = self.heading.replace(" - ", "-")
         self.heading = re.sub("([0-9]) to ([0-9])", "\\1 - \\2", self.heading)
+        if "6202" in self.heading:
+            a = 1
         if ":" in self.original_heading or self.original_heading.startswith("-"):
             self.heading = self.heading.removeprefix("- ")
             self.heading = self.heading.removesuffix(":")
             self.subdivision = self.heading
             self.subdivision = self.subdivision.replace("-", "\n-")
+            self.subdivision = self.subdivision.replace("\n-\n-", "- -")
             if self.subdivision.startswith("\n"):
                 self.subdivision.lstrip()
+            
+            
             if self.subdivision == "Other":
                 self.subdivision = "Others"
             self.heading = ""

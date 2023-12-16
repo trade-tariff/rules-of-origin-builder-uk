@@ -5,6 +5,11 @@ all_headings = {}
 all_subheadings = {}
 all_codes = {}
 all_rules_with_classes = {}
+mix_ex_non_ex_errors = []
+non_contiguous_and_errors = []
+multiple_and_errors = []
+multiple_manufacture = []
+possible_missing_hyphens = []
 
 parent_heading = ""
 

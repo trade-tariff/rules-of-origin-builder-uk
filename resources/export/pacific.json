@@ -1,7 +1,7 @@
 {
       "rule_sets": [
             {
-                  "heading": "chapter 01",
+                  "heading": "Chapter 01",
                   "chapter": 1,
                   "subdivision": "Live animals",
                   "min": "0100000000",
@@ -22,7 +22,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 02",
+                  "heading": "Chapter 02",
                   "chapter": 2,
                   "subdivision": "Meat and edible meat offal",
                   "min": "0200000000",
@@ -291,8 +291,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "0402",
@@ -312,8 +312,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "0403",
@@ -323,7 +323,7 @@
                   "max": "0403999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\n- any fruit juice (except those of pineapple, lime or grape fruit) of [heading&nbsp;2009](/headings/2009) used must already be originating\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials of [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\nany fruit juice (except those of pineapple, lime or grape fruit) of [heading&nbsp;2009](/headings/2009) used must already be originating\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
                                     "WO"
@@ -355,8 +355,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "0405",
@@ -376,8 +376,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "0406",
@@ -397,8 +397,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "0407",
@@ -418,8 +418,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "0408",
@@ -439,8 +439,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "0409",
@@ -460,8 +460,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "0410",
@@ -481,8 +481,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 4
+                  "chapter": 4,
+                  "valid": true
             },
             {
                   "heading": "ex Chapter 05",
@@ -545,8 +545,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 6
+                  "chapter": 6,
+                  "valid": true
             },
             {
                   "heading": "0601",
@@ -566,8 +566,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 6
+                  "chapter": 6,
+                  "valid": true
             },
             {
                   "heading": "0602",
@@ -588,8 +588,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 6
+                  "chapter": 6,
+                  "valid": true
             },
             {
                   "heading": "0602",
@@ -609,8 +609,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 6
+                  "chapter": 6,
+                  "valid": true
             },
             {
                   "heading": "0603",
@@ -631,8 +631,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 6
+                  "chapter": 6,
+                  "valid": true
             },
             {
                   "heading": "0603",
@@ -652,8 +652,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 6
+                  "chapter": 6,
+                  "valid": true
             },
             {
                   "heading": "0604",
@@ -674,8 +674,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 6
+                  "chapter": 6,
+                  "valid": true
             },
             {
                   "heading": "0604",
@@ -695,11 +695,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 6
+                  "chapter": 6,
+                  "valid": true
             },
             {
-                  "heading": "chapter 07",
+                  "heading": "Chapter 07",
                   "chapter": 7,
                   "subdivision": "Edible vegetables and certain roots and tubers",
                   "min": "0700000000",
@@ -726,7 +726,7 @@
                   "max": "0801999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -737,8 +737,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0801",
@@ -758,8 +758,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0802",
@@ -768,7 +768,7 @@
                   "max": "0802999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -779,8 +779,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0802",
@@ -800,8 +800,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0803",
@@ -810,7 +810,7 @@
                   "max": "0803999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -821,8 +821,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0803",
@@ -842,8 +842,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0804",
@@ -852,7 +852,7 @@
                   "max": "0804999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -863,8 +863,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0804",
@@ -884,8 +884,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0805",
@@ -894,7 +894,7 @@
                   "max": "0805999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -905,8 +905,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0805",
@@ -926,8 +926,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0806",
@@ -936,7 +936,7 @@
                   "max": "0806999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -947,8 +947,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0806",
@@ -968,8 +968,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0807",
@@ -978,7 +978,7 @@
                   "max": "0807999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -989,8 +989,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0807",
@@ -1010,8 +1010,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0808",
@@ -1020,7 +1020,7 @@
                   "max": "0808999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1031,8 +1031,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0808",
@@ -1052,8 +1052,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0809",
@@ -1062,7 +1062,7 @@
                   "max": "0809999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1073,8 +1073,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0809",
@@ -1094,8 +1094,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0810",
@@ -1104,7 +1104,7 @@
                   "max": "0810999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1115,8 +1115,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0810",
@@ -1136,8 +1136,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0811",
@@ -1146,7 +1146,7 @@
                   "max": "0811999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1157,8 +1157,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0811",
@@ -1178,8 +1178,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0812",
@@ -1188,7 +1188,7 @@
                   "max": "0812999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1199,8 +1199,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0812",
@@ -1220,8 +1220,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0813",
@@ -1230,7 +1230,7 @@
                   "max": "0813999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1241,8 +1241,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0813",
@@ -1262,8 +1262,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0814",
@@ -1272,7 +1272,7 @@
                   "max": "0814999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the fruit and nuts used must be wholly obtained\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1283,8 +1283,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0814",
@@ -1304,8 +1304,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 8
+                  "chapter": 8,
+                  "valid": true
             },
             {
                   "heading": "0901",
@@ -1539,7 +1539,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 10",
+                  "heading": "Chapter 10",
                   "chapter": 10,
                   "subdivision": "Cereals",
                   "min": "1000000000",
@@ -1678,7 +1678,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 12",
+                  "heading": "Chapter 12",
                   "chapter": 12,
                   "subdivision": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal plants; straw and fodder",
                   "min": "1200000000",
@@ -1784,7 +1784,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 14",
+                  "heading": "Chapter 14",
                   "chapter": 14,
                   "subdivision": "**(Derogation - see Annex II a of the origin reference document)**<br>\nVegetable plaiting materials; vegetable products not elsewhere specified or included",
                   "min": "1400000000",
@@ -1807,7 +1807,7 @@
                                     "CTH"
                               ],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2041,26 +2041,7 @@
                                     "CTH"
                               ],
                               "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "1507",
-                  "chapter": 15,
-                  "subdivision": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animals or vegetable waxes",
-                  "min": "1507000000",
-                  "max": "1507999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2111,7 +2092,7 @@
                                     "CTH"
                               ],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2148,7 +2129,7 @@
                   "max": "1516999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;2](/chapters/02) used must be wholly obtained\n\n- all the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
+                              "rule": "Manufacture in which:\n\nall the materials of [chapter&nbsp;2](/chapters/02) used must be wholly obtained\n\nall the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
                               "class": [
                                     "WO"
                               ],
@@ -2188,7 +2169,7 @@
                   "max": "1517999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;2](/chapters/02) and [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\n- all the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
+                              "rule": "Manufacture in which:\n\nall the materials of [chapter&nbsp;2](/chapters/02) and [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\nall the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
                               "class": [
                                     "WO"
                               ],
@@ -2293,8 +2274,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 16
+                  "chapter": 16,
+                  "valid": true
             },
             {
                   "heading": "1602",
@@ -2312,8 +2293,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 16
+                  "chapter": 16,
+                  "valid": true
             },
             {
                   "heading": "1603",
@@ -2331,8 +2312,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 16
+                  "chapter": 16,
+                  "valid": true
             },
             {
                   "heading": "1604",
@@ -2350,8 +2331,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 16
+                  "chapter": 16,
+                  "valid": true
             },
             {
                   "heading": "1604 to 1605",
@@ -2390,8 +2371,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 16
+                  "chapter": 16,
+                  "valid": true
             },
             {
                   "heading": "ex 1701",
@@ -2562,7 +2543,7 @@
                   "max": "1801999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2573,8 +2554,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1801",
@@ -2594,8 +2575,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1802",
@@ -2604,7 +2585,7 @@
                   "max": "1802999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2615,8 +2596,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1802",
@@ -2636,8 +2617,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1803",
@@ -2646,7 +2627,7 @@
                   "max": "1803999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2657,8 +2638,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1803",
@@ -2678,8 +2659,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1804",
@@ -2688,7 +2669,7 @@
                   "max": "1804999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2699,8 +2680,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1804",
@@ -2720,8 +2701,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1805",
@@ -2730,7 +2711,7 @@
                   "max": "1805999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2741,8 +2722,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1805",
@@ -2762,8 +2743,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1806",
@@ -2772,7 +2753,7 @@
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2783,8 +2764,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1806",
@@ -2804,8 +2785,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 18
+                  "chapter": 18,
+                  "valid": true
             },
             {
                   "heading": "1901",
@@ -3004,7 +2985,7 @@
                   "max": "1904999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\n- from materials not classified within heading&nbsp;1806\n\n- in which all the cereals and flour (except durum wheat and its derivates and Zea indurata maize) used must be wholly obtained,\n\n- in which the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\nfrom materials not classified within heading&nbsp;1806\n\nin which all the cereals and flour (except durum wheat and its derivates and Zea indurata maize) used must be wholly obtained,\n\nin which the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
                                     "WO"
@@ -3710,8 +3691,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2202",
@@ -3752,8 +3733,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2204",
@@ -3773,8 +3754,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2205",
@@ -3794,8 +3775,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2206",
@@ -3815,8 +3796,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "2207",
@@ -3880,8 +3861,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 22
+                  "chapter": 22,
+                  "valid": true
             },
             {
                   "heading": "ex Chapter 23",
@@ -4557,7 +4538,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 26",
+                  "heading": "Chapter 26",
                   "chapter": 26,
                   "subdivision": "Ores, slag and ash",
                   "min": "2600000000",
@@ -6671,8 +6652,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 30
+                  "chapter": 30,
+                  "valid": true
             },
             {
                   "heading": "3002",
@@ -6824,8 +6805,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 30
+                  "chapter": 30,
+                  "valid": true
             },
             {
                   "heading": "3003 to 3004",
@@ -6887,8 +6868,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 30
+                  "chapter": 30,
+                  "valid": true
             },
             {
                   "heading": "3005",
@@ -6908,8 +6889,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 30
+                  "chapter": 30,
+                  "valid": true
             },
             {
                   "heading": "3006",
@@ -6929,8 +6910,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 30
+                  "chapter": 30,
+                  "valid": true
             },
             {
                   "heading": "ex Chapter 31",
@@ -6967,7 +6948,7 @@
             {
                   "heading": "ex 3105",
                   "chapter": 31,
-                  "subdivision": "Mineral or chemical fertilizers containing two or three of the fertilizing elements nitrogen, phosphorous and potassium; other fertilizers; goods of this Chapter, in tablets or similar forms or in packages of a gross weight not exceeding 10 kg, except for:\n- sodium nitrate\n- calcium cyanamide\n- potassium sulphate\n- magnesium potassium sulphate",
+                  "subdivision": "Mineral or chemical fertilizers containing two or three of the fertilizing elements nitrogen, phosphorous and potassium; other fertilizers; goods of this Chapter, in tablets or similar forms or in packages of a gross weight not exceeding 10 kg\n- sodium nitrate\n- calcium cyanamide\n- potassium sulphate\n- magnesium potassium sulphate",
                   "min": "3105000000",
                   "max": "3105999999",
                   "rules": [
@@ -7568,8 +7549,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 33
+                  "chapter": 33,
+                  "valid": true
             },
             {
                   "heading": "3303",
@@ -7600,8 +7581,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 33
+                  "chapter": 33,
+                  "valid": true
             },
             {
                   "heading": "3304",
@@ -7632,8 +7613,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 33
+                  "chapter": 33,
+                  "valid": true
             },
             {
                   "heading": "3305",
@@ -7664,8 +7645,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 33
+                  "chapter": 33,
+                  "valid": true
             },
             {
                   "heading": "3306",
@@ -7696,8 +7677,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 33
+                  "chapter": 33,
+                  "valid": true
             },
             {
                   "heading": "3307",
@@ -7728,8 +7709,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 33
+                  "chapter": 33,
+                  "valid": true
             },
             {
                   "heading": "3401",
@@ -8295,7 +8276,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 36",
+                  "heading": "Chapter 36",
                   "chapter": 36,
                   "subdivision": "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations",
                   "min": "3600000000",
@@ -8449,8 +8430,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 37
+                  "chapter": 37,
+                  "valid": true
             },
             {
                   "heading": "3704",
@@ -8513,8 +8494,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 37
+                  "chapter": 37,
+                  "valid": true
             },
             {
                   "heading": "3706",
@@ -8545,8 +8526,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 37
+                  "chapter": 37,
+                  "valid": true
             },
             {
                   "heading": "3707",
@@ -8577,8 +8558,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 37
+                  "chapter": 37,
+                  "valid": true
             },
             {
                   "heading": "ex 3801",
@@ -9647,7 +9628,7 @@
                   "max": "3907999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- -The value of any materials of all materials used do not exceed **50%** of the ex-works price of the product\n\n- the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **20%** of the ex-works price of the product and&nbsp;/&nbsp;or manufacture from polycarbonate of tetrabromo-(bisphenol A).",
+                              "rule": "Manufacture in which:\n\n- The value of any materials of all materials used do not exceed **50%** of the ex-works price of the product\n\n- the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **20%** of the ex-works price of the product and&nbsp;/&nbsp;or manufacture from polycarbonate of tetrabromo-(bisphenol A).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -10427,25 +10408,6 @@
                   "valid": true
             },
             {
-                  "heading": "4104",
-                  "chapter": 41,
-                  "subdivision": "Raw hides and skins (other than furskins) and leather",
-                  "min": "4104000000",
-                  "max": "4104999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "4104 to 4107",
                   "chapter": 41,
                   "subdivision": "Leather, without hair or wool, other than leather of headings 4108 or 4109",
@@ -10468,27 +10430,6 @@
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "4109",
-                  "chapter": 41,
-                  "subdivision": "Patent leather and patent laminated leather; metallized leather",
-                  "min": "4109000000",
-                  "max": "4109999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from leather of [heading&nbsp;4104](/headings/4104) to [heading&nbsp;4107](/headings/4107) provided its value does not exceed **50%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -10537,13 +10478,15 @@
             {
                   "heading": "4114",
                   "chapter": 41,
-                  "subdivision": "Raw hides and skins (other than furskins) and leather",
+                  "subdivision": "Patent leather and patent laminated leather; metallized leather",
                   "min": "4114000000",
                   "max": "4114999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
+                              "rule": "Manufacture from leather of [heading&nbsp;4104](/headings/4104) to [heading&nbsp;4107](/headings/4107) provided its value does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -10573,7 +10516,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 42",
+                  "heading": "Chapter 42",
                   "chapter": 42,
                   "subdivision": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk worm gut)",
                   "min": "4200000000",
@@ -11397,8 +11340,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 45
+                  "chapter": 45,
+                  "valid": true
             },
             {
                   "heading": "4502",
@@ -11416,8 +11359,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 45
+                  "chapter": 45,
+                  "valid": true
             },
             {
                   "heading": "4503",
@@ -11456,11 +11399,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 45
+                  "chapter": 45,
+                  "valid": true
             },
             {
-                  "heading": "chapter 46",
+                  "heading": "Chapter 46",
                   "chapter": 46,
                   "subdivision": "Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
                   "min": "4600000000",
@@ -11479,7 +11422,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 47",
+                  "heading": "Chapter 47",
                   "chapter": 47,
                   "subdivision": "Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard",
                   "min": "4700000000",
@@ -12040,8 +11983,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "4902",
@@ -12059,8 +12002,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "4903",
@@ -12078,8 +12021,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "4904",
@@ -12097,8 +12040,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "4905",
@@ -12116,8 +12059,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "4906",
@@ -12135,8 +12078,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "4907",
@@ -12154,8 +12097,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "4908",
@@ -12173,8 +12116,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "4909",
@@ -12251,8 +12194,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 49
+                  "chapter": 49,
+                  "valid": true
             },
             {
                   "heading": "5001",
@@ -12319,25 +12262,6 @@
                   "subdivision": "Any other product",
                   "min": "5003000000",
                   "max": "5003999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "5004",
-                  "chapter": 50,
-                  "subdivision": "Silk",
-                  "min": "5004000000",
-                  "max": "5004999999",
                   "rules": [
                         {
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
@@ -12458,8 +12382,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5102",
@@ -12477,8 +12401,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5103",
@@ -12496,8 +12420,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5104",
@@ -12515,8 +12439,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5105",
@@ -12534,8 +12458,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5106",
@@ -12553,8 +12477,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5106 to 5110",
@@ -12593,8 +12517,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5108",
@@ -12612,8 +12536,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5109",
@@ -12631,8 +12555,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5110",
@@ -12650,8 +12574,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5111",
@@ -12669,8 +12593,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5111 to 5113",
@@ -12718,8 +12642,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5113",
@@ -12737,8 +12661,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 51
+                  "chapter": 51,
+                  "valid": true
             },
             {
                   "heading": "5201",
@@ -12756,8 +12680,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5202",
@@ -12775,8 +12699,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5203",
@@ -12794,8 +12718,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5204",
@@ -12813,8 +12737,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5204 to 5207",
@@ -12853,8 +12777,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5206",
@@ -12872,8 +12796,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5207",
@@ -12891,8 +12815,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5208",
@@ -12910,8 +12834,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5208 to 5212",
@@ -12959,8 +12883,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5210",
@@ -12978,8 +12902,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5211",
@@ -12997,8 +12921,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5212",
@@ -13016,8 +12940,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 52
+                  "chapter": 52,
+                  "valid": true
             },
             {
                   "heading": "5301",
@@ -13035,8 +12959,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5302",
@@ -13054,8 +12978,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5303",
@@ -13073,8 +12997,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5305",
@@ -13092,8 +13016,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5306",
@@ -13111,8 +13035,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5306 to 5308",
@@ -13151,8 +13075,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5308",
@@ -13170,8 +13094,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5309",
@@ -13189,8 +13113,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5309 to 5311",
@@ -13238,8 +13162,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5311",
@@ -13257,8 +13181,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 53
+                  "chapter": 53,
+                  "valid": true
             },
             {
                   "heading": "5401 to 5406",
@@ -13401,8 +13325,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
                   "heading": "5602",
@@ -13460,8 +13384,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
                   "heading": "5604",
@@ -13565,8 +13489,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
                   "heading": "5608",
@@ -13586,8 +13510,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
                   "heading": "5609",
@@ -13607,8 +13531,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 56
+                  "chapter": 56,
+                  "valid": true
             },
             {
                   "heading": "5701",
@@ -13626,8 +13550,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5701",
@@ -13647,8 +13571,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5701",
@@ -13666,8 +13590,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5702",
@@ -13685,8 +13609,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5702",
@@ -13706,8 +13630,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5702",
@@ -13725,8 +13649,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5703",
@@ -13744,8 +13668,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5703",
@@ -13765,8 +13689,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5703",
@@ -13784,8 +13708,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5704",
@@ -13803,8 +13727,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5704",
@@ -13824,8 +13748,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5704",
@@ -13843,8 +13767,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5705",
@@ -13862,8 +13786,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5705",
@@ -13883,8 +13807,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5705",
@@ -13902,8 +13826,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 57
+                  "chapter": 57,
+                  "valid": true
             },
             {
                   "heading": "5801",
@@ -13932,8 +13856,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5802",
@@ -13962,8 +13886,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5803",
@@ -13992,8 +13916,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5804",
@@ -14022,8 +13946,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5805",
@@ -14071,8 +13995,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5807",
@@ -14101,8 +14025,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5808",
@@ -14131,8 +14055,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5809",
@@ -14161,8 +14085,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5810",
@@ -14212,8 +14136,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 58
+                  "chapter": 58,
+                  "valid": true
             },
             {
                   "heading": "5901",
@@ -14493,7 +14417,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 60",
+                  "heading": "Chapter 60",
                   "chapter": 60,
                   "subdivision": "Knitted or crocheted fabrics",
                   "min": "6000000000",
@@ -14529,8 +14453,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6101",
@@ -14550,8 +14474,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6102",
@@ -14569,8 +14493,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6102",
@@ -14590,8 +14514,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6103",
@@ -14609,8 +14533,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6103",
@@ -14630,8 +14554,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6104",
@@ -14649,8 +14573,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6104",
@@ -14670,8 +14594,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6105",
@@ -14689,8 +14613,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6105",
@@ -14710,8 +14634,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6106",
@@ -14729,8 +14653,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6106",
@@ -14750,8 +14674,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6107",
@@ -14769,8 +14693,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6107",
@@ -14790,8 +14714,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6108",
@@ -14809,8 +14733,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6108",
@@ -14830,8 +14754,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6109",
@@ -14849,8 +14773,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6109",
@@ -14870,8 +14794,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6110",
@@ -14889,8 +14813,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6110",
@@ -14910,8 +14834,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6111",
@@ -14929,8 +14853,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6111",
@@ -14950,8 +14874,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6112",
@@ -14969,8 +14893,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6112",
@@ -14990,8 +14914,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6113",
@@ -15009,8 +14933,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6113",
@@ -15030,8 +14954,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6114",
@@ -15049,8 +14973,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6114",
@@ -15070,8 +14994,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6115",
@@ -15089,8 +15013,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6115",
@@ -15110,8 +15034,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6116",
@@ -15129,8 +15053,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6116",
@@ -15150,8 +15074,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6117",
@@ -15169,8 +15093,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6117",
@@ -15190,8 +15114,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 61
+                  "chapter": 61,
+                  "valid": true
             },
             {
                   "heading": "6201",
@@ -15209,8 +15133,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6202",
@@ -15228,8 +15152,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6203",
@@ -15247,8 +15171,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6204",
@@ -15266,8 +15190,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6205",
@@ -15285,8 +15209,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6206",
@@ -15304,8 +15228,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6207",
@@ -15323,8 +15247,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6208",
@@ -15342,8 +15266,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6209",
@@ -15361,8 +15285,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6210",
@@ -15380,8 +15304,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6211",
@@ -15399,8 +15323,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6212",
@@ -15418,8 +15342,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6213",
@@ -15437,8 +15361,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6213 to 6214",
@@ -15518,8 +15442,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6215",
@@ -15537,8 +15461,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6216",
@@ -15556,8 +15480,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 62
+                  "chapter": 62,
+                  "valid": true
             },
             {
                   "heading": "6217",
@@ -15631,7 +15555,7 @@
                   "max": "6217999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -15660,8 +15584,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6301 to 6304",
@@ -15749,8 +15673,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6303",
@@ -15768,8 +15692,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6304",
@@ -15787,8 +15711,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6305",
@@ -15886,8 +15810,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6310",
@@ -15905,8 +15829,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 63
+                  "chapter": 63,
+                  "valid": true
             },
             {
                   "heading": "6401",
@@ -15924,8 +15848,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6402",
@@ -15943,8 +15867,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6403",
@@ -15962,8 +15886,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6404",
@@ -15981,8 +15905,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6405",
@@ -16000,8 +15924,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 64
+                  "chapter": 64,
+                  "valid": true
             },
             {
                   "heading": "6406",
@@ -16024,7 +15948,7 @@
             },
             {
                   "heading": "6501",
-                  "subdivision": "Headgear and parts thereof, except for:",
+                  "subdivision": "Headgear and parts thereof",
                   "min": "6501000000",
                   "max": "6501999999",
                   "rules": [
@@ -16038,12 +15962,12 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "chapter": 65,
+                  "valid": true
             },
             {
                   "heading": "6502",
-                  "subdivision": "Headgear and parts thereof, except for:",
+                  "subdivision": "Headgear and parts thereof",
                   "min": "6502000000",
                   "max": "6502999999",
                   "rules": [
@@ -16057,33 +15981,12 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
-            },
-            {
-                  "heading": "6503",
                   "chapter": 65,
-                  "subdivision": "Felt hats and other felt head gear, made from the hat bodies, hoods or plateaux of heading 6501, whether or not lined or trimmed",
-                  "min": "6503000000",
-                  "max": "6503999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from yarn or textile fibres.",
-                              "class": [
-                                    "PRODUCTION FROM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
                   "valid": true
             },
             {
                   "heading": "6504",
-                  "subdivision": "Headgear and parts thereof, except for:",
+                  "subdivision": "Headgear and parts thereof",
                   "min": "6504000000",
                   "max": "6504999999",
                   "rules": [
@@ -16097,8 +16000,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "chapter": 65,
+                  "valid": true
             },
             {
                   "heading": "6505",
@@ -16123,7 +16026,7 @@
             },
             {
                   "heading": "6506",
-                  "subdivision": "Headgear and parts thereof, except for:",
+                  "subdivision": "Headgear and parts thereof",
                   "min": "6506000000",
                   "max": "6506999999",
                   "rules": [
@@ -16137,12 +16040,12 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "chapter": 65,
+                  "valid": true
             },
             {
                   "heading": "6507",
-                  "subdivision": "Headgear and parts thereof, except for:",
+                  "subdivision": "Headgear and parts thereof",
                   "min": "6507000000",
                   "max": "6507999999",
                   "rules": [
@@ -16156,8 +16059,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "chapter": 65,
+                  "valid": true
             },
             {
                   "heading": "6601",
@@ -16196,8 +16099,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 66
+                  "chapter": 66,
+                  "valid": true
             },
             {
                   "heading": "6603",
@@ -16215,11 +16118,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 66
+                  "chapter": 66,
+                  "valid": true
             },
             {
-                  "heading": "chapter 67",
+                  "heading": "Chapter 67",
                   "chapter": 67,
                   "subdivision": "Prepared feathers and down and articles made of feathers or of down; artificial flowers; articles of human hair",
                   "min": "6700000000",
@@ -16320,7 +16223,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 69",
+                  "heading": "Chapter 69",
                   "chapter": 69,
                   "subdivision": "Ceramic products",
                   "min": "6900000000",
@@ -17568,25 +17471,6 @@
                   "valid": true
             },
             {
-                  "heading": "7208",
-                  "chapter": 72,
-                  "subdivision": "Iron and steel",
-                  "min": "7208000000",
-                  "max": "7208999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "7208 to 7216",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of iron or non-alloy steel",
@@ -17669,25 +17553,6 @@
                   "valid": true
             },
             {
-                  "heading": "7219",
-                  "chapter": 72,
-                  "subdivision": "Iron and steel",
-                  "min": "7219000000",
-                  "max": "7219999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "7219 to 7222",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of stainless steel",
@@ -17756,25 +17621,6 @@
                   "subdivision": "Any other product",
                   "min": "7224000000",
                   "max": "7224999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "7225",
-                  "chapter": 72,
-                  "subdivision": "Iron and steel",
-                  "min": "7225000000",
-                  "max": "7225999999",
                   "rules": [
                         {
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
@@ -17897,25 +17743,6 @@
                   "subdivision": "Articles of iron or steel",
                   "min": "7303000000",
                   "max": "7303999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "7304",
-                  "chapter": 73,
-                  "subdivision": "Articles of iron or steel",
-                  "min": "7304000000",
-                  "max": "7304999999",
                   "rules": [
                         {
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
@@ -18508,8 +18335,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7407",
@@ -18529,8 +18356,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7408",
@@ -18550,8 +18377,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7409",
@@ -18571,8 +18398,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7410",
@@ -18592,8 +18419,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7411",
@@ -18613,8 +18440,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7412",
@@ -18634,8 +18461,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7413",
@@ -18655,8 +18482,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7415",
@@ -18676,8 +18503,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7418",
@@ -18697,8 +18524,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7419",
@@ -18718,8 +18545,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 74
+                  "chapter": 74,
+                  "valid": true
             },
             {
                   "heading": "7501",
@@ -18739,8 +18566,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 75
+                  "chapter": 75,
+                  "valid": true
             },
             {
                   "heading": "7501 to 7503",
@@ -18779,8 +18606,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 75
+                  "chapter": 75,
+                  "valid": true
             },
             {
                   "heading": "7503",
@@ -18800,8 +18627,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 75
+                  "chapter": 75,
+                  "valid": true
             },
             {
                   "heading": "7504",
@@ -18821,8 +18648,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 75
+                  "chapter": 75,
+                  "valid": true
             },
             {
                   "heading": "7505",
@@ -18842,8 +18669,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 75
+                  "chapter": 75,
+                  "valid": true
             },
             {
                   "heading": "7506",
@@ -18863,8 +18690,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 75
+                  "chapter": 75,
+                  "valid": true
             },
             {
                   "heading": "7507",
@@ -18884,8 +18711,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 75
+                  "chapter": 75,
+                  "valid": true
             },
             {
                   "heading": "7508",
@@ -18905,8 +18732,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 75
+                  "chapter": 75,
+                  "valid": true
             },
             {
                   "heading": "7601",
@@ -19352,8 +19179,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 78
+                  "chapter": 78,
+                  "valid": true
             },
             {
                   "heading": "7806",
@@ -19373,8 +19200,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 78
+                  "chapter": 78,
+                  "valid": true
             },
             {
                   "heading": "7901",
@@ -19434,8 +19261,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 79
+                  "chapter": 79,
+                  "valid": true
             },
             {
                   "heading": "7904",
@@ -19455,8 +19282,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 79
+                  "chapter": 79,
+                  "valid": true
             },
             {
                   "heading": "7905",
@@ -19476,8 +19303,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 79
+                  "chapter": 79,
+                  "valid": true
             },
             {
                   "heading": "7907",
@@ -19497,8 +19324,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 79
+                  "chapter": 79,
+                  "valid": true
             },
             {
                   "heading": "8001",
@@ -19539,8 +19366,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 80
+                  "chapter": 80,
+                  "valid": true
             },
             {
                   "heading": "8002 to 8007",
@@ -19579,8 +19406,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 80
+                  "chapter": 80,
+                  "valid": true
             },
             {
                   "heading": "8007",
@@ -19600,8 +19427,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 80
+                  "chapter": 80,
+                  "valid": true
             },
             {
                   "heading": "8101",
@@ -19621,8 +19448,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8101",
@@ -19640,8 +19467,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8102",
@@ -19661,8 +19488,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8102",
@@ -19680,8 +19507,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8103",
@@ -19701,8 +19528,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8103",
@@ -19720,8 +19547,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8104",
@@ -19741,8 +19568,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8104",
@@ -19760,8 +19587,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8105",
@@ -19781,8 +19608,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8105",
@@ -19800,8 +19627,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8106",
@@ -19821,8 +19648,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8106",
@@ -19840,8 +19667,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8108",
@@ -19861,8 +19688,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8108",
@@ -19880,8 +19707,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8109",
@@ -19901,8 +19728,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8109",
@@ -19920,8 +19747,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8110",
@@ -19941,8 +19768,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8110",
@@ -19960,8 +19787,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8111",
@@ -19981,8 +19808,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8111",
@@ -20000,8 +19827,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8112",
@@ -20021,8 +19848,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8112",
@@ -20040,8 +19867,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8113",
@@ -20061,8 +19888,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8113",
@@ -20080,8 +19907,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 81
+                  "chapter": 81,
+                  "valid": true
             },
             {
                   "heading": "8201",
@@ -20207,7 +20034,7 @@
                   "max": "8207999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20228,7 +20055,7 @@
                   "max": "8208999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20491,7 +20318,7 @@
                   "max": "8401999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20523,7 +20350,7 @@
                   "max": "8402999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20619,7 +20446,7 @@
                   "max": "8404999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20651,7 +20478,7 @@
                   "max": "8405999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20767,7 +20594,7 @@
                   "max": "8410999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20799,7 +20626,7 @@
                   "max": "8411999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20852,7 +20679,7 @@
                   "max": "8413999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20884,7 +20711,7 @@
                   "max": "8413999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -20948,7 +20775,7 @@
                   "max": "8414999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21001,7 +20828,7 @@
                   "max": "8416999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21033,7 +20860,7 @@
                   "max": "8417999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21129,7 +20956,7 @@
                   "max": "8419999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21193,7 +21020,7 @@
                   "max": "8421999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21225,7 +21052,7 @@
                   "max": "8422999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21289,39 +21116,7 @@
                   "max": "8424999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8425",
-                  "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
-                  "min": "8425000000",
-                  "max": "8425999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21491,7 +21286,7 @@
                   "max": "8431999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21523,7 +21318,7 @@
                   "max": "8432999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21555,7 +21350,7 @@
                   "max": "8433999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21587,7 +21382,7 @@
                   "max": "8434999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21619,7 +21414,7 @@
                   "max": "8435999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21651,7 +21446,7 @@
                   "max": "8436999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21683,7 +21478,7 @@
                   "max": "8437999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21715,7 +21510,7 @@
                   "max": "8438999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21779,7 +21574,7 @@
                   "max": "8440999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21843,7 +21638,7 @@
                   "max": "8442999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21875,39 +21670,7 @@
                   "max": "8443999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8444",
-                  "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
-                  "min": "8444000000",
-                  "max": "8444999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -21981,7 +21744,7 @@
                   "max": "8448999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22013,7 +21776,7 @@
                   "max": "8449999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22045,7 +21808,7 @@
                   "max": "8450999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22077,7 +21840,7 @@
                   "max": "8451999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22151,7 +21914,7 @@
                   "max": "8453999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22183,7 +21946,7 @@
                   "max": "8454999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22215,39 +21978,7 @@
                   "max": "8455999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8456",
-                  "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
-                  "min": "8456000000",
-                  "max": "8456999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22300,7 +22031,7 @@
                   "max": "8467999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22332,7 +22063,7 @@
                   "max": "8468999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22357,10 +22088,10 @@
                   "valid": true
             },
             {
-                  "heading": "8469 to 8472",
+                  "heading": "8470 to 8472",
                   "chapter": 84,
                   "subdivision": "Office machines (for example, typewriters, calculating machines, automatic data processing machines, duplicating machines, stapling machines)",
-                  "min": "8469000000",
+                  "min": "8470000000",
                   "max": "8472999999",
                   "rules": [
                         {
@@ -22385,7 +22116,7 @@
                   "max": "8473999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22417,7 +22148,7 @@
                   "max": "8474999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22449,7 +22180,7 @@
                   "max": "8475999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22481,7 +22212,7 @@
                   "max": "8476999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22513,7 +22244,7 @@
                   "max": "8477999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22545,7 +22276,7 @@
                   "max": "8478999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22577,7 +22308,7 @@
                   "max": "8479999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22630,7 +22361,7 @@
                   "max": "8481999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22694,7 +22425,7 @@
                   "max": "8483999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22768,7 +22499,7 @@
                   "max": "8486999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -22800,7 +22531,7 @@
                   "max": "8487999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -23456,41 +23187,9 @@
             {
                   "heading": "8519",
                   "chapter": 85,
-                  "subdivision": "Turntables (record-decks), record-players, cassette- players and other sound reproducing apparatus, not incorporating a sound recording device",
+                  "subdivision": "Turntables (record-decks), record-players, cassette- players and other sound reproducing apparatus, not incorporating a sound recording device; Magnetic tape recorders and other sound recording apparatus, whether or not incorporating a sound reproducing device",
                   "min": "8519000000",
                   "max": "8519999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture:\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\n- where the value of all the non-originating materials used does not exceed the value of the originating materials used.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8520",
-                  "chapter": 85,
-                  "subdivision": "Magnetic tape recorders and other sound recording apparatus, whether or not incorporating a sound reproducing device",
-                  "min": "8520000000",
-                  "max": "8520999999",
                   "rules": [
                         {
                               "rule": "Manufacture:\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\n- where the value of all the non-originating materials used does not exceed the value of the originating materials used.",
@@ -23986,38 +23685,6 @@
                   "valid": true
             },
             {
-                  "heading": "8535",
-                  "chapter": 85,
-                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
-                  "min": "8535000000",
-                  "max": "8535999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "8535 to 8536",
                   "chapter": 85,
                   "subdivision": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits",
@@ -24460,8 +24127,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 86
+                  "chapter": 86,
+                  "valid": true
             },
             {
                   "heading": "8602",
@@ -24481,8 +24148,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 86
+                  "chapter": 86,
+                  "valid": true
             },
             {
                   "heading": "8603",
@@ -24502,8 +24169,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 86
+                  "chapter": 86,
+                  "valid": true
             },
             {
                   "heading": "8604",
@@ -24523,8 +24190,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 86
+                  "chapter": 86,
+                  "valid": true
             },
             {
                   "heading": "8605",
@@ -24544,8 +24211,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 86
+                  "chapter": 86,
+                  "valid": true
             },
             {
                   "heading": "8606",
@@ -24565,8 +24232,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 86
+                  "chapter": 86,
+                  "valid": true
             },
             {
                   "heading": "8607",
@@ -24586,8 +24253,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 86
+                  "chapter": 86,
+                  "valid": true
             },
             {
                   "heading": "8608",
@@ -24597,7 +24264,7 @@
                   "max": "8608999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -24639,8 +24306,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 86
+                  "chapter": 86,
+                  "valid": true
             },
             {
                   "heading": "8701",
@@ -24818,7 +24485,7 @@
                   "max": "8709999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -25340,7 +25007,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 89",
+                  "heading": "Chapter 89",
                   "chapter": 89,
                   "subdivision": "Ships, boats and floating structures",
                   "min": "8900000000",
@@ -26239,7 +25906,7 @@
                   "max": "9028999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\n- where the value of all the non-originating materials used does not exceed the value of the originating materials used.",
+                              "rule": "Manufacture:\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\nwhere the value of all the non-originating materials used does not exceed the value of the originating materials used.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -26386,8 +26053,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 91
+                  "chapter": 91,
+                  "valid": true
             },
             {
                   "heading": "9102",
@@ -26407,8 +26074,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 91
+                  "chapter": 91,
+                  "valid": true
             },
             {
                   "heading": "9103",
@@ -26428,8 +26095,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 91
+                  "chapter": 91,
+                  "valid": true
             },
             {
                   "heading": "9104",
@@ -26449,8 +26116,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 91
+                  "chapter": 91,
+                  "valid": true
             },
             {
                   "heading": "9105",
@@ -26502,8 +26169,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 91
+                  "chapter": 91,
+                  "valid": true
             },
             {
                   "heading": "9107",
@@ -26523,8 +26190,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 91
+                  "chapter": 91,
+                  "valid": true
             },
             {
                   "heading": "9108",
@@ -26544,8 +26211,8 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 91
+                  "chapter": 91,
+                  "valid": true
             },
             {
                   "heading": "9109",
@@ -26735,11 +26402,11 @@
                               "export": true
                         }
                   ],
-                  "valid": true,
-                  "chapter": 91
+                  "chapter": 91,
+                  "valid": true
             },
             {
-                  "heading": "chapter 92",
+                  "heading": "Chapter 92",
                   "chapter": 92,
                   "subdivision": "Musical instruments; parts and accessories of such articles",
                   "min": "9200000000",
@@ -26760,7 +26427,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 93",
+                  "heading": "Chapter 93",
                   "chapter": 93,
                   "subdivision": "Arms and ammunition; parts and accessories thereof",
                   "min": "9300000000",
@@ -27653,7 +27320,7 @@
                   "valid": true
             },
             {
-                  "heading": "chapter 97",
+                  "heading": "Chapter 97",
                   "chapter": 97,
                   "subdivision": "Works of art, collectors' pieces and antiques",
                   "min": "9700000000",

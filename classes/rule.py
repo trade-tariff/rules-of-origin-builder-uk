@@ -33,9 +33,22 @@ class Rule(object):
         self.final_formatting()
         self.check_for_quota()
         self.check_trade_direction()
+        self.check_for_mistyped_opening_hyphens()
+
+    def check_for_mistyped_opening_hyphens(self):
+        if "7601" in self.heading:
+            a = 1
+        self.rule_string = re.sub(r'\n-([^ ])', "\n- \\1", self.rule_string)
+        a = 1
 
     def cleanse(self):
+        if "7601" in self.heading:
+            a = 1
+        self.rule_string = self.rule_string.replace("—", "-")
+        self.rule_string = self.rule_string.replace(";\n-", "\n-")
         self.rule_string = self.rule_string.replace("; and", ", and")
+        self.rule_string = self.rule_string.replace(";\nor\n", "; or\n")
+        self.rule_string = self.rule_string.replace("product\nor\nManufacture", "product; or\nManufacture")
         self.rule_string = self.rule_string.replace("Manufacture in which;", "Manufacture in which:")
         self.rule_string = self.rule_string.replace("Manufacture;", "Manufacture:")
         self.rule_string = self.rule_string.replace("MaxNOM", "MAXNOM")
@@ -107,6 +120,7 @@ class Rule(object):
         # Remove deliberately inserted <b> tags and replace with markdown
         self.rule_string = self.rule_string.replace("<b>", "**")
         self.rule_string = self.rule_string.replace("</b>", "**")
+        self.rule_string = self.rule_string.replace("in which\n", "in which:\n")
 
     def remove_footnote_references(self):
         self.rule_string = re.sub("\( ([0-9]{1,3}) \)", "", self.rule_string)
@@ -131,6 +145,7 @@ class Rule(object):
 
     def reinsert_colons(self):
         self.rule_string = self.rule_string.replace("Manufacture\n", "Manufacture:\n")
+        self.rule_string = self.rule_string.replace("Production from\n", "Production from:\n")
         self.rule_string = self.rule_string.replace("Manufacture in which\n", "Manufacture in which:\n")
 
     def double_up_newlines(self):
@@ -180,6 +195,11 @@ class Rule(object):
         self.rule_string = re.sub(" ([0-9]{1,3}\%)", " **\\1**", self.rule_string)
 
     def hyperlink_headings(self):
+        if "72.06" in self.rule_string:
+            a = 1
+        self.rule_string = self.rule_string.strip()
+        self.rule_string = re.sub("([0-9]{2}).([0-9]{2})$", " \\1\\2.", self.rule_string)
+        
         self.rule_string = self.rule_string.replace("headings No ", "heading ")
         self.rule_string = self.rule_string.replace("heading No ", "heading ")
         self.rule_string = self.rule_string.replace("heading Nos ", "heading ")
@@ -209,6 +229,7 @@ class Rule(object):
 
         self.rule_string = re.sub("([Ss]ubheading) ([0-9]{6})([ ,;.])", "[\\1 \\2](/subheadings/\\2x0000-80)\\3", self.rule_string)  # Links in markdown
         self.rule_string = re.sub("x0000-80", "0000-80", self.rule_string)
+        self.rule_string = re.sub(" heading ([0-9]{2}).([0-9]{2})\n", " [heading \\1\\2](/headings/\\1\\2)\n", self.rule_string)
 
         # Deal with headings
         self.rule_string = re.sub("headings", "heading", self.rule_string)
@@ -231,6 +252,8 @@ class Rule(object):
         self.rule_string = re.sub("([Hh]eading)(s*) ([0-9]{1,4})([ ,;.])", "[\\1\\2 \\3](/headings/\\3)\\4", self.rule_string)  # Links in markdown
 
         # Deal with chapters
+        self.rule_string = self.rule_string.replace("Chapter", "chapter")
+        self.rule_string = self.rule_string.replace("chapters", "chapter")
         for i in range(0, 4):
             self.rule_string = re.sub(" chapter ([0-9]{1,2}), ([0-9]{1,2})([ ,;.])", " chapter \\1, chapter \\2\\3", self.rule_string)
 

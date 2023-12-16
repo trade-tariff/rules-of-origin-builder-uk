@@ -28,6 +28,10 @@ class RuleSetLegacy(object):
         self.chapter = -1
         self.headings = []
         self.subheadings = []
+        self.mixes_ex_and_non_ex = False
+        self.contains_non_contiguous_and = False
+        self.multiple_ands = False
+        self.possible_missing_hyphens = False
 
         if row is not None:
             # A rule set essentially equates to a row on the table
@@ -49,20 +53,35 @@ class RuleSetLegacy(object):
             self.original_rule = self.original_rule.replace("Manufacture;", "Manufacture:")
             self.original_rule2 = row["original_rule2"].strip()
 
+            if "7601" in self.original_heading:
+                a = 1
+
             # Before
+            self.original_rule = re.sub(r'\n-([^ ])', "\n- \\1", self.original_rule)
+            self.original_rule = self.standarise_hyphens(self.original_rule)
             self.original_rule = self.deal_with_semicolons_in_manufacture_rules(self.original_rule)
 
             # Concatenate the two columns of rules into one
             if self.original_rule2 != "":
+                self.original_rule2 = self.standarise_hyphens(self.original_rule2)
                 self.original_rule2 = self.deal_with_semicolons_in_manufacture_rules(self.original_rule2)
                 self.original_rule += ";\n\n"
                 self.original_rule += "or\n\n" + self.original_rule2
+                self.original_rule2 = re.sub(r'\n-([^ ])', "\n- \\1", self.original_rule2)
 
             self.process_heading()
             self.process_subdivision()
+            if "7601" in self.original_heading:
+                a = 1
+
             self.process_rule()
             self.capture_parent_description()
             self.set_valid_status()
+
+    def standarise_hyphens(self, s):
+        s = s.replace("–", "-")  # en-dash
+        s = s.replace("—", "-")  # em-dash
+        return s
 
     def deal_with_semicolons_in_manufacture_rules(self, s):
         ret = s.strip()
@@ -70,9 +89,9 @@ class RuleSetLegacy(object):
         if ret.startswith("Manufacture:") or ret.startswith("Manufacture in which:"):
             if ret.count("Manufacture") == 1:
                 ret = ret.replace(";", "")
-            ret = ret.replace("\n", "\n- ")
-            ret = ret.replace("\n- \n", "\n\n")
-            ret = ret.replace("\n- - ", "\n- ")
+            # ret = ret.replace("\n", "\n- ")
+            # ret = ret.replace("\n- \n", "\n\n")
+            # ret = ret.replace("\n- - ", "\n- ")
 
         return ret
 
@@ -90,6 +109,9 @@ class RuleSetLegacy(object):
                 break
 
     def process_heading(self):
+        if "85.19" in self.original_heading:
+            a = 1
+        self.original_heading = re.sub("([0-9]{2}.[0-9]{2}),\s?([0-9]{2}.[0-9]{2})", "\\1-\\2", self.original_heading)
         self.original_heading = re.sub("\s+", " ", self.original_heading)
         self.original_heading = re.sub("\s\([a-z]\)", "", self.original_heading)
         self.original_heading = re.sub("ex\s+([0-9]{1,2}) ([0-9]{1,2})", "ex \\1\\2", self.original_heading)
@@ -103,6 +125,8 @@ class RuleSetLegacy(object):
         self.original_heading = re.sub("([0-9]{4}) ([0-9]{2})", "\\1\\2", self.original_heading)
         self.original_heading = re.sub(" {2,10}", " ", self.original_heading)
 
+        if "15.09" in self.original_heading:
+            a = 1
         # Check if the use of a comma could actually be replaced by a "to"
         # which would be the case if the items are consecutive
         if "," in self.original_heading:
@@ -119,9 +143,53 @@ class RuleSetLegacy(object):
             if "ex" not in self.original_heading:
                 if "-" not in self.original_heading:
                     parts = self.original_heading.split("and")
+                    parts = [part.replace(".", "").strip() for part in parts]
                     if len(parts) == 2:
+                        p1 = int(parts[0].strip())
+                        p2 = int(parts[1].strip())
                         if int(parts[0].strip()) == int(parts[1].strip()) - 1:
                             self.original_heading = self.original_heading.replace("and", "to")
+
+        # Check for mixing of ex and non ex codes in the same rule cell
+        temp_heading = self.original_heading.replace(".", "").replace(" - ", "-").replace(" to ", "-").replace(" and ", "-")
+        if "-" in temp_heading:
+            parts = temp_heading.split("-")
+            parts = [part.replace(".", "").strip() for part in parts]
+            ex_count = 0
+            for part in parts:
+                if "ex" in part:
+                    ex_count += 1
+            if ex_count != len(parts) and ex_count != 0:
+                self.mixes_ex_and_non_ex = True
+
+        # Check for non-contiguous "ands", and multiple "ands"
+        temp_heading = self.original_heading.strip()
+        if "and" in temp_heading:
+            parts = temp_heading.split("and")
+            parts = [part.strip().replace(".", "") for part in parts]
+            if len(parts) > 2:
+                self.multiple_ands = True
+            else:
+                p1 = int(parts[0].strip())
+                p2 = int(parts[1].strip())
+                if int(parts[0].strip()) != int(parts[1].strip()) - 1:
+                    self.contains_non_contiguous_and = True
+
+        # Check for rules where "Manufacture is mentioned, but there are no bulleted items"
+        if "Chapter 34" in self.original_heading:
+            a = 1
+            
+        temp_rule = self.original_rule.strip()
+        if temp_rule.startswith("Manufacture"):
+            newline_count = temp_rule.count("\n")
+            hyphen_count = temp_rule.count("-")
+            however_count = temp_rule.count("However")
+            or_count = temp_rule.count("or")
+            if self.original_rule2 == "":
+                if or_count == 0 and however_count == 0:
+                    if (hyphen_count + 1) < newline_count:
+                        self.possible_missing_hyphens = True
+                        g.possible_missing_hyphens.append(self.original_heading)
 
         n = Normalizer()
         self.heading = n.normalize(self.original_heading)
@@ -132,10 +200,21 @@ class RuleSetLegacy(object):
 
         self.get_heading_class()
 
-        if "-" in self.original_heading or " to " in self.original_heading:
-            self.determine_minmax_from_range()
+        if self.mixes_ex_and_non_ex:
+            g.mix_ex_non_ex_errors.append(self.original_heading)
+
+        elif self.contains_non_contiguous_and:
+            g.non_contiguous_and_errors.append(self.original_heading)
+
+        elif self.multiple_ands:
+            g.multiple_and_errors.append(self.original_heading)
+
         else:
-            self.determine_minmax_from_single_term()
+            if "-" in self.original_heading or " to " in self.original_heading:
+                self.determine_minmax_from_range()
+            else:
+                self.determine_minmax_from_single_term()
+
         self.heading = self.heading.replace("chapter ", "Chapter ")
 
     def get_heading_class(self):
@@ -239,13 +318,13 @@ class RuleSetLegacy(object):
 
         if self.is_heading:
             # Work out the headings that this rule_set covers
-            self.headings.append(parts[0])
+            self.headings.append(parts[0].strip())
             tmp_min = int(parts[0])
             tmp_max = int(parts[1])
             proceed = True
             while proceed:
                 tmp_min += 1
-                str_min = str(tmp_min).rjust(4, "0")
+                str_min = str(tmp_min).rjust(4, "0").strip()
                 if str_min in g.all_headings:
                     self.headings.append(str_min)
                 if tmp_min == tmp_max:
@@ -308,24 +387,36 @@ class RuleSetLegacy(object):
         self.original_rule = self.original_rule.replace("from :", "from:")
 
     def process_rule(self):
+        if "5106" in self.heading:
+            a = 1
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
+        self.original_rule = re.sub("\t", " ", self.original_rule)
+        self.original_rule = re.sub(" +", " ", self.original_rule)
         self.original_rule = self.original_rule.replace("ex ex", "ex ")
+        self.original_rule = self.original_rule.replace(",\nor\n\n-", ", or\n-")
+        self.original_rule = self.original_rule.replace(",\nor\n-", ", or\n-")
 
         # Do not delete footnotes
-        # self.original_rule = re.sub("\([0-9]{1,2}\)", "", self.original_rule)
         self.process_footnotes()
         self.rules = []
         self.original_rule = self.original_rule.replace("\nOr\n", "\nor\n", )
 
-        # Remove any residual references to footnotes from the original Word documents
-        self.original_rule = re.sub("\.[0-9]{1,2}$", ".", self.original_rule)
+        self.original_rule = self.original_rule.replace("; and", ", and")
+        self.original_rule = re.sub("([^;]) or Manufacture", "\\1; or\nManufacture", self.original_rule)
+
+        self.original_rule = self.original_rule.replace("\nor\nManufacture", "; or\nManufacture")
+        self.original_rule = self.original_rule.replace(";;", ";")
         self.original_rule = self.original_rule.replace(";\nor", ";\n\nTEMPOR")
         self.original_rule = self.original_rule.replace(";\n\nor", ";\n\nTEMPOR")
         self.original_rule = self.original_rule.replace("\nor\n", ";\n\nor\n\n")
         self.original_rule = self.original_rule.replace("TEMPOR", "or")
         self.original_rule = self.original_rule.strip(";")
         self.rule_strings = self.original_rule.split(";")
+        
+        # Check on "Manufacture" appearing more than once:
+        if self.original_rule.count("Manufacture") > 1 and len(self.rule_strings) == 1:
+            g.multiple_manufacture.append(self.heading)
 
         for rule_string in self.rule_strings:
             rule = Rule(rule_string, self.heading)

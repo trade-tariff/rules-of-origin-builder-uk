@@ -11,6 +11,7 @@ from classes.rule_set_legacy import RuleSetLegacy
 from classes.comm_code_validator import CommCodeValidator
 from classes.environment_variable import EnvironmentVariable
 from classes.error import Error
+from classes.warning import Warning
 import classes.globals as g
 import classes.functions as func
 
@@ -37,12 +38,20 @@ class RooDocument(object):
         self.kill_document()
 
         self.check_opening_dash_in_rule()
+        self.check_multiple_manufacture()
         if self.validate_commodities:
             self.check_coverage()
         if self.validate_min_max:
             self.validate_min_max_values()
 
         print("\nFinished processing {file}\n".format(file=self.docx_filename))
+
+    def check_multiple_manufacture(self):
+        if len(g.multiple_manufacture) > 0:
+            Warning("The word 'Manufacture' appears more than once in these rules. This may be okay, but check, in case these rules should have been split.\n\n{multiple_manufacture}".format(
+                multiple_manufacture=", ".join(g.multiple_manufacture)
+            ))
+        a = 1
 
     def check_opening_dash_in_rule(self):
         if not self.modern:
@@ -54,8 +63,8 @@ class RooDocument(object):
                     a = 1
             if len(errors) > 0:
                 Error(
-                    "Rule starts with a hyphen ... Check for incorrect cell merging on headings {headings}".format(headings=", ".join(errors)), show_additional_information=False
-                    )
+                    "Rule starts with a hyphen ... Check for incorrect cell merging, or for lines that start erroneously with 'or' on headings {headings}".format(headings=", ".join(errors)), show_additional_information=False
+                )
 
     def get_config(self):
         """ Works out paths and other configuration settings """
@@ -163,7 +172,7 @@ class RooDocument(object):
         filename = os.path.join(self.resources_folder, "temp", "temp.csv")
         f = open(filename, "w")
         for rs in self.rule_sets:
-            if rs["min"] is None or rs["min"] is None:
+            if rs["min"] is None or rs["max"] is None:
                 print("Error with min or max of None on heading", rs["heading"])
                 sys.exit()
             f.write("'" + rs["heading"] + "',")
@@ -279,7 +288,7 @@ class RooDocument(object):
                 break
         if not table_is_valid:
             Error(
-                "The source table is not valid. Please check that all columns are labelled correctly.\n\nFor 2-columns documents, ensure that there is a single table where the two columns are entitled\n\n- Classification\n- PSR",
+                "The source table is not valid. Please check that all columns are labelled correctly.\n\nFor 2-column documents, ensure that there is a single table where the two columns are entitled\n\n- Classification\n- PSR\n\nFor 3- or 4-column documents, ensure the columns are entitled\n\n- Classification\n- Description\n- PSR\n- PSR2",
                 show_additional_information=False
             )
 
@@ -313,7 +322,55 @@ class RooDocument(object):
                 self.rule_sets.append(rule_set.as_dict())
             row_index += 1
 
+        # Check for mixes of ex codes and non-ex codes in the heading column
+        if len(g.mix_ex_non_ex_errors) > 0:
+            Error(
+                "Lines mix ex codes and non-ex codes, which is not permitted. Please split the following into multiple lines:\n\n{errors}".format(
+                    errors=" | ".join(g.mix_ex_non_ex_errors)
+                ),
+                show_additional_information=False
+            )
+            sys.exit()
+
+        # Check for non-contiguous codes separated by "and"
+        if len(g.non_contiguous_and_errors) > 0:
+            Error(
+                "Lines contain non-contiguous codes separated by 'and', which is not permitted. Please split the following into multiple lines:\n\n{errors}".format(
+                    errors=" | ".join(g.non_contiguous_and_errors)
+                ),
+                show_additional_information=False
+            )
+            sys.exit()
+
+        # Check for non-contiguous codes separated by "and"
+        if len(g.multiple_and_errors) > 0:
+            Error(
+                "headings contain multiple 'ands', which is not permitted. Please split the following into multiple lines:\n\n{errors}".format(
+                    errors=" | ".join(g.multiple_and_errors)
+                ),
+                show_additional_information=False
+            )
+            sys.exit()
+
+        # Check for non-contiguous ands in heading column
+        if len(g.non_contiguous_and_errors) > 0:
+            Error(
+                "Lines contain non-contiguous values separated by 'and', which is not permitted. Please split the following into multiple lines:\n\n{errors}".format(
+                    errors=" | ".join(g.non_contiguous_and_errors)
+                ),
+                show_additional_information=False
+            )
+            sys.exit()
+
+        self.validate_existence_of_all_headings_subheadings()
         self.normalise_chapters()
+
+        # Check for possible missing hyphens
+        if len(g.possible_missing_hyphens) > 0:
+            Warning(
+                "Rules contain the word manufacture, but not as many hyphens as would have been expected. Bullets will be omitted:\n\n{warnings}".format(
+                    warnings=" | ".join(g.possible_missing_hyphens)
+                ))
 
     def check_psr_table_validity(self):
         """ Checks for:
@@ -420,8 +477,38 @@ class RooDocument(object):
         else:
             return False
 
+    def validate_existence_of_all_headings_subheadings(self):
+        """
+        Before trying to normalise the chapters, run a check to make sure that all of
+        the included headings are present. If they are not, e.g. if the commodity 
+        code hierarchy has changed since the rules were originally written, then
+        you will get unexpected results, like with ornamental fish (0301-10) in 
+        Singapore, where 030110 does not exist.
+        """
+
+        errors = []
+        for rule_set in self.rule_sets:
+            for heading in rule_set["headings"]:
+                heading = heading.strip()
+                if heading not in g.all_headings:
+                    errors.append(heading)
+
+            for subheading in rule_set["subheadings"]:
+                subheading = subheading.strip()
+                if subheading[-2:] == "00":
+                    if subheading[0:4] not in g.all_headings:
+                        errors.append(heading)
+                else:
+                    if subheading not in g.all_subheadings:
+                        errors.append(subheading)
+                a = 1
+            a = 1
+        if len(errors) > 0:
+            msg = "The following non-existent headings or subheadings are explicitly referenced. Adjust the source document to resolve:\n\n{errors}".format(errors=errors)
+            Error(msg, show_additional_information=False)
+
     def normalise_chapters(self):
-        print("- Normalising chapters:")
+        print("- Processing chapters")
         for chapter in range(1, 98):
             all_ex_codes = True
             is_chapter_mentioned = False
@@ -454,9 +541,9 @@ class RooDocument(object):
 
     def normalise_complex_chapter(self, chapter):
         chapter_string = str(chapter).rjust(2, "0")
-        print("  - Normalising complex chapter {chapter}".format(
-            chapter=chapter_string
-        ))
+        # print("  - Normalising complex chapter {chapter}".format(
+        #     chapter=chapter_string
+        # ))
         # Get all the other rules in that chapter that are not the chapter heading
         matches = {}
         contains_subheading = False
@@ -471,6 +558,7 @@ class RooDocument(object):
                     contains_subheading = True
 
                 matches[index] = rule_set
+                a = 1
             index += 1
 
         # Loop through all of the headings in chapter (according to the DB)
@@ -478,12 +566,12 @@ class RooDocument(object):
         #   add in the heading as a copy of the chapter rule_set
 
         # The matches variable captures all of the rules for the current chapter
-
         my_headings = {}
         for heading in g.all_headings:
             if heading[0:2] == chapter_string:
                 my_headings[heading] = g.all_headings[heading]
 
+        process_ex_code = False
         if contains_subheading is False:
             for heading in my_headings:
                 heading_exists_in_rule_set = False
@@ -605,6 +693,7 @@ class RooDocument(object):
                 rule_set = self.rule_sets[i]
                 if rule_set["chapter"] == chapter:
                     self.rule_sets.pop(i)
+                    a = 1
 
             # Then add the new rule sets onto the list
             self.rule_sets += additional_rulesets
@@ -612,9 +701,9 @@ class RooDocument(object):
     def normalise_standard_chapter(self, chapter):
         # The chapter has an ex code in its chapter definition
         # But there are no other ex codes withi the chapter
-        print("  - Normalising standard chapter {chapter}".format(
-            chapter=chapter
-        ))
+        # print("  - Normalising standard chapter {chapter}".format(
+        #     chapter=chapter
+        # ))
         rules_for_ex_chapter = []
         rulesets_to_pop = []
         rules_for_current_chapter = []
@@ -656,8 +745,12 @@ class RooDocument(object):
                                 "min": heading + "000000",
                                 "max": heading + "999999",
                                 "rules": chapter_definition["rules"],
-                                "valid": True,
-                                "chapter": chapter
+                                "chapter": chapter,
+                                "is_chapter": rule_set["is_chapter"],
+                                "is_heading": rule_set["is_heading"],
+                                "is_subheading": rule_set["is_subheading"],
+                                "is_range": rule_set["is_range"],
+                                "valid": rule_set["valid"]
                             }
                             self.rule_sets.append(obj)
 
@@ -673,6 +766,7 @@ class RooDocument(object):
                 self.rule_sets.pop(ruleset_to_pop)
 
     def copy_ruleset(self, match, new_min, new_max):
+        heading = self.derive_heading(match["heading"], match["is_ex_code"], new_min, new_max)
         obj = {
             "heading": match["heading"],
             "headings": match["headings"],
@@ -691,6 +785,10 @@ class RooDocument(object):
         }
         return obj
 
+    def derive_heading(self, provided_heading, is_ex_code, min, max):
+        return provided_heading
+        a = 1
+
     def process_subdivisions(self):
         previous_ruleset = None
         for rule_set in self.rule_sets:
@@ -699,7 +797,25 @@ class RooDocument(object):
                     rule_set["heading"] = previous_ruleset["heading"]
                     rule_set["min"] = previous_ruleset["min"]
                     rule_set["max"] = previous_ruleset["max"]
+
+            if rule_set["subdivision"] == "":
+                rule_set["subdivision"] = self.get_subdivision_from_heading(rule_set["heading"])
+
             previous_ruleset = rule_set
+
+    def get_subdivision_from_heading(self, s):
+        s = s.strip()
+        if "-" in s:
+            return s
+        else:
+            if len(s) == 4:
+                return "Heading " + s
+            elif len(s) == 6:
+                return "Subheading " + s
+            elif len(s) == 2:
+                return "Chapter " + s
+            else:
+                return s
 
     def write_table(self):
         out_file = open(self.export_filepath, "w")
@@ -782,9 +898,9 @@ class RooDocument(object):
             ret = v.validate()
             if ret:
                 self.comm_code_omissions.append(comm_code)
-                print("No coverage for commodity code {comm_code}".format(comm_code=comm_code))
+                print("  - No coverage for commodity code {comm_code}".format(comm_code=comm_code))
 
-        print("Finished validating {file}".format(file=self.docx_filename))
+        print("  - Finished validating {file}".format(file=self.docx_filename))
 
     def validate_min_max_values(self):
         print("- Checking min max for {file}".format(file=self.docx_filename))
