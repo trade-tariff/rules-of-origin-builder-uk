@@ -431,7 +431,7 @@
             },
             {
                   "heading": "1520",
-                  "subdivision": "1520",
+                  "subdivision": "Heading 1520",
                   "min": "1520000000",
                   "max": "1520999999",
                   "rules": [
@@ -492,7 +492,7 @@
             },
             {
                   "heading": "160419",
-                  "subdivision": "160419",
+                  "subdivision": "Subheading 160419",
                   "min": "1604190000",
                   "max": "1604199999",
                   "rules": [
@@ -572,7 +572,7 @@
             },
             {
                   "heading": "1701",
-                  "subdivision": "1701",
+                  "subdivision": "Heading 1701",
                   "min": "1701000000",
                   "max": "1701999999",
                   "rules": [
@@ -592,7 +592,7 @@
             },
             {
                   "heading": "1702",
-                  "subdivision": "1702",
+                  "subdivision": "Heading 1702",
                   "min": "1702000000",
                   "max": "1702999999",
                   "rules": [
@@ -613,7 +613,7 @@
             },
             {
                   "heading": "1703",
-                  "subdivision": "1703",
+                  "subdivision": "Heading 1703",
                   "min": "1703000000",
                   "max": "1703999999",
                   "rules": [
@@ -693,7 +693,7 @@
             },
             {
                   "heading": "180610",
-                  "subdivision": "180610",
+                  "subdivision": "Subheading 180610",
                   "min": "1806100000",
                   "max": "1806199999",
                   "rules": [
@@ -753,7 +753,7 @@
             },
             {
                   "heading": "2001",
-                  "subdivision": "2001",
+                  "subdivision": "Heading 2001",
                   "min": "2001000000",
                   "max": "2001999999",
                   "rules": [
@@ -834,7 +834,7 @@
             },
             {
                   "heading": "210310",
-                  "subdivision": "210310",
+                  "subdivision": "Subheading 210310",
                   "min": "2103100000",
                   "max": "2103199999",
                   "rules": [
@@ -863,7 +863,7 @@
             },
             {
                   "heading": "210320",
-                  "subdivision": "210320",
+                  "subdivision": "Subheading 210320",
                   "min": "2103200000",
                   "max": "2103299999",
                   "rules": [
@@ -892,7 +892,7 @@
             },
             {
                   "heading": "210330",
-                  "subdivision": "210330",
+                  "subdivision": "Subheading 210330",
                   "min": "2103300000",
                   "max": "2103399999",
                   "rules": [
@@ -913,7 +913,7 @@
             },
             {
                   "heading": "210390",
-                  "subdivision": "210390",
+                  "subdivision": "Subheading 210390",
                   "min": "2103900000",
                   "max": "2103999999",
                   "rules": [
@@ -993,7 +993,7 @@
             },
             {
                   "heading": "2207",
-                  "subdivision": "2207",
+                  "subdivision": "Heading 2207",
                   "min": "2207000000",
                   "max": "2207999999",
                   "rules": [
@@ -1033,7 +1033,7 @@
             },
             {
                   "heading": "2301",
-                  "subdivision": "2301",
+                  "subdivision": "Heading 2301",
                   "min": "2301000000",
                   "max": "2301999999",
                   "rules": [
@@ -1094,7 +1094,7 @@
             },
             {
                   "heading": "2309",
-                  "subdivision": "2309",
+                  "subdivision": "Heading 2309",
                   "min": "2309000000",
                   "max": "2309999999",
                   "rules": [
@@ -1114,7 +1114,7 @@
             },
             {
                   "heading": "2401",
-                  "subdivision": "2401",
+                  "subdivision": "Heading 2401",
                   "min": "2401000000",
                   "max": "2401999999",
                   "rules": [
@@ -1134,7 +1134,7 @@
             },
             {
                   "heading": "240210",
-                  "subdivision": "240210",
+                  "subdivision": "Subheading 240210",
                   "min": "2402100000",
                   "max": "2402199999",
                   "rules": [
@@ -1155,7 +1155,7 @@
             },
             {
                   "heading": "240220",
-                  "subdivision": "240220",
+                  "subdivision": "Subheading 240220",
                   "min": "2402200000",
                   "max": "2402299999",
                   "rules": [
@@ -1176,7 +1176,7 @@
             },
             {
                   "heading": "240290",
-                  "subdivision": "240290",
+                  "subdivision": "Subheading 240290",
                   "min": "2402900000",
                   "max": "2402999999",
                   "rules": [
@@ -1197,7 +1197,7 @@
             },
             {
                   "heading": "2403",
-                  "subdivision": "2403",
+                  "subdivision": "Heading 2403",
                   "min": "2403000000",
                   "max": "2403999999",
                   "rules": [
@@ -1217,7 +1217,7 @@
             },
             {
                   "heading": "2404",
-                  "subdivision": "2404",
+                  "subdivision": "Heading 2404",
                   "min": "2404000000",
                   "max": "2404999999",
                   "rules": [
@@ -1309,7 +1309,7 @@
             },
             {
                   "heading": "2710",
-                  "subdivision": "2710",
+                  "subdivision": "Heading 2710",
                   "min": "2710000000",
                   "max": "2710999999",
                   "rules": [
@@ -1459,7 +1459,7 @@
             },
             {
                   "heading": "290545",
-                  "subdivision": "290545",
+                  "subdivision": "Subheading 290545",
                   "min": "2905450000",
                   "max": "2905459999",
                   "rules": [
@@ -1703,7 +1703,7 @@
             },
             {
                   "heading": "3301",
-                  "subdivision": "3301",
+                  "subdivision": "Heading 3301",
                   "min": "3301000000",
                   "max": "3301999999",
                   "rules": [
@@ -1743,7 +1743,7 @@
             },
             {
                   "heading": "330210",
-                  "subdivision": "330210",
+                  "subdivision": "Subheading 330210",
                   "min": "3302100000",
                   "max": "3302199999",
                   "rules": [
@@ -1763,7 +1763,7 @@
             },
             {
                   "heading": "330290",
-                  "subdivision": "330290",
+                  "subdivision": "Subheading 330290",
                   "min": "3302900000",
                   "max": "3302999999",
                   "rules": [
@@ -1803,7 +1803,7 @@
             },
             {
                   "heading": "3303",
-                  "subdivision": "3303",
+                  "subdivision": "Heading 3303",
                   "min": "3303000000",
                   "max": "3303999999",
                   "rules": [
@@ -1924,7 +1924,7 @@
             },
             {
                   "heading": "3505",
-                  "subdivision": "3505",
+                  "subdivision": "Heading 3505",
                   "min": "3505000000",
                   "max": "3505999999",
                   "rules": [
@@ -2104,7 +2104,7 @@
             },
             {
                   "heading": "380910",
-                  "subdivision": "380910",
+                  "subdivision": "Subheading 380910",
                   "min": "3809100000",
                   "max": "3809199999",
                   "rules": [
@@ -2164,7 +2164,7 @@
             },
             {
                   "heading": "3823",
-                  "subdivision": "3823",
+                  "subdivision": "Heading 3823",
                   "min": "3823000000",
                   "max": "3823999999",
                   "rules": [
@@ -2224,7 +2224,7 @@
             },
             {
                   "heading": "382460",
-                  "subdivision": "382460",
+                  "subdivision": "Subheading 382460",
                   "min": "3824600000",
                   "max": "3824699999",
                   "rules": [
@@ -2284,7 +2284,7 @@
             },
             {
                   "heading": "3826",
-                  "subdivision": "3826",
+                  "subdivision": "Heading 3826",
                   "min": "3826000000",
                   "max": "3826999999",
                   "rules": [
@@ -2304,7 +2304,7 @@
             },
             {
                   "heading": "3827",
-                  "subdivision": "3827",
+                  "subdivision": "Heading 3827",
                   "min": "3827000000",
                   "max": "3827999999",
                   "rules": [
@@ -2415,7 +2415,7 @@
             },
             {
                   "heading": "3920",
-                  "subdivision": "3920",
+                  "subdivision": "Heading 3920",
                   "min": "3920000000",
                   "max": "3920999999",
                   "rules": [
@@ -2539,7 +2539,7 @@
             },
             {
                   "heading": "3926",
-                  "subdivision": "3926",
+                  "subdivision": "Heading 3926",
                   "min": "3926000000",
                   "max": "3926999999",
                   "rules": [
@@ -2703,7 +2703,7 @@
             },
             {
                   "heading": "410510",
-                  "subdivision": "410510",
+                  "subdivision": "Subheading 410510",
                   "min": "4105100000",
                   "max": "4105199999",
                   "rules": [
@@ -2723,7 +2723,7 @@
             },
             {
                   "heading": "410530",
-                  "subdivision": "410530",
+                  "subdivision": "Subheading 410530",
                   "min": "4105300000",
                   "max": "4105399999",
                   "rules": [
@@ -2743,7 +2743,7 @@
             },
             {
                   "heading": "410621",
-                  "subdivision": "410621",
+                  "subdivision": "Subheading 410621",
                   "min": "4106210000",
                   "max": "4106219999",
                   "rules": [
@@ -2763,7 +2763,7 @@
             },
             {
                   "heading": "410622",
-                  "subdivision": "410622",
+                  "subdivision": "Subheading 410622",
                   "min": "4106220000",
                   "max": "4106229999",
                   "rules": [
@@ -2783,7 +2783,7 @@
             },
             {
                   "heading": "410631",
-                  "subdivision": "410631",
+                  "subdivision": "Subheading 410631",
                   "min": "4106310000",
                   "max": "4106319999",
                   "rules": [
@@ -2823,7 +2823,7 @@
             },
             {
                   "heading": "410691",
-                  "subdivision": "410691",
+                  "subdivision": "Subheading 410691",
                   "min": "4106910000",
                   "max": "4106919999",
                   "rules": [
@@ -2843,7 +2843,7 @@
             },
             {
                   "heading": "410692",
-                  "subdivision": "410692",
+                  "subdivision": "Subheading 410692",
                   "min": "4106920000",
                   "max": "4106929999",
                   "rules": [
@@ -2884,7 +2884,7 @@
             },
             {
                   "heading": "411410",
-                  "subdivision": "411410",
+                  "subdivision": "Subheading 411410",
                   "min": "4114100000",
                   "max": "4114199999",
                   "rules": [
@@ -2904,7 +2904,7 @@
             },
             {
                   "heading": "411420",
-                  "subdivision": "411420",
+                  "subdivision": "Subheading 411420",
                   "min": "4114200000",
                   "max": "4114299999",
                   "rules": [
@@ -2925,7 +2925,7 @@
             },
             {
                   "heading": "4115",
-                  "subdivision": "4115",
+                  "subdivision": "Heading 4115",
                   "min": "4115000000",
                   "max": "4115999999",
                   "rules": [
@@ -3007,7 +3007,7 @@
             },
             {
                   "heading": "430230",
-                  "subdivision": "430230",
+                  "subdivision": "Subheading 430230",
                   "min": "4302300000",
                   "max": "4302399999",
                   "rules": [
@@ -3418,7 +3418,7 @@
             },
             {
                   "heading": "5007",
-                  "subdivision": "5007",
+                  "subdivision": "Heading 5007",
                   "min": "5007000000",
                   "max": "5007999999",
                   "rules": [
@@ -4144,7 +4144,7 @@
             },
             {
                   "heading": "5601",
-                  "subdivision": "5601",
+                  "subdivision": "Heading 5601",
                   "min": "5601000000",
                   "max": "5601999999",
                   "rules": [
@@ -4338,7 +4338,7 @@
             },
             {
                   "heading": "560410",
-                  "subdivision": "560410",
+                  "subdivision": "Subheading 560410",
                   "min": "5604100000",
                   "max": "5604199999",
                   "rules": [
@@ -4358,7 +4358,7 @@
             },
             {
                   "heading": "560490",
-                  "subdivision": "560490",
+                  "subdivision": "Subheading 560490",
                   "min": "5604900000",
                   "max": "5604999999",
                   "rules": [
@@ -4398,7 +4398,7 @@
             },
             {
                   "heading": "5605",
-                  "subdivision": "5605",
+                  "subdivision": "Heading 5605",
                   "min": "5605000000",
                   "max": "5605999999",
                   "rules": [
@@ -4438,7 +4438,7 @@
             },
             {
                   "heading": "5606",
-                  "subdivision": "5606",
+                  "subdivision": "Heading 5606",
                   "min": "5606000000",
                   "max": "5606999999",
                   "rules": [
@@ -4681,7 +4681,7 @@
             },
             {
                   "heading": "5805",
-                  "subdivision": "5805",
+                  "subdivision": "Heading 5805",
                   "min": "5805000000",
                   "max": "5805999999",
                   "rules": [
@@ -4788,7 +4788,7 @@
             },
             {
                   "heading": "5810",
-                  "subdivision": "5810",
+                  "subdivision": "Heading 5810",
                   "min": "5810000000",
                   "max": "5810999999",
                   "rules": [
@@ -4810,7 +4810,7 @@
             },
             {
                   "heading": "5811",
-                  "subdivision": "5811",
+                  "subdivision": "Heading 5811",
                   "min": "5811000000",
                   "max": "5811999999",
                   "rules": [
@@ -4897,7 +4897,7 @@
             },
             {
                   "heading": "5901",
-                  "subdivision": "5901",
+                  "subdivision": "Heading 5901",
                   "min": "5901000000",
                   "max": "5901999999",
                   "rules": [
@@ -4968,7 +4968,7 @@
             },
             {
                   "heading": "5903",
-                  "subdivision": "5903",
+                  "subdivision": "Heading 5903",
                   "min": "5903000000",
                   "max": "5903999999",
                   "rules": [
@@ -4997,7 +4997,7 @@
             },
             {
                   "heading": "5904",
-                  "subdivision": "5904",
+                  "subdivision": "Heading 5904",
                   "min": "5904000000",
                   "max": "5904999999",
                   "rules": [
@@ -5200,7 +5200,7 @@
             },
             {
                   "heading": "5907",
-                  "subdivision": "5907",
+                  "subdivision": "Heading 5907",
                   "min": "5907000000",
                   "max": "5907999999",
                   "rules": [
@@ -5442,7 +5442,7 @@
             },
             {
                   "heading": "6201",
-                  "subdivision": "6201",
+                  "subdivision": "Heading 6201",
                   "min": "6201000000",
                   "max": "6201999999",
                   "rules": [
@@ -5535,7 +5535,7 @@
             },
             {
                   "heading": "6203",
-                  "subdivision": "6203",
+                  "subdivision": "Heading 6203",
                   "min": "6203000000",
                   "max": "6203999999",
                   "rules": [
@@ -5628,7 +5628,7 @@
             },
             {
                   "heading": "6205",
-                  "subdivision": "6205",
+                  "subdivision": "Heading 6205",
                   "min": "6205000000",
                   "max": "6205999999",
                   "rules": [
@@ -6073,7 +6073,7 @@
             },
             {
                   "heading": "6215",
-                  "subdivision": "6215",
+                  "subdivision": "Heading 6215",
                   "min": "6215000000",
                   "max": "6215999999",
                   "rules": [
@@ -6350,7 +6350,7 @@
             },
             {
                   "heading": "6305",
-                  "subdivision": "6305",
+                  "subdivision": "Heading 6305",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -6410,7 +6410,7 @@
             },
             {
                   "heading": "6307",
-                  "subdivision": "6307",
+                  "subdivision": "Heading 6307",
                   "min": "6307000000",
                   "max": "6307999999",
                   "rules": [
@@ -6430,7 +6430,7 @@
             },
             {
                   "heading": "6308",
-                  "subdivision": "6308",
+                  "subdivision": "Heading 6308",
                   "min": "6308000000",
                   "max": "6308999999",
                   "rules": [
@@ -6499,7 +6499,7 @@
             },
             {
                   "heading": "6406",
-                  "subdivision": "6406",
+                  "subdivision": "Heading 6406",
                   "min": "6406000000",
                   "max": "6406999999",
                   "rules": [
@@ -6672,7 +6672,7 @@
             },
             {
                   "heading": "7010",
-                  "subdivision": "7010",
+                  "subdivision": "Heading 7010",
                   "min": "7010000000",
                   "max": "7010999999",
                   "rules": [
@@ -6692,7 +6692,7 @@
             },
             {
                   "heading": "7011",
-                  "subdivision": "7011",
+                  "subdivision": "Heading 7011",
                   "min": "7011000000",
                   "max": "7011999999",
                   "rules": [
@@ -6723,7 +6723,7 @@
             },
             {
                   "heading": "7013",
-                  "subdivision": "7013",
+                  "subdivision": "Heading 7013",
                   "min": "7013000000",
                   "max": "7013999999",
                   "rules": [
@@ -6853,7 +6853,7 @@
             },
             {
                   "heading": "7107",
-                  "subdivision": "7107",
+                  "subdivision": "Heading 7107",
                   "min": "7107000000",
                   "max": "7107999999",
                   "rules": [
@@ -6932,7 +6932,7 @@
             },
             {
                   "heading": "7109",
-                  "subdivision": "7109",
+                  "subdivision": "Heading 7109",
                   "min": "7109000000",
                   "max": "7109999999",
                   "rules": [
@@ -7011,7 +7011,7 @@
             },
             {
                   "heading": "7111",
-                  "subdivision": "7111",
+                  "subdivision": "Heading 7111",
                   "min": "7111000000",
                   "max": "7111999999",
                   "rules": [
@@ -7072,7 +7072,7 @@
             },
             {
                   "heading": "7207",
-                  "subdivision": "7207",
+                  "subdivision": "Heading 7207",
                   "min": "7207000000",
                   "max": "7207999999",
                   "rules": [
@@ -7112,7 +7112,7 @@
             },
             {
                   "heading": "7218",
-                  "subdivision": "7218",
+                  "subdivision": "Heading 7218",
                   "min": "7218000000",
                   "max": "7218999999",
                   "rules": [
@@ -7152,7 +7152,7 @@
             },
             {
                   "heading": "7224",
-                  "subdivision": "7224",
+                  "subdivision": "Heading 7224",
                   "min": "7224000000",
                   "max": "7224999999",
                   "rules": [
@@ -7192,7 +7192,7 @@
             },
             {
                   "heading": "730110",
-                  "subdivision": "730110",
+                  "subdivision": "Subheading 730110",
                   "min": "7301100000",
                   "max": "7301199999",
                   "rules": [
@@ -7212,7 +7212,7 @@
             },
             {
                   "heading": "730120",
-                  "subdivision": "730120",
+                  "subdivision": "Subheading 730120",
                   "min": "7301200000",
                   "max": "7301299999",
                   "rules": [
@@ -7232,7 +7232,7 @@
             },
             {
                   "heading": "7302",
-                  "subdivision": "7302",
+                  "subdivision": "Heading 7302",
                   "min": "7302000000",
                   "max": "7302999999",
                   "rules": [
@@ -7252,7 +7252,7 @@
             },
             {
                   "heading": "7303",
-                  "subdivision": "7303",
+                  "subdivision": "Heading 7303",
                   "min": "7303000000",
                   "max": "7303999999",
                   "rules": [
@@ -7343,7 +7343,7 @@
             },
             {
                   "heading": "7308",
-                  "subdivision": "7308",
+                  "subdivision": "Heading 7308",
                   "min": "7308000000",
                   "max": "7308999999",
                   "rules": [
@@ -7383,7 +7383,7 @@
             },
             {
                   "heading": "731520",
-                  "subdivision": "731520",
+                  "subdivision": "Subheading 731520",
                   "min": "7315200000",
                   "max": "7315299999",
                   "rules": [
@@ -7454,7 +7454,7 @@
             },
             {
                   "heading": "7403",
-                  "subdivision": "7403",
+                  "subdivision": "Heading 7403",
                   "min": "7403000000",
                   "max": "7403999999",
                   "rules": [
@@ -7495,7 +7495,7 @@
             },
             {
                   "heading": "7408",
-                  "subdivision": "7408",
+                  "subdivision": "Heading 7408",
                   "min": "7408000000",
                   "max": "7408999999",
                   "rules": [
@@ -7536,7 +7536,7 @@
             },
             {
                   "heading": "7501",
-                  "subdivision": "7501",
+                  "subdivision": "Heading 7501",
                   "min": "7501000000",
                   "max": "7501999999",
                   "rules": [
@@ -7556,7 +7556,7 @@
             },
             {
                   "heading": "7502",
-                  "subdivision": "7502",
+                  "subdivision": "Heading 7502",
                   "min": "7502000000",
                   "max": "7502999999",
                   "rules": [
@@ -7597,7 +7597,7 @@
             },
             {
                   "heading": "7601",
-                  "subdivision": "7601",
+                  "subdivision": "Heading 7601",
                   "min": "7601000000",
                   "max": "7601999999",
                   "rules": [
@@ -7618,7 +7618,7 @@
             },
             {
                   "heading": "7602",
-                  "subdivision": "7602",
+                  "subdivision": "Heading 7602",
                   "min": "7602000000",
                   "max": "7602999999",
                   "rules": [
@@ -7638,7 +7638,7 @@
             },
             {
                   "heading": "7603",
-                  "subdivision": "7603",
+                  "subdivision": "Heading 7603",
                   "min": "7603000000",
                   "max": "7603999999",
                   "rules": [
@@ -7679,7 +7679,7 @@
             },
             {
                   "heading": "7604",
-                  "subdivision": "7604",
+                  "subdivision": "Heading 7604",
                   "min": "7604000000",
                   "max": "7604999999",
                   "rules": [
@@ -7699,7 +7699,7 @@
             },
             {
                   "heading": "7605",
-                  "subdivision": "7605",
+                  "subdivision": "Heading 7605",
                   "min": "7605000000",
                   "max": "7605999999",
                   "rules": [
@@ -7719,7 +7719,7 @@
             },
             {
                   "heading": "7606",
-                  "subdivision": "7606",
+                  "subdivision": "Heading 7606",
                   "min": "7606000000",
                   "max": "7606999999",
                   "rules": [
@@ -7739,7 +7739,7 @@
             },
             {
                   "heading": "7607",
-                  "subdivision": "7607",
+                  "subdivision": "Heading 7607",
                   "min": "7607000000",
                   "max": "7607999999",
                   "rules": [
@@ -7779,7 +7779,7 @@
             },
             {
                   "heading": "780110",
-                  "subdivision": "780110",
+                  "subdivision": "Subheading 780110",
                   "min": "7801100000",
                   "max": "7801199999",
                   "rules": [
@@ -7912,7 +7912,7 @@
             },
             {
                   "heading": "820590",
-                  "subdivision": "820590",
+                  "subdivision": "Subheading 820590",
                   "min": "8205900000",
                   "max": "8205999999",
                   "rules": [
@@ -7932,7 +7932,7 @@
             },
             {
                   "heading": "8206",
-                  "subdivision": "8206",
+                  "subdivision": "Heading 8206",
                   "min": "8206000000",
                   "max": "8206999999",
                   "rules": [
@@ -8138,7 +8138,7 @@
             },
             {
                   "heading": "841520",
-                  "subdivision": "841520",
+                  "subdivision": "Subheading 841520",
                   "min": "8415200000",
                   "max": "8415299999",
                   "rules": [
@@ -8231,7 +8231,7 @@
             },
             {
                   "heading": "8421",
-                  "subdivision": "8421",
+                  "subdivision": "Heading 8421",
                   "min": "8421000000",
                   "max": "8421999999",
                   "rules": [
@@ -8572,7 +8572,7 @@
             },
             {
                   "heading": "847950",
-                  "subdivision": "847950",
+                  "subdivision": "Subheading 847950",
                   "min": "8479500000",
                   "max": "8479599999",
                   "rules": [
@@ -8634,7 +8634,7 @@
             },
             {
                   "heading": "847989",
-                  "subdivision": "847989",
+                  "subdivision": "Subheading 847989",
                   "min": "8479890000",
                   "max": "8479899999",
                   "rules": [
@@ -8665,7 +8665,7 @@
             },
             {
                   "heading": "847990",
-                  "subdivision": "847990",
+                  "subdivision": "Subheading 847990",
                   "min": "8479900000",
                   "max": "8479999999",
                   "rules": [
@@ -8696,7 +8696,7 @@
             },
             {
                   "heading": "8480",
-                  "subdivision": "8480",
+                  "subdivision": "Heading 8480",
                   "min": "8480000000",
                   "max": "8480999999",
                   "rules": [
@@ -8727,7 +8727,7 @@
             },
             {
                   "heading": "8481",
-                  "subdivision": "8481",
+                  "subdivision": "Heading 8481",
                   "min": "8481000000",
                   "max": "8481999999",
                   "rules": [
@@ -9336,7 +9336,7 @@
             },
             {
                   "heading": "8701",
-                  "subdivision": "8701",
+                  "subdivision": "Heading 8701",
                   "min": "8701000000",
                   "max": "8701999999",
                   "rules": [
@@ -9458,7 +9458,7 @@
             },
             {
                   "heading": "8712",
-                  "subdivision": "8712",
+                  "subdivision": "Heading 8712",
                   "min": "8712000000",
                   "max": "8712999999",
                   "rules": [
@@ -9602,7 +9602,7 @@
             },
             {
                   "heading": "900150",
-                  "subdivision": "900150",
+                  "subdivision": "Subheading 900150",
                   "min": "9001500000",
                   "max": "9001599999",
                   "rules": [
@@ -9846,7 +9846,7 @@
             },
             {
                   "heading": "9605",
-                  "subdivision": "9605",
+                  "subdivision": "Heading 9605",
                   "min": "9605000000",
                   "max": "9605999999",
                   "rules": [
@@ -9898,7 +9898,7 @@
             },
             {
                   "heading": "960850",
-                  "subdivision": "960850",
+                  "subdivision": "Subheading 960850",
                   "min": "9608500000",
                   "max": "9608599999",
                   "rules": [

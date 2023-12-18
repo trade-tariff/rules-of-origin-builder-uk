@@ -428,6 +428,44 @@
                   "valid": true
             },
             {
+                  "heading": "0901 to 0910",
+                  "chapter": 9,
+                  "subdivision": "Mixtures",
+                  "min": "0901000000",
+                  "max": "0910999999",
+                  "rules": [
+                        {
+                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "0901 to 0910",
+                  "chapter": 9,
+                  "subdivision": "Other",
+                  "min": "0901000000",
+                  "max": "0910999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "090111",
                   "chapter": 9,
                   "subdivision": "Coffee, not roasted, not decaffeinated",
@@ -9075,48 +9113,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex 7210",
-                  "chapter": 72,
-                  "subdivision": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated. \u25b8 Plated or coated with zinc, and corrugated",
-                  "min": "7210000000",
-                  "max": "7210999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 7210",
-                  "chapter": 72,
-                  "subdivision": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated. \u25b8 Other",
-                  "min": "7210000000",
-                  "max": "7210999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 7211",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products of iron or non-alloy steel, of a width of less than 600 mm, not clad, plated or coated. \u25b8 Hot-rolled",
@@ -9441,48 +9437,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex 7219",
-                  "chapter": 72,
-                  "subdivision": "Flat-rolled products of stainless steel, of a width of 600 mm or more. \u25b8 Clad",
-                  "min": "7219000000",
-                  "max": "7219999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
-                              "class": [
-                                    "CTHS"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 7219",
-                  "chapter": 72,
-                  "subdivision": "Flat-rolled products of stainless steel, of a width of 600 mm or more. \u25b8 Other",
-                  "min": "7219000000",
-                  "max": "7219999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
-                              "class": [
-                                    "CTHS"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 7220",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products of stainless steel, of a width of less than 600 mm. \u25b8 Not further worked than hot-rolled",
@@ -9507,48 +9461,6 @@
                   "heading": "ex 7220",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products of stainless steel, of a width of less than 600 mm. \u25b8 Not further worked than cold rolled",
-                  "min": "7220000000",
-                  "max": "7220999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
-                              "class": [
-                                    "CTHS"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 7220",
-                  "chapter": 72,
-                  "subdivision": "Flat-rolled products of stainless steel, of a width of less than 600 mm. \u25b8 Clad",
-                  "min": "7220000000",
-                  "max": "7220999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
-                              "class": [
-                                    "CTHS"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 7220",
-                  "chapter": 72,
-                  "subdivision": "Flat-rolled products of stainless steel, of a width of less than 600 mm. \u25b8 Other",
                   "min": "7220000000",
                   "max": "7220999999",
                   "rules": [
@@ -9820,27 +9732,6 @@
             {
                   "heading": "ex 7225",
                   "chapter": 72,
-                  "subdivision": "Flat-rolled products of other alloy steel, of a width of 600 mm or more. \u25b8 Clad",
-                  "min": "7225000000",
-                  "max": "7225999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
-                              "class": [
-                                    "CTHS"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 7225",
-                  "chapter": 72,
                   "subdivision": "Flat-rolled products of other alloy steel, of a width of 600 mm or more. \u25b8 Other",
                   "min": "7225000000",
                   "max": "7225999999",
@@ -10042,48 +9933,6 @@
                   "heading": "ex 7228",
                   "chapter": 72,
                   "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Bars and rods, angles, shapes and sections, clad",
-                  "min": "7228000000",
-                  "max": "7228999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
-                              "class": [
-                                    "CTHS"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 7228",
-                  "chapter": 72,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other bars and rods",
-                  "min": "7228000000",
-                  "max": "7228999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
-                              "class": [
-                                    "CTHS"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 7228",
-                  "chapter": 72,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other angles, shapes and sections",
                   "min": "7228000000",
                   "max": "7228999999",
                   "rules": [
