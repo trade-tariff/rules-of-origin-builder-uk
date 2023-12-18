@@ -218,7 +218,7 @@
                   "max": "0403999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\n- any fruit juice (except those of pineapple, lime or grapefruit) of [heading&nbsp;2009](/headings/2009) used must already be originating\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\n- any fruit juice (except those of pineapple, lime or grapefruit) of [heading&nbsp;2009](/headings/2009) used must al ready be originating\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
                                     "WO"
@@ -964,7 +964,7 @@
             {
                   "heading": "1516",
                   "chapter": 15,
-                  "subdivision": "Animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, interesterified, re-esterified or elaidinised, whether or not refined, but not further prepared",
+                  "subdivision": "Animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, interesterified, reesterified or elaidinised, whether or not refined, but not further prepared",
                   "min": "1516000000",
                   "max": "1516999999",
                   "rules": [
@@ -3592,10 +3592,9 @@
                   "max": "2934999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of [heading&nbsp;2932](/headings/2932), [heading&nbsp;2933](/headings/2933) and [heading&nbsp;2934](/headings/2934) used may not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of [heading 932](/headings/932), 2933 and 2934 used may not exceed **20%** of the ex-works price of the product.",
                               "class": [
-                                    "MAXNOM",
-                                    "AH RESTRICTION MAXNOM"
+                                    "MAXNOM"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -4213,7 +4212,7 @@
                   "max": "3404999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except:\n\n- hydrogenated oils having the character of waxes of heading&nbsp;1516\n\n- fatty acids not chemically defined or industrial fatty alcohols having the character of waxes of heading&nbsp;3823\n\n- materials of heading&nbsp;3404\n\nHowever, these materials may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading, except:\n\n- hydrogenated oils having the character of waxes of [heading&nbsp;1516](/headings/1516),\n\n- fatty acids not chemically defined or industrial fatty alcohols having the character of waxes of [heading&nbsp;3823](/headings/3823),\n\n- materials of heading&nbsp;3404\n\nHowever, these materials may be used provided their value does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
                                     "AH EXCEPT TOLERANCE MAY BE USED RESTRICTION MAXNOM"
@@ -5070,7 +5069,7 @@
             {
                   "heading": "3809",
                   "chapter": 38,
-                  "subdivision": "Finishing agents, dye carriers to accelerate the dyeing or fixing of dyestuffs and other products and preparations (for example, dressings and mordants), of a kind used in the textile, paper, leather or like industries, not elsewhere specified or included",
+                  "subdivision": "Finishing agents, dye carriers to accelerate the dyeing or fixing of dyestuffs and other products and preparations (for example, dressings and mordant's), of a kind used in the textile, paper, leather or like industries, not elsewhere specified or included",
                   "min": "3809000000",
                   "max": "3809999999",
                   "rules": [
@@ -7121,7 +7120,7 @@
                   "max": "4817999999",
                   "rules": [
                         {
-                              "rule": "Manufacturing in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacturing in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -7262,7 +7261,7 @@
                   "max": "4823999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from paper-making materials of [chapter&nbsp;47](/chapters/47).",
+                              "rule": "Manufacture from paper- making materials of [chapter&nbsp;47](/chapters/47).",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -7451,31 +7450,10 @@
                   "valid": true
             },
             {
-                  "heading": "5004",
+                  "heading": "5004 to 5005",
                   "chapter": 50,
                   "subdivision": "Silk yarn and yarn spun from silk waste",
                   "min": "5004000000",
-                  "max": "5004999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
-                              "class": [
-                                    "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "5005",
-                  "chapter": 50,
-                  "subdivision": "Silk yarn and yarn spun from silk waste",
-                  "min": "5005000000",
                   "max": "5005999999",
                   "rules": [
                         {
@@ -9339,7 +9317,7 @@
             {
                   "heading": "7006",
                   "chapter": 70,
-                  "subdivision": "Glass of heading 7003, 7004 or 7005, bent, edge worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials \u25b8 glass plate substrate coated with dielectric thin film, semi-conductor grade, in accordance with SEMII standards (10)",
+                  "subdivision": "Glass of heading 7003, 7004 or 7005, bent, edge worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials \u25b8 glass plate substrate coated with dielectric thin film, semi conductor grade, in accordance with SEMII standards (10)",
                   "min": "7006000000",
                   "max": "7006999999",
                   "rules": [
@@ -9612,7 +9590,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7101000000",
                   "max": "7101999999",
                   "rules": [
@@ -9631,12 +9609,12 @@
             {
                   "heading": "ex 7102",
                   "chapter": 71,
-                  "subdivision": "Worked precious or semi-precious stones (natural, synthetic or reconstructed)",
+                  "subdivision": "Worked precious or semi precious stones (natural, synthetic or reconstructed)",
                   "min": "7102000000",
                   "max": "7102999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from unworked precious or semi-precious stones.",
+                              "rule": "Manufacture from unworked precious or semi precious stones.",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -9652,7 +9630,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7102000000",
                   "max": "7102999999",
                   "rules": [
@@ -9671,12 +9649,12 @@
             {
                   "heading": "ex 7103",
                   "chapter": 71,
-                  "subdivision": "Worked precious or semi-precious stones (natural, synthetic or reconstructed)",
+                  "subdivision": "Worked precious or semi precious stones (natural, synthetic or reconstructed)",
                   "min": "7103000000",
                   "max": "7103999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from unworked precious or semi-precious stones.",
+                              "rule": "Manufacture from unworked precious or semi precious stones.",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -9692,7 +9670,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7103000000",
                   "max": "7103999999",
                   "rules": [
@@ -9711,12 +9689,12 @@
             {
                   "heading": "ex 7104",
                   "chapter": 71,
-                  "subdivision": "Worked precious or semi-precious stones (natural, synthetic or reconstructed)",
+                  "subdivision": "Worked precious or semi precious stones (natural, synthetic or reconstructed)",
                   "min": "7104000000",
                   "max": "7104999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from unworked precious or semi-precious stones.",
+                              "rule": "Manufacture from unworked precious or semi precious stones.",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -9732,7 +9710,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7104000000",
                   "max": "7105999999",
                   "rules": [
@@ -9832,7 +9810,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7107000000",
                   "max": "7107999999",
                   "rules": [
@@ -9932,7 +9910,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7109000000",
                   "max": "7109999999",
                   "rules": [
@@ -10032,7 +10010,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7111000000",
                   "max": "7115999999",
                   "rules": [
@@ -10051,7 +10029,7 @@
             {
                   "heading": "7116",
                   "chapter": 71,
-                  "subdivision": "Articles of natural or cultured pearls, precious or semi-precious stones (natural, synthetic or reconstructed)",
+                  "subdivision": "Articles of natural or cultured pearls, precious or semi precious stones (natural, synthetic or reconstructed)",
                   "min": "7116000000",
                   "max": "7116999999",
                   "rules": [
@@ -10102,7 +10080,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7118000000",
                   "max": "7118999999",
                   "rules": [
@@ -10187,7 +10165,7 @@
                   "max": "7217999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from semi-finished materials of [heading&nbsp;7207](/headings/7207).",
+                              "rule": "Manufacture from semi finished materials of [heading&nbsp;7207](/headings/7207).",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -10269,7 +10247,7 @@
                   "max": "7223999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from semi-finished materials of [heading&nbsp;7218](/headings/7218).",
+                              "rule": "Manufacture from semi finished materials of [heading&nbsp;7218](/headings/7218).",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -10351,7 +10329,7 @@
                   "max": "7229999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from semi-finished materials of [heading&nbsp;7224](/headings/7224).",
+                              "rule": "Manufacture from semi finished materials of [heading&nbsp;7224](/headings/7224).",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -12868,16 +12846,7 @@
                   "max": "8503999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -12930,16 +12899,7 @@
                   "max": "8517999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13003,16 +12963,7 @@
                   "max": "8518999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13384,16 +13335,7 @@
                   "max": "8534999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13489,16 +13431,7 @@
                   "max": "8540999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13525,7 +13458,7 @@
             {
                   "heading": "ex 8541",
                   "chapter": 85,
-                  "subdivision": "Diodes, transistors and similar semi-conductor devices, except wafers not yet cut into chips",
+                  "subdivision": "Diodes, transistors and similar semi conductor devices, except wafers not yet cut into chips",
                   "min": "8541000000",
                   "max": "8541999999",
                   "rules": [
@@ -13562,16 +13495,7 @@
                   "max": "8541999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13635,16 +13559,7 @@
                   "max": "8543999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13781,16 +13696,7 @@
                   "max": "8549999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -15563,21 +15469,12 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from cotton cloth already made up in a form ready for use of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided:\n\n- its value does not exceed **25%** of the ex-works price of the product.",
+                              "rule": "Manufacture from cotton cloth already made up in a form ready for use of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided:\n\n- its value does not exceed **25%** of the ex-works price of the product\n\n- all the other materials used are already originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "All the other materials used are already originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -15645,21 +15542,12 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from cotton cloth already made up in a form ready for use of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided:\n\n- its value does not exceed **25%** of the ex-works price of the product.",
+                              "rule": "Manufacture from cotton cloth already made up in a form ready for use of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided:\n\n- its value does not exceed **25%** of the ex-works price of the product\n\n- all the other materials used are already originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "All the other materials used are already originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true

@@ -50,7 +50,6 @@ class RooDocument(object):
             Warning("The word 'Manufacture' appears more than once in these rules. This may be okay, but check, in case these rules should have been split.\n\n{multiple_manufacture}".format(
                 multiple_manufacture=", ".join(g.multiple_manufacture)
             ))
-        a = 1
 
     def check_opening_dash_in_rule(self):
         if not self.modern:
@@ -59,7 +58,6 @@ class RooDocument(object):
                 for rule in rule_set.rules:
                     if rule["rule"][0:1] == "-":
                         errors.append(rule_set.heading)
-                    a = 1
             if len(errors) > 0:
                 Error(
                     "Rule starts with a hyphen ... Check for incorrect cell merging, or for lines that start erroneously with 'or' on headings {headings}".format(headings=", ".join(errors)), show_additional_information=False
@@ -328,7 +326,6 @@ class RooDocument(object):
                 # self.rule_sets.append(rule_set.as_dict())
                 self.rule_sets.append(rule_set)
             row_index += 1
-        a = 1
 
         # Check for mixes of ex codes and non-ex codes in the heading column
         if len(g.mix_ex_non_ex_errors) > 0:
@@ -455,8 +452,6 @@ class RooDocument(object):
             sys.exit()
 
     def is_double_ex(self, s):
-        # if "4410" in s:
-        #     a = 1
         if s is not None:
             occurrence_count = s.count("ex")
             return True if occurrence_count > 1 else False

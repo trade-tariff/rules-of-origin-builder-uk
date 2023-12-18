@@ -24,7 +24,6 @@ class RuleSetHeadingWithSubHeadings(object):
             if rule_set.is_subheading is False and rule_set.is_ex_code:
                 self.heading_ex_code_rule_set = copy.copy(rule_set)
                 break
-        a = 1
 
     def find_matching_rule_sets(self):
         """
@@ -36,16 +35,13 @@ class RuleSetHeadingWithSubHeadings(object):
                     self.heading_rule_sets.append(rule_set)
                     rule_set.added_to_heading = True
                     if rule_set.is_ex_code:
-                        a = 1
                         if self.heading_ex_code_rule_set is not None:
                             residual_rule = self.copy_rule(self.heading_ex_code_rule_set, subheading, True)
                             # self.heading_rule_sets.append(residual_rule)
                         elif self.chapter_rule is not None:
                             residual_rule = self.copy_rule(self.chapter_rule, subheading[0:4], True)
                             self.heading_rule_sets.append(residual_rule)
-                        a = 1
                     else:
-                        a = 2
                         if self.heading_ex_code_rule_set is not None:
                             residual_rule = self.copy_rule(self.heading_ex_code_rule_set, subheading, True)
                             # self.heading_rule_sets.append(residual_rule)
@@ -56,7 +52,6 @@ class RuleSetHeadingWithSubHeadings(object):
         for rule_set in self.rule_sets:
             if not rule_set.added_to_heading:
                 self.heading_rule_sets.append(rule_set)
-        a = 1
 
     def copy_rule(self, rule_set, subheading, is_ex_code):
         obj = copy.copy(rule_set)
@@ -74,4 +69,3 @@ class RuleSetHeadingWithSubHeadings(object):
         for subheading in g.all_subheadings:
             if subheading[0:4] == self.heading:
                 self.heading_subheadings[subheading] = g.all_subheadings[subheading]
-        a = 1

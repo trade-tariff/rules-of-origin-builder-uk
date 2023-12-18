@@ -394,20 +394,22 @@ class RuleSetLegacy(object):
         self.original_rule = self.original_rule.replace("from :", "from:")
 
     def process_rule(self):
-        if "5106" in self.heading:
+        if "Chapter 85" in self.heading:
             a = 1
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
         self.original_rule = re.sub("\t", " ", self.original_rule)
         self.original_rule = re.sub(" +", " ", self.original_rule)
         self.original_rule = self.original_rule.replace("ex ex", "ex ")
+        self.original_rule = self.original_rule.replace("\nOr\n", "\nor\n", )
         self.original_rule = self.original_rule.replace(",\nor\n\n-", ", or\n-")
         self.original_rule = self.original_rule.replace(",\nor\n-", ", or\n-")
+        self.original_rule = self.original_rule.replace(";\nor\n-", ", or\n-")
+        self.original_rule = self.original_rule.replace(";\n- ", ",\n- ")
 
         # Do not delete footnotes
         self.process_footnotes()
         self.rules = []
-        self.original_rule = self.original_rule.replace("\nOr\n", "\nor\n", )
 
         self.original_rule = self.original_rule.replace("; and", ", and")
         self.original_rule = re.sub("([^;]) or Manufacture", "\\1; or\nManufacture", self.original_rule)

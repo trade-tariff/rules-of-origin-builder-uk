@@ -30,10 +30,6 @@ class RuleSetChapter(object):
         for rule_set in rule_sets:
             if rule_set.chapter == self.chapter_index:
                 self.rule_sets.append(rule_set)
-        
-        if len(self.rule_sets) > 0:
-            a = 1
-        a = 1
 
     def check_for_ex_codes(self):
         """
@@ -73,7 +69,6 @@ class RuleSetChapter(object):
         for subheading in g.all_subheadings:
             if subheading[0:2] == chapter_string:
                 self.chapter_subheadings[subheading] = g.all_subheadings[subheading]
-        a = 1
 
     def process_headings(self):
         """
@@ -85,7 +80,6 @@ class RuleSetChapter(object):
             self.chapter_rule_sets += rule_set_heading.heading_rule_sets
         
     def merge_contiguous_identical_rules(self):
-        a = 1
         next_rule_set = RuleSetLegacy(None, None, None)
         rule_set_count = len(self.chapter_rule_sets)
         for index in range(rule_set_count - 1, -1, -1):
@@ -93,7 +87,6 @@ class RuleSetChapter(object):
             if current_rule_set.is_heading:
                 if next_rule_set.is_heading:
                     if current_rule_set == next_rule_set:
-                        a = 1
                         self.chapter_rule_sets[index + 1].mark_for_deletion = True
                         self.chapter_rule_sets[index].max = next_rule_set.max
             
@@ -104,5 +97,3 @@ class RuleSetChapter(object):
             rule_set = self.chapter_rule_sets[index]
             if rule_set.mark_for_deletion:
                 self.chapter_rule_sets.pop(index)
-                a = 1
-        a = 1

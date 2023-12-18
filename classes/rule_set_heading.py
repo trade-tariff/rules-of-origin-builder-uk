@@ -22,7 +22,6 @@ class RuleSetHeading(object):
             if self.heading in rule_set.headings:
                 if len(rule_set.subheadings) > 0:
                     self.has_subheadings = True
-            a = 1
 
     def get_min_max(self):
         """
@@ -52,8 +51,6 @@ class RuleSetHeading(object):
                             if self.chapter_rule is not None:
                                 chapter_rule_set = self.apply_heading_to_chapter_rule_set(self.chapter_rule, True)
                                 self.heading_rule_sets.append(chapter_rule_set)
-                            else:
-                                a = 1
                         else:
                             if not rule_set.added_to_heading:
                                 self.heading_rule_sets.append(rule_set)
@@ -65,7 +62,6 @@ class RuleSetHeading(object):
                 if self.chapter_rule is not None:
                     rule_set = self.apply_heading_to_chapter_rule_set(self.chapter_rule, False)
                     self.heading_rule_sets.append(rule_set)
-                    a = 1
 
     def get_chapter_rule(self):
         """
@@ -85,7 +81,6 @@ class RuleSetHeading(object):
         you still inherit down the chapter-level rule
         """
         obj = copy.copy(rule_set)
-        a = 1
 
         obj.min = self.min
         obj.max = self.max

@@ -42,8 +42,9 @@ class Rule(object):
         a = 1
 
     def cleanse(self):
-        if "7601" in self.heading:
+        if "Chapter 85" in self.heading:
             a = 1
+        self.rule_string = self.rule_string.replace("—", "-")
         self.rule_string = self.rule_string.replace("—", "-")
         self.rule_string = self.rule_string.replace(";\n-", "\n-")
         self.rule_string = self.rule_string.replace("; and", ", and")
@@ -276,6 +277,9 @@ class Rule(object):
 
     def fix_punctuation(self):
         self.rule_string = self.rule_string.replace(" ,", ",").strip()
+        if self.rule_string[-1:] == ":":
+            self.rule_string = self.rule_string[:-1].strip()
+
         if len(self.rule_string) > 0:
             if self.rule_string[-1:] != ".":
                 self.rule_string += "."
