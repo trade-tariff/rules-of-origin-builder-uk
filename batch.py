@@ -18,13 +18,21 @@ omissions = [
     "Australia PSR.docx",
     "New-Zealand PSR.docx"
 ]
+
+modern = [
+    "EU PSR.docx",
+    "Canada PSR.docx",
+    "Turkey PSR.docx",
+    "Japan PSR.docx"
+]
 # start_at = "Andean PSR.docx"
 start_at = ""
 file_list.sort()
 index = 0
 max_files = 100
 for file in file_list:
-    if file not in omissions:
+    if file in modern:
+    # if file not in omissions:
         if file >= start_at:
             document = RooDocument(file)
             index += 1

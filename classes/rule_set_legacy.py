@@ -15,7 +15,6 @@ class RuleSetLegacy(object):
         self.hierarchy_divider = " ▸ "
         self.heading = ""
         self.footnotes_lookup = footnotes_lookup
-        self.switched_heading = ""
         self.subdivision = ""
         self.rule = ""
         self.is_ex_code = False
@@ -32,6 +31,17 @@ class RuleSetLegacy(object):
         self.contains_non_contiguous_and = False
         self.multiple_ands = False
         self.possible_missing_hyphens = False
+        self.added_to_heading = False
+
+        self.headings = []
+        self.subheadings = []
+        self.is_heading = False
+        self.is_subheading = False
+        self.is_range = False
+        self.original_heading = ""
+        self.original_rule = ""
+        self.original_rule2 = ""
+        self.mark_for_deletion = False
 
         if row is not None:
             # A rule set essentially equates to a row on the table
@@ -52,9 +62,6 @@ class RuleSetLegacy(object):
             self.original_rule = row["original_rule"].strip()
             self.original_rule = self.original_rule.replace("Manufacture;", "Manufacture:")
             self.original_rule2 = row["original_rule2"].strip()
-
-            if "7601" in self.original_heading:
-                a = 1
 
             # Before
             self.original_rule = re.sub(r'\n-([^ ])', "\n- \\1", self.original_rule)
@@ -412,31 +419,27 @@ class RuleSetLegacy(object):
         self.original_rule = self.original_rule.replace("\nor\n", ";\n\nor\n\n")
         self.original_rule = self.original_rule.replace("TEMPOR", "or")
         self.original_rule = self.original_rule.strip(";")
-        self.rule_strings = self.original_rule.split(";")
+        rule_strings = self.original_rule.split(";")
         
         # Check on "Manufacture" appearing more than once:
-        if self.original_rule.count("Manufacture") > 1 and len(self.rule_strings) == 1:
+        if self.original_rule.count("Manufacture") > 1 and len(rule_strings) == 1:
             g.multiple_manufacture.append(self.heading)
 
-        for rule_string in self.rule_strings:
+        for rule_string in rule_strings:
             rule = Rule(rule_string, self.heading)
             self.rules.append(rule.as_dict())
 
     def as_dict(self):
         my_dictionary = {
             "heading": self.heading,
-            "headings": self.headings,
-            "subheadings": self.subheadings,
             "chapter": self.chapter,
             "subdivision": self.subdivision,
             "min": self.min,
             "max": self.max,
             "rules": self.rules,
-            "is_ex_code": self.is_ex_code,
-            "is_chapter": self.is_chapter,
-            "is_heading": self.is_heading,
-            "is_subheading": self.is_subheading,
-            "is_range": self.is_range,
             "valid": self.valid
         }
         return my_dictionary
+
+    def __eq__(self, other):
+        return (self.rules == other.rules) and (self.heading == other.heading)

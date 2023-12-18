@@ -27,6 +27,8 @@ class RuleSetModern(object):
         self.process_heading()
         self.process_rule()
         self.set_valid_status()
+        # if self.subdivision == "":
+        #     self.subdivision = self.heading
 
     def set_valid_status(self):
         for rule in self.rules:

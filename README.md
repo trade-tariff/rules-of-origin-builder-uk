@@ -22,7 +22,7 @@ Used for OTT strategic - UK data
 - modern_documents="EU,Japan,Turkey,Canada"
 - validate_tables=[0|1]
 - create_json=[0|1]
-- validate_commodities=[0|1]
+- check_coverage=[0|1]
 - validate_min_max=[0|1]
 
 ## Installation
