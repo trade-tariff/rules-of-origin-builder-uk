@@ -32,6 +32,8 @@ class RuleSetLegacy(object):
         self.multiple_ands = False
         self.possible_missing_hyphens = False
         self.added_to_heading = False
+        self.index = 0
+        self.subdivision_adoption_requirement = 0
 
         self.headings = []
         self.subheadings = []
@@ -78,8 +80,6 @@ class RuleSetLegacy(object):
 
             self.process_heading()
             self.process_subdivision()
-            if "7601" in self.original_heading:
-                a = 1
 
             self.process_rule()
             self.capture_parent_description()
@@ -116,10 +116,10 @@ class RuleSetLegacy(object):
                 break
 
     def process_heading(self):
-        if "85.19" in self.original_heading:
-            a = 1
-        self.original_heading = re.sub("([0-9]{2}.[0-9]{2}),\s?([0-9]{2}.[0-9]{2})", "\\1-\\2", self.original_heading)
+        self.original_heading = self.original_heading.replace("chapter", "Chapter")
         self.original_heading = re.sub("\s+", " ", self.original_heading)
+        self.original_heading = re.sub("Chapter 0([1-9])", "Chapter \\1", self.original_heading)
+        self.original_heading = re.sub("([0-9]{2}.[0-9]{2}),\s?([0-9]{2}.[0-9]{2})", "\\1-\\2", self.original_heading)
         self.original_heading = re.sub("\s\([a-z]\)", "", self.original_heading)
         self.original_heading = re.sub("ex\s+([0-9]{1,2}) ([0-9]{1,2})", "ex \\1\\2", self.original_heading)
         self.original_heading = re.sub("([0-9]{4}) and ([0-9]{4})", "\\1 to \\2", self.original_heading)
@@ -132,8 +132,6 @@ class RuleSetLegacy(object):
         self.original_heading = re.sub("([0-9]{4}) ([0-9]{2})", "\\1\\2", self.original_heading)
         self.original_heading = re.sub(" {2,10}", " ", self.original_heading)
 
-        if "15.09" in self.original_heading:
-            a = 1
         # Check if the use of a comma could actually be replaced by a "to"
         # which would be the case if the items are consecutive
         if "," in self.original_heading:
@@ -183,9 +181,6 @@ class RuleSetLegacy(object):
                     self.contains_non_contiguous_and = True
 
         # Check for rules where "Manufacture is mentioned, but there are no bulleted items"
-        if "Chapter 34" in self.original_heading:
-            a = 1
-            
         temp_rule = self.original_rule.strip()
         if temp_rule.startswith("Manufacture"):
             newline_count = temp_rule.count("\n")
@@ -351,33 +346,32 @@ class RuleSetLegacy(object):
                     proceed = False
 
     def process_subdivision(self):
-        if "chapter 61" in self.heading.lower():
-            a = 1
         # Standardise different hyphen characters
         self.subdivision = self.subdivision.replace("—", "–")
         self.subdivision = self.subdivision.replace("–", "-")
         self.subdivision = self.subdivision.replace("  ", " ")
 
+        # Normalise additional characters
         n = Normalizer()
         self.subdivision = n.normalize(self.subdivision).strip()
         self.subdivision = self.subdivision.replace(" %", "%")
-        self.subdivision = self.subdivision.replace("— ", "\n- ")
-
-        if self.subdivision[0:1] == "-" and self.subdivision[1:2] != " ":
-            self.subdivision = "- " + self.subdivision[1:]
-
-        if self.subdivision[0:2] == "- ":
-            self.subdivision = self.subdivision[2:]
-            self.subdivision = g.parent_heading.replace(":", " ").strip() + self.hierarchy_divider + self.subdivision  # .capitalize()
-
-        self.subdivision = self.subdivision.replace("- - ", "- ")
         self.subdivision = self.subdivision.replace("ex ex", "ex ")
-        self.subdivision = re.sub("^-([^-])", "- \\1", self.subdivision)
-        if len(self.subdivision) > 1:
-            if self.subdivision[0:3] == "\n- ":
-                self.subdivision = self.subdivision[3:]
+
+        # Work out if this is a first, second or third tier subdivision
+        # If it starts with "- - ", then it is third tier, and the two tiers above need to be pre-pended
+        # If it starts with "- ", then it is second tier, and the one tier above needs to be pre-pended
+        # Otherwise leave well alone
+        self.subdivision = self.subdivision.strip("\n")
+        if self.subdivision.startswith("- - "):
+            self.subdivision_adoption_requirement = 2
+        elif self.subdivision.startswith("- "):
+            self.subdivision_adoption_requirement = 1
+
+        for i in range(0, 2):
+            self.subdivision = self.subdivision.strip("- ")
 
         self.subdivision = self.subdivision.replace("\nsee also", "\nSee also")
+        self.subdivision_original = self.subdivision
 
     def process_footnotes(self):
         if len(self.footnotes_lookup) > 0:
@@ -394,8 +388,6 @@ class RuleSetLegacy(object):
         self.original_rule = self.original_rule.replace("from :", "from:")
 
     def process_rule(self):
-        if "Chapter 85" in self.heading:
-            a = 1
         n = Normalizer()
         self.original_rule = n.normalize(self.original_rule)
         self.original_rule = re.sub("\t", " ", self.original_rule)
@@ -444,4 +436,9 @@ class RuleSetLegacy(object):
         return my_dictionary
 
     def __eq__(self, other):
-        return (self.rules == other.rules) and (self.heading == other.heading)
+        """
+        You can consider two rules as being the same, and therefore mergeable if:
+        a) they have the same rules and the same heading
+        b) and they are chapter level
+        """
+        return (self.rules == other.rules) and (self.heading == other.heading) and self.is_chapter and ("Any other product" not in self.subdivision) and ("Any other product" not in other.subdivision)

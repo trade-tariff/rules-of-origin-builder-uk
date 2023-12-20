@@ -1,5 +1,6 @@
 import sys
 import os
+import copy
 import json
 import shutil
 import csv
@@ -94,6 +95,7 @@ class RooDocument(object):
                 self.docx_filepath = os.path.join(self.source_folder, self.docx_filename)
             else:
                 Error("Please supply an input document.", show_additional_information=False)
+        g.docx_filename = self.docx_filename
 
         # Export paths
         self.export_filename = self.docx_filename.replace(".docx", "").replace(" ", "-").lower()
@@ -313,19 +315,33 @@ class RooDocument(object):
                 # self.rule_sets.append(rule_set.as_dict())
                 self.rule_sets.append(rule_set)
 
+    def count_cells_in_columns(self):
+        error = False
+        print("- Counting table cells per row for file {file}".format(file=self.docx_filename))
+        for row in self.table_rows:
+            if len(row) > 4:
+                error = True
+                break
+        if error:
+            print("  - At last one row has an incorrect number of cells", str(len(row)))
+            sys.exit()
+
     def process_psr_table_legacy(self):
         """
         Process the legacy documents
         """
+        self.count_cells_in_columns()
         self.check_psr_table_validity()
         self.rule_sets = []
         row_index = 0
         for row in self.table_rows:
             rule_set = RuleSetLegacy(row, row_index, self.footnotes)
-            if rule_set.valid:
-                # self.rule_sets.append(rule_set.as_dict())
-                self.rule_sets.append(rule_set)
+            # if rule_set.valid:
+            self.rule_sets.append(rule_set)
             row_index += 1
+            
+        self.expand_subdivision_hierarchy()
+        self.remove_invalid_entries()
 
         # Check for mixes of ex codes and non-ex codes in the heading column
         if len(g.mix_ex_non_ex_errors) > 0:
@@ -335,7 +351,6 @@ class RooDocument(object):
                 ),
                 show_additional_information=False
             )
-            sys.exit()
 
         # Check for non-contiguous codes separated by "and"
         if len(g.non_contiguous_and_errors) > 0:
@@ -345,7 +360,6 @@ class RooDocument(object):
                 ),
                 show_additional_information=False
             )
-            sys.exit()
 
         # Check for non-contiguous codes separated by "and"
         if len(g.multiple_and_errors) > 0:
@@ -355,7 +369,6 @@ class RooDocument(object):
                 ),
                 show_additional_information=False
             )
-            sys.exit()
 
         # Check for non-contiguous ands in heading column
         if len(g.non_contiguous_and_errors) > 0:
@@ -365,7 +378,6 @@ class RooDocument(object):
                 ),
                 show_additional_information=False
             )
-            sys.exit()
 
         self.validate_existence_of_all_headings_subheadings()
         self.process_chapters()
@@ -376,6 +388,37 @@ class RooDocument(object):
                 "Rules contain the word manufacture, but not as many hyphens as would have been expected. Bullets will be omitted:\n\n{warnings}".format(
                     warnings=" | ".join(g.possible_missing_hyphens)
                 ))
+
+    def expand_subdivision_hierarchy(self):
+        """
+        This is needed to transfer higher tiers of hierarchy subdivisions into the child tiers
+        if the sub-tiers start with a "- " or a "- - "
+        """
+        rule_set_count = len(self.rule_sets)
+        rule_set_grandparent = None
+        rule_set_parent = None
+        for index in range(0, rule_set_count):
+            rule_set = self.rule_sets[index]
+            if rule_set.subdivision_adoption_requirement == 2:
+                rule_set.subdivision = "{grandparent}{divider}{parent}{divider}{child}".format(
+                    grandparent=rule_set_grandparent.subdivision_original.strip(":"),
+                    divider=g.hierarchy_divider,
+                    parent=rule_set_parent.subdivision_original.strip(":"),
+                    child=rule_set.subdivision_original.strip(":")
+                )
+            elif rule_set.subdivision_adoption_requirement == 1:
+                rule_set.subdivision = "{parent}{divider}{child}".format(
+                    divider=g.hierarchy_divider,
+                    parent=rule_set_grandparent.subdivision_original.strip(":"),
+                    child=rule_set.subdivision_original.strip(":")
+                )
+                rule_set_parent = copy.copy(rule_set)
+            else:
+                rule_set_grandparent = copy.copy(rule_set)
+                rule_set.subdivision = "{child}".format(
+                    child=rule_set.subdivision_original.strip(":")
+                )
+            rule_set.subdivision = rule_set.subdivision.replace("- - ", "- ")
 
     def check_psr_table_validity(self):
         """ Checks for:
@@ -418,7 +461,7 @@ class RooDocument(object):
             msg = "\nThere are errors in the table with empty cells in column 1. Please correct these issues before processing can complete. " + \
                 "This is likely to need the empty cell to be merged in MS Word into the cell above.\n\n"
             for error_row in empty_rows:
-                msg += "Line " + str(error_row[0]) + ", under heading " + error_row[1] + "\n"
+                msg += "Row " + str(error_row[0]) + ", under heading " + error_row[1].strip() + "\n"
             print(msg)
             sys.exit()
 
@@ -427,7 +470,7 @@ class RooDocument(object):
             msg = "\nThere are errors in the table with cells in column 1 that feature multiple ex codes. The system cannot work with cells such as these. " + \
                 "Please split the rows into multiple rows, one per ex code.\n\n"
             for double_ex_row in double_ex_rows:
-                msg += "Line " + str(double_ex_row[0]) + ", under heading " + double_ex_row[1] + "\n"
+                msg += "Row " + str(double_ex_row[0]) + ", under heading " + double_ex_row[1].strip() + "\n"
             print(msg)
             sys.exit()
 
@@ -437,7 +480,7 @@ class RooDocument(object):
                 "The system cannot work with cells such as these.\n\n" + \
                 "Please split the rows into multiple rows, one per item.\n\n"
             for mixed_conjunction in mixed_conjunctions:
-                msg += "Line " + str(mixed_conjunction[0]) + ", under heading " + mixed_conjunction[1] + "\n"
+                msg += "Row " + str(mixed_conjunction[0]) + ", under heading " + mixed_conjunction[1] + "\n"
             print(msg)
             sys.exit()
 
@@ -447,7 +490,7 @@ class RooDocument(object):
                 "The system cannot work with cells such as these.\n\n" + \
                 "Please split the rows into multiple rows, one per item.\n\n"
             for item in more_than_one_comma:
-                msg += "Line " + str(item[0]) + ", under heading " + item[1] + "\n"
+                msg += "Row " + str(item[0]) + ", under heading " + item[1] + "\n"
             print(msg)
             sys.exit()
 
@@ -516,9 +559,19 @@ class RooDocument(object):
         # and process them individually
         chapters = [x for x in range(1, 98) if x != 77]
         for chapter_index in chapters:
-            # print(chapter_index)
+            g.residual_added = []
             chapter = RuleSetChapter(chapter_index, self.temporary_rule_sets)
             self.rule_sets += chapter.chapter_rule_sets
+            if chapter.whole_chapter_rule_count > 1:
+                if chapter.whole_chapter_rule_count != len(chapter.rule_sets):
+                    print(g.docx_filename, "in chapter", str(chapter_index), "has a chapter rule count of", str(chapter.whole_chapter_rule_count))
+                    obj = {
+                        "filename": g.docx_filename,
+                        "chapter_index": chapter_index,
+                        "whole_chapter_rule_count": chapter.whole_chapter_rule_count,
+                        "rule_count": len(chapter.rule_sets)
+                    }
+                    g.multiple_chapter_rule_list.append(obj)
 
     def transfer_rule_sets_to_temporary_variable(self):
         """

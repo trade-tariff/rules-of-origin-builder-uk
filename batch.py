@@ -1,4 +1,5 @@
 import os
+import json
 
 from classes.roo_document import RooDocument
 import classes.globals as g
@@ -25,16 +26,25 @@ modern = [
     "Turkey PSR.docx",
     "Japan PSR.docx"
 ]
-# start_at = "Andean PSR.docx"
+
+included = [
+    "Mexico PSR.docx"
+]
+
+omissions += modern
 start_at = ""
 file_list.sort()
 index = 0
 max_files = 100
 for file in file_list:
-    if file in modern:
-    # if file not in omissions:
+    # if file in included:
+    if file not in omissions:
         if file >= start_at:
             document = RooDocument(file)
             index += 1
             if index > max_files:
                 break
+
+filename = os.path.join(os.getcwd(), "resources", "temp", "multiple_chapter_rule_list.json")
+with open(filename, 'w') as f:
+    json.dump(g.multiple_chapter_rule_list, f, indent=4)

@@ -36,14 +36,9 @@ class Rule(object):
         self.check_for_mistyped_opening_hyphens()
 
     def check_for_mistyped_opening_hyphens(self):
-        if "7601" in self.heading:
-            a = 1
         self.rule_string = re.sub(r'\n-([^ ])', "\n- \\1", self.rule_string)
-        a = 1
 
     def cleanse(self):
-        if "Chapter 85" in self.heading:
-            a = 1
         self.rule_string = self.rule_string.replace("—", "-")
         self.rule_string = self.rule_string.replace("—", "-")
         self.rule_string = self.rule_string.replace(";\n-", "\n-")
@@ -196,14 +191,13 @@ class Rule(object):
         self.rule_string = re.sub(" ([0-9]{1,3}\%)", " **\\1**", self.rule_string)
 
     def hyperlink_headings(self):
-        if "72.06" in self.rule_string:
-            a = 1
         self.rule_string = self.rule_string.strip()
         self.rule_string = re.sub("([0-9]{2}).([0-9]{2})$", " \\1\\2.", self.rule_string)
         
+        self.rule_string = self.rule_string.replace("headings Nos ", "heading ")
         self.rule_string = self.rule_string.replace("headings No ", "heading ")
-        self.rule_string = self.rule_string.replace("heading No ", "heading ")
         self.rule_string = self.rule_string.replace("heading Nos ", "heading ")
+        self.rule_string = self.rule_string.replace("heading No ", "heading ")
         self.rule_string = self.rule_string.replace("sub-heading", "subheading")
         self.rule_string = self.rule_string.replace("Sub-heading", "Subheading")
         self.rule_string = self.rule_string.replace("Chapter", "chapter")
@@ -249,6 +243,7 @@ class Rule(object):
         self.rule_string = re.sub(" heading ([0-9]{4}) to ([0-9]{4})$", " heading \\1 to heading \\2", self.rule_string)
 
         self.rule_string = re.sub(" heading ([0-9]{4})$", " heading \\1", self.rule_string)
+        self.rule_string = re.sub(" heading ([0-9]{4})\n", " heading \\1.\n", self.rule_string)
 
         self.rule_string = re.sub("([Hh]eading)(s*) ([0-9]{1,4})([ ,;.])", "[\\1\\2 \\3](/headings/\\3)\\4", self.rule_string)  # Links in markdown
 

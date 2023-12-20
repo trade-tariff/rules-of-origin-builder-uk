@@ -3,6 +3,9 @@ import os
 
 
 class Error(object):
+    """
+    Used to print errors that stop execution
+    """
     def __init__(self, message, show_additional_information=True, exception=None):
         self.message = message
         print("\nERROR: {message}\n".format(

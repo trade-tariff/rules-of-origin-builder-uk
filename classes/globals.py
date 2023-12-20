@@ -12,7 +12,10 @@ multiple_manufacture = []
 possible_missing_hyphens = []
 
 parent_heading = ""
-
+docx_filename = ""
+multiple_chapter_rule_list = []
+residual_added = []
+hierarchy_divider = " ▸ "
 
 def format_parts(s, index):
     s = s.strip()
