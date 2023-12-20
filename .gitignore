@@ -107,4 +107,5 @@ __pycache__/
 .vscode/
 .DS_Store
 ~*
-resources/temp/
+resources/temp/*.json
+resources/temp/*.csv
