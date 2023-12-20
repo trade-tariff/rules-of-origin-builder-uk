@@ -411,12 +411,12 @@
             {
                   "heading": "0901 to 0910",
                   "chapter": 9,
-                  "subdivision": "Other",
+                  "subdivision": "Mixtures",
                   "min": "0901000000",
                   "max": "0910999999",
                   "rules": [
                         {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -430,12 +430,12 @@
             {
                   "heading": "0901 to 0910",
                   "chapter": 9,
-                  "subdivision": "Mixtures",
+                  "subdivision": "Other",
                   "min": "0901000000",
                   "max": "0910999999",
                   "rules": [
                         {
-                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.",
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2595,7 +2595,7 @@
             {
                   "heading": "ex 5101",
                   "chapter": 51,
-                  "subdivision": "Wool, not carded or combed - Greasy, including fleece-washed wool:",
+                  "subdivision": "Wool, not carded or combed - Greasy, including fleece-washed wool",
                   "min": "5101000000",
                   "max": "5101999999",
                   "rules": [
@@ -8263,7 +8263,7 @@
             {
                   "heading": "630710",
                   "chapter": 63,
-                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 Floor-cloths, dish-cloths, dusters and similar cleaning cloths",
+                  "subdivision": "Other made up articles, including dress patterns. \u25b8 Floor-cloths, dish-cloths, dusters and similar cleaning cloths",
                   "min": "6307100000",
                   "max": "6307109999",
                   "rules": [
@@ -8284,7 +8284,7 @@
             {
                   "heading": "630720",
                   "chapter": 63,
-                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 Life-jackets and life-belts",
+                  "subdivision": "Other made up articles, including dress patterns. \u25b8 Life-jackets and life-belts",
                   "min": "6307200000",
                   "max": "6307209999",
                   "rules": [
@@ -8305,7 +8305,7 @@
             {
                   "heading": "630790",
                   "chapter": 63,
-                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 Other",
+                  "subdivision": "Other made up articles, including dress patterns. \u25b8 Other",
                   "min": "6307900000",
                   "max": "6307909999",
                   "rules": [
@@ -8884,7 +8884,7 @@
             {
                   "heading": "720510",
                   "chapter": 72,
-                  "subdivision": "Ferrous waste and scrap; re-melting scrap ingots of iron or steel. \u25b8 Granules",
+                  "subdivision": "Granules and powders, of pig iron, spiegeleisen, iron or steel. \u25b8 Granules",
                   "min": "7205100000",
                   "max": "7205109999",
                   "rules": [
@@ -8905,7 +8905,7 @@
             {
                   "heading": "ex 720521",
                   "chapter": 72,
-                  "subdivision": "Ferrous waste and scrap; re-melting scrap ingots of iron or steel. \u25b8 Granules - Powders - Of alloy steel - Mixed powders of alloy steel",
+                  "subdivision": "Granules and powders, of pig iron, spiegeleisen, iron or steel. \u25b8 Granules - Powders - Of alloy steel - Mixed powders of alloy steel",
                   "min": "7205210000",
                   "max": "7205219999",
                   "rules": [
@@ -8926,7 +8926,7 @@
             {
                   "heading": "ex 720521",
                   "chapter": 72,
-                  "subdivision": "Ferrous waste and scrap; re-melting scrap ingots of iron or steel. \u25b8 Granules - Powders - Of alloy steel - Unmixed powders of alloy steel",
+                  "subdivision": "Granules and powders, of pig iron, spiegeleisen, iron or steel. \u25b8 Granules - Powders - Of alloy steel - Unmixed powders of alloy steel",
                   "min": "7205210000",
                   "max": "7205219999",
                   "rules": [
@@ -8947,7 +8947,7 @@
             {
                   "heading": "ex 720529",
                   "chapter": 72,
-                  "subdivision": "Ferrous waste and scrap; re-melting scrap ingots of iron or steel. \u25b8 Granules - Other - Other mixed powders",
+                  "subdivision": "Granules and powders, of pig iron, spiegeleisen, iron or steel. \u25b8 Granules - Other - Other mixed powders",
                   "min": "7205290000",
                   "max": "7205299999",
                   "rules": [
@@ -8968,7 +8968,7 @@
             {
                   "heading": "ex 720529",
                   "chapter": 72,
-                  "subdivision": "Ferrous waste and scrap; re-melting scrap ingots of iron or steel. \u25b8 Granules - Other - Other unmixed powders",
+                  "subdivision": "Granules and powders, of pig iron, spiegeleisen, iron or steel. \u25b8 Granules - Other - Other unmixed powders",
                   "min": "7205290000",
                   "max": "7205299999",
                   "rules": [
@@ -9095,6 +9095,48 @@
                   "heading": "ex 7210",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated. \u25b8 Plated or coated with tin, and printed or lacquered",
+                  "min": "7210000000",
+                  "max": "7210999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 7210",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated. \u25b8 Plated or coated with zinc, and corrugated",
+                  "min": "7210000000",
+                  "max": "7210999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 7210",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated. \u25b8 Other",
                   "min": "7210000000",
                   "max": "7210999999",
                   "rules": [
@@ -9437,6 +9479,48 @@
                   "valid": true
             },
             {
+                  "heading": "ex 7219",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products of stainless steel, of a width of 600 mm or more. \u25b8 Clad",
+                  "min": "7219000000",
+                  "max": "7219999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
+                              "class": [
+                                    "CTHS"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 7219",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products of stainless steel, of a width of 600 mm or more. \u25b8 Other",
+                  "min": "7219000000",
+                  "max": "7219999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
+                              "class": [
+                                    "CTHS"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "ex 7220",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products of stainless steel, of a width of less than 600 mm. \u25b8 Not further worked than hot-rolled",
@@ -9461,6 +9545,48 @@
                   "heading": "ex 7220",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products of stainless steel, of a width of less than 600 mm. \u25b8 Not further worked than cold rolled",
+                  "min": "7220000000",
+                  "max": "7220999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
+                              "class": [
+                                    "CTHS"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 7220",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products of stainless steel, of a width of less than 600 mm. \u25b8 Clad",
+                  "min": "7220000000",
+                  "max": "7220999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
+                              "class": [
+                                    "CTHS"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 7220",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products of stainless steel, of a width of less than 600 mm. \u25b8 Other",
                   "min": "7220000000",
                   "max": "7220999999",
                   "rules": [
@@ -9732,6 +9858,27 @@
             {
                   "heading": "ex 7225",
                   "chapter": 72,
+                  "subdivision": "Flat-rolled products of other alloy steel, of a width of 600 mm or more. \u25b8 Clad",
+                  "min": "7225000000",
+                  "max": "7225999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
+                              "class": [
+                                    "CTHS"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 7225",
+                  "chapter": 72,
                   "subdivision": "Flat-rolled products of other alloy steel, of a width of 600 mm or more. \u25b8 Other",
                   "min": "7225000000",
                   "max": "7225999999",
@@ -9951,6 +10098,48 @@
                   "valid": true
             },
             {
+                  "heading": "ex 7228",
+                  "chapter": 72,
+                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other bars and rods",
+                  "min": "7228000000",
+                  "max": "7228999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
+                              "class": [
+                                    "CTHS"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 7228",
+                  "chapter": 72,
+                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other angles, shapes and sections",
+                  "min": "7228000000",
+                  "max": "7228999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading.",
+                              "class": [
+                                    "CTHS"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "7229",
                   "chapter": 72,
                   "subdivision": "Wire of other alloy steel.",
@@ -10046,7 +10235,7 @@
             {
                   "heading": "730411",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Line pipe of a kind used for oil or gas pipelines - Of stainless steel",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Line pipe of a kind used for oil or gas pipelines - Of stainless steel",
                   "min": "7304110000",
                   "max": "7304119999",
                   "rules": [
@@ -10067,7 +10256,7 @@
             {
                   "heading": "730419",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Line pipe of a kind used for oil or gas pipelines - Other",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Line pipe of a kind used for oil or gas pipelines - Other",
                   "min": "7304190000",
                   "max": "7304199999",
                   "rules": [
@@ -10088,7 +10277,7 @@
             {
                   "heading": "730422",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Casing, tubing and drill pipe, of a kind used in drilling for oil or gas - Drill pipe of stainless steel",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Casing, tubing and drill pipe, of a kind used in drilling for oil or gas - Drill pipe of stainless steel",
                   "min": "7304220000",
                   "max": "7304229999",
                   "rules": [
@@ -10109,7 +10298,7 @@
             {
                   "heading": "730423",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Casing, tubing and drill pipe, of a kind used in drilling for oil or gas - Other drill pipe",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Casing, tubing and drill pipe, of a kind used in drilling for oil or gas - Other drill pipe",
                   "min": "7304230000",
                   "max": "7304239999",
                   "rules": [
@@ -10130,7 +10319,7 @@
             {
                   "heading": "730424",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Casing, tubing and drill pipe, of a kind used in drilling for oil or gas - Other, of stainless steel",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Casing, tubing and drill pipe, of a kind used in drilling for oil or gas - Other, of stainless steel",
                   "min": "7304240000",
                   "max": "7304249999",
                   "rules": [
@@ -10151,7 +10340,7 @@
             {
                   "heading": "730429",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Casing, tubing and drill pipe, of a kind used in drilling for oil or gas - Other",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Casing, tubing and drill pipe, of a kind used in drilling for oil or gas - Other",
                   "min": "7304290000",
                   "max": "7304299999",
                   "rules": [
@@ -10172,7 +10361,7 @@
             {
                   "heading": "730431",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other, of circular cross-section, of iron or non-alloy steel - Cold-drawn or cold-rolled (cold-reduced)",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Other, of circular cross-section, of iron or non-alloy steel - Cold-drawn or cold-rolled (cold-reduced)",
                   "min": "7304310000",
                   "max": "7304319999",
                   "rules": [
@@ -10202,7 +10391,7 @@
             {
                   "heading": "730439",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other, of circular cross-section, of iron or non-alloy steel - Other",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Other, of circular cross-section, of iron or non-alloy steel - Other",
                   "min": "7304390000",
                   "max": "7304399999",
                   "rules": [
@@ -10223,7 +10412,7 @@
             {
                   "heading": "730441",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other, of circular cross-section, of stainless steel - Cold-drawn or cold-rolled (cold-reduced)",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Other, of circular cross-section, of stainless steel - Cold-drawn or cold-rolled (cold-reduced)",
                   "min": "7304410000",
                   "max": "7304419999",
                   "rules": [
@@ -10244,7 +10433,7 @@
             {
                   "heading": "730449",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other, of circular cross-section, of stainless steel - Other",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Other, of circular cross-section, of stainless steel - Other",
                   "min": "7304490000",
                   "max": "7304499999",
                   "rules": [
@@ -10265,7 +10454,7 @@
             {
                   "heading": "730451",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other, of circular cross-section, of other alloy steel - Cold-drawn or cold-rolled (cold-reduced)",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Other, of circular cross-section, of other alloy steel - Cold-drawn or cold-rolled (cold-reduced)",
                   "min": "7304510000",
                   "max": "7304519999",
                   "rules": [
@@ -10286,7 +10475,7 @@
             {
                   "heading": "730459",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other, of circular cross-section, of other alloy steel - Other",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Other, of circular cross-section, of other alloy steel - Other",
                   "min": "7304590000",
                   "max": "7304599999",
                   "rules": [
@@ -10307,7 +10496,7 @@
             {
                   "heading": "730490",
                   "chapter": 73,
-                  "subdivision": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel. \u25b8 Other",
+                  "subdivision": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel. \u25b8 Other",
                   "min": "7304900000",
                   "max": "7304909999",
                   "rules": [
@@ -11063,7 +11252,7 @@
             {
                   "heading": "820210",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Hand saws",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Hand saws",
                   "min": "8202100000",
                   "max": "8202109999",
                   "rules": [
@@ -11084,7 +11273,7 @@
             {
                   "heading": "820220",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Band saw blades",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Band saw blades",
                   "min": "8202200000",
                   "max": "8202209999",
                   "rules": [
@@ -11105,7 +11294,7 @@
             {
                   "heading": "820231",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Circular saw blades (including slitting or slotting saw blades) - With working part of steel",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Circular saw blades (including slitting or slotting saw blades) - With working part of steel",
                   "min": "8202310000",
                   "max": "8202319999",
                   "rules": [
@@ -11126,7 +11315,7 @@
             {
                   "heading": "ex 820239",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Circular saw blades (including slitting or slotting saw blades) - Saw teeth and tooth segments for circular saws",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Circular saw blades (including slitting or slotting saw blades) - Saw teeth and tooth segments for circular saws",
                   "min": "8202390000",
                   "max": "8202399999",
                   "rules": [
@@ -11147,7 +11336,7 @@
             {
                   "heading": "ex 820239",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Circular saw blades (including slitting or slotting saw blades) - Other",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Circular saw blades (including slitting or slotting saw blades) - Other",
                   "min": "8202390000",
                   "max": "8202399999",
                   "rules": [
@@ -11168,7 +11357,7 @@
             {
                   "heading": "ex 820240",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Chain saw blades - Saw teeth and tooth segments for chain saws",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Chain saw blades - Saw teeth and tooth segments for chain saws",
                   "min": "8202400000",
                   "max": "8202409999",
                   "rules": [
@@ -11189,7 +11378,7 @@
             {
                   "heading": "ex 820240",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Chain saw blades - Other",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Chain saw blades - Other",
                   "min": "8202400000",
                   "max": "8202409999",
                   "rules": [
@@ -11210,7 +11399,7 @@
             {
                   "heading": "820291",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Other saw blades - Straight saw blades, for working metal",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Other saw blades - Straight saw blades, for working metal",
                   "min": "8202910000",
                   "max": "8202919999",
                   "rules": [
@@ -11231,7 +11420,7 @@
             {
                   "heading": "820299",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Other saw blades - Other",
+                  "subdivision": "Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades). \u25b8 Other saw blades - Other",
                   "min": "8202990000",
                   "max": "8202999999",
                   "rules": [
@@ -11336,7 +11525,7 @@
             {
                   "heading": "820713",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Rock drilling or earth boring tools - With working part of cermets",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Rock drilling or earth boring tools - With working part of cermets",
                   "min": "8207130000",
                   "max": "8207139999",
                   "rules": [
@@ -11357,7 +11546,7 @@
             {
                   "heading": "ex 820719",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Rock drilling or earth boring tools - Parts",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Rock drilling or earth boring tools - Parts",
                   "min": "8207190000",
                   "max": "8207199999",
                   "rules": [
@@ -11378,7 +11567,7 @@
             {
                   "heading": "ex 820719",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Rock drilling or earth boring tools - Other",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Rock drilling or earth boring tools - Other",
                   "min": "8207190000",
                   "max": "8207199999",
                   "rules": [
@@ -11399,7 +11588,7 @@
             {
                   "heading": "820720",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Dies for drawing or extruding metal",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Dies for drawing or extruding metal",
                   "min": "8207200000",
                   "max": "8207209999",
                   "rules": [
@@ -11420,7 +11609,7 @@
             {
                   "heading": "820730",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Tools for pressing, stamping or punching",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Tools for pressing, stamping or punching",
                   "min": "8207300000",
                   "max": "8207309999",
                   "rules": [
@@ -11441,7 +11630,7 @@
             {
                   "heading": "820740",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Tools for tapping or threading",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Tools for tapping or threading",
                   "min": "8207400000",
                   "max": "8207409999",
                   "rules": [
@@ -11462,7 +11651,7 @@
             {
                   "heading": "820750",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Tools for drilling, other than for rock drilling",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Tools for drilling, other than for rock drilling",
                   "min": "8207500000",
                   "max": "8207509999",
                   "rules": [
@@ -11483,7 +11672,7 @@
             {
                   "heading": "820760",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Tools for boring or broaching",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Tools for boring or broaching",
                   "min": "8207600000",
                   "max": "8207609999",
                   "rules": [
@@ -11504,7 +11693,7 @@
             {
                   "heading": "820770",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Tools for milling",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Tools for milling",
                   "min": "8207700000",
                   "max": "8207709999",
                   "rules": [
@@ -11525,7 +11714,7 @@
             {
                   "heading": "820780",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Tools for turning",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Tools for turning",
                   "min": "8207800000",
                   "max": "8207809999",
                   "rules": [
@@ -11546,7 +11735,7 @@
             {
                   "heading": "820790",
                   "chapter": 82,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel. \u25b8 Other interchangeable tools",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools. \u25b8 Other interchangeable tools",
                   "min": "8207900000",
                   "max": "8207909999",
                   "rules": [

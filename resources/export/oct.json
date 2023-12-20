@@ -747,7 +747,7 @@
             {
                   "heading": "ex Chapter 21",
                   "chapter": 21,
-                  "subdivision": "Miscellaneous edible preparations:",
+                  "subdivision": "Miscellaneous edible preparations",
                   "min": "2101000000",
                   "max": "2104999999",
                   "rules": [
@@ -785,7 +785,7 @@
             {
                   "heading": "ex Chapter 21",
                   "chapter": 21,
-                  "subdivision": "Miscellaneous edible preparations:",
+                  "subdivision": "Miscellaneous edible preparations",
                   "min": "2106000000",
                   "max": "2106999999",
                   "rules": [
@@ -1695,12 +1695,21 @@
                   "max": "5306999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1716,12 +1725,21 @@
                   "max": "5307999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1737,12 +1755,21 @@
                   "max": "5308999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1758,7 +1785,7 @@
                   "max": "5309999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres or\n\nExtrusion of man-made filament yarn, in each case accompanied by weaving.",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -1806,12 +1833,21 @@
                   "max": "5310999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1854,12 +1890,21 @@
                   "max": "5311999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1902,12 +1947,21 @@
                   "max": "5401999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Spinning of natural fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1923,12 +1977,21 @@
                   "max": "5402999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Spinning of natural fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1944,12 +2007,21 @@
                   "max": "5403999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Spinning of natural fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1965,12 +2037,21 @@
                   "max": "5404999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Spinning of natural fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -1986,12 +2067,21 @@
                   "max": "5405999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Spinning of natural fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2007,12 +2097,21 @@
                   "max": "5406999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Spinning of natural fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2028,12 +2127,21 @@
                   "max": "5407999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2076,12 +2184,21 @@
                   "max": "5408999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2271,12 +2388,21 @@
                   "max": "5508999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2292,12 +2418,21 @@
                   "max": "5509999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2313,12 +2448,21 @@
                   "max": "5510999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2334,12 +2478,21 @@
                   "max": "5511999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2355,12 +2508,21 @@
                   "max": "5512999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2403,12 +2565,21 @@
                   "max": "5513999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2451,12 +2622,21 @@
                   "max": "5514999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2499,12 +2679,21 @@
                   "max": "5515999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2547,12 +2736,21 @@
                   "max": "5516999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2643,12 +2841,21 @@
                   "max": "5603999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres, or use of natural fibres, accompanied by nonwoven techniques including needle punching.",
+                              "rule": "Extrusion of man-made fibres.",
                               "class": [
                                     "PROCESSING"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Use of natural fibres, accompanied by nonwoven techniques including needle punching.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2712,12 +2919,21 @@
                   "max": "5608999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2760,12 +2976,21 @@
                   "max": "5609999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2808,12 +3033,21 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2867,12 +3101,21 @@
                   "max": "5804999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -2943,12 +3186,21 @@
                   "max": "5811999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3000,10 +3252,19 @@
                   "max": "5901999999",
                   "rules": [
                         {
-                              "rule": "Weaving accompanied by dyeing or by flocking or by coating or Flocking accompanied by dyeing or by printing.",
+                              "rule": "Weaving accompanied by dyeing or by flocking or by coating.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Flocking accompanied by dyeing or by printing.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3019,10 +3280,21 @@
                   "max": "5902999999",
                   "rules": [
                         {
-                              "rule": "Weaving or Extrusion of man-made fibres accompanied by weaving.",
-                              "class": [],
+                              "rule": "Weaving.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3038,10 +3310,19 @@
                   "max": "5903999999",
                   "rules": [
                         {
-                              "rule": "Weaving accompanied by dyeing or by coating or Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Weaving accompanied by dyeing or by coating.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3076,7 +3357,7 @@
                   "max": "5905999999",
                   "rules": [
                         {
-                              "rule": "Weaving accompanied by dyeing or by coating or Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving or.",
+                              "rule": "Weaving accompanied by dyeing or by coating.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3085,12 +3366,41 @@
                               "export": true
                         },
                         {
-                              "rule": "Weaving accompanied by dyeing or by coating or with laminating or Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **50%** of the ex-works price of the good.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Weaving accompanied by dyeing or by coating or with laminating.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **50%** of the ex-works price of the good.",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3106,10 +3416,39 @@
                   "max": "5906999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting or Knitting accompanied by dyeing or by coating or Dyeing of yarn of natural fibres accompanied by knitting.",
-                              "class": [],
+                              "rule": "Spinning of natural or man-made staple fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by knitting.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Knitting accompanied by dyeing or by coating.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3125,10 +3464,39 @@
                   "max": "5906919999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting or Knitting accompanied by dyeing or by coating or Dyeing of yarn of natural fibres accompanied by knitting.",
-                              "class": [],
+                              "rule": "Spinning of natural or man-made staple fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by knitting.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Knitting accompanied by dyeing or by coating.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3144,7 +3512,7 @@
                   "max": "5906999999",
                   "rules": [
                         {
-                              "rule": "Weaving accompanied by dyeing or by coating or Dyeing of yarn of natural fibres accompanied by weaving.",
+                              "rule": "Weaving accompanied by dyeing or by coating or\n\nDyeing of yarn of natural fibres accompanied by weaving.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3163,10 +3531,28 @@
                   "max": "5907999999",
                   "rules": [
                         {
-                              "rule": "Weaving accompanied by dyeing or by flocking or by coating or Flocking accompanied by dyeing or by printing or Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Weaving accompanied by dyeing or by flocking or by coating.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Flocking accompanied by dyeing or by printing.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3266,10 +3652,48 @@
                   "max": "6099999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting or Knitting accompanied by dyeing or by flocking or by coating or Flocking accompanied by dyeing or by printing or Dyeing of yarn of natural fibres accompanied by knitting or Twisting or texturing accompanied by knitting provided that the value of the non-twisted/non-textured yarns used does not exceed **47.5%** of the ex-works price of the good.",
-                              "class": [],
+                              "rule": "Spinning of natural or man-made staple fibres or\n\nExtrusion of man-made filament yarn, in each case accompanied by knitting.",
+                              "class": [
+                                    "PROCESSING"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Knitting accompanied by dyeing or by flocking or by coating.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Flocking accompanied by dyeing or by printing.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Twisting or texturing accompanied by knitting provided that the value of the non-twisted/non-textured yarns used does not exceed **47.5%** of the ex-works price of the good.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3304,10 +3728,30 @@
                   "max": "6117999999",
                   "rules": [
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting (knitted to shape goods) or Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
-                              "class": [],
+                              "rule": "Spinning of natural or man-made staple fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by knitting (knitted to shape goods).",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3364,10 +3808,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good or Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
                               "class": [
                                     "MAXNOM"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -3396,10 +3849,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good or Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "rule": "Manufacture from unembroidered fabric, provided that the value of the unembroidered fabric used does not exceed **40%** of the ex-works price of the good.",
                               "class": [
                                     "MAXNOM"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the good.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -3571,7 +4033,7 @@
             {
                   "heading": "Chapter 66",
                   "chapter": 66,
-                  "subdivision": "Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops, and parts thereof:",
+                  "subdivision": "Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops, and parts thereof",
                   "min": "6600000000",
                   "max": "6699999999",
                   "rules": [
@@ -3856,10 +4318,30 @@
                   "max": "7106999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except those of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) and [heading&nbsp;7110](/headings/7110) or Electrolytic, thermal or chemical separation of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) or Fusion or alloying of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) with each other or with base metals.",
-                              "class": [],
+                              "rule": "Manufacture from materials of any heading, except those of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) and [heading&nbsp;7110](/headings/7110).",
+                              "class": [
+                                    "AH EXCEPT"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Electrolytic, thermal or chemical separation of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110).",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Fusion or alloying of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) with each other or with base metals.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3905,10 +4387,30 @@
                   "max": "7108999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except those of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) and [heading&nbsp;7110](/headings/7110) or Electrolytic, thermal or chemical separation of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) or Fusion or alloying of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) with each other or with base metals.",
-                              "class": [],
+                              "rule": "Manufacture from materials of any heading, except those of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) and [heading&nbsp;7110](/headings/7110).",
+                              "class": [
+                                    "AH EXCEPT"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Electrolytic, thermal or chemical separation of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110).",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Fusion or alloying of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) with each other or with base metals.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -3954,10 +4456,30 @@
                   "max": "7110999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except those of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) and [heading&nbsp;7110](/headings/7110) or Electrolytic, thermal or chemical separation of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) or Fusion or alloying of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) with each other or with base metals.",
-                              "class": [],
+                              "rule": "Manufacture from materials of any heading, except those of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) and [heading&nbsp;7110](/headings/7110).",
+                              "class": [
+                                    "AH EXCEPT"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Electrolytic, thermal or chemical separation of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110).",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Fusion or alloying of precious metals of [heading&nbsp;7106](/headings/7106), [heading&nbsp;7108](/headings/7108) or [heading&nbsp;7110](/headings/7110) with each other or with base metals.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true

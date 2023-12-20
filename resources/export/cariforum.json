@@ -1,7 +1,7 @@
 {
       "rule_sets": [
             {
-                  "heading": "Chapter 01",
+                  "heading": "Chapter 1",
                   "chapter": 1,
                   "subdivision": "Live animals",
                   "min": "0100000000",
@@ -22,7 +22,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 02",
+                  "heading": "Chapter 2",
                   "chapter": 2,
                   "subdivision": "Meat and edible meat offal",
                   "min": "0200000000",
@@ -43,7 +43,7 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 03",
+                  "heading": "ex Chapter 3",
                   "chapter": 3,
                   "subdivision": "Fish and crustaceans, molluscs and other aquatic invertebrates",
                   "min": "0301000000",
@@ -127,9 +127,9 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 03",
+                  "heading": "ex Chapter 3",
                   "chapter": 3,
-                  "subdivision": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+                  "subdivision": "Any other product from heading 0306",
                   "min": "0306000000",
                   "max": "0306999999",
                   "rules": [
@@ -169,10 +169,31 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 03",
+                  "heading": "ex Chapter 3",
+                  "chapter": 3,
+                  "subdivision": "Any other product from heading 0307",
+                  "min": "0307000000",
+                  "max": "0307999999",
+                  "rules": [
+                        {
+                              "rule": "All the materials of [chapter&nbsp;3](/chapters/03) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 3",
                   "chapter": 3,
                   "subdivision": "Fish and crustaceans, molluscs and other aquatic invertebrates",
-                  "min": "0307000000",
+                  "min": "0308000000",
                   "max": "0309999999",
                   "rules": [
                         {
@@ -190,7 +211,7 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 04",
+                  "heading": "ex Chapter 4",
                   "chapter": 4,
                   "subdivision": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
                   "min": "0401000000",
@@ -232,7 +253,7 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 04",
+                  "heading": "ex Chapter 4",
                   "chapter": 4,
                   "subdivision": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
                   "min": "0404000000",
@@ -253,7 +274,7 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 05",
+                  "heading": "ex Chapter 5",
                   "chapter": 5,
                   "subdivision": "Products of animal origin, not elsewhere specified or included",
                   "min": "0501000000",
@@ -295,10 +316,31 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 05",
+                  "heading": "ex Chapter 5",
+                  "chapter": 5,
+                  "subdivision": "Any other product from heading 0502",
+                  "min": "0502000000",
+                  "max": "0502999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;5](/chapters/05) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 5",
                   "chapter": 5,
                   "subdivision": "Products of animal origin, not elsewhere specified or included",
-                  "min": "0502000000",
+                  "min": "0504000000",
                   "max": "0511999999",
                   "rules": [
                         {
@@ -316,7 +358,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 06",
+                  "heading": "Chapter 6",
                   "chapter": 6,
                   "subdivision": "Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",
                   "min": "0600000000",
@@ -337,7 +379,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 07",
+                  "heading": "Chapter 7",
                   "chapter": 7,
                   "subdivision": "Edible vegetables and certain roots and tubers",
                   "min": "0700000000",
@@ -358,7 +400,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 08",
+                  "heading": "Chapter 8",
                   "chapter": 8,
                   "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
                   "min": "0800000000",
@@ -422,7 +464,7 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 09",
+                  "heading": "ex Chapter 9",
                   "chapter": 9,
                   "subdivision": "Coffee, tea, mat\u00e9 and spices",
                   "min": "0903000000",
@@ -464,9 +506,9 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 09",
+                  "heading": "ex Chapter 9",
                   "chapter": 9,
-                  "subdivision": "Coffee, tea, mat\u00e9 and spices",
+                  "subdivision": "Any other product from heading 0910",
                   "min": "0910000000",
                   "max": "0910999999",
                   "rules": [
@@ -569,8 +611,29 @@
             {
                   "heading": "ex Chapter 11",
                   "chapter": 11,
-                  "subdivision": "Products of the milling industry; malt; starches; inulin; wheat gluten",
+                  "subdivision": "Any other product from heading 1106",
                   "min": "1106000000",
+                  "max": "1106999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the cereals, edible vegetables, roots and tubers of [heading&nbsp;0714](/headings/0714) or fruit used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 11",
+                  "chapter": 11,
+                  "subdivision": "Products of the milling industry; malt; starches; inulin; wheat gluten",
+                  "min": "1107000000",
                   "max": "1109999999",
                   "rules": [
                         {
@@ -851,7 +914,7 @@
             {
                   "heading": "ex Chapter 15",
                   "chapter": 15,
-                  "subdivision": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animals or vegetable waxes",
+                  "subdivision": "Any other product from heading 1505",
                   "min": "1505000000",
                   "max": "1505999999",
                   "rules": [
@@ -1091,7 +1154,7 @@
             {
                   "heading": "ex Chapter 17",
                   "chapter": 17,
-                  "subdivision": "Sugars and sugar confectionery",
+                  "subdivision": "Any other product from heading 1701",
                   "min": "1701000000",
                   "max": "1701999999",
                   "rules": [
@@ -1190,7 +1253,7 @@
             {
                   "heading": "ex Chapter 17",
                   "chapter": 17,
-                  "subdivision": "Sugars and sugar confectionery",
+                  "subdivision": "Any other product from heading 1703",
                   "min": "1703000000",
                   "max": "1703999999",
                   "rules": [
@@ -1281,7 +1344,7 @@
             {
                   "heading": "ex Chapter 18",
                   "chapter": 18,
-                  "subdivision": "Cocoa and cocoa preparations",
+                  "subdivision": "Any other product from heading 1806",
                   "min": "1806000000",
                   "max": "1806999999",
                   "rules": [
@@ -1466,8 +1529,29 @@
             {
                   "heading": "ex Chapter 20",
                   "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
+                  "subdivision": "Any other product from heading 2001",
                   "min": "2001000000",
+                  "max": "2001999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 20",
+                  "chapter": 20,
+                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
+                  "min": "2002000000",
                   "max": "2003999999",
                   "rules": [
                         {
@@ -1506,7 +1590,7 @@
             {
                   "heading": "ex Chapter 20",
                   "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
+                  "subdivision": "Any other product from heading 2004",
                   "min": "2004000000",
                   "max": "2004999999",
                   "rules": [
@@ -1546,7 +1630,7 @@
             {
                   "heading": "ex Chapter 20",
                   "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
+                  "subdivision": "Any other product from heading 2005",
                   "min": "2005000000",
                   "max": "2005999999",
                   "rules": [
@@ -1658,27 +1742,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 20",
-                  "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
-                  "min": "2008000000",
-                  "max": "2008999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
-                              "class": [
-                                    "WO"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 2008",
                   "chapter": 20,
                   "subdivision": "Peanut butter; mixtures based on cereals; palm hearts; maize (corn)",
@@ -1688,27 +1751,6 @@
                         {
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
                               "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex Chapter 20",
-                  "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
-                  "min": "2008000000",
-                  "max": "2008999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
-                              "class": [
-                                    "WO"
-                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -1742,7 +1784,7 @@
             {
                   "heading": "ex Chapter 20",
                   "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
+                  "subdivision": "Any other product from heading 2008",
                   "min": "2008000000",
                   "max": "2008999999",
                   "rules": [
@@ -1913,8 +1955,27 @@
             {
                   "heading": "ex Chapter 21",
                   "chapter": 21,
-                  "subdivision": "Miscellaneous edible preparations",
+                  "subdivision": "Any other product from heading 2104",
                   "min": "2104000000",
+                  "max": "2104999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 21",
+                  "chapter": 21,
+                  "subdivision": "Miscellaneous edible preparations",
+                  "min": "2105000000",
                   "max": "2105999999",
                   "rules": [
                         {
@@ -2134,8 +2195,27 @@
             {
                   "heading": "ex Chapter 23",
                   "chapter": 23,
-                  "subdivision": "Residues and waste from the food industries; prepared animal fodder",
+                  "subdivision": "Any other product from heading 2301",
                   "min": "2301000000",
+                  "max": "2301999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 23",
+                  "chapter": 23,
+                  "subdivision": "Residues and waste from the food industries; prepared animal fodder",
+                  "min": "2302000000",
                   "max": "2302999999",
                   "rules": [
                         {
@@ -2174,8 +2254,27 @@
             {
                   "heading": "ex Chapter 23",
                   "chapter": 23,
-                  "subdivision": "Residues and waste from the food industries; prepared animal fodder",
+                  "subdivision": "Any other product from heading 2303",
                   "min": "2303000000",
+                  "max": "2303999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 23",
+                  "chapter": 23,
+                  "subdivision": "Residues and waste from the food industries; prepared animal fodder",
+                  "min": "2304000000",
                   "max": "2305999999",
                   "rules": [
                         {
@@ -2214,8 +2313,27 @@
             {
                   "heading": "ex Chapter 23",
                   "chapter": 23,
-                  "subdivision": "Residues and waste from the food industries; prepared animal fodder",
+                  "subdivision": "Any other product from heading 2306",
                   "min": "2306000000",
+                  "max": "2306999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 23",
+                  "chapter": 23,
+                  "subdivision": "Residues and waste from the food industries; prepared animal fodder",
+                  "min": "2307000000",
                   "max": "2308999999",
                   "rules": [
                         {
@@ -2317,8 +2435,29 @@
             {
                   "heading": "ex Chapter 24",
                   "chapter": 24,
-                  "subdivision": "Tobacco and manufactured tobacco substitutes",
+                  "subdivision": "Any other product from heading 2403",
                   "min": "2403000000",
+                  "max": "2403999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;24](/chapters/24) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 24",
+                  "chapter": 24,
+                  "subdivision": "Tobacco and manufactured tobacco substitutes",
+                  "min": "2404000000",
                   "max": "2404999999",
                   "rules": [
                         {
@@ -2378,8 +2517,27 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2504",
                   "min": "2504000000",
+                  "max": "2504999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 25",
+                  "chapter": 25,
+                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "min": "2505000000",
                   "max": "2514999999",
                   "rules": [
                         {
@@ -2416,7 +2574,7 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2515",
                   "min": "2515000000",
                   "max": "2515999999",
                   "rules": [
@@ -2454,8 +2612,27 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2516",
                   "min": "2516000000",
+                  "max": "2516999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 25",
+                  "chapter": 25,
+                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "min": "2517000000",
                   "max": "2517999999",
                   "rules": [
                         {
@@ -2494,7 +2671,7 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2518",
                   "min": "2518000000",
                   "max": "2518999999",
                   "rules": [
@@ -2534,7 +2711,7 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2519",
                   "min": "2519000000",
                   "max": "2519999999",
                   "rules": [
@@ -2574,8 +2751,27 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2520",
                   "min": "2520000000",
+                  "max": "2520999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 25",
+                  "chapter": 25,
+                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "min": "2521000000",
                   "max": "2523999999",
                   "rules": [
                         {
@@ -2614,7 +2810,7 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2524",
                   "min": "2524000000",
                   "max": "2524999999",
                   "rules": [
@@ -2654,8 +2850,27 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2525",
                   "min": "2525000000",
+                  "max": "2525999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 25",
+                  "chapter": 25,
+                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "min": "2526000000",
                   "max": "2529999999",
                   "rules": [
                         {
@@ -2694,7 +2909,7 @@
             {
                   "heading": "ex Chapter 25",
                   "chapter": 25,
-                  "subdivision": "Salt; Sulphur; earths and stone; plastering materials, lime and cement",
+                  "subdivision": "Any other product from heading 2530",
                   "min": "2530000000",
                   "max": "2530999999",
                   "rules": [
@@ -2783,8 +2998,27 @@
             {
                   "heading": "ex Chapter 27",
                   "chapter": 27,
-                  "subdivision": "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+                  "subdivision": "Any other product from heading 2707",
                   "min": "2707000000",
+                  "max": "2707999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 27",
+                  "chapter": 27,
+                  "subdivision": "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+                  "min": "2708000000",
                   "max": "2708999999",
                   "rules": [
                         {
@@ -2823,7 +3057,7 @@
             {
                   "heading": "ex Chapter 27",
                   "chapter": 27,
-                  "subdivision": "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+                  "subdivision": "Any other product from heading 2709",
                   "min": "2709000000",
                   "max": "2709999999",
                   "rules": [
@@ -3107,8 +3341,40 @@
             {
                   "heading": "ex Chapter 28",
                   "chapter": 28,
-                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+                  "subdivision": "Any other product from heading 2805",
                   "min": "2805000000",
+                  "max": "2805999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 28",
+                  "chapter": 28,
+                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+                  "min": "2806000000",
                   "max": "2810999999",
                   "rules": [
                         {
@@ -3171,8 +3437,40 @@
             {
                   "heading": "ex Chapter 28",
                   "chapter": 28,
-                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+                  "subdivision": "Any other product from heading 2811",
                   "min": "2811000000",
+                  "max": "2811999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 28",
+                  "chapter": 28,
+                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+                  "min": "2812000000",
                   "max": "2832999999",
                   "rules": [
                         {
@@ -3224,8 +3522,40 @@
             {
                   "heading": "ex Chapter 28",
                   "chapter": 28,
-                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+                  "subdivision": "Any other product from heading 2833",
                   "min": "2833000000",
+                  "max": "2833999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 28",
+                  "chapter": 28,
+                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+                  "min": "2834000000",
                   "max": "2839999999",
                   "rules": [
                         {
@@ -3288,8 +3618,40 @@
             {
                   "heading": "ex Chapter 28",
                   "chapter": 28,
-                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+                  "subdivision": "Any other product from heading 2840",
                   "min": "2840000000",
+                  "max": "2840999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 28",
+                  "chapter": 28,
+                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+                  "min": "2841000000",
                   "max": "2853999999",
                   "rules": [
                         {
@@ -3352,7 +3714,7 @@
             {
                   "heading": "ex Chapter 29",
                   "chapter": 29,
-                  "subdivision": "Organic chemicals",
+                  "subdivision": "Any other product from heading 2901",
                   "min": "2901000000",
                   "max": "2901999999",
                   "rules": [
@@ -3416,8 +3778,40 @@
             {
                   "heading": "ex Chapter 29",
                   "chapter": 29,
-                  "subdivision": "Organic chemicals",
+                  "subdivision": "Any other product from heading 2902",
                   "min": "2902000000",
+                  "max": "2902999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 29",
+                  "chapter": 29,
+                  "subdivision": "Organic chemicals",
+                  "min": "2903000000",
                   "max": "2904999999",
                   "rules": [
                         {
@@ -3480,8 +3874,40 @@
             {
                   "heading": "ex Chapter 29",
                   "chapter": 29,
-                  "subdivision": "Organic chemicals",
+                  "subdivision": "Any other product from heading 2905",
                   "min": "2905000000",
+                  "max": "2905999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 29",
+                  "chapter": 29,
+                  "subdivision": "Organic chemicals",
+                  "min": "2906000000",
                   "max": "2914999999",
                   "rules": [
                         {
@@ -3517,7 +3943,7 @@
                   "max": "2915999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading Nos 2915 and 2916 used may not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of [heading&nbsp;2915](/headings/2915) and [heading&nbsp;2916](/headings/2916) used may not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -3606,38 +4032,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 29",
-                  "chapter": 29,
-                  "subdivision": "Organic chemicals",
-                  "min": "2932000000",
-                  "max": "2932999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 2932",
                   "chapter": 29,
                   "subdivision": "Cyclic acetals and internal hemiacetals and their halogenated, sulphonated, nitrated or nitrosated derivatives",
@@ -3672,7 +4066,7 @@
             {
                   "heading": "ex Chapter 29",
                   "chapter": 29,
-                  "subdivision": "Organic chemicals",
+                  "subdivision": "Any other product from heading 2932",
                   "min": "2932000000",
                   "max": "2932999999",
                   "rules": [
@@ -3709,7 +4103,7 @@
                   "max": "2933999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading Nos 2932 and 2933 used may not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of [heading&nbsp;2932](/headings/2932) and [heading&nbsp;2933](/headings/2933) used may not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -3741,7 +4135,7 @@
                   "max": "2934999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading Nos 2932, 2933 and 2934 used may not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of [heading&nbsp;2932](/headings/2932), [heading&nbsp;2933](/headings/2933) and [heading&nbsp;2934](/headings/2934) used may not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -3822,6 +4216,111 @@
                   "heading": "3002",
                   "chapter": 30,
                   "subdivision": "Products consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses or unmixed products for these uses, put up in measured doses or in forms or packings for retail sale",
+                  "min": "3002000000",
+                  "max": "3002999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, including other materials of [heading&nbsp;3002](/headings/3002). The materials of this description may also be used, provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3002",
+                  "chapter": 30,
+                  "subdivision": "human blood",
+                  "min": "3002000000",
+                  "max": "3002999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, including other materials of [heading&nbsp;3002](/headings/3002). The materials of this description may also be used, provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3002",
+                  "chapter": 30,
+                  "subdivision": "animal blood prepared for therapeutic or prophylactic uses",
+                  "min": "3002000000",
+                  "max": "3002999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, including other materials of [heading&nbsp;3002](/headings/3002). The materials of this description may also be used, provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3002",
+                  "chapter": 30,
+                  "subdivision": "blood fractions other than antisera, haemoglobin, blood globulins and serum globulins",
+                  "min": "3002000000",
+                  "max": "3002999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, including other materials of [heading&nbsp;3002](/headings/3002). The materials of this description may also be used, provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3002",
+                  "chapter": 30,
+                  "subdivision": "haemoglobin, blood globulins and serum globulins",
+                  "min": "3002000000",
+                  "max": "3002999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, including other materials of [heading&nbsp;3002](/headings/3002). The materials of this description may also be used, provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3002",
+                  "chapter": 30,
+                  "subdivision": "other",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -3970,7 +4469,7 @@
             {
                   "heading": "ex Chapter 31",
                   "chapter": 31,
-                  "subdivision": "Fertilisers",
+                  "subdivision": "Any other product from heading 3105",
                   "min": "3105000000",
                   "max": "3105999999",
                   "rules": [
@@ -4034,8 +4533,40 @@
             {
                   "heading": "ex Chapter 32",
                   "chapter": 32,
-                  "subdivision": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints and varnishes; putty and other mastics; inks",
+                  "subdivision": "Any other product from heading 3201",
                   "min": "3201000000",
+                  "max": "3201999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 32",
+                  "chapter": 32,
+                  "subdivision": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints and varnishes; putty and other mastics; inks",
+                  "min": "3202000000",
                   "max": "3204999999",
                   "rules": [
                         {
@@ -4071,7 +4602,7 @@
                   "max": "3205999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except heading Nos 3203, 3204 and 3205.\n\nHowever, materials from [heading&nbsp;3205](/headings/3205) may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading, except [heading&nbsp;3203](/headings/3203), [heading&nbsp;3204](/headings/3204) and [heading&nbsp;3205](/headings/3205).\n\nHowever, materials from [heading&nbsp;3205](/headings/3205) may be used provided their value does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -4259,7 +4790,7 @@
             {
                   "heading": "ex Chapter 34",
                   "chapter": 34,
-                  "subdivision": "Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster",
+                  "subdivision": "Any other product from heading 3403",
                   "min": "3403000000",
                   "max": "3403999999",
                   "rules": [
@@ -4317,7 +4848,7 @@
                   "max": "3404999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except:\n\n- hydrogenated oils having the character of waxes of heading&nbsp;1516\n\n- fatty acids not chemically defined or industrial fatty alcohols having the character of waxes of heading\n\nNo 3823\n\n- materials of heading&nbsp;3404\n\nHowever, these materials may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading, except:\n\n- hydrogenated oils having the character of waxes of [heading&nbsp;1516](/headings/1516).\n\n- fatty acids not chemically defined or industrial fatty alcohols having the character of waxes of heading\n\nNo 3823\n\n- materials of [heading&nbsp;3404](/headings/3404).\n\nHowever, these materials may be used provided their value does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -4521,7 +5052,7 @@
             {
                   "heading": "ex Chapter 35",
                   "chapter": 35,
-                  "subdivision": "Albuminoidal substances; modified starches; glues; enzymes",
+                  "subdivision": "Any other product from heading 3507",
                   "min": "3507000000",
                   "max": "3507999999",
                   "rules": [
@@ -4793,38 +5324,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 38",
-                  "chapter": 38,
-                  "subdivision": "Miscellaneous chemical products",
-                  "min": "3801000000",
-                  "max": "3801999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 3801",
                   "chapter": 38,
                   "subdivision": "Graphite in paste form, being a mixture of more than 30% by weight of graphite with mineral oils",
@@ -4859,8 +5358,40 @@
             {
                   "heading": "ex Chapter 38",
                   "chapter": 38,
-                  "subdivision": "Miscellaneous chemical products",
+                  "subdivision": "Any other product from heading 3801",
                   "min": "3801000000",
+                  "max": "3801999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 38",
+                  "chapter": 38,
+                  "subdivision": "Miscellaneous chemical products",
+                  "min": "3802000000",
                   "max": "3802999999",
                   "rules": [
                         {
@@ -4923,8 +5454,40 @@
             {
                   "heading": "ex Chapter 38",
                   "chapter": 38,
-                  "subdivision": "Miscellaneous chemical products",
+                  "subdivision": "Any other product from heading 3803",
                   "min": "3803000000",
+                  "max": "3803999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 38",
+                  "chapter": 38,
+                  "subdivision": "Miscellaneous chemical products",
+                  "min": "3804000000",
                   "max": "3804999999",
                   "rules": [
                         {
@@ -4987,7 +5550,7 @@
             {
                   "heading": "ex Chapter 38",
                   "chapter": 38,
-                  "subdivision": "Miscellaneous chemical products",
+                  "subdivision": "Any other product from heading 3805",
                   "min": "3805000000",
                   "max": "3805999999",
                   "rules": [
@@ -5051,7 +5614,7 @@
             {
                   "heading": "ex Chapter 38",
                   "chapter": 38,
-                  "subdivision": "Miscellaneous chemical products",
+                  "subdivision": "Any other product from heading 3806",
                   "min": "3806000000",
                   "max": "3806999999",
                   "rules": [
@@ -5115,7 +5678,7 @@
             {
                   "heading": "ex Chapter 38",
                   "chapter": 38,
-                  "subdivision": "Miscellaneous chemical products",
+                  "subdivision": "Any other product from heading 3807",
                   "min": "3807000000",
                   "max": "3807999999",
                   "rules": [
@@ -6000,8 +6563,27 @@
             {
                   "heading": "ex Chapter 40",
                   "chapter": 40,
-                  "subdivision": "Rubber and articles thereof",
+                  "subdivision": "Any other product from heading 4001",
                   "min": "4001000000",
+                  "max": "4001999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 40",
+                  "chapter": 40,
+                  "subdivision": "Rubber and articles thereof",
+                  "min": "4002000000",
                   "max": "4004999999",
                   "rules": [
                         {
@@ -6139,7 +6721,7 @@
             {
                   "heading": "ex Chapter 40",
                   "chapter": 40,
-                  "subdivision": "Rubber and articles thereof",
+                  "subdivision": "Any other product from heading 4017",
                   "min": "4017000000",
                   "max": "4017999999",
                   "rules": [
@@ -6198,8 +6780,27 @@
             {
                   "heading": "ex Chapter 41",
                   "chapter": 41,
-                  "subdivision": "Raw hides and skins (other than fur skins) and leather",
+                  "subdivision": "Any other product from heading 4102",
                   "min": "4102000000",
+                  "max": "4102999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 41",
+                  "chapter": 41,
+                  "subdivision": "Raw hides and skins (other than fur skins) and leather",
+                  "min": "4103000000",
                   "max": "4103999999",
                   "rules": [
                         {
@@ -6364,25 +6965,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 43",
-                  "chapter": 43,
-                  "subdivision": "Fur skins and artificial fur; manufactures thereof",
-                  "min": "4302000000",
-                  "max": "4302999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 4302",
                   "chapter": 43,
                   "subdivision": "Other",
@@ -6406,7 +6988,7 @@
             {
                   "heading": "ex Chapter 43",
                   "chapter": 43,
-                  "subdivision": "Fur skins and artificial fur; manufactures thereof",
+                  "subdivision": "Any other product from heading 4302",
                   "min": "4302000000",
                   "max": "4302999999",
                   "rules": [
@@ -6503,8 +7085,27 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4403",
                   "min": "4403000000",
+                  "max": "4403999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 44",
+                  "chapter": 44,
+                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "min": "4404000000",
                   "max": "4406999999",
                   "rules": [
                         {
@@ -6543,7 +7144,7 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4407",
                   "min": "4407000000",
                   "max": "4407999999",
                   "rules": [
@@ -6583,7 +7184,7 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4408",
                   "min": "4408000000",
                   "max": "4408999999",
                   "rules": [
@@ -6619,25 +7220,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 44",
-                  "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
-                  "min": "4409000000",
-                  "max": "4409999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 4409",
                   "chapter": 44,
                   "subdivision": "Beadings and mouldings",
@@ -6661,7 +7243,7 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4409",
                   "min": "4409000000",
                   "max": "4409999999",
                   "rules": [
@@ -6701,7 +7283,7 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4410",
                   "min": "4410000000",
                   "max": "4410999999",
                   "rules": [
@@ -6741,7 +7323,7 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4411",
                   "min": "4411000000",
                   "max": "4411999999",
                   "rules": [
@@ -6781,7 +7363,7 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4412",
                   "min": "4412000000",
                   "max": "4412999999",
                   "rules": [
@@ -6821,8 +7403,27 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4413",
                   "min": "4413000000",
+                  "max": "4413999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 44",
+                  "chapter": 44,
+                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "min": "4414000000",
                   "max": "4414999999",
                   "rules": [
                         {
@@ -6861,7 +7462,7 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4415",
                   "min": "4415000000",
                   "max": "4415999999",
                   "rules": [
@@ -6901,8 +7502,27 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4416",
                   "min": "4416000000",
+                  "max": "4416999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 44",
+                  "chapter": 44,
+                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "min": "4417000000",
                   "max": "4417999999",
                   "rules": [
                         {
@@ -6937,25 +7557,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 44",
-                  "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
-                  "min": "4418000000",
-                  "max": "4418999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 4418",
                   "chapter": 44,
                   "subdivision": "Beadings and mouldings",
@@ -6979,8 +7580,27 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4418",
                   "min": "4418000000",
+                  "max": "4418999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 44",
+                  "chapter": 44,
+                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "min": "4419000000",
                   "max": "4420999999",
                   "rules": [
                         {
@@ -7017,7 +7637,7 @@
             {
                   "heading": "ex Chapter 44",
                   "chapter": 44,
-                  "subdivision": "Wood and articles of wood; wood charcoal",
+                  "subdivision": "Any other product from heading 4421",
                   "min": "4421000000",
                   "max": "4421999999",
                   "rules": [
@@ -7171,8 +7791,27 @@
             {
                   "heading": "ex Chapter 48",
                   "chapter": 48,
-                  "subdivision": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+                  "subdivision": "Any other product from heading 4811",
                   "min": "4811000000",
+                  "max": "4811999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 48",
+                  "chapter": 48,
+                  "subdivision": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+                  "min": "4812000000",
                   "max": "4814999999",
                   "rules": [
                         {
@@ -7253,7 +7892,7 @@
             {
                   "heading": "ex Chapter 48",
                   "chapter": 48,
-                  "subdivision": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+                  "subdivision": "Any other product from heading 4818",
                   "min": "4818000000",
                   "max": "4818999999",
                   "rules": [
@@ -7293,7 +7932,7 @@
             {
                   "heading": "ex Chapter 48",
                   "chapter": 48,
-                  "subdivision": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+                  "subdivision": "Any other product from heading 4819",
                   "min": "4819000000",
                   "max": "4819999999",
                   "rules": [
@@ -7333,8 +7972,27 @@
             {
                   "heading": "ex Chapter 48",
                   "chapter": 48,
-                  "subdivision": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+                  "subdivision": "Any other product from heading 4820",
                   "min": "4820000000",
+                  "max": "4820999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 48",
+                  "chapter": 48,
+                  "subdivision": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+                  "min": "4821000000",
                   "max": "4822999999",
                   "rules": [
                         {
@@ -7373,7 +8031,7 @@
             {
                   "heading": "ex Chapter 48",
                   "chapter": 48,
-                  "subdivision": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+                  "subdivision": "Any other product from heading 4823",
                   "min": "4823000000",
                   "max": "4823999999",
                   "rules": [
@@ -7529,7 +8187,7 @@
             {
                   "heading": "ex Chapter 50",
                   "chapter": 50,
-                  "subdivision": "Silk",
+                  "subdivision": "Any other product from heading 5003",
                   "min": "5003000000",
                   "max": "5003999999",
                   "rules": [
@@ -7590,7 +8248,7 @@
             {
                   "heading": "ex Chapter 50",
                   "chapter": 50,
-                  "subdivision": "Silk",
+                  "subdivision": "Any other product from heading 5006",
                   "min": "5006000000",
                   "max": "5006999999",
                   "rules": [
@@ -8289,8 +8947,8 @@
                   "heading": "Chapter 57",
                   "chapter": 57,
                   "subdivision": "Of needle loom felt",
-                  "min": "5701000000",
-                  "max": "5705999999",
+                  "min": "5700000000",
+                  "max": "5799999999",
                   "rules": [
                         {
                               "rule": "Manufacture from:\n\nnatural fibres, or\n\nchemical materials or textile pulp\n\nHowever:\n\npolypropylene filament of [heading&nbsp;5402](/headings/5402),\n\npolypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506) or\n\npolypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex may be used provided their value does not exceed **40%** of the ex-works price of the product\n\njute fabric may be used as backing.",
@@ -8308,11 +8966,53 @@
                   "valid": true
             },
             {
+                  "heading": "Chapter 57",
+                  "chapter": 57,
+                  "subdivision": "Of other felt",
+                  "min": "5700000000",
+                  "max": "5799999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from:\n\nnatural fibres not carded or combed or otherwise processed for spinning, or\n\nchemical materials or textile pulp.",
+                              "class": [
+                                    "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "Chapter 57",
+                  "chapter": 57,
+                  "subdivision": "Other",
+                  "min": "5700000000",
+                  "max": "5799999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from:\n\ncoir or jute yarn,\n\nsynthetic or artificial filament yarn,\n\nnatural fibres, or\n\nman-made staple fibres not carded or combed or otherwise processed for spinning\n\nJute fabric may be used as backing.",
+                              "class": [
+                                    "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "ex Chapter 58",
                   "chapter": 58,
                   "subdivision": "Combined with rubber thread",
                   "min": "5801000000",
-                  "max": "5804999999",
+                  "max": "5811999999",
                   "rules": [
                         {
                               "rule": "Manufacture from single yarn.",
@@ -8321,6 +9021,36 @@
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 58",
+                  "chapter": 58,
+                  "subdivision": "Other",
+                  "min": "5801000000",
+                  "max": "5811999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from:\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise processed for spinning, or\n\nchemical materials or textile pulp.",
+                              "class": [
+                                    "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -8348,27 +9078,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 58",
-                  "chapter": 58,
-                  "subdivision": "Combined with rubber thread",
-                  "min": "5806000000",
-                  "max": "5809999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from single yarn.",
-                              "class": [
-                                    "PRODUCTION FROM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "5810",
                   "chapter": 58,
                   "subdivision": "Embroidery in the piece, in strips or in motifs",
@@ -8379,27 +9088,6 @@
                               "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex Chapter 58",
-                  "chapter": 58,
-                  "subdivision": "Combined with rubber thread",
-                  "min": "5811000000",
-                  "max": "5811999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from single yarn.",
-                              "class": [
-                                    "PRODUCTION FROM"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -8777,7 +9465,7 @@
                   "max": "6099999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from yarn:.",
+                              "rule": "Manufacture from yarn.",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -8794,12 +9482,33 @@
                   "heading": "Chapter 61",
                   "chapter": 61,
                   "subdivision": "Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
-                  "min": "6101000000",
-                  "max": "6117999999",
+                  "min": "6100000000",
+                  "max": "6199999999",
                   "rules": [
                         {
                               "rule": "Manufacture from fabric.",
                               "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "Chapter 61",
+                  "chapter": 61,
+                  "subdivision": "Other",
+                  "min": "6100000000",
+                  "max": "6199999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from yarn.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -9366,8 +10075,27 @@
             {
                   "heading": "ex Chapter 68",
                   "chapter": 68,
-                  "subdivision": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
+                  "subdivision": "Any other product from heading 6803",
                   "min": "6803000000",
+                  "max": "6803999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 68",
+                  "chapter": 68,
+                  "subdivision": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
+                  "min": "6804000000",
                   "max": "6811999999",
                   "rules": [
                         {
@@ -9406,8 +10134,27 @@
             {
                   "heading": "ex Chapter 68",
                   "chapter": 68,
-                  "subdivision": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
+                  "subdivision": "Any other product from heading 6812",
                   "min": "6812000000",
+                  "max": "6812999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 68",
+                  "chapter": 68,
+                  "subdivision": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
+                  "min": "6813000000",
                   "max": "6813999999",
                   "rules": [
                         {
@@ -9446,8 +10193,27 @@
             {
                   "heading": "ex Chapter 68",
                   "chapter": 68,
-                  "subdivision": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
+                  "subdivision": "Any other product from heading 6814",
                   "min": "6814000000",
+                  "max": "6814999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 68",
+                  "chapter": 68,
+                  "subdivision": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
+                  "min": "6815000000",
                   "max": "6815999999",
                   "rules": [
                         {
@@ -9522,7 +10288,7 @@
             {
                   "heading": "ex Chapter 70",
                   "chapter": 70,
-                  "subdivision": "Glass and glassware",
+                  "subdivision": "Any other product from heading 7003",
                   "min": "7003000000",
                   "max": "7003999999",
                   "rules": [
@@ -9560,7 +10326,7 @@
             {
                   "heading": "ex Chapter 70",
                   "chapter": 70,
-                  "subdivision": "Glass and glassware",
+                  "subdivision": "Any other product from heading 7004",
                   "min": "7004000000",
                   "max": "7004999999",
                   "rules": [
@@ -9598,7 +10364,7 @@
             {
                   "heading": "ex Chapter 70",
                   "chapter": 70,
-                  "subdivision": "Glass and glassware",
+                  "subdivision": "Any other product from heading 7005",
                   "min": "7005000000",
                   "max": "7005999999",
                   "rules": [
@@ -9842,8 +10608,27 @@
             {
                   "heading": "ex Chapter 70",
                   "chapter": 70,
-                  "subdivision": "Glass and glassware",
+                  "subdivision": "Any other product from heading 7019",
                   "min": "7019000000",
+                  "max": "7019999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 70",
+                  "chapter": 70,
+                  "subdivision": "Glass and glassware",
+                  "min": "7020000000",
                   "max": "7020999999",
                   "rules": [
                         {
@@ -9882,7 +10667,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Any other product from heading 7101",
                   "min": "7101000000",
                   "max": "7101999999",
                   "rules": [
@@ -9922,7 +10707,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Any other product from heading 7102",
                   "min": "7102000000",
                   "max": "7102999999",
                   "rules": [
@@ -9962,7 +10747,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Any other product from heading 7103",
                   "min": "7103000000",
                   "max": "7103999999",
                   "rules": [
@@ -10002,8 +10787,27 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Any other product from heading 7104",
                   "min": "7104000000",
+                  "max": "7104999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 71",
+                  "chapter": 71,
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "min": "7105000000",
                   "max": "7105999999",
                   "rules": [
                         {
@@ -10102,7 +10906,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Any other product from heading 7107",
                   "min": "7107000000",
                   "max": "7107999999",
                   "rules": [
@@ -10202,7 +11006,7 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Any other product from heading 7109",
                   "min": "7109000000",
                   "max": "7109999999",
                   "rules": [
@@ -10302,8 +11106,27 @@
             {
                   "heading": "ex Chapter 71",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Any other product from heading 7111",
                   "min": "7111000000",
+                  "max": "7111999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 71",
+                  "chapter": 71,
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "min": "7112000000",
                   "max": "7115999999",
                   "rules": [
                         {
@@ -10490,7 +11313,7 @@
             {
                   "heading": "ex Chapter 72",
                   "chapter": 72,
-                  "subdivision": "Iron and steel",
+                  "subdivision": "Any other product from heading 7218",
                   "min": "7218000000",
                   "max": "7218999999",
                   "rules": [
@@ -10570,7 +11393,7 @@
             {
                   "heading": "ex Chapter 72",
                   "chapter": 72,
-                  "subdivision": "Iron and steel",
+                  "subdivision": "Any other product from heading 7224",
                   "min": "7224000000",
                   "max": "7224999999",
                   "rules": [
@@ -10648,7 +11471,7 @@
             {
                   "heading": "ex Chapter 73",
                   "chapter": 73,
-                  "subdivision": "Articles of iron or steel",
+                  "subdivision": "Any other product from heading 7301",
                   "min": "7301000000",
                   "max": "7301999999",
                   "rules": [
@@ -10745,7 +11568,7 @@
             {
                   "heading": "ex Chapter 73",
                   "chapter": 73,
-                  "subdivision": "Articles of iron or steel",
+                  "subdivision": "Any other product from heading 7307",
                   "min": "7307000000",
                   "max": "7307999999",
                   "rules": [
@@ -10823,8 +11646,27 @@
             {
                   "heading": "ex Chapter 73",
                   "chapter": 73,
-                  "subdivision": "Articles of iron or steel",
+                  "subdivision": "Any other product from heading 7315",
                   "min": "7315000000",
+                  "max": "7315999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 73",
+                  "chapter": 73,
+                  "subdivision": "Articles of iron or steel",
+                  "min": "7316000000",
                   "max": "7326999999",
                   "rules": [
                         {
@@ -11111,7 +11953,7 @@
             {
                   "heading": "ex Chapter 76",
                   "chapter": 76,
-                  "subdivision": "Aluminium and articles thereof",
+                  "subdivision": "Any other product from heading 7616",
                   "min": "7616000000",
                   "max": "7616999999",
                   "rules": [
@@ -11314,14 +12156,33 @@
                   "heading": "Chapter 81",
                   "chapter": 81,
                   "subdivision": "Other base metals, wrought; articles thereof",
-                  "min": "8101000000",
-                  "max": "8113999999",
+                  "min": "8100000000",
+                  "max": "8199999999",
                   "rules": [
                         {
                               "rule": "Manufacture in which the value of all the materials classified within the same heading as the product used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "Chapter 81",
+                  "chapter": 81,
+                  "subdivision": "Other",
+                  "min": "8100000000",
+                  "max": "8199999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -11456,8 +12317,27 @@
             {
                   "heading": "ex Chapter 82",
                   "chapter": 82,
-                  "subdivision": "Tools, implements, cutlery, spoons and forks, of base metal; parts thereof of base metal",
+                  "subdivision": "Any other product from heading 8211",
                   "min": "8211000000",
+                  "max": "8211999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 82",
+                  "chapter": 82,
+                  "subdivision": "Tools, implements, cutlery, spoons and forks, of base metal; parts thereof of base metal",
+                  "min": "8212000000",
                   "max": "8213999999",
                   "rules": [
                         {
@@ -11558,8 +12438,27 @@
             {
                   "heading": "ex Chapter 83",
                   "chapter": 83,
-                  "subdivision": "Miscellaneous articles of base metal",
+                  "subdivision": "Any other product from heading 8302",
                   "min": "8302000000",
+                  "max": "8302999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 83",
+                  "chapter": 83,
+                  "subdivision": "Miscellaneous articles of base metal",
+                  "min": "8303000000",
                   "max": "8305999999",
                   "rules": [
                         {
@@ -11599,8 +12498,27 @@
             {
                   "heading": "ex Chapter 83",
                   "chapter": 83,
-                  "subdivision": "Miscellaneous articles of base metal",
+                  "subdivision": "Any other product from heading 8306",
                   "min": "8306000000",
+                  "max": "8306999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 83",
+                  "chapter": 83,
+                  "subdivision": "Miscellaneous articles of base metal",
+                  "min": "8307000000",
                   "max": "8311999999",
                   "rules": [
                         {
@@ -11639,7 +12557,7 @@
             {
                   "heading": "ex Chapter 84",
                   "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "subdivision": "Any other product from heading 8401",
                   "min": "8401000000",
                   "max": "8401999999",
                   "rules": [
@@ -11763,8 +12681,40 @@
             {
                   "heading": "ex Chapter 84",
                   "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "subdivision": "Any other product from heading 8404",
                   "min": "8404000000",
+                  "max": "8404999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 84",
+                  "chapter": 84,
+                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "min": "8405000000",
                   "max": "8405999999",
                   "rules": [
                         {
@@ -11996,7 +12946,7 @@
             {
                   "heading": "ex Chapter 84",
                   "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "subdivision": "Any other product from heading 8413",
                   "min": "8413000000",
                   "max": "8413999999",
                   "rules": [
@@ -12060,7 +13010,7 @@
             {
                   "heading": "ex Chapter 84",
                   "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "subdivision": "Any other product from heading 8414",
                   "min": "8414000000",
                   "max": "8414999999",
                   "rules": [
@@ -12218,7 +13168,7 @@
             {
                   "heading": "ex Chapter 84",
                   "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "subdivision": "Any other product from heading 8419",
                   "min": "8419000000",
                   "max": "8419999999",
                   "rules": [
@@ -12516,8 +13466,40 @@
             {
                   "heading": "ex Chapter 84",
                   "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "subdivision": "Any other product from heading 8431",
                   "min": "8431000000",
+                  "max": "8431999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 84",
+                  "chapter": 84,
+                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "min": "8432000000",
                   "max": "8438999999",
                   "rules": [
                         {
@@ -12718,8 +13700,40 @@
             {
                   "heading": "ex Chapter 84",
                   "chapter": 84,
-                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "subdivision": "Any other product from heading 8448",
                   "min": "8448000000",
+                  "max": "8448999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 84",
+                  "chapter": 84,
+                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "min": "8449000000",
                   "max": "8451999999",
                   "rules": [
                         {
@@ -13238,8 +14252,40 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+                  "subdivision": "Any other product from heading 8504",
                   "min": "8504000000",
+                  "max": "8504999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 85",
+                  "chapter": 85,
+                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+                  "min": "8505000000",
                   "max": "8517999999",
                   "rules": [
                         {
@@ -13302,7 +14348,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+                  "subdivision": "Any other product from heading 8518",
                   "min": "8518000000",
                   "max": "8518999999",
                   "rules": [
@@ -13834,7 +14880,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+                  "subdivision": "Any other product from heading 8541",
                   "min": "8541000000",
                   "max": "8541999999",
                   "rules": [
@@ -14352,8 +15398,29 @@
             {
                   "heading": "ex Chapter 87",
                   "chapter": 87,
-                  "subdivision": "Vehicles other than railway or tramway rolling stock, and parts and accessories thereof",
+                  "subdivision": "Any other product from heading 8712",
                   "min": "8712000000",
+                  "max": "8712999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 87",
+                  "chapter": 87,
+                  "subdivision": "Vehicles other than railway or tramway rolling stock, and parts and accessories thereof",
+                  "min": "8713000000",
                   "max": "8714999999",
                   "rules": [
                         {
@@ -14497,7 +15564,7 @@
             {
                   "heading": "ex Chapter 88",
                   "chapter": 88,
-                  "subdivision": "Aircraft, spacecraft, and parts thereof",
+                  "subdivision": "Any other product from heading 8804",
                   "min": "8804000000",
                   "max": "8804999999",
                   "rules": [
@@ -14744,7 +15811,7 @@
             {
                   "heading": "ex Chapter 90",
                   "chapter": 90,
-                  "subdivision": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
+                  "subdivision": "Any other product from heading 9005",
                   "min": "9005000000",
                   "max": "9005999999",
                   "rules": [
@@ -14808,7 +15875,7 @@
             {
                   "heading": "ex Chapter 90",
                   "chapter": 90,
-                  "subdivision": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
+                  "subdivision": "Any other product from heading 9006",
                   "min": "9006000000",
                   "max": "9006999999",
                   "rules": [
@@ -14989,7 +16056,7 @@
             {
                   "heading": "ex Chapter 90",
                   "chapter": 90,
-                  "subdivision": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
+                  "subdivision": "Any other product from heading 9014",
                   "min": "9014000000",
                   "max": "9014999999",
                   "rules": [
@@ -15822,8 +16889,38 @@
             {
                   "heading": "ex Chapter 94",
                   "chapter": 94,
-                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated nameplates and the like; prefabricated buildings",
+                  "subdivision": "Any other product from heading 9401",
                   "min": "9401000000",
+                  "max": "9401999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 94",
+                  "chapter": 94,
+                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated nameplates and the like; prefabricated buildings",
+                  "min": "9402000000",
                   "max": "9402999999",
                   "rules": [
                         {
@@ -15904,8 +17001,38 @@
             {
                   "heading": "ex Chapter 94",
                   "chapter": 94,
-                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated nameplates and the like; prefabricated buildings",
+                  "subdivision": "Any other product from heading 9403",
                   "min": "9403000000",
+                  "max": "9403999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 94",
+                  "chapter": 94,
+                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated nameplates and the like; prefabricated buildings",
+                  "min": "9404000000",
                   "max": "9404999999",
                   "rules": [
                         {
@@ -16037,8 +17164,27 @@
             {
                   "heading": "ex Chapter 95",
                   "chapter": 95,
-                  "subdivision": "Toys, games and sports requisites; parts and accessories thereof",
+                  "subdivision": "Any other product from heading 9506",
                   "min": "9506000000",
+                  "max": "9506999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 95",
+                  "chapter": 95,
+                  "subdivision": "Toys, games and sports requisites; parts and accessories thereof",
+                  "min": "9507000000",
                   "max": "9508999999",
                   "rules": [
                         {
@@ -16075,7 +17221,7 @@
             {
                   "heading": "ex Chapter 96",
                   "chapter": 96,
-                  "subdivision": "Miscellaneous manufactured articles",
+                  "subdivision": "Any other product from heading 9601",
                   "min": "9601000000",
                   "max": "9601999999",
                   "rules": [
@@ -16113,7 +17259,7 @@
             {
                   "heading": "ex Chapter 96",
                   "chapter": 96,
-                  "subdivision": "Miscellaneous manufactured articles",
+                  "subdivision": "Any other product from heading 9602",
                   "min": "9602000000",
                   "max": "9602999999",
                   "rules": [
@@ -16153,8 +17299,27 @@
             {
                   "heading": "ex Chapter 96",
                   "chapter": 96,
-                  "subdivision": "Miscellaneous manufactured articles",
+                  "subdivision": "Any other product from heading 9603",
                   "min": "9603000000",
+                  "max": "9603999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 96",
+                  "chapter": 96,
+                  "subdivision": "Miscellaneous manufactured articles",
+                  "min": "9604000000",
                   "max": "9604999999",
                   "rules": [
                         {
@@ -16313,7 +17478,7 @@
             {
                   "heading": "ex Chapter 96",
                   "chapter": 96,
-                  "subdivision": "Miscellaneous manufactured articles",
+                  "subdivision": "Any other product from heading 9613",
                   "min": "9613000000",
                   "max": "9613999999",
                   "rules": [
@@ -16353,8 +17518,27 @@
             {
                   "heading": "ex Chapter 96",
                   "chapter": 96,
-                  "subdivision": "Miscellaneous manufactured articles",
+                  "subdivision": "Any other product from heading 9614",
                   "min": "9614000000",
+                  "max": "9614999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 96",
+                  "chapter": 96,
+                  "subdivision": "Miscellaneous manufactured articles",
+                  "min": "9615000000",
                   "max": "9620999999",
                   "rules": [
                         {

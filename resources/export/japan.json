@@ -1135,7 +1135,7 @@
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/04) and heading\n\n19.01 used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/04) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
