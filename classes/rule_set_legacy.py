@@ -32,7 +32,7 @@ class RuleSetLegacy(object):
         self.multiple_ands = False
         self.possible_missing_hyphens = False
         self.added_to_heading = False
-        self.index = 0
+        self.sort_index = 0
         self.subdivision_adoption_requirement = 0
 
         self.headings = []

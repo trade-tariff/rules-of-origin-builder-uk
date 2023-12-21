@@ -90,14 +90,25 @@ class RuleSetChapter(object):
         Where multiple chapter residual rules have been applied that are contiguous and identical
         these need to be merged to reduce the size of the JSON file.
         """
-        # Apply an index to the rules, so that they can be sorted correctly.
+
+        # Ensure that all 'inserted' chapter level rules are moved to be after their ex-code
+        # real rule equivalents.
+
+        # Apply a sort_index to the rules, so that they can be sorted correctly.
         rule_set_count = len(self.chapter_rule_sets)
         for index in range(rule_set_count - 1, -1, -1):
             current_rule_set = self.chapter_rule_sets[index]
             if current_rule_set.is_chapter:
-                current_rule_set.index = 9999
+                current_rule_set.sort_index = 9999
             else:
-                current_rule_set.index = index
+                current_rule_set.sort_index = index
+
+        self.chapter_rule_sets.sort(key=lambda x: x.sort_index, reverse=False)
+        self.chapter_rule_sets.sort(key=lambda x: x.max, reverse=False)
+
+        for index in range(rule_set_count - 1, -1, -1):
+            current_rule_set = self.chapter_rule_sets[index]
+            current_rule_set.sort_index = index
 
         pre_sorted = False
         if self.whole_chapter_rule_count > 1 and len(self.rule_sets) > self.whole_chapter_rule_count:
@@ -123,7 +134,8 @@ class RuleSetChapter(object):
                 self.chapter_rule_sets.pop(index)
 
         if pre_sorted:
-            self.chapter_rule_sets.sort(key=lambda x: x.index, reverse=False)
+            self.chapter_rule_sets.sort(key=lambda x: x.sort_index, reverse=False)
         else:
-            self.chapter_rule_sets.sort(key=lambda x: x.index, reverse=False)
-            self.chapter_rule_sets.sort(key=lambda x: x.heading, reverse=False)
+            a = 1
+            # self.chapter_rule_sets.sort(key=lambda x: x.sort_index, reverse=False)
+            # self.chapter_rule_sets.sort(key=lambda x: x.heading, reverse=False)

@@ -4,7 +4,6 @@ import json
 from classes.roo_document import RooDocument
 import classes.globals as g
 
-
 g.clear()
 file_list = []
 source_folder = os.path.join(os.getcwd(), "resources", "source")

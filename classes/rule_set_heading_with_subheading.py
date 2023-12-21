@@ -59,8 +59,12 @@ class RuleSetHeadingWithSubHeadings(object):
             obj = copy.copy(rule_set)
             obj.min = subheading + "0" * (10 - len(subheading))
             obj.max = subheading + "9" * (10 - len(subheading))
+            obj.subdivision = "Any other product from heading {heading}".format(
+                heading=subheading
+            )
             obj.headings = [subheading]
-            # print(subheading)
+            obj.is_chapter = True
+            obj.is_heading = True
             ret.append(obj)
 
         return ret

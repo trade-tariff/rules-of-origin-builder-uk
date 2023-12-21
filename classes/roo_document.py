@@ -34,8 +34,8 @@ class RooDocument(object):
         if self.modern:
             self.process_subdivisions()
             self.remove_invalid_entries()
-        self.sort_by_minmax()
-        self.write_table()
+        self.validate_minmax()
+        self.write_json_file()
         self.kill_document()
 
         self.check_opening_dash_in_rule()
@@ -193,9 +193,10 @@ class RooDocument(object):
             f.write(rule_set.max + "\n")
         f.close()
 
-    def sort_by_minmax(self):
-        """ The final extract file needs to be extracted in sequence, according to the min,
-        then the max values"""
+    def validate_minmax(self):
+        """ 
+        Validate that all records have a min and a max
+        """
         error_count = 0
         self.export_min_max()
         for rule_set in self.rule_sets:
@@ -207,10 +208,6 @@ class RooDocument(object):
 
         if error_count > 0:
             Error("Aborting until issues are resolved in the source data file.", show_additional_information=False)
-
-        # If we have not aborted, then sort the rules
-        self.rule_sets = sorted(self.rule_sets, key=self.sort_by_max)
-        self.rule_sets = sorted(self.rule_sets, key=self.sort_by_min)
 
     def sort_by_max(self, list):
         """ Sorts the list of rules according to the max value """
@@ -629,8 +626,9 @@ class RooDocument(object):
         self.rule_set_object_list = []
         for rule_set in self.rule_sets:
             self.rule_set_object_list.append(rule_set.as_dict())
+        a = 1
 
-    def write_table(self):
+    def write_json_file(self):
         self.copy_rule_sets_to_object_list()
         out_file = open(self.export_filepath, "w")
         json.dump({"rule_sets": self.rule_set_object_list}, out_file, indent=6)
