@@ -1,4 +1,5 @@
 import re
+import copy
 import json
 import os
 import classes.globals as g
@@ -116,7 +117,19 @@ class Rule(object):
         # Remove deliberately inserted <b> tags and replace with markdown
         self.rule_string = self.rule_string.replace("<b>", "**")
         self.rule_string = self.rule_string.replace("</b>", "**")
+        self.rule_string = self.rule_string.replace(", or\n", ", *or*\n")
         self.rule_string = self.rule_string.replace("in which\n", "in which:\n")
+        
+        tmp = copy.copy(self.rule_string).strip("\n").strip()
+        if len(tmp) > 3:
+            if tmp[-2:] == "or":
+                obj = {
+                    "heading": self.heading,
+                    "rule": self.rule_string
+                }
+                g.rule_ends_with_or.append(obj)
+                a = 1
+        a = 1
 
     def remove_footnote_references(self):
         self.rule_string = re.sub("\( ([0-9]{1,3}) \)", "", self.rule_string)
