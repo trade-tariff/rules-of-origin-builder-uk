@@ -2846,7 +2846,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by non-woven techniques including needle punching \n\nHowever:\n\n- polypropylene filament of [heading&nbsp;5402](/headings/5402),\n\n- polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), or\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the good Jute fabric may be used as a backing.",
+                              "rule": "Extrusion of man-made fibres accompanied by non-woven techniques including needle punching \n\nHowever:\n\n- polypropylene filament of [heading&nbsp;5402](/headings/5402),\n\n- polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), *or*\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the good Jute fabric may be used as a backing.",
                               "class": [
                                     "MAXNOM"
                               ],

@@ -1228,7 +1228,7 @@
             {
                   "heading": "1507 to 1515",
                   "chapter": 15,
-                  "subdivision": "Vegetable oils and their fractions \u25b8 Solid fractions, except for that of jojoba oil<br>\n**(Derogation - see Annex II a of the origin reference document)**",
+                  "subdivision": "Vegetable oils and their fractions \u25b8 Solid fractions that of jojoba oil<br>\n**(Derogation - see Annex II a of the origin reference document)**",
                   "min": "1507000000",
                   "max": "1515999999",
                   "rules": [
@@ -2248,7 +2248,7 @@
             {
                   "heading": "ex 2008",
                   "chapter": 20,
-                  "subdivision": "Jams, fruit jellies, marmalades, fruit or nut pur\u00e9e and fruit or nut pastes, being cooked preparations, whether or not containing added sugar or other sweetening matter \u25b8 Other except for fruit and nuts cooked otherwise than by steaming or boiling in water, not containing added sugar, frozen",
+                  "subdivision": "Jams, fruit jellies, marmalades, fruit or nut pur\u00e9e and fruit or nut pastes, being cooked preparations, whether or not containing added sugar or other sweetening matter \u25b8 Other except for: fruit and nuts cooked otherwise than by steaming or boiling in water, not containing added sugar, frozen",
                   "min": "2008000000",
                   "max": "2008999999",
                   "rules": [
@@ -3721,7 +3721,7 @@
                   "max": "2707999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -3831,7 +3831,7 @@
                   "max": "2710999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -3863,7 +3863,7 @@
                   "max": "2711999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -3895,7 +3895,7 @@
                   "max": "2712999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -3927,7 +3927,7 @@
                   "max": "2713999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -3959,7 +3959,7 @@
                   "max": "2714999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -3991,7 +3991,7 @@
                   "max": "2715999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -4437,7 +4437,7 @@
                   "max": "2901999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -4501,7 +4501,7 @@
                   "max": "2902999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -4987,7 +4987,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 human blood",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 Human blood",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -5009,7 +5009,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 animal blood prepared for therapeutic or pro phylactic uses",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 Animal blood prepared for therapeutic or pro phylactic uses",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -5031,7 +5031,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 blood fractions other than antisera, haemoglobin, blood globulins and serum globulins",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 Blood fractions other than antisera, haemoglobin, blood globulins and serum globulins",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -5053,7 +5053,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 haemoglobin, blood globulins and serum globulins",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 Haemoglobin, blood globulins and serum globulins",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -5075,7 +5075,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 other",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, pro phylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of bio technological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products \u25b8 Other \u25b8 Other",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -5516,7 +5516,7 @@
                   "max": "3403999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -6910,7 +6910,7 @@
             {
                   "heading": "3901 to 3915",
                   "chapter": 39,
-                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic; except for headings ex 3907 and 3912 for which the rules are set out below \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
+                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic headings ex 3907 and 3912 for which the rules are set out below \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
                   "min": "3901000000",
                   "max": "3915999999",
                   "rules": [
@@ -6942,7 +6942,7 @@
             {
                   "heading": "3901 to 3915",
                   "chapter": 39,
-                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic; except for headings ex 3907 and 3912 for which the rules are set out below \u25b8 Other",
+                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic headings ex 3907 and 3912 for which the rules are set out below \u25b8 Other",
                   "min": "3901000000",
                   "max": "3915999999",
                   "rules": [
@@ -6974,7 +6974,7 @@
             {
                   "heading": "ex 3907",
                   "chapter": 39,
-                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic; except for headings ex 3907 and 3912 for which the rules are set out below \u25b8 Copolymer, made from polycarbonate and acrylonitrile-butadiene- styrene copolymer (ABS)",
+                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic headings ex 3907 and 3912 for which the rules are set out below \u25b8 Copolymer, made from polycarbonate and acrylonitrile-butadiene- styrene copolymer (ABS)",
                   "min": "3907000000",
                   "max": "3907999999",
                   "rules": [
@@ -6995,7 +6995,7 @@
             {
                   "heading": "ex 3907",
                   "chapter": 39,
-                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic; except for headings ex 3907 and 3912 for which the rules are set out below \u25b8 Polyester",
+                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic headings ex 3907 and 3912 for which the rules are set out below \u25b8 Polyester",
                   "min": "3907000000",
                   "max": "3907999999",
                   "rules": [
@@ -7080,7 +7080,7 @@
             {
                   "heading": "3916 to 3921",
                   "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916,\nex 3917, ex 3920 and\nex 3921, for which the rules are set out below \u25b8 Flat products, further worked than only surface- worked or cut into forms other than rectangular (including square); other products, further worked than only surface-worked",
+                  "subdivision": "Semi-manufactures and articles of plastics headings Nos ex 3916,\nex 3917, ex 3920 and\nex 3921, for which the rules are set out below \u25b8 Flat products, further worked than only surface- worked or cut into forms other than rectangular (including square); other products, further worked than only surface-worked",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -7112,7 +7112,7 @@
             {
                   "heading": "3916 to 3921",
                   "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916,\nex 3917, ex 3920 and\nex 3921, for which the rules are set out below \u25b8 Other \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
+                  "subdivision": "Semi-manufactures and articles of plastics headings Nos ex 3916,\nex 3917, ex 3920 and\nex 3921, for which the rules are set out below \u25b8 Other \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -7144,7 +7144,7 @@
             {
                   "heading": "3916 to 3921",
                   "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916,\nex 3917, ex 3920 and\nex 3921, for which the rules are set out below \u25b8 Other \u25b8 Other",
+                  "subdivision": "Semi-manufactures and articles of plastics headings Nos ex 3916,\nex 3917, ex 3920 and\nex 3921, for which the rules are set out below \u25b8 Other \u25b8 Other",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -8334,7 +8334,7 @@
             {
                   "heading": "ex 4418",
                   "chapter": 44,
-                  "subdivision": "and Beadings mouldings",
+                  "subdivision": "And Beadings mouldings",
                   "min": "4418000000",
                   "max": "4418999999",
                   "rules": [
@@ -8971,7 +8971,7 @@
                   "max": "5005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8992,7 +8992,7 @@
                   "max": "5006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9081,7 +9081,7 @@
                   "max": "5110999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9151,7 +9151,7 @@
                   "max": "5207999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9221,7 +9221,7 @@
                   "max": "5308999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9272,7 +9272,7 @@
                   "max": "5406999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9344,7 +9344,7 @@
                   "max": "5511999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9395,7 +9395,7 @@
                   "max": "5601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, or\n\n- paper making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9435,7 +9435,7 @@
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, *or*\n\n- chemical materials or textile pulp.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9454,7 +9454,7 @@
                   "max": "5603999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, or\n\n- paper making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9496,7 +9496,7 @@
                   "max": "5604999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9517,7 +9517,7 @@
                   "max": "5605999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9538,7 +9538,7 @@
                   "max": "5606999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9559,7 +9559,7 @@
                   "max": "5609999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, or\n\n- paper making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9580,7 +9580,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres, or\n\n- chemical materials or textile pulp\n\nHowever jute fabric may be used as backing.",
+                              "rule": "Manufacture from:\n\n- natural fibres, *or*\n\n- chemical materials or textile pulp\n\nHowever jute fabric may be used as backing.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9599,7 +9599,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10292,7 +10292,7 @@
                   "max": "6304999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from\n\nfibres, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from\n\nfibres, *or*\n\nchemical materials or textile pulp.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -10966,7 +10966,7 @@
             {
                   "heading": "7006",
                   "chapter": 70,
-                  "subdivision": "Glass of heading 7003, 7004 or 7005, bent, edge worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials \u25b8 glass plate substrate coated with dielectric thin film, semi-conductor grade, in accordance with SEMII standards",
+                  "subdivision": "Glass of heading 7003, 7004 or 7005, bent, edge worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials \u25b8 Glass plate substrate coated with dielectric thin film, semi-conductor grade, in accordance with SEMII standards",
                   "min": "7006000000",
                   "max": "7006999999",
                   "rules": [
@@ -10987,7 +10987,7 @@
             {
                   "heading": "7006",
                   "chapter": 70,
-                  "subdivision": "Glass of heading 7003, 7004 or 7005, bent, edge worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials \u25b8 other",
+                  "subdivision": "Glass of heading 7003, 7004 or 7005, bent, edge worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials \u25b8 Other",
                   "min": "7006000000",
                   "max": "7006999999",
                   "rules": [
@@ -11174,7 +11174,7 @@
                   "max": "7019999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nuncoloured slivers, rovings, yarn or chopped strands, or\n\nglass wool.",
+                              "rule": "Manufacture from:\n\nuncoloured slivers, rovings, yarn or chopped strands, *or*\n\nglass wool.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -16351,7 +16351,7 @@
             {
                   "heading": "ex 9005",
                   "chapter": 90,
-                  "subdivision": "Binoculars, monoculars, other optical telescopes, and mountings therefor, except for astronomical refracting telescopes and mountings therefor",
+                  "subdivision": "Binoculars, monoculars, other optical telescopes, and mountings therefor astronomical refracting telescopes and mountings therefor",
                   "min": "9005000000",
                   "max": "9005999999",
                   "rules": [
@@ -17855,7 +17855,7 @@
             {
                   "heading": "ex 9603",
                   "chapter": 96,
-                  "subdivision": "Brooms and brushes (except for besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorized, paint pads and rollers, squeegees and mops",
+                  "subdivision": "Brooms and brushes (except for: besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorized, paint pads and rollers, squeegees and mops",
                   "min": "9603000000",
                   "max": "9603999999",
                   "rules": [

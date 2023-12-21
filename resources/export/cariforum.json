@@ -992,7 +992,7 @@
             {
                   "heading": "1507 to 1515",
                   "chapter": 15,
-                  "subdivision": "Solid fractions, except for that of jojoba oil",
+                  "subdivision": "Solid fractions that of jojoba oil",
                   "min": "1507000000",
                   "max": "1515999999",
                   "rules": [
@@ -1037,7 +1037,7 @@
                   "max": "1516999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials of [chapter&nbsp;2](/chapters/02) used must be wholly obtained\n\nall the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;2](/chapters/02) used must be wholly obtained\n\n- all the vegetable materials used must be wholly obtained.\n\nHowever, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
                               "class": [
                                     "WO"
                               ],
@@ -1058,7 +1058,7 @@
                   "max": "1517999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials of [chapter&nbsp;2](/chapters/02) and [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\nall the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;2](/chapters/02) and [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\n- all the vegetable materials used must be wholly obtained.\n\nHowever, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
                               "class": [
                                     "WO"
                               ],
@@ -1277,7 +1277,7 @@
                   "max": "1704999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1298,7 +1298,7 @@
                   "max": "1805999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1328,7 +1328,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1349,7 +1349,7 @@
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1473,7 +1473,7 @@
                   "max": "1904999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials not classified within [heading&nbsp;1806](/headings/1806).\n\n- in which all the cereals and flour (except durum wheat and its derivates and Zea indurata maize) used must be wholly obtained\n\n- in which the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials not classified within [heading&nbsp;1806](/headings/1806).\n\n- in which all the cereals and flour (except durum wheat and its derivates and Zea indurata maize) used must be wholly obtained\n\n- in which the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1763,7 +1763,7 @@
             {
                   "heading": "ex 2008",
                   "chapter": 20,
-                  "subdivision": "Other except for fruit and nuts cooked otherwise than by steaming or boiling in water, not containing added sugar, frozen",
+                  "subdivision": "Other except for: fruit and nuts cooked otherwise than by steaming or boiling in water, not containing added sugar, frozen",
                   "min": "2008000000",
                   "max": "2008999999",
                   "rules": [
@@ -1819,7 +1819,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2070,7 +2070,7 @@
                   "max": "2202999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product\n\n- any fruit juice used (except for orange, grape, pineapple, lime and grapefruit juices) must already be originating.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product\n\n- any fruit juice used (except for orange, grape, pineapple, lime and grapefruit juices) must already be originating.",
                               "class": [
                                     "MAXNOM",
                                     "CTH",
@@ -2114,7 +2114,7 @@
                   "max": "2207999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nusing materials not classified in [heading&nbsp;2207](/headings/2207) or [heading&nbsp;2208](/headings/2208),\n\nin which all the grapes or any materials derived from grapes used must be wholly obtained or if all the other materials used are already originating, arrack may be used up to a limit of **5%** by volume.",
+                              "rule": "Manufacture:\n\n- using materials not classified in [heading&nbsp;2207](/headings/2207) or [heading&nbsp;2208](/headings/2208),\n\n- in which all the grapes or any materials derived from grapes used must be wholly obtained or if all the other materials used are already originating, arrack may be used up to a limit of **5%** by volume.",
                               "class": [
                                     "WO",
                                     "AH EXCEPT",
@@ -2137,7 +2137,7 @@
                   "max": "2208999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials not classified within [heading&nbsp;2207](/headings/2207) or [heading&nbsp;2208](/headings/2208),\n\nin which all the grapes or any material derived from grapes used must be wholly obtained or if all the other materials used are already originating, arrack may be used up to a limit of **5%** by volume.",
+                              "rule": "Manufacture:\n\n- from materials not classified within [heading&nbsp;2207](/headings/2207) or [heading&nbsp;2208](/headings/2208),\n\n- in which all the grapes or any material derived from grapes used must be wholly obtained or if all the other materials used are already originating, arrack may be used up to a limit of **5%** by volume.",
                               "class": [
                                     "WO"
                               ],
@@ -3177,7 +3177,7 @@
                   "max": "2713999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -3687,7 +3687,7 @@
                   "max": "2901999999",
                   "rules": [
                         {
-                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process (es).",
+                              "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es).",
                               "class": [
                                     "PROCESSING"
                               ],
@@ -4236,7 +4236,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "human blood",
+                  "subdivision": "Human blood",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -4257,7 +4257,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "animal blood prepared for therapeutic or prophylactic uses",
+                  "subdivision": "Animal blood prepared for therapeutic or prophylactic uses",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -4278,7 +4278,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "blood fractions other than antisera, haemoglobin, blood globulins and serum globulins",
+                  "subdivision": "Blood fractions other than antisera, haemoglobin, blood globulins and serum globulins",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -4299,7 +4299,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "haemoglobin, blood globulins and serum globulins",
+                  "subdivision": "Haemoglobin, blood globulins and serum globulins",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -4320,7 +4320,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "other",
+                  "subdivision": "Other",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -4848,7 +4848,7 @@
                   "max": "3404999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except:\n\n- hydrogenated oils having the character of waxes of [heading&nbsp;1516](/headings/1516).\n\n- fatty acids not chemically defined or industrial fatty alcohols having the character of waxes of heading\n\nNo 3823\n\n- materials of [heading&nbsp;3404](/headings/3404).\n\nHowever, these materials may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading, except:\n\n- hydrogenated oils having the character of waxes of [heading&nbsp;1516](/headings/1516).\n\n- fatty acids not chemically defined or industrial fatty alcohols having the character of waxes of [heading&nbsp;3823](/headings/3823).\n\n- materials of [heading&nbsp;3404](/headings/3404).\n\nHowever, these materials may be used provided their value does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -8211,7 +8211,7 @@
                   "max": "5005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste carded or combed or otherwise prepared for spinning,\n\nother natural fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8232,7 +8232,7 @@
                   "max": "5006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste carded or combed or otherwise prepared for spinning,\n\nother natural fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8293,7 +8293,7 @@
                   "max": "5007999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8342,7 +8342,7 @@
                   "max": "5110999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste carded or combed or otherwise prepared for spinning,\n\nnatural fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8384,7 +8384,7 @@
                   "max": "5113999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8433,7 +8433,7 @@
                   "max": "5207999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste carded or combed or otherwise prepared for spinning,\n\nnatural fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8475,7 +8475,7 @@
                   "max": "5212999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8524,7 +8524,7 @@
                   "max": "5308999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste carded or combed or otherwise prepared for spinning,\n\nnatural fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8566,7 +8566,7 @@
                   "max": "5311999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8596,7 +8596,7 @@
                   "max": "5406999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste carded or combed or otherwise prepared for spinning,\n\nnatural fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8638,7 +8638,7 @@
                   "max": "5408999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8689,7 +8689,7 @@
                   "max": "5511999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste carded or combed or otherwise prepared for spinning,\n\nnatural fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8731,7 +8731,7 @@
                   "max": "5516999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8761,7 +8761,7 @@
                   "max": "5601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nchemical materials or textile pulp, or\n\npaper making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8782,7 +8782,7 @@
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres,\n\nchemical materials or textile pulp\n\nHowever:\n\npolypropylene filament of [heading&nbsp;5402](/headings/5402),\n\npolypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506) or\n\npolypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex may be used provided their value does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- chemical materials or textile pulp\n\nHowever:\n\npolypropylene filament of [heading&nbsp;5402](/headings/5402), polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506) or polypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex may be used provided their value does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM TOLERANCE MAXNOM"
@@ -8804,7 +8804,7 @@
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres,\n\nman-made staple fibres made from casein, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres made from casein, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8825,7 +8825,7 @@
                   "max": "5603999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nchemical materials or textile pulp, or\n\npaper making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8867,7 +8867,7 @@
                   "max": "5604999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres not carded or combed or otherwise processed for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8888,7 +8888,7 @@
                   "max": "5605999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise processed for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8909,7 +8909,7 @@
                   "max": "5606999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise processed for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8930,7 +8930,7 @@
                   "max": "5609999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nchemical materials or textile pulp, or\n\npaper making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8951,7 +8951,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres, or\n\nchemical materials or textile pulp\n\nHowever:\n\npolypropylene filament of [heading&nbsp;5402](/headings/5402),\n\npolypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506) or\n\npolypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex may be used provided their value does not exceed **40%** of the ex-works price of the product\n\njute fabric may be used as backing.",
+                              "rule": "Manufacture from:\n\n- natural fibres, *or*\n\n- chemical materials or textile pulp\n\nHowever:\n\npolypropylene filament of [heading&nbsp;5402](/headings/5402), polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506) or polypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex may be used provided their value does not exceed **40%** of the ex-works price of the product\n\njute fabric may be used as backing.",
                               "class": [
                                     "MAXNOM",
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM TOLERANCE MAXNOM"
@@ -8973,7 +8973,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres not carded or combed or otherwise processed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8994,7 +8994,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir or jute yarn,\n\nsynthetic or artificial filament yarn,\n\nnatural fibres, or\n\nman-made staple fibres not carded or combed or otherwise processed for spinning\n\nJute fabric may be used as backing.",
+                              "rule": "Manufacture from:\n\n- coir or jute yarn,\n\n- synthetic or artificial filament yarn,\n\n- natural fibres, *or*\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning.\n\nJute fabric may be used as backing.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9036,7 +9036,7 @@
                   "max": "5811999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise processed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9241,7 +9241,7 @@
                   "max": "5905999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise processed for spinning, or\n\nchemical materials or textile pulp,",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp,",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9271,7 +9271,7 @@
                   "max": "5906999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise processed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9423,10 +9423,8 @@
                   "max": "5911999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nthe following materials:\n\nyarn of polytetrafluoroethylene,\n\nyarn, multiple, of polyamide, coated impregnated or covered with a phenolic resin,\n\nyarn of synthetic textile fibres of aromatic polyamides, obtained by polycondensation of m-phenylenediamine and isophthalic acid,\n\nmonofil of polytetrafluoroethylene\n\nyarn of synthetic textile fibres of poly-p-phenylene terephthalamide,\n\nglass fibre yarn, coated with phenol resin and gimped with acrylic yarn\n\ncopolyester monofilaments of a polyester and a resin of terephthalic acid and 1.4 -cyclohexanediethanol and isophthalic acid,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise processed for spinning, or\n\nchemical materials or textile pulp.",
-                              "class": [
-                                    "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
-                              ],
+                              "rule": "Manufacture from coir yarn, or the following materials:\n\n- yarn of polytetrafluoroethylene,\n\n- yarn, multiple, of polyamide, coated impregnated or covered with a phenolic resin,\n\n- yarn of synthetic textile fibres of aromatic polyamides, obtained by polycondensation of m-phenylenediamine and isophthalic acid,\n\n- monofil of polytetrafluoroethylene\n\n- yarn of synthetic textile fibres of poly-p-phenylene terephthalamide,\n\n- glass fibre yarn, coated with phenol resin and gimped with acrylic yarn\n\n- copolyester monofilaments of a polyester and a resin of terephthalic acid and 1.4 -cyclohexanediethanol and isophthalic acid,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -9444,7 +9442,7 @@
                   "max": "5911999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres not carded or combed or otherwise processed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9711,7 +9709,7 @@
                   "max": "6304999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nfibres, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- fibres, *or*\n\n- chemical materials or textile pulp.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -10383,7 +10381,7 @@
             {
                   "heading": "7006",
                   "chapter": 70,
-                  "subdivision": "glass plate substrate coated with dielectric thin film, semi-conductor grade, in accordance with SEMII standards",
+                  "subdivision": "Glass plate substrate coated with dielectric thin film, semi-conductor grade, in accordance with SEMII standards",
                   "min": "7006000000",
                   "max": "7006999999",
                   "rules": [
@@ -10402,7 +10400,7 @@
             {
                   "heading": "7006",
                   "chapter": 70,
-                  "subdivision": "other",
+                  "subdivision": "Other",
                   "min": "7006000000",
                   "max": "7006999999",
                   "rules": [
@@ -10592,7 +10590,7 @@
                   "max": "7019999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nuncoloured slivers, rovings, yarn or chopped strands, or\n\nglass wool.",
+                              "rule": "Manufacture from:\n\n- uncoloured slivers, rovings, yarn or chopped strands, *or*\n\n- glass wool.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -11866,7 +11864,7 @@
                   "max": "7601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\nand\n\nthe value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product, *and*\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
                                     "CTH"
@@ -14512,7 +14510,7 @@
                   "max": "8524999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\nwhere, within the above limit, the materials classified within [heading&nbsp;8523](/headings/8523) are only used up to a value of **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\n- where, within the above limit, the materials classified within [heading&nbsp;8523](/headings/8523) are only used up to a value of **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -14576,7 +14574,7 @@
                   "max": "8526999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\nwhere the value of all the non-originating materials used does not exceed the value of the originating materials used.",
+                              "rule": "Manufacture:\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\n- where the value of all the non-originating materials used does not exceed the value of the originating materials used.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -15779,7 +15777,7 @@
             {
                   "heading": "ex 9005",
                   "chapter": 90,
-                  "subdivision": "Binoculars, monoculars, other optical telescopes, and mountings therefor, except for astronomical refracting telescopes and mountings therefor",
+                  "subdivision": "Binoculars, monoculars, other optical telescopes, and mountings therefor astronomical refracting telescopes and mountings therefor",
                   "min": "9005000000",
                   "max": "9005999999",
                   "rules": [
@@ -16662,7 +16660,7 @@
                   "max": "9110999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\nwhere, within the above limit, the materials classified within [heading&nbsp;9114](/headings/9114) are only used up to a value of **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product\n\n- where, within the above limit, the materials classified within [heading&nbsp;9114](/headings/9114) are only used up to a value of **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -16694,7 +16692,7 @@
                   "max": "9111999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -16726,7 +16724,7 @@
                   "max": "9112999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -16853,21 +16851,12 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from cotton cloth already made up in a form ready for use of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided:\n\nits value does not exceed **25%** of the ex-works price of the product.",
+                              "rule": "Manufacture from cotton cloth already made up in a form ready for use of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided:\n\n- its value does not exceed **25%** of the ex-works price of the product\n\n- all the other materials used are already originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "All the other materials used are already originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -16965,21 +16954,12 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from cotton cloth already made up in a form ready for use of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided:\n\nits value does not exceed **25%** of the ex-works price of the product.",
+                              "rule": "Manufacture from cotton cloth already made up in a form ready for use of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided:\n\n- its value does not exceed **25%** of the ex-works price of the product\n\n- all the other materials used are already originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "All the other materials used are already originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -17278,7 +17258,7 @@
             {
                   "heading": "ex 9603",
                   "chapter": 96,
-                  "subdivision": "Brooms and brushes (except for besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorised, paint pads and rollers, squeegees and mops",
+                  "subdivision": "Brooms and brushes (except for: besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorised, paint pads and rollers, squeegees and mops",
                   "min": "9603000000",
                   "max": "9603999999",
                   "rules": [
@@ -17363,7 +17343,7 @@
                   "max": "9606999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -17441,7 +17421,7 @@
                   "max": "9612999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nall the materials used are classified within a heading other than that of the product\n\nthe value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],

@@ -314,6 +314,15 @@
                               "export": true
                         },
                         {
+                              "rule": "",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
                               "rule": "Blending, crushing or grinding.",
                               "class": [],
                               "footnotes": [],
@@ -1842,10 +1851,28 @@
                               "export": true
                         },
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning or twisting.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Twisting.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -1885,7 +1912,18 @@
                               "export": true
                         },
                         {
-                              "rule": "Weaving or Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
+                              "rule": "Weaving.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -1926,7 +1964,18 @@
                               "export": true
                         },
                         {
-                              "rule": "Weaving or Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
+                              "rule": "Weaving.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -1977,10 +2026,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -2009,10 +2067,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -2432,7 +2499,18 @@
                               "export": true
                         },
                         {
-                              "rule": "Weaving or Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
+                              "rule": "Weaving.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -2473,7 +2551,18 @@
                               "export": true
                         },
                         {
-                              "rule": "Weaving or Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
+                              "rule": "Weaving.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -2815,10 +2904,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -2858,10 +2956,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -2901,10 +3008,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -2944,10 +3060,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
+                              "rule": "Spinning of natural fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made fibres accompanied by spinning.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,
@@ -2987,7 +3112,18 @@
                               "export": true
                         },
                         {
-                              "rule": "Weaving or Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
+                              "rule": "Weaving.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -3492,10 +3628,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "rule": "Spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "PROCESSING"
+                                    "PROCESSING_TEXTILE"
                               ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by weaving.",
+                              "class": [],
                               "footnotes": [],
                               "operator": "or",
                               "quota": false,

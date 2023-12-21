@@ -2459,7 +2459,7 @@
                   "max": "5004999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2489,7 +2489,7 @@
                   "max": "5005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2540,7 +2540,7 @@
                   "max": "5006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2768,7 +2768,7 @@
                   "max": "5106999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2798,7 +2798,7 @@
                   "max": "5107999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2828,7 +2828,7 @@
                   "max": "5108999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2858,7 +2858,7 @@
                   "max": "5109999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2888,7 +2888,7 @@
                   "max": "5110999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3092,7 +3092,7 @@
                   "max": "5204999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3122,7 +3122,7 @@
                   "max": "5205999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials - textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials - textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3152,7 +3152,7 @@
                   "max": "5206999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3182,7 +3182,7 @@
                   "max": "5207999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3446,7 +3446,7 @@
                   "max": "5306999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3476,7 +3476,7 @@
                   "max": "5307999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3506,7 +3506,7 @@
                   "max": "5308999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3668,7 +3668,7 @@
                   "max": "5401999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3698,7 +3698,7 @@
                   "max": "5402999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3728,7 +3728,7 @@
                   "max": "5403999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3758,7 +3758,7 @@
                   "max": "5404999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3788,7 +3788,7 @@
                   "max": "5405999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -3818,7 +3818,7 @@
                   "max": "5406999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -4051,7 +4051,7 @@
                   "max": "5508999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -4081,7 +4081,7 @@
                   "max": "5509999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -4111,7 +4111,7 @@
                   "max": "5510999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -4141,7 +4141,7 @@
                   "max": "5511999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, or\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- grege silk or silk waste,\n\n- chemical materials or textile pulp, *or*\n\n- man-made staple fibres, filament tow or waste of fibres, not carded or combed or otherwise prepared for spinning.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -6016,7 +6016,7 @@
             {
                   "heading": "ex 6101",
                   "chapter": 61,
-                  "subdivision": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of Heading 6103 . \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of Heading 6103 . \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6101000000",
                   "max": "6101999999",
                   "rules": [
@@ -6035,7 +6035,7 @@
             {
                   "heading": "ex 6101",
                   "chapter": 61,
-                  "subdivision": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of Heading 6103 . \u25b8 other",
+                  "subdivision": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of Heading 6103 . \u25b8 Other",
                   "min": "6101000000",
                   "max": "6101999999",
                   "rules": [
@@ -6056,7 +6056,7 @@
             {
                   "heading": "ex 6102",
                   "chapter": 61,
-                  "subdivision": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind- jackets and similar articles, knitted or crocheted, other than those of Heading 6104 . \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind- jackets and similar articles, knitted or crocheted, other than those of Heading 6104 . \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6102000000",
                   "max": "6102999999",
                   "rules": [
@@ -6075,7 +6075,7 @@
             {
                   "heading": "ex 6102",
                   "chapter": 61,
-                  "subdivision": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind- jackets and similar articles, knitted or crocheted, other than those of Heading 6104 . \u25b8 other",
+                  "subdivision": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind- jackets and similar articles, knitted or crocheted, other than those of Heading 6104 . \u25b8 Other",
                   "min": "6102000000",
                   "max": "6102999999",
                   "rules": [
@@ -6096,7 +6096,7 @@
             {
                   "heading": "ex 6103",
                   "chapter": 61,
-                  "subdivision": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6103000000",
                   "max": "6103999999",
                   "rules": [
@@ -6115,7 +6115,7 @@
             {
                   "heading": "ex 6103",
                   "chapter": 61,
-                  "subdivision": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted. \u25b8 other",
+                  "subdivision": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted. \u25b8 Other",
                   "min": "6103000000",
                   "max": "6103999999",
                   "rules": [
@@ -6136,7 +6136,7 @@
             {
                   "heading": "ex 6104",
                   "chapter": 61,
-                  "subdivision": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6104000000",
                   "max": "6104999999",
                   "rules": [
@@ -6155,7 +6155,7 @@
             {
                   "heading": "ex 6104",
                   "chapter": 61,
-                  "subdivision": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted. \u25b8 other",
+                  "subdivision": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted. \u25b8 Other",
                   "min": "6104000000",
                   "max": "6104999999",
                   "rules": [
@@ -6176,7 +6176,7 @@
             {
                   "heading": "ex 6105",
                   "chapter": 61,
-                  "subdivision": "Men's or boys' shirts, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Men's or boys' shirts, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6105000000",
                   "max": "6105999999",
                   "rules": [
@@ -6195,7 +6195,7 @@
             {
                   "heading": "ex 6105",
                   "chapter": 61,
-                  "subdivision": "Men's or boys' shirts, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Men's or boys' shirts, knitted or crocheted. \u25b8 Other",
                   "min": "6105000000",
                   "max": "6105999999",
                   "rules": [
@@ -6216,7 +6216,7 @@
             {
                   "heading": "ex 6106",
                   "chapter": 61,
-                  "subdivision": "Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6106000000",
                   "max": "6106999999",
                   "rules": [
@@ -6235,7 +6235,7 @@
             {
                   "heading": "ex 6106",
                   "chapter": 61,
-                  "subdivision": "Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted. \u25b8 Other",
                   "min": "6106000000",
                   "max": "6106999999",
                   "rules": [
@@ -6256,7 +6256,7 @@
             {
                   "heading": "ex 6107",
                   "chapter": 61,
-                  "subdivision": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6107000000",
                   "max": "6107999999",
                   "rules": [
@@ -6275,7 +6275,7 @@
             {
                   "heading": "ex 6107",
                   "chapter": 61,
-                  "subdivision": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted. \u25b8 Other",
                   "min": "6107000000",
                   "max": "6107999999",
                   "rules": [
@@ -6296,7 +6296,7 @@
             {
                   "heading": "ex 6108",
                   "chapter": 61,
-                  "subdivision": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6108000000",
                   "max": "6108999999",
                   "rules": [
@@ -6315,7 +6315,7 @@
             {
                   "heading": "ex 6108",
                   "chapter": 61,
-                  "subdivision": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles, knitted or crocheted. \u25b8 Other",
                   "min": "6108000000",
                   "max": "6108999999",
                   "rules": [
@@ -6336,7 +6336,7 @@
             {
                   "heading": "ex 6109",
                   "chapter": 61,
-                  "subdivision": "T-shirts, singlets and other vests, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "T-shirts, singlets and other vests, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6109000000",
                   "max": "6109999999",
                   "rules": [
@@ -6355,7 +6355,7 @@
             {
                   "heading": "ex 6109",
                   "chapter": 61,
-                  "subdivision": "T-shirts, singlets and other vests, knitted or crocheted. \u25b8 other",
+                  "subdivision": "T-shirts, singlets and other vests, knitted or crocheted. \u25b8 Other",
                   "min": "6109000000",
                   "max": "6109999999",
                   "rules": [
@@ -6376,7 +6376,7 @@
             {
                   "heading": "ex 6110",
                   "chapter": 61,
-                  "subdivision": "Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6110000000",
                   "max": "6110999999",
                   "rules": [
@@ -6395,7 +6395,7 @@
             {
                   "heading": "ex 6110",
                   "chapter": 61,
-                  "subdivision": "Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted. \u25b8 Other",
                   "min": "6110000000",
                   "max": "6110999999",
                   "rules": [
@@ -6416,7 +6416,7 @@
             {
                   "heading": "ex 6111",
                   "chapter": 61,
-                  "subdivision": "Babies' garments and clothing accessories, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Babies' garments and clothing accessories, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6111000000",
                   "max": "6111999999",
                   "rules": [
@@ -6435,7 +6435,7 @@
             {
                   "heading": "ex 6111",
                   "chapter": 61,
-                  "subdivision": "Babies' garments and clothing accessories, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Babies' garments and clothing accessories, knitted or crocheted. \u25b8 Other",
                   "min": "6111000000",
                   "max": "6111999999",
                   "rules": [
@@ -6456,7 +6456,7 @@
             {
                   "heading": "ex 6112",
                   "chapter": 61,
-                  "subdivision": "Track suits, ski suits and swimwear, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Track suits, ski suits and swimwear, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6112000000",
                   "max": "6112999999",
                   "rules": [
@@ -6475,7 +6475,7 @@
             {
                   "heading": "ex 6112",
                   "chapter": 61,
-                  "subdivision": "Track suits, ski suits and swimwear, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Track suits, ski suits and swimwear, knitted or crocheted. \u25b8 Other",
                   "min": "6112000000",
                   "max": "6112999999",
                   "rules": [
@@ -6496,7 +6496,7 @@
             {
                   "heading": "ex 6113",
                   "chapter": 61,
-                  "subdivision": "Garments, made up of knitted or crocheted fabrics of Heading 5903, 5906 or 5907. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Garments, made up of knitted or crocheted fabrics of Heading 5903, 5906 or 5907. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6113000000",
                   "max": "6113999999",
                   "rules": [
@@ -6515,7 +6515,7 @@
             {
                   "heading": "ex 6113",
                   "chapter": 61,
-                  "subdivision": "Garments, made up of knitted or crocheted fabrics of Heading 5903, 5906 or 5907. \u25b8 other",
+                  "subdivision": "Garments, made up of knitted or crocheted fabrics of Heading 5903, 5906 or 5907. \u25b8 Other",
                   "min": "6113000000",
                   "max": "6113999999",
                   "rules": [
@@ -6536,7 +6536,7 @@
             {
                   "heading": "ex 6114",
                   "chapter": 61,
-                  "subdivision": "Other garments, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Other garments, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6114000000",
                   "max": "6114999999",
                   "rules": [
@@ -6555,7 +6555,7 @@
             {
                   "heading": "ex 6114",
                   "chapter": 61,
-                  "subdivision": "Other garments, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Other garments, knitted or crocheted. \u25b8 Other",
                   "min": "6114000000",
                   "max": "6114999999",
                   "rules": [
@@ -6576,7 +6576,7 @@
             {
                   "heading": "ex 6115",
                   "chapter": 61,
-                  "subdivision": "Panty hose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Panty hose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6115000000",
                   "max": "6115999999",
                   "rules": [
@@ -6595,7 +6595,7 @@
             {
                   "heading": "ex 6115",
                   "chapter": 61,
-                  "subdivision": "Panty hose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Panty hose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted. \u25b8 Other",
                   "min": "6115000000",
                   "max": "6115999999",
                   "rules": [
@@ -6616,7 +6616,7 @@
             {
                   "heading": "ex 6116",
                   "chapter": 61,
-                  "subdivision": "Gloves, mittens and mitts, knitted or crocheted. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Gloves, mittens and mitts, knitted or crocheted. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6116000000",
                   "max": "6116999999",
                   "rules": [
@@ -6635,7 +6635,7 @@
             {
                   "heading": "ex 6116",
                   "chapter": 61,
-                  "subdivision": "Gloves, mittens and mitts, knitted or crocheted. \u25b8 other",
+                  "subdivision": "Gloves, mittens and mitts, knitted or crocheted. \u25b8 Other",
                   "min": "6116000000",
                   "max": "6116999999",
                   "rules": [
@@ -6656,7 +6656,7 @@
             {
                   "heading": "ex 6117",
                   "chapter": 61,
-                  "subdivision": "Other made up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories. \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
+                  "subdivision": "Other made up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories. \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6117000000",
                   "max": "6117999999",
                   "rules": [
@@ -6675,7 +6675,7 @@
             {
                   "heading": "ex 6117",
                   "chapter": 61,
-                  "subdivision": "Other made up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories. \u25b8 other",
+                  "subdivision": "Other made up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories. \u25b8 Other",
                   "min": "6117000000",
                   "max": "6117999999",
                   "rules": [
@@ -6696,7 +6696,7 @@
             {
                   "heading": "ex 6201",
                   "chapter": 62,
-                  "subdivision": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of Heading 6203 . \u25b8 finished or complete",
+                  "subdivision": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of Heading 6203 . \u25b8 Finished or complete",
                   "min": "6201000000",
                   "max": "6201999999",
                   "rules": [
@@ -6715,7 +6715,7 @@
             {
                   "heading": "ex 6201",
                   "chapter": 62,
-                  "subdivision": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of Heading 6203 . \u25b8 unfinished or incomplete",
+                  "subdivision": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of Heading 6203 . \u25b8 Unfinished or incomplete",
                   "min": "6201000000",
                   "max": "6201999999",
                   "rules": [
@@ -6736,7 +6736,7 @@
             {
                   "heading": "ex 6202",
                   "chapter": 62,
-                  "subdivision": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of Heading 6204 . \u25b8 finished or complete",
+                  "subdivision": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of Heading 6204 . \u25b8 Finished or complete",
                   "min": "6202000000",
                   "max": "6202999999",
                   "rules": [
@@ -6755,7 +6755,7 @@
             {
                   "heading": "ex 6202",
                   "chapter": 62,
-                  "subdivision": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of Heading 6204 . \u25b8 unfinished or incomplete",
+                  "subdivision": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of Heading 6204 . \u25b8 Unfinished or incomplete",
                   "min": "6202000000",
                   "max": "6202999999",
                   "rules": [
@@ -6776,7 +6776,7 @@
             {
                   "heading": "ex 6203",
                   "chapter": 62,
-                  "subdivision": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear). \u25b8 finished or complete",
+                  "subdivision": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear). \u25b8 Finished or complete",
                   "min": "6203000000",
                   "max": "6203999999",
                   "rules": [
@@ -6795,7 +6795,7 @@
             {
                   "heading": "ex 6203",
                   "chapter": 62,
-                  "subdivision": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear). \u25b8 unfinished or incomplete",
+                  "subdivision": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear). \u25b8 Unfinished or incomplete",
                   "min": "6203000000",
                   "max": "6203999999",
                   "rules": [
@@ -6816,7 +6816,7 @@
             {
                   "heading": "ex 6204",
                   "chapter": 62,
-                  "subdivision": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear). \u25b8 finished or complete",
+                  "subdivision": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear). \u25b8 Finished or complete",
                   "min": "6204000000",
                   "max": "6204999999",
                   "rules": [
@@ -6835,7 +6835,7 @@
             {
                   "heading": "ex 6204",
                   "chapter": 62,
-                  "subdivision": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear). \u25b8 unfinished or incomplete",
+                  "subdivision": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear). \u25b8 Unfinished or incomplete",
                   "min": "6204000000",
                   "max": "6204999999",
                   "rules": [
@@ -6856,7 +6856,7 @@
             {
                   "heading": "ex 6205",
                   "chapter": 62,
-                  "subdivision": "Men's or boys' shirts. \u25b8 finished or complete",
+                  "subdivision": "Men's or boys' shirts. \u25b8 Finished or complete",
                   "min": "6205000000",
                   "max": "6205999999",
                   "rules": [
@@ -6875,7 +6875,7 @@
             {
                   "heading": "ex 6205",
                   "chapter": 62,
-                  "subdivision": "Men's or boys' shirts. \u25b8 unfinished or incomplete",
+                  "subdivision": "Men's or boys' shirts. \u25b8 Unfinished or incomplete",
                   "min": "6205000000",
                   "max": "6205999999",
                   "rules": [
@@ -6896,7 +6896,7 @@
             {
                   "heading": "ex 6206",
                   "chapter": 62,
-                  "subdivision": "Women's or girls' blouses, shirts and shirt-blouses. \u25b8 finished or complete",
+                  "subdivision": "Women's or girls' blouses, shirts and shirt-blouses. \u25b8 Finished or complete",
                   "min": "6206000000",
                   "max": "6206999999",
                   "rules": [
@@ -6915,7 +6915,7 @@
             {
                   "heading": "ex 6206",
                   "chapter": 62,
-                  "subdivision": "Women's or girls' blouses, shirts and shirt-blouses. \u25b8 unfinished or incomplete",
+                  "subdivision": "Women's or girls' blouses, shirts and shirt-blouses. \u25b8 Unfinished or incomplete",
                   "min": "6206000000",
                   "max": "6206999999",
                   "rules": [
@@ -6936,7 +6936,7 @@
             {
                   "heading": "ex 6207",
                   "chapter": 62,
-                  "subdivision": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles. \u25b8 finished or complete",
+                  "subdivision": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles. \u25b8 Finished or complete",
                   "min": "6207000000",
                   "max": "6207999999",
                   "rules": [
@@ -6955,7 +6955,7 @@
             {
                   "heading": "ex 6207",
                   "chapter": 62,
-                  "subdivision": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles. \u25b8 unfinished or incomplete",
+                  "subdivision": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles. \u25b8 Unfinished or incomplete",
                   "min": "6207000000",
                   "max": "6207999999",
                   "rules": [
@@ -6976,7 +6976,7 @@
             {
                   "heading": "ex 6208",
                   "chapter": 62,
-                  "subdivision": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles. \u25b8 finished or complete",
+                  "subdivision": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles. \u25b8 Finished or complete",
                   "min": "6208000000",
                   "max": "6208999999",
                   "rules": [
@@ -6995,7 +6995,7 @@
             {
                   "heading": "ex 6208",
                   "chapter": 62,
-                  "subdivision": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles. \u25b8 unfinished or incomplete",
+                  "subdivision": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles. \u25b8 Unfinished or incomplete",
                   "min": "6208000000",
                   "max": "6208999999",
                   "rules": [
@@ -7016,7 +7016,7 @@
             {
                   "heading": "ex 6209",
                   "chapter": 62,
-                  "subdivision": "Babies' garments and clothing accessories. \u25b8 finished or complete",
+                  "subdivision": "Babies' garments and clothing accessories. \u25b8 Finished or complete",
                   "min": "6209000000",
                   "max": "6209999999",
                   "rules": [
@@ -7035,7 +7035,7 @@
             {
                   "heading": "ex 6209",
                   "chapter": 62,
-                  "subdivision": "Babies' garments and clothing accessories. \u25b8 unfinished or incomplete",
+                  "subdivision": "Babies' garments and clothing accessories. \u25b8 Unfinished or incomplete",
                   "min": "6209000000",
                   "max": "6209999999",
                   "rules": [
@@ -7056,7 +7056,7 @@
             {
                   "heading": "ex 6210",
                   "chapter": 62,
-                  "subdivision": "Garments, made up of fabrics of Heading 5602, 5603, 5903, 5906 or 5907. \u25b8 finished or complete",
+                  "subdivision": "Garments, made up of fabrics of Heading 5602, 5603, 5903, 5906 or 5907. \u25b8 Finished or complete",
                   "min": "6210000000",
                   "max": "6210999999",
                   "rules": [
@@ -7075,7 +7075,7 @@
             {
                   "heading": "ex 6210",
                   "chapter": 62,
-                  "subdivision": "Garments, made up of fabrics of Heading 5602, 5603, 5903, 5906 or 5907. \u25b8 unfinished or incomplete",
+                  "subdivision": "Garments, made up of fabrics of Heading 5602, 5603, 5903, 5906 or 5907. \u25b8 Unfinished or incomplete",
                   "min": "6210000000",
                   "max": "6210999999",
                   "rules": [
@@ -7096,7 +7096,7 @@
             {
                   "heading": "ex 6211",
                   "chapter": 62,
-                  "subdivision": "Track suits, ski suits and swimwear; other garments. \u25b8 finished or complete",
+                  "subdivision": "Track suits, ski suits and swimwear; other garments. \u25b8 Finished or complete",
                   "min": "6211000000",
                   "max": "6211999999",
                   "rules": [
@@ -7115,7 +7115,7 @@
             {
                   "heading": "ex 6211",
                   "chapter": 62,
-                  "subdivision": "Track suits, ski suits and swimwear; other garments. \u25b8 unfinished or incomplete",
+                  "subdivision": "Track suits, ski suits and swimwear; other garments. \u25b8 Unfinished or incomplete",
                   "min": "6211000000",
                   "max": "6211999999",
                   "rules": [
@@ -7136,7 +7136,7 @@
             {
                   "heading": "ex 6212",
                   "chapter": 62,
-                  "subdivision": "Brassieres, girdles, corsets, braces, suspenders, garters and similar articles and parts thereof, whether or not knitted or crocheted. \u25b8 finished or complete",
+                  "subdivision": "Brassieres, girdles, corsets, braces, suspenders, garters and similar articles and parts thereof, whether or not knitted or crocheted. \u25b8 Finished or complete",
                   "min": "6212000000",
                   "max": "6212999999",
                   "rules": [
@@ -7155,7 +7155,7 @@
             {
                   "heading": "ex 6212",
                   "chapter": 62,
-                  "subdivision": "Brassieres, girdles, corsets, braces, suspenders, garters and similar articles and parts thereof, whether or not knitted or crocheted. \u25b8 unfinished or incomplete",
+                  "subdivision": "Brassieres, girdles, corsets, braces, suspenders, garters and similar articles and parts thereof, whether or not knitted or crocheted. \u25b8 Unfinished or incomplete",
                   "min": "6212000000",
                   "max": "6212999999",
                   "rules": [
@@ -7176,7 +7176,7 @@
             {
                   "heading": "ex 6213",
                   "chapter": 62,
-                  "subdivision": "Handkerchiefs. \u25b8 embroidered",
+                  "subdivision": "Handkerchiefs. \u25b8 Embroidered",
                   "min": "6213000000",
                   "max": "6213999999",
                   "rules": [
@@ -7208,7 +7208,7 @@
             {
                   "heading": "ex 6213",
                   "chapter": 62,
-                  "subdivision": "Handkerchiefs. \u25b8 other",
+                  "subdivision": "Handkerchiefs. \u25b8 Other",
                   "min": "6213000000",
                   "max": "6213999999",
                   "rules": [
@@ -7229,7 +7229,7 @@
             {
                   "heading": "ex 6214",
                   "chapter": 62,
-                  "subdivision": "Shawls, scarves, mufflers, mantillas, veils and the like. \u25b8 embroidered",
+                  "subdivision": "Shawls, scarves, mufflers, mantillas, veils and the like. \u25b8 Embroidered",
                   "min": "6214000000",
                   "max": "6214999999",
                   "rules": [
@@ -7261,7 +7261,7 @@
             {
                   "heading": "ex 6214",
                   "chapter": 62,
-                  "subdivision": "Shawls, scarves, mufflers, mantillas, veils and the like. \u25b8 other",
+                  "subdivision": "Shawls, scarves, mufflers, mantillas, veils and the like. \u25b8 Other",
                   "min": "6214000000",
                   "max": "6214999999",
                   "rules": [
@@ -7282,7 +7282,7 @@
             {
                   "heading": "ex 6215",
                   "chapter": 62,
-                  "subdivision": "Ties, bow ties and cravats. \u25b8 finished or complete",
+                  "subdivision": "Ties, bow ties and cravats. \u25b8 Finished or complete",
                   "min": "6215000000",
                   "max": "6215999999",
                   "rules": [
@@ -7301,7 +7301,7 @@
             {
                   "heading": "ex 6215",
                   "chapter": 62,
-                  "subdivision": "Ties, bow ties and cravats. \u25b8 unfinished or incomplete",
+                  "subdivision": "Ties, bow ties and cravats. \u25b8 Unfinished or incomplete",
                   "min": "6215000000",
                   "max": "6215999999",
                   "rules": [
@@ -7322,7 +7322,7 @@
             {
                   "heading": "ex 6216",
                   "chapter": 62,
-                  "subdivision": "Gloves, mittens and mitts. \u25b8 finished or complete",
+                  "subdivision": "Gloves, mittens and mitts. \u25b8 Finished or complete",
                   "min": "6216000000",
                   "max": "6216999999",
                   "rules": [
@@ -7341,7 +7341,7 @@
             {
                   "heading": "ex 6216",
                   "chapter": 62,
-                  "subdivision": "Gloves, mittens and mitts. \u25b8 unfinished or incomplete",
+                  "subdivision": "Gloves, mittens and mitts. \u25b8 Unfinished or incomplete",
                   "min": "6216000000",
                   "max": "6216999999",
                   "rules": [
@@ -7362,7 +7362,7 @@
             {
                   "heading": "ex 6217",
                   "chapter": 62,
-                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of Heading 6212. \u25b8 finished or complete",
+                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of Heading 6212. \u25b8 Finished or complete",
                   "min": "6217000000",
                   "max": "6217999999",
                   "rules": [
@@ -7381,7 +7381,7 @@
             {
                   "heading": "ex 6217",
                   "chapter": 62,
-                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of Heading 6212. \u25b8 unfinished or incomplete",
+                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of Heading 6212. \u25b8 Unfinished or incomplete",
                   "min": "6217000000",
                   "max": "6217999999",
                   "rules": [
@@ -7402,7 +7402,7 @@
             {
                   "heading": "ex 6301",
                   "chapter": 63,
-                  "subdivision": "Blankets and travelling rugs. \u25b8 of felt or non-wovens - not impregnated, coated, covered or laminated",
+                  "subdivision": "Blankets and travelling rugs. \u25b8 Of felt or non-wovens - not impregnated, coated, covered or laminated",
                   "min": "6301000000",
                   "max": "6301999999",
                   "rules": [
@@ -7421,7 +7421,7 @@
             {
                   "heading": "ex 6301",
                   "chapter": 63,
-                  "subdivision": "Blankets and travelling rugs. \u25b8 of felt or non-wovens - impregnated, coated, covered or laminated",
+                  "subdivision": "Blankets and travelling rugs. \u25b8 Of felt or non-wovens - impregnated, coated, covered or laminated",
                   "min": "6301000000",
                   "max": "6301999999",
                   "rules": [
@@ -7440,7 +7440,7 @@
             {
                   "heading": "ex 6301",
                   "chapter": 63,
-                  "subdivision": "Blankets and travelling rugs. \u25b8 other - knitted or crocheted - unembroidered",
+                  "subdivision": "Blankets and travelling rugs. \u25b8 Other - knitted or crocheted - unembroidered",
                   "min": "6301000000",
                   "max": "6301999999",
                   "rules": [
@@ -7459,7 +7459,7 @@
             {
                   "heading": "ex 6301",
                   "chapter": 63,
-                  "subdivision": "Blankets and travelling rugs. \u25b8 other - knitted or crocheted - embroidered",
+                  "subdivision": "Blankets and travelling rugs. \u25b8 Other - knitted or crocheted - embroidered",
                   "min": "6301000000",
                   "max": "6301999999",
                   "rules": [
@@ -7489,7 +7489,7 @@
             {
                   "heading": "ex 6301",
                   "chapter": 63,
-                  "subdivision": "Blankets and travelling rugs. \u25b8 other - not knitted or crocheted - unembroidered",
+                  "subdivision": "Blankets and travelling rugs. \u25b8 Other - not knitted or crocheted - unembroidered",
                   "min": "6301000000",
                   "max": "6301999999",
                   "rules": [
@@ -7510,7 +7510,7 @@
             {
                   "heading": "ex 6301",
                   "chapter": 63,
-                  "subdivision": "Blankets and travelling rugs. \u25b8 other - not knitted or crocheted - embroidered",
+                  "subdivision": "Blankets and travelling rugs. \u25b8 Other - not knitted or crocheted - embroidered",
                   "min": "6301000000",
                   "max": "6301999999",
                   "rules": [
@@ -7542,7 +7542,7 @@
             {
                   "heading": "ex 6302",
                   "chapter": 63,
-                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 of felt or non-wovens - not impregnated, coated, covered or laminated",
+                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 Of felt or non-wovens - not impregnated, coated, covered or laminated",
                   "min": "6302000000",
                   "max": "6302999999",
                   "rules": [
@@ -7561,7 +7561,7 @@
             {
                   "heading": "ex 6302",
                   "chapter": 63,
-                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 of felt or non-wovens - impregnated, coated, covered or laminated",
+                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 Of felt or non-wovens - impregnated, coated, covered or laminated",
                   "min": "6302000000",
                   "max": "6302999999",
                   "rules": [
@@ -7580,7 +7580,7 @@
             {
                   "heading": "ex 6302",
                   "chapter": 63,
-                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 other - knitted or crocheted - unembroidered",
+                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 Other - knitted or crocheted - unembroidered",
                   "min": "6302000000",
                   "max": "6302999999",
                   "rules": [
@@ -7599,7 +7599,7 @@
             {
                   "heading": "ex 6302",
                   "chapter": 63,
-                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 other - knitted or crocheted - embroidered",
+                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 Other - knitted or crocheted - embroidered",
                   "min": "6302000000",
                   "max": "6302999999",
                   "rules": [
@@ -7629,7 +7629,7 @@
             {
                   "heading": "ex 6302",
                   "chapter": 63,
-                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 other - not knitted or crocheted - unembroidered",
+                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 Other - not knitted or crocheted - unembroidered",
                   "min": "6302000000",
                   "max": "6302999999",
                   "rules": [
@@ -7650,7 +7650,7 @@
             {
                   "heading": "ex 6302",
                   "chapter": 63,
-                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 other - not knitted or crocheted - embroidered",
+                  "subdivision": "Bed linen, table linen, toilet linen and kitchen linen \u25b8 Other - not knitted or crocheted - embroidered",
                   "min": "6302000000",
                   "max": "6302999999",
                   "rules": [
@@ -7682,7 +7682,7 @@
             {
                   "heading": "ex 6303",
                   "chapter": 63,
-                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 of felt or non-wovens - not impregnated, coated, covered or laminated",
+                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 Of felt or non-wovens - not impregnated, coated, covered or laminated",
                   "min": "6303000000",
                   "max": "6303999999",
                   "rules": [
@@ -7701,7 +7701,7 @@
             {
                   "heading": "ex 6303",
                   "chapter": 63,
-                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 of felt or non-wovens -impregnated, coated, covered or laminated",
+                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 Of felt or non-wovens -impregnated, coated, covered or laminated",
                   "min": "6303000000",
                   "max": "6303999999",
                   "rules": [
@@ -7720,7 +7720,7 @@
             {
                   "heading": "ex 6303",
                   "chapter": 63,
-                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 other - knitted or crocheted - unembroidered",
+                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 Other - knitted or crocheted - unembroidered",
                   "min": "6303000000",
                   "max": "6303999999",
                   "rules": [
@@ -7739,7 +7739,7 @@
             {
                   "heading": "ex 6303",
                   "chapter": 63,
-                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 other - knitted or crocheted - embroidered",
+                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 Other - knitted or crocheted - embroidered",
                   "min": "6303000000",
                   "max": "6303999999",
                   "rules": [
@@ -7769,7 +7769,7 @@
             {
                   "heading": "ex 6303",
                   "chapter": 63,
-                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 other - not knitted or crocheted - unembroidered",
+                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 Other - not knitted or crocheted - unembroidered",
                   "min": "6303000000",
                   "max": "6303999999",
                   "rules": [
@@ -7790,7 +7790,7 @@
             {
                   "heading": "ex 6303",
                   "chapter": 63,
-                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 other - not knitted or crocheted - embroidered",
+                  "subdivision": "Curtains (including drapes) and interior blinds; curtain or bed valances. \u25b8 Other - not knitted or crocheted - embroidered",
                   "min": "6303000000",
                   "max": "6303999999",
                   "rules": [
@@ -7822,7 +7822,7 @@
             {
                   "heading": "ex 6304",
                   "chapter": 63,
-                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 of felt or non-wovens - not impregnated, coated, covered or laminated",
+                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 Of felt or non-wovens - not impregnated, coated, covered or laminated",
                   "min": "6304000000",
                   "max": "6304999999",
                   "rules": [
@@ -7841,7 +7841,7 @@
             {
                   "heading": "ex 6304",
                   "chapter": 63,
-                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 of felt or non-wovens - impregnated, coated, covered or laminated",
+                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 Of felt or non-wovens - impregnated, coated, covered or laminated",
                   "min": "6304000000",
                   "max": "6304999999",
                   "rules": [
@@ -7860,7 +7860,7 @@
             {
                   "heading": "ex 6304",
                   "chapter": 63,
-                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 other - knitted or crocheted - unembroidered",
+                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 Other - knitted or crocheted - unembroidered",
                   "min": "6304000000",
                   "max": "6304999999",
                   "rules": [
@@ -7879,7 +7879,7 @@
             {
                   "heading": "ex 6304",
                   "chapter": 63,
-                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 other - knitted or crocheted - embroidered",
+                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 Other - knitted or crocheted - embroidered",
                   "min": "6304000000",
                   "max": "6304999999",
                   "rules": [
@@ -7909,7 +7909,7 @@
             {
                   "heading": "ex 6304",
                   "chapter": 63,
-                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 other - not knitted or crocheted - unembroidered",
+                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 Other - not knitted or crocheted - unembroidered",
                   "min": "6304000000",
                   "max": "6304999999",
                   "rules": [
@@ -7930,7 +7930,7 @@
             {
                   "heading": "ex 6304",
                   "chapter": 63,
-                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 other - not knitted or crocheted - embroidered",
+                  "subdivision": "Other furnishing articles, excluding those of Heading 9404. \u25b8 Other - not knitted or crocheted - embroidered",
                   "min": "6304000000",
                   "max": "6304999999",
                   "rules": [
@@ -7962,7 +7962,7 @@
             {
                   "heading": "ex 6305",
                   "chapter": 63,
-                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 of felt or non-wovens - not impregnated, coated, covered or laminated",
+                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 Of felt or non-wovens - not impregnated, coated, covered or laminated",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -7981,7 +7981,7 @@
             {
                   "heading": "ex 6305",
                   "chapter": 63,
-                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 of felt or non-wovens - impregnated, coated, covered or laminated",
+                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 Of felt or non-wovens - impregnated, coated, covered or laminated",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -8000,7 +8000,7 @@
             {
                   "heading": "ex 6305",
                   "chapter": 63,
-                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 other - knitted or crocheted - unembroidered",
+                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 Other - knitted or crocheted - unembroidered",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -8019,7 +8019,7 @@
             {
                   "heading": "ex 6305",
                   "chapter": 63,
-                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 other - knitted or crocheted - embroidered",
+                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 Other - knitted or crocheted - embroidered",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -8049,7 +8049,7 @@
             {
                   "heading": "ex 6305",
                   "chapter": 63,
-                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 other - not knitted or crocheted - unembroidered",
+                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 Other - not knitted or crocheted - unembroidered",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -8070,7 +8070,7 @@
             {
                   "heading": "ex 6305",
                   "chapter": 63,
-                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 other - not knitted or crocheted - embroidered",
+                  "subdivision": "Sacks and bags, of a kind used for the packing of goods. \u25b8 Other - not knitted or crocheted - embroidered",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -8140,7 +8140,7 @@
             {
                   "heading": "ex 6306",
                   "chapter": 63,
-                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 other tarpaulins, awnings and camping goods - knitted or crocheted - unembroidered",
+                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 Other tarpaulins, awnings and camping goods - knitted or crocheted - unembroidered",
                   "min": "6306000000",
                   "max": "6306999999",
                   "rules": [
@@ -8159,7 +8159,7 @@
             {
                   "heading": "ex 6306",
                   "chapter": 63,
-                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 other tarpaulins, awnings and camping goods - knitted or crocheted - embroidered",
+                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 Other tarpaulins, awnings and camping goods - knitted or crocheted - embroidered",
                   "min": "6306000000",
                   "max": "6306999999",
                   "rules": [
@@ -8189,7 +8189,7 @@
             {
                   "heading": "ex 6306",
                   "chapter": 63,
-                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 other tarpaulins, awnings and camping goods - not knitted or crocheted - unembroidered",
+                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 Other tarpaulins, awnings and camping goods - not knitted or crocheted - unembroidered",
                   "min": "6306000000",
                   "max": "6306999999",
                   "rules": [
@@ -8210,7 +8210,7 @@
             {
                   "heading": "ex 6306",
                   "chapter": 63,
-                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 other tarpaulins, awnings and camping goods - not knitted or crocheted - embroidered",
+                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods. \u25b8 Other tarpaulins, awnings and camping goods - not knitted or crocheted - embroidered",
                   "min": "6306000000",
                   "max": "6306999999",
                   "rules": [
@@ -8242,7 +8242,7 @@
             {
                   "heading": "ex 6306",
                   "chapter": 63,
-                  "subdivision": "sunblinds; tents; sails for boats, sailboards or landcraft;",
+                  "subdivision": "Sunblinds; tents; sails for boats, sailboards or landcraft;",
                   "min": "6306000000",
                   "max": "6306999999",
                   "rules": [
@@ -12395,7 +12395,7 @@
             {
                   "heading": "ex 8541",
                   "chapter": 85,
-                  "subdivision": "other",
+                  "subdivision": "Other",
                   "min": "8541000000",
                   "max": "8541999999",
                   "rules": [

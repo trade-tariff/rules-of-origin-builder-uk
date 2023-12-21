@@ -1012,7 +1012,7 @@
             {
                   "heading": "1507 to 1515",
                   "chapter": 15,
-                  "subdivision": "Vegetable oils and their fractions \u25b8 Solid fractions, except for that of jojoba oil",
+                  "subdivision": "Vegetable oils and their fractions \u25b8 Solid fractions that of jojoba oil",
                   "min": "1507000000",
                   "max": "1515999999",
                   "rules": [
@@ -1702,7 +1702,7 @@
             {
                   "heading": "ex 2008",
                   "chapter": 20,
-                  "subdivision": "Jams, fruit jellies, marmalades, fruit or nut pur\u00e9e and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter \u25b8 Other except for fruit and nuts cooked otherwise than by steaming or boiling in water, not containing added sugar, frozen",
+                  "subdivision": "Jams, fruit jellies, marmalades, fruit or nut pur\u00e9e and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter \u25b8 Other except for: fruit and nuts cooked otherwise than by steaming or boiling in water, not containing added sugar, frozen",
                   "min": "2008000000",
                   "max": "2008999999",
                   "rules": [
@@ -7147,7 +7147,7 @@
             {
                   "heading": "3901 to 3915",
                   "chapter": 39,
-                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic; except for heading Nos ex 3907 and 3912 for which the rules are set out be low \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
+                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic heading Nos ex 3907 and 3912 for which the rules are set out be low \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
                   "min": "3901000000",
                   "max": "3915999999",
                   "rules": [
@@ -7306,7 +7306,7 @@
             {
                   "heading": "3916 to 3921",
                   "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Flat products, further worked than only surface-worked or cut into forms other than rectangular (including square); other\nproducts, further worked than only surface-worked",
+                  "subdivision": "Semi-manufactures and articles of plastics headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Flat products, further worked than only surface-worked or cut into forms other than rectangular (including square); other\nproducts, further worked than only surface-worked",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -7338,7 +7338,7 @@
             {
                   "heading": "3916 to 3921",
                   "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
+                  "subdivision": "Semi-manufactures and articles of plastics headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -7370,7 +7370,7 @@
             {
                   "heading": "3916 to 3921",
                   "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Other",
+                  "subdivision": "Semi-manufactures and articles of plastics headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Other",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -9267,7 +9267,7 @@
                   "max": "5005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9286,7 +9286,7 @@
                   "max": "5006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- other natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9371,7 +9371,7 @@
                   "max": "5110999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9437,7 +9437,7 @@
                   "max": "5207999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9503,7 +9503,7 @@
                   "max": "5308999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9550,7 +9550,7 @@
                   "max": "5406999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9618,7 +9618,7 @@
                   "max": "5511999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste carded or combed or otherwise prepared for spinning,\n\n- natural fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9665,7 +9665,7 @@
                   "max": "5601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, or\n\n- paper making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9703,7 +9703,7 @@
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, or\n\n- chemical materials or textile pulp\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, *or*\n\n- chemical materials or textile pulp\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9722,7 +9722,7 @@
                   "max": "5603999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, or\n\n- paper making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9762,7 +9762,7 @@
                   "max": "5604999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9781,7 +9781,7 @@
                   "max": "5605999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9800,7 +9800,7 @@
                   "max": "5606999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9819,7 +9819,7 @@
                   "max": "5609999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, or\n\n- paper making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- chemical materials or textile pulp, *or*\n\n- paper making materials\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9838,7 +9838,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres, or\n\n- chemical materials or textile pulp.\n\nHowever jute fabric may be used as backing\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- natural fibres, *or*\n\n- chemical materials or textile pulp.\n\nHowever jute fabric may be used as backing\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9857,7 +9857,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
+                              "rule": "Manufacture from:\n\n- natural fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp\n\nFor special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -10547,7 +10547,7 @@
                   "max": "6304999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -17247,7 +17247,7 @@
             {
                   "heading": "ex 9005",
                   "chapter": 90,
-                  "subdivision": "Binoculars, monoculars, other optical telescopes, and mountings therefor, except for astronomical refracting telescopes and mountings therefor",
+                  "subdivision": "Binoculars, monoculars, other optical telescopes, and mountings therefor astronomical refracting telescopes and mountings therefor",
                   "min": "9005000000",
                   "max": "9005999999",
                   "rules": [
@@ -18768,7 +18768,7 @@
             {
                   "heading": "ex 9603",
                   "chapter": 96,
-                  "subdivision": "Brooms and brushes (except for besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorised, paint pads and rollers, squeegees and mops",
+                  "subdivision": "Brooms and brushes (except for: besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorised, paint pads and rollers, squeegees and mops",
                   "min": "9603000000",
                   "max": "9603999999",
                   "rules": [

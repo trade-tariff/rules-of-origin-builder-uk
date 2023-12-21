@@ -1320,7 +1320,7 @@
             {
                   "heading": "ex 2008",
                   "chapter": 20,
-                  "subdivision": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included, except for",
+                  "subdivision": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
                   "min": "2008000000",
                   "max": "2008999999",
                   "rules": [
@@ -1339,7 +1339,7 @@
             {
                   "heading": "ex 2008",
                   "chapter": 20,
-                  "subdivision": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included, except for \u25b8 Nuts, not containing added sugar or spirits",
+                  "subdivision": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included \u25b8 Nuts, not containing added sugar or spirits",
                   "min": "2008000000",
                   "max": "2008999999",
                   "rules": [
@@ -1358,7 +1358,7 @@
             {
                   "heading": "ex 2008",
                   "chapter": 20,
-                  "subdivision": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included, except for \u25b8 Peanut butter; mixtures based on cereals; maize (com)",
+                  "subdivision": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included \u25b8 Peanut butter; mixtures based on cereals; maize (com)",
                   "min": "2008000000",
                   "max": "2008999999",
                   "rules": [
@@ -1379,7 +1379,7 @@
             {
                   "heading": "ex 2008",
                   "chapter": 20,
-                  "subdivision": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included, except for \u25b8 Palm hearts",
+                  "subdivision": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included \u25b8 Palm hearts",
                   "min": "2008000000",
                   "max": "2008999999",
                   "rules": [
@@ -1564,7 +1564,7 @@
             {
                   "heading": "2106",
                   "chapter": 21,
-                  "subdivision": "Ice cream and other edible ice, whether or not containing cocoa \u25b8 Food preparations not elsewhere specified or included, except for sugar syrups and sugar preparations in packages greater than 2 kilograms, not put up for retail sale",
+                  "subdivision": "Ice cream and other edible ice, whether or not containing cocoa \u25b8 Food preparations not elsewhere specified or included sugar syrups and sugar preparations in packages greater than 2 kilograms, not put up for retail sale",
                   "min": "2106000000",
                   "max": "2106999999",
                   "rules": [
@@ -4313,12 +4313,12 @@
             {
                   "heading": "ex 3006",
                   "chapter": 30,
-                  "subdivision": "made of fabrics",
+                  "subdivision": "Made of fabrics",
                   "min": "3006000000",
                   "max": "3006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -4334,7 +4334,7 @@
             {
                   "heading": "ex 3006",
                   "chapter": 30,
-                  "subdivision": "made of fabrics \u25b8 appliances identifiable for\nostomy use",
+                  "subdivision": "Made of fabrics \u25b8 Appliances identifiable for\nostomy use",
                   "min": "3006000000",
                   "max": "3006999999",
                   "rules": [
@@ -6249,7 +6249,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n40% of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -6398,7 +6398,7 @@
                   "max": "3907999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **20%** of the ex-works price of the product, or\n\nManufacture from polycarbonate of tetrabromo (bisphenol A) of [subheading&nbsp;390740](/subheading/3907400000-80).",
+                              "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **20%** of the ex-works price of the product, *or*\n\nManufacture from polycarbonate of tetrabromo (bisphenol A) of [subheading&nbsp;390740](/subheading/3907400000-80).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -8669,7 +8669,7 @@
                   "max": "5005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\nother natural fibres, not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\n- other natural fibres, not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8690,7 +8690,7 @@
                   "max": "5006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\nother natural fibres, not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\n- other natural fibres, not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8753,7 +8753,7 @@
                   "max": "5007999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres, not\n\ncarded or combed or otherwise prepared for\n\nspinning,\n\nelastomeric yarns from\n\n[heading&nbsp;5402](/headings/5402) and 5404\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise prepared for\n\n- spinning,\n\n- elastomeric yarns from\n\n- [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8804,7 +8804,7 @@
                   "max": "5110999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\nnatural fibres, not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\n- natural fibres, not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8846,7 +8846,7 @@
                   "max": "5113999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\ntops of wool, of fine or coarse animal hair or of horsehair of [heading&nbsp;5105](/headings/5105).\n\nman-made staple fibres, not\n\ncarded or combed or\n\notherwise prepared for\n\nspinning,\n\nelastomeric yarns from\n\n[heading&nbsp;5402](/headings/5402) and 5404\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- tops of wool, of fine or coarse animal hair or of horsehair of [heading&nbsp;5105](/headings/5105).\n\n- man-made staple fibres, not carded or combed or otherwise prepared for spinning,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8897,7 +8897,7 @@
                   "max": "5207999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\nnatural fibres, not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\n- natural fibres, not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8939,7 +8939,7 @@
                   "max": "5212999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres, not\n\ncarded or combed or otherwise prepared for\n\nspinning,\n\nelastomeric yarns from\n\n[heading&nbsp;5402](/headings/5402) and 5404\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise prepared for spinning,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or - textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -8950,7 +8950,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance\n\nprocessing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the imprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the imprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -8990,7 +8990,7 @@
                   "max": "5308999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\nnatural fibres, not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\n- natural fibres, not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9027,12 +9027,12 @@
             {
                   "heading": "5309 to 5311",
                   "chapter": 53,
-                  "subdivision": "other",
+                  "subdivision": "Other",
                   "min": "5309000000",
                   "max": "5311999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise prepared for spinning,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, or\n\n- paper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise prepared for spinning,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9062,7 +9062,7 @@
                   "max": "5406999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste, carded or combed or otherwise prepared for spinning, natural fibres, not carded or combed or otherwise prepared for spinning, chemical materials or textile pulp, or paper-making materials.",
+                              "rule": "Manufacture from raw silk or silk waste, carded or combed or otherwise prepared for spinning, natural fibres, not carded or combed or otherwise prepared for spinning, chemical materials or textile pulp, or paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9155,9 +9155,30 @@
                   "max": "5511999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nraw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\nnatural fibres, not carded or combed or otherwise prepared for spinning,\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- raw silk or silk waste, carded or combed or otherwise prepared for spinning,\n\n- natural fibres, not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "5512 to 5516",
+                  "chapter": 55,
+                  "subdivision": "Woven fabrics of man-made staple fibres \u25b8 Incorporating rubber thread",
+                  "min": "5512000000",
+                  "max": "5516999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from single yarn.",
+                              "class": [
+                                    "PRODUCTION FROM"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -9176,7 +9197,7 @@
                   "max": "5516999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn,\n\nnatural fibres,\n\nman-made staple fibres, not\n\ncarded or combed or otherwise prepared for\n\nspinning,\n\nelastomeric yarns from\n\n[heading&nbsp;5402](/headings/5402) and 5404\n\nchemical materials or textile pulp, or\n\npaper.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise prepared for spinning,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, *or*\n\n- paper.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9197,7 +9218,7 @@
                   "max": "5601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9218,7 +9239,7 @@
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres, or\n\n- chemical materials or textile pulp\n\nHowever:\n\npolypropylene filament of [heading&nbsp;5402](/headings/5402), polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), or polypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture from:\n\n- natural fibres, *or*\n\n- chemical materials or textile pulp\n\nHowever:\n\npolypropylene filament of [heading&nbsp;5402](/headings/5402), polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), or polypropylene filament tow of [heading&nbsp;5501](/headings/5501), of which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
@@ -9239,7 +9260,7 @@
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres made from casein, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres made from casein, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9260,7 +9281,7 @@
                   "max": "5603999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9302,7 +9323,7 @@
                   "max": "5604999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres, not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres, not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9323,7 +9344,7 @@
                   "max": "5605999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9344,7 +9365,7 @@
                   "max": "5606999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning,\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9386,7 +9407,7 @@
                   "max": "5607999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9487,7 +9508,7 @@
                   "max": "5609999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, or\n\n- paper-making materials.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and 5404\n\n- chemical materials or textile pulp, *or*\n\n- paper-making materials.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9508,7 +9529,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres, or chemical materials or textile pulp However:\n\npolypropylene filament of\n\nheating 5402,\n\npolypropylene fibres of\n\nheating 5503 or 5506, or\n\npolypropylene filament tow of [heading&nbsp;5501](/headings/5501),\n\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the product\n\nJute fabric may be used as a backing.",
+                              "rule": "Manufacture from:\n\n- natural fibres, *or*\n\n- chemical materials, *or*\n\n- textile pulp\n\nHowever:\n\n- polypropylene filament of heating 5402,\n\n- polypropylene fibres of heating 5503 or 5506, *or*\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501),\n\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the product\n\nJute fabric may be used as a backing.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -9548,7 +9569,7 @@
                   "max": "5799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\ncoir yarn or jute yarn,\n\nsynthetic or artificial filament yarn,\n\nnatural fibres, or\n\nman-made staple fibres, not\n\ncarded or combed or otherwise processed for\n\nspinning\n\nJute fabric may be used as a\n\nbacking.",
+                              "rule": "Manufacture from:\n\n- coir yarn or jute yarn,\n\n- synthetic or artificial filament yarn,\n\n- natural fibres, *or*\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning\n\nJute fabric may be used as a backing.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9590,7 +9611,7 @@
                   "max": "5811999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for\n\n- spinning, or\n\n- elastomeric yarns from\n\n[heading&nbsp;5402](/headings/5402) and 5404\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404) chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9724,8 +9745,10 @@
                   "max": "5903999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from yarn or.",
-                              "class": [],
+                              "rule": "Manufacture from yarn.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -9736,7 +9759,7 @@
                               "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, rasing, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -9794,7 +9817,7 @@
                   "max": "5905999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for\n\nspinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9824,7 +9847,7 @@
                   "max": "5906999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for\n\nspinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres,\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -9845,7 +9868,7 @@
                   "max": "5906999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from chemical\n\nmaterials.",
+                              "rule": "Manufacture from chemical materials.",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -9887,10 +9910,21 @@
                   "max": "5907999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from yarn or\n\nPrinting accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, rasing, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the imprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
-                              "class": [],
+                              "rule": "Manufacture from yarn.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, rasing, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the imprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -9969,26 +10003,7 @@
                   "max": "5911999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn\n\n- the following materials:\n\n - yarn of polytetrafluoroethylene, yarn, multiple, of polyamide, coated impregnated or covered with a phenolic resin,\n\n- yarn of synthetic textile fibres of aromatic polyamides, obtained by polycondensation of m- phenylenediamine and isophthalic acid.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "5909 to 5911",
-                  "chapter": 59,
-                  "subdivision": "",
-                  "min": "5909000000",
-                  "max": "5911999999",
-                  "rules": [
-                        {
-                              "rule": "Monofil of polytetrafluoroethylene, yarn of synthetic textile fibres of poly(p-phenylene terephthalamide), glass fibre yarn, coated with phenol resin and gimped with acrylic yarn, copolyester monofilaments of a polyester and a resin of terephthalic acid and 1,4-cyclohex- anediethanol and isophthalic acid, natural fibres, man-made staple fibres not carded or combed or otherwise processed for spinning, or chemical materials or textile pulp.",
+                              "rule": "Manufacture from coir yarn or the following materials:\n\n - yarn of polytetrafluoroethylene, yarn, multiple, of polyamide, coated impregnated or covered with a phenolic resin,\n\n- yarn of synthetic textile fibres of aromatic polyamides, obtained by polycondensation of m- phenylenediamine and isophthalic acid.\n\n- monofil of polytetrafluoroethylene,\n\n- yarn of synthetic textile fibres of poly(p-phenylene terephthalamide),\n\n- glass fibre yarn, coated with phenol resin and gimped with acrylic yarn,\n\n- copolyester monofilaments of a polyester and a resin of terephthalic acid and 1,4-cyclohex- anediethanol and isophthalic acid,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials, *or*\n\n- textile pulp.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -10070,7 +10085,7 @@
                   "max": "6107999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10112,7 +10127,7 @@
                   "max": "6108999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10175,7 +10190,7 @@
                   "max": "6111999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10217,7 +10232,7 @@
                   "max": "6112999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10301,7 +10316,7 @@
                   "max": "6114999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10343,7 +10358,7 @@
                   "max": "6115999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10490,7 +10505,7 @@
                   "max": "6117999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres\n\n- man-made staple fibres, not carded or combed or otherwise processed for spinning, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -11157,7 +11172,7 @@
                   "max": "6304999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -11250,7 +11265,7 @@
                   "max": "6306999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- natural fibres, or\n\n- chemical materials or textile pulp.",
+                              "rule": "Manufacture from:\n\n- natural fibres, *or*\n\n- chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -12483,7 +12498,7 @@
                   "max": "7019999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- uncoloured slivers, rovings, yarn or chopped strands of [heading&nbsp;7019](/headings/7019), or\n\n- glass wool.",
+                              "rule": "Manufacture from:\n\n- uncoloured slivers, rovings, yarn or chopped strands of [heading&nbsp;7019](/headings/7019), *or*\n\n- glass wool.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -13240,7 +13255,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n50% of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13272,7 +13287,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n50% of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13619,7 +13634,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n50% of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13714,7 +13729,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n50% of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -14062,7 +14077,7 @@
                   "max": "7508999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -14190,7 +14205,7 @@
                   "max": "7609999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -14233,7 +14248,7 @@
                   "max": "7616999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product. However, gauze, cloth, grill, netting, fencing, reinforcing fabric and similar materials (including endless hands) of aluminium wire, or expanded metal of aluminium may be used *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product. However, gauze, cloth, grill, netting, fencing, reinforcing fabric and similar materials (including endless hands) of aluminium wire, or expanded metal of aluminium may be used, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -14336,7 +14351,7 @@
                   "max": "7804999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -14379,7 +14394,7 @@
                   "max": "7806999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -14441,7 +14456,7 @@
                   "max": "7905999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -14484,7 +14499,7 @@
                   "max": "7907999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -14827,7 +14842,7 @@
             {
                   "heading": "ex 8302",
                   "chapter": 83,
-                  "subdivision": "Locks \u25b8 other mountings, fittings and similar articles suitable for motor vehicles",
+                  "subdivision": "Locks \u25b8 Other mountings, fittings and similar articles suitable for motor vehicles",
                   "min": "8302000000",
                   "max": "8302999999",
                   "rules": [
@@ -14859,7 +14874,7 @@
             {
                   "heading": "ex 8302",
                   "chapter": 83,
-                  "subdivision": "Locks \u25b8 hinges and parts thereof designed for motor vehicles",
+                  "subdivision": "Locks \u25b8 Hinges and parts thereof designed for motor vehicles",
                   "min": "8302000000",
                   "max": "8302999999",
                   "rules": [
@@ -15307,7 +15322,7 @@
                   "max": "8420999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of the same heading as the product used does not exceed **25%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of the same heading as the product used does not exceed **25%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -15369,7 +15384,7 @@
                   "max": "8423999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -15432,7 +15447,7 @@
                   "max": "8428999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8431](/headings/8431) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8431](/headings/8431) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -15483,7 +15498,7 @@
                   "max": "8429999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8431](/headings/8431) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8431](/headings/8431) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -15513,7 +15528,7 @@
                   "max": "8430999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8431](/headings/8431) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8431](/headings/8431) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -15708,7 +15723,7 @@
             {
                   "heading": "ex 8443",
                   "chapter": 84,
-                  "subdivision": "Printers, for office machines (for example automatic data processing machines, word-processing\nmachines, etc.)",
+                  "subdivision": "Printers, for office machines (for example automatic data processing machines, word-processing machines, etc.)",
                   "min": "8443000000",
                   "max": "8443999999",
                   "rules": [
@@ -15872,7 +15887,7 @@
                   "max": "8452999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product,\n\nthe value of all the non-originating materials used in assembling the head (without motor) does not exceed the value of all the originating materials used, *and*\n\nthe thread-tension, crochet and zigzag mechanisms used are originating.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product,\n\n- the value of all the non-originating materials used in assembling the head (without motor) does not exceed the value of all the originating materials used, *and*\n\n- the thread-tension, crochet and zigzag mechanisms used are originating.",
                               "class": [
                                     "MAXNOM",
                                     "MAXNOM-OM",
@@ -15996,7 +16011,7 @@
             {
                   "heading": "8470 to 8472",
                   "chapter": 84,
-                  "subdivision": "Office machines (for example, typewriters, calculating machines, automatic data processing\nmachines, duplicating machines, stapling machines)",
+                  "subdivision": "Office machines (for example, typewriters, calculating machines, automatic data processing machines, duplicating machines, stapling machines)",
                   "min": "8470000000",
                   "max": "8472999999",
                   "rules": [
@@ -16049,7 +16064,7 @@
             {
                   "heading": "8479",
                   "chapter": 84,
-                  "subdivision": "Machines and mechanical\nappliances having individual functions, not specified or included elsewhere in this chapter",
+                  "subdivision": "Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter",
                   "min": "8479000000",
                   "max": "8479999999",
                   "rules": [
@@ -16150,7 +16165,7 @@
                   "max": "8482999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -16229,7 +16244,7 @@
             {
                   "heading": "ex 8486",
                   "chapter": 84,
-                  "subdivision": "Machine tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electrodischarge, electrochemical, electron beam, ionic-beam or plasma arc processes and parts and accessories thereof\nmachine tools (including presses) for working metal by bending, folding, straightening, flattening, and parts and accessories thereof\nmachine tools for working stone, ceramics, concrete, asbestos- cement or like mineral materials or for cold working glass and parts and accessories thereof \u25b8 moulds, injection or compression types",
+                  "subdivision": "Machine tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electrodischarge, electrochemical, electron beam, ionic-beam or plasma arc processes and parts and accessories thereof\nmachine tools (including presses) for working metal by bending, folding, straightening, flattening, and parts and accessories thereof\nmachine tools for working stone, ceramics, concrete, asbestos- cement or like mineral materials or for cold working glass and parts and accessories thereof \u25b8 Moulds, injection or compression types",
                   "min": "8486000000",
                   "max": "8486999999",
                   "rules": [
@@ -16250,12 +16265,12 @@
             {
                   "heading": "ex 8486",
                   "chapter": 84,
-                  "subdivision": "Machine tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electrodischarge, electrochemical, electron beam, ionic-beam or plasma arc processes and parts and accessories thereof\nmachine tools (including presses) for working metal by bending, folding, straightening, flattening, and parts and accessories thereof\nmachine tools for working stone, ceramics, concrete, asbestos- cement or like mineral materials or for cold working glass and parts and accessories thereof \u25b8 lifting, handing, loading or unloading machinery",
+                  "subdivision": "Machine tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electrodischarge, electrochemical, electron beam, ionic-beam or plasma arc processes and parts and accessories thereof\nmachine tools (including presses) for working metal by bending, folding, straightening, flattening, and parts and accessories thereof\nmachine tools for working stone, ceramics, concrete, asbestos- cement or like mineral materials or for cold working glass and parts and accessories thereof \u25b8 Lifting, handing, loading or unloading machinery",
                   "min": "8486000000",
                   "max": "8486999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8431](/headings/8431) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8431](/headings/8431) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -16349,7 +16364,7 @@
                   "max": "8501999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8503](/headings/8503) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8503](/headings/8503) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -16379,7 +16394,7 @@
                   "max": "8502999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8501](/headings/8501) and [heading&nbsp;8503](/headings/8503) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8501](/headings/8501) and [heading&nbsp;8503](/headings/8503) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -16489,7 +16504,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8505000000",
                   "max": "8508999999",
                   "rules": [
@@ -16521,7 +16536,7 @@
             {
                   "heading": "8509",
                   "chapter": 85,
-                  "subdivision": "Electromechanical domestic\nappliances, with self-contained electric motor, other than vacuum cleaners of heading 8508; parts thereof",
+                  "subdivision": "Electromechanical domestic appliances, with self-contained electric motor, other than vacuum cleaners of heading 8508; parts thereof",
                   "min": "8509000000",
                   "max": "8509999999",
                   "rules": [
@@ -16553,7 +16568,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8510000000",
                   "max": "8515999999",
                   "rules": [
@@ -16622,7 +16637,7 @@
                   "max": "8517999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nthe value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "MAXNOM",
                                     "MAXNOM-OM"
@@ -16680,7 +16695,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8518000000",
                   "max": "8518999999",
                   "rules": [
@@ -16738,7 +16753,7 @@
                   "max": "8521999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nthe value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "MAXNOM",
                                     "MAXNOM-OM"
@@ -16785,7 +16800,7 @@
             {
                   "heading": "8523",
                   "chapter": 85,
-                  "subdivision": "Parts and accessories suitable for use solely or principally with the apparatus of headings 8519 to 8521 \u25b8 Unrecorded discs, tapes, solid- state non-volatile storage\ndevices and other media for the recording of sound or of other phenomena, but excluding products of Chapter 37;",
+                  "subdivision": "Parts and accessories suitable for use solely or principally with the apparatus of headings 8519 to 8521 \u25b8 Unrecorded discs, tapes, solid- state non-volatile storage devices and other media for the recording of sound or of other phenomena, but excluding products of Chapter 37;",
                   "min": "8523000000",
                   "max": "8523999999",
                   "rules": [
@@ -16806,7 +16821,7 @@
             {
                   "heading": "8523",
                   "chapter": 85,
-                  "subdivision": "recorded discs, tapes solid-state non-volatile storage devices and other media for the recording of sound or of other phenomena, hut excluding products of Chapter 37",
+                  "subdivision": "Recorded discs, tapes solid-state non-volatile storage devices and other media for the recording of sound or of other phenomena, hut excluding products of Chapter 37",
                   "min": "8523000000",
                   "max": "8523999999",
                   "rules": [
@@ -16827,12 +16842,12 @@
             {
                   "heading": "8523",
                   "chapter": 85,
-                  "subdivision": "recorded discs, tapes solid-state non-volatile storage devices and other media for the recording of sound or of other phenomena, hut excluding products of Chapter 37 \u25b8 matrices and masters for the production of discs, hut excluding products of Chapter 37;",
+                  "subdivision": "Recorded discs, tapes solid-state non-volatile storage devices and other media for the recording of sound or of other phenomena, hut excluding products of Chapter 37 \u25b8 Matrices and masters for the production of discs, hut excluding products of Chapter 37;",
                   "min": "8523000000",
                   "max": "8523999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8523](/headings/8523) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8523](/headings/8523) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -16857,12 +16872,12 @@
             {
                   "heading": "8523",
                   "chapter": 85,
-                  "subdivision": "recorded discs, tapes solid-state non-volatile storage devices and other media for the recording of sound or of other phenomena, hut excluding products of Chapter 37 \u25b8 proximity cards and \"smart cards\" with two or more electronic integrated circuits",
+                  "subdivision": "Recorded discs, tapes solid-state non-volatile storage devices and other media for the recording of sound or of other phenomena, hut excluding products of Chapter 37 \u25b8 Proximity cards and \"smart cards\" with two or more electronic integrated circuits",
                   "min": "8523000000",
                   "max": "8523999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -16888,15 +16903,26 @@
             {
                   "heading": "8523",
                   "chapter": 85,
-                  "subdivision": "recorded discs, tapes solid-state non-volatile storage devices and other media for the recording of sound or of other phenomena, hut excluding products of Chapter 37 \u25b8 \"smart cards\" with one electronic integrated circuit",
+                  "subdivision": "Recorded discs, tapes solid-state non-volatile storage devices and other media for the recording of sound or of other phenomena, hut excluding products of Chapter 37 \u25b8 \"smart cards\" with one electronic integrated circuit",
                   "min": "8523000000",
                   "max": "8523999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8541](/headings/8541) and [heading&nbsp;8542](/headings/8542) used does not exceed **10%** of the ex-works price of the product\n\nor.",
-                              "class": [],
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8541](/headings/8541) and [heading&nbsp;8542](/headings/8542) used does not exceed **10%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "The operation of diffusion, in which integrated circuits are formed on a semi-conductor substrate by the selective introduction of an appropriate dopant, whether or not assembled and&nbsp;/&nbsp;or tested in a country other than those specified in Articles 3 and 4.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -16914,28 +16940,9 @@
                   "valid": true
             },
             {
-                  "heading": "8523",
-                  "chapter": 85,
-                  "subdivision": "",
-                  "min": "8523000000",
-                  "max": "8523999999",
-                  "rules": [
-                        {
-                              "rule": "The operation of diffusion, in which integrated circuits are formed on a semi-conductor substrate by the selective introduction of an appropriate dopant, whether or not assembled and&nbsp;/&nbsp;or tested in a country other than those specified in Articles 3 and 4.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8524000000",
                   "max": "8524999999",
                   "rules": [
@@ -16972,7 +16979,7 @@
                   "max": "8525999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nthe value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "MAXNOM",
                                     "MAXNOM-OM"
@@ -17003,7 +17010,7 @@
                   "max": "8526999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nthe value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "MAXNOM",
                                     "MAXNOM-OM"
@@ -17071,7 +17078,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8529000000",
                   "max": "8530999999",
                   "rules": [
@@ -17167,7 +17174,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8532000000",
                   "max": "8534999999",
                   "rules": [
@@ -17204,7 +17211,7 @@
                   "max": "8535999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8538](/headings/8538) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8538](/headings/8538) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -17229,7 +17236,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8536000000",
                   "max": "8536999999",
                   "rules": [
@@ -17282,7 +17289,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8538000000",
                   "max": "8539999999",
                   "rules": [
@@ -17372,7 +17379,7 @@
                   "max": "8541999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -17435,10 +17442,21 @@
                   "max": "8542999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;8541](/headings/8541) and [heading&nbsp;8542](/headings/8542) used does not exceed **10%** of the ex-works price of the product\n\nor.",
-                              "class": [],
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;8541](/headings/8541) and [heading&nbsp;8542](/headings/8542) used does not exceed **10%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "The operation of diffusion, in which integrated circuits are formed on a semi-conductor substrate by the selective introduction of an appropriate dopant, whether or not assembled and&nbsp;/&nbsp;or tested in a country other than those specified in Articles 3 and 4.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -17458,26 +17476,7 @@
             {
                   "heading": "ex 8542",
                   "chapter": 85,
-                  "subdivision": "",
-                  "min": "8542000000",
-                  "max": "8542999999",
-                  "rules": [
-                        {
-                              "rule": "The operation of diffusion, in which integrated circuits are formed on a semi-conductor substrate by the selective introduction of an appropriate dopant, whether or not assembled and&nbsp;/&nbsp;or tested in a country other than those specified in Articles 3 and 4.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 8542",
-                  "chapter": 85,
-                  "subdivision": " \u25b8 multichips which are parts of machinery or apparatus, not specified or included elsewhere in this Chapter",
+                  "subdivision": "Monolithic integrated circuits \u25b8 Multichips which are parts of machinery or apparatus, not specified or included elsewhere in this Chapter",
                   "min": "8542000000",
                   "max": "8542999999",
                   "rules": [
@@ -17498,7 +17497,7 @@
             {
                   "heading": "ex 8542",
                   "chapter": 85,
-                  "subdivision": " \u25b8 others",
+                  "subdivision": "Monolithic integrated circuits \u25b8 Others",
                   "min": "8542000000",
                   "max": "8542999999",
                   "rules": [
@@ -17759,7 +17758,7 @@
             {
                   "heading": "ex Chapter 85",
                   "chapter": 85,
-                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for",
+                  "subdivision": "Electrical machinery and\nequipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
                   "min": "8549000000",
                   "max": "8549999999",
                   "rules": [
@@ -18069,7 +18068,7 @@
                   "max": "8715999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18364,7 +18363,7 @@
                   "max": "9003999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18411,12 +18410,12 @@
             {
                   "heading": "ex 9005",
                   "chapter": 90,
-                  "subdivision": "Binoculars, monoculars, other optical telescopes, and mountings therefor, except for astronomical refracting telescopes and\nmountings therefor",
+                  "subdivision": "Binoculars, monoculars, other optical telescopes, and mountings therefor astronomical refracting telescopes and\nmountings therefor",
                   "min": "9005000000",
                   "max": "9005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product,\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nin which the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product,\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- in which the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "CTH",
                                     "MAXNOM",
@@ -18448,7 +18447,7 @@
                   "max": "9005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18479,7 +18478,7 @@
                   "max": "9006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product,\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nin which the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product,\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- in which the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "CTH",
                                     "MAXNOM",
@@ -18511,7 +18510,7 @@
                   "max": "9006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18542,7 +18541,7 @@
                   "max": "9007999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product,\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nin which the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product,\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- in which the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "CTH",
                                     "MAXNOM",
@@ -18574,7 +18573,7 @@
                   "max": "9010999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18605,7 +18604,7 @@
                   "max": "9011999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product,\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nin which the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product,\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- in which the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "CTH",
                                     "MAXNOM",
@@ -18637,7 +18636,7 @@
                   "max": "9013999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18689,7 +18688,7 @@
                   "max": "9014999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18815,7 +18814,7 @@
                   "max": "9018999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18846,7 +18845,7 @@
                   "max": "9019999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18877,7 +18876,7 @@
                   "max": "9020999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18908,7 +18907,7 @@
                   "max": "9023999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -18955,7 +18954,7 @@
             {
                   "heading": "9025",
                   "chapter": 90,
-                  "subdivision": "Machines and appliances for testing the hardness, strength, compressibility, elasticity or other mechanical properties of materials (for example, metals, wood, textiles, paper, plastics) \u25b8 Hydrometers and similar floating instruments, thermometers\n(except for electric or electronic thermometers for vehicles), pyrometers, barometers, hygrometers and psychrometers, recording or not, and any combination of these instruments",
+                  "subdivision": "Machines and appliances for testing the hardness, strength, compressibility, elasticity or other mechanical properties of materials (for example, metals, wood, textiles, paper, plastics) \u25b8 Hydrometers and similar floating instruments, thermometers\n(except for: electric or electronic thermometers for vehicles), pyrometers, barometers, hygrometers and psychrometers, recording or not, and any combination of these instruments",
                   "min": "9025000000",
                   "max": "9025999999",
                   "rules": [
@@ -19108,7 +19107,7 @@
                   "max": "9028999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nthe value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "MAXNOM",
                                     "MAXNOM-OM"
@@ -19318,7 +19317,7 @@
                   "max": "9105999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nthe value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "MAXNOM",
                                     "MAXNOM-OM"
@@ -19370,7 +19369,7 @@
                   "max": "9109999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nthe value of all the non-originating materials used does not exceed the value of all the originating materials used.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- the value of all the non-originating materials used does not exceed the value of all the originating materials used.",
                               "class": [
                                     "MAXNOM",
                                     "MAXNOM-OM"
@@ -19401,7 +19400,7 @@
                   "max": "9110999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\nthe value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\nwithin the above limit, the value of all the materials of [heading&nbsp;9114](/headings/9114) used does not exceed **10%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product, *and*\n\n- within the above limit, the value of all the materials of [heading&nbsp;9114](/headings/9114) used does not exceed **10%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -19431,7 +19430,7 @@
                   "max": "9111999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -19462,7 +19461,7 @@
                   "max": "9112999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -19800,7 +19799,7 @@
                   "max": "9601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from \"worked\"\n\ncarving materials of the same heading as the product.",
+                              "rule": "Manufacture from \"worked\" carving materials of the same heading as the product.",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -19853,7 +19852,7 @@
                   "max": "9602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from \"worked\"\n\ncarving materials of the same heading as the product.",
+                              "rule": "Manufacture from \"worked\" carving materials of the same heading as the product.",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -19901,7 +19900,7 @@
             {
                   "heading": "ex 9603",
                   "chapter": 96,
-                  "subdivision": "Brooms and brushes (except for besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorised, paint pads and rollers, squeegees and mops",
+                  "subdivision": "Brooms and brushes (except for: besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorised, paint pads and rollers, squeegees and mops",
                   "min": "9603000000",
                   "max": "9603999999",
                   "rules": [
@@ -19991,7 +19990,7 @@
                   "max": "9605999999",
                   "rules": [
                         {
-                              "rule": "Each item in the set must satisfy the rule which would apply to it if it were not included in the set. However, non-originating articles may be incorporated, provided that their total value does not exceed **15%** of the ex-works price of the set.",
+                              "rule": "Each item in the set must satisfy the rule which would apply to it if it were not included in the set.\n\nHowever, non-originating articles may be incorporated, provided that their total value does not exceed **15%** of the ex-works price of the set.",
                               "class": [
                                     "SET TOLERANCE MAY BE USED SET RESTRICTION MAXNOM"
                               ],
@@ -20012,7 +20011,7 @@
                   "max": "9606999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -20172,7 +20171,7 @@
                   "max": "9612999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\nfrom materials of any heading, except that of the product, *and*\n\nin which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"

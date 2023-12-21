@@ -66,7 +66,7 @@
             {
                   "heading": "0304",
                   "chapter": 3,
-                  "subdivision": "fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen;",
+                  "subdivision": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen;",
                   "min": "0304000000",
                   "max": "0304999999",
                   "rules": [
@@ -87,7 +87,7 @@
             {
                   "heading": "0305",
                   "chapter": 3,
-                  "subdivision": "fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption;",
+                  "subdivision": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption;",
                   "min": "0305000000",
                   "max": "0305999999",
                   "rules": [
@@ -108,7 +108,7 @@
             {
                   "heading": "ex 0306",
                   "chapter": 3,
-                  "subdivision": "crustaceans, whether in shell or not, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine; flours, meals and pellets of crustaceans, fit for human consumption;",
+                  "subdivision": "Crustaceans, whether in shell or not, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine; flours, meals and pellets of crustaceans, fit for human consumption;",
                   "min": "0306000000",
                   "max": "0306999999",
                   "rules": [
@@ -150,7 +150,7 @@
             {
                   "heading": "ex 0307",
                   "chapter": 3,
-                  "subdivision": "molluscs, whether in shell or not, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption; and",
+                  "subdivision": "Molluscs, whether in shell or not, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption; and",
                   "min": "0307000000",
                   "max": "0307999999",
                   "rules": [
@@ -192,7 +192,7 @@
             {
                   "heading": "ex 0308",
                   "chapter": 3,
-                  "subdivision": "aquatic invertebrates other than crustaceans and molluscs, dried salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process; flours, meals and pellets of aquatic invertebrates other than crustaceans and molluscs, fit for human consumption",
+                  "subdivision": "Aquatic invertebrates other than crustaceans and molluscs, dried salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process; flours, meals and pellets of aquatic invertebrates other than crustaceans and molluscs, fit for human consumption",
                   "min": "0308000000",
                   "max": "0308999999",
                   "rules": [
@@ -364,7 +364,7 @@
             {
                   "heading": "ex 051191",
                   "chapter": 5,
-                  "subdivision": "inedible fish eggs and roes.",
+                  "subdivision": "Inedible fish eggs and roes.",
                   "min": "0511910000",
                   "max": "0511919999",
                   "rules": [
@@ -595,7 +595,7 @@
             {
                   "heading": "1509 to 1510",
                   "chapter": 15,
-                  "subdivision": "olive oil and its fractions;",
+                  "subdivision": "Olive oil and its fractions;",
                   "min": "1509000000",
                   "max": "1510999999",
                   "rules": [
@@ -635,7 +635,7 @@
             {
                   "heading": "1516 to 1517",
                   "chapter": 15,
-                  "subdivision": "animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared;\nmargarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats or oils or their fractions of heading 1516; and",
+                  "subdivision": "Animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared;\nmargarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats or oils or their fractions of heading 1516; and",
                   "min": "1516000000",
                   "max": "1517999999",
                   "rules": [
@@ -757,7 +757,7 @@
             {
                   "heading": "1702",
                   "chapter": 17,
-                  "subdivision": "other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel; and",
+                  "subdivision": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel; and",
                   "min": "1702000000",
                   "max": "1702999999",
                   "rules": [
@@ -797,7 +797,7 @@
             {
                   "heading": "1704",
                   "chapter": 17,
-                  "subdivision": "sugar confectionery (including white chocolate), not containing cocoa;",
+                  "subdivision": "Sugar confectionery (including white chocolate), not containing cocoa;",
                   "min": "1704000000",
                   "max": "1704999999",
                   "rules": [
@@ -885,7 +885,7 @@
             {
                   "heading": "2002 to 2003",
                   "chapter": 20,
-                  "subdivision": "tomatoes, mushrooms and truffles prepared or preserved otherwise than by vinegar of acetic acid.",
+                  "subdivision": "Tomatoes, mushrooms and truffles prepared or preserved otherwise than by vinegar of acetic acid.",
                   "min": "2002000000",
                   "max": "2003999999",
                   "rules": [
@@ -950,7 +950,7 @@
             {
                   "heading": "2103",
                   "chapter": 21,
-                  "subdivision": "Sauces and preparations therefore; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard \u25b8 sauces and preparations therefore; mixed condiments and mixed seasonings; and",
+                  "subdivision": "Sauces and preparations therefore; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard \u25b8 Sauces and preparations therefore; mixed condiments and mixed seasonings; and",
                   "min": "2103000000",
                   "max": "2103999999",
                   "rules": [
@@ -971,7 +971,7 @@
             {
                   "heading": "2103",
                   "chapter": 21,
-                  "subdivision": "Sauces and preparations therefore; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard \u25b8 mustard flour and meal and prepared mustard",
+                  "subdivision": "Sauces and preparations therefore; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard \u25b8 Mustard flour and meal and prepared mustard",
                   "min": "2103000000",
                   "max": "2103999999",
                   "rules": [
@@ -1058,7 +1058,7 @@
             {
                   "heading": "2302",
                   "chapter": 23,
-                  "subdivision": "residues of starch manufacture; and",
+                  "subdivision": "Residues of starch manufacture; and",
                   "min": "2302000000",
                   "max": "2302999999",
                   "rules": [
@@ -1077,7 +1077,7 @@
             {
                   "heading": "ex 2303",
                   "chapter": 23,
-                  "subdivision": "residues of starch manufacture; and",
+                  "subdivision": "Residues of starch manufacture; and",
                   "min": "2303000000",
                   "max": "2303999999",
                   "rules": [
@@ -1138,7 +1138,7 @@
             {
                   "heading": "2309",
                   "chapter": 23,
-                  "subdivision": "preparations of a kind used in animal feeding.",
+                  "subdivision": "Preparations of a kind used in animal feeding.",
                   "min": "2309000000",
                   "max": "2309999999",
                   "rules": [
@@ -1161,7 +1161,7 @@
             {
                   "heading": "2401",
                   "chapter": 24,
-                  "subdivision": "unmanufactured tobacco; tobacco refuse; and",
+                  "subdivision": "Unmanufactured tobacco; tobacco refuse; and",
                   "min": "2401000000",
                   "max": "2401999999",
                   "rules": [
@@ -1182,7 +1182,7 @@
             {
                   "heading": "ex 2402",
                   "chapter": 24,
-                  "subdivision": "cigarettes of tobacco or of tobacco substitutes.",
+                  "subdivision": "Cigarettes of tobacco or of tobacco substitutes.",
                   "min": "2402000000",
                   "max": "2402999999",
                   "rules": [
@@ -1275,7 +1275,7 @@
             {
                   "heading": "ex 2519",
                   "chapter": 25,
-                  "subdivision": "crushed natural magnesium carbonate (magnesite), in hermetically-sealed containers, and magnesium oxide, whether or not pure, other than fused magnesia or dead-burned (sintered) magnesia.",
+                  "subdivision": "Crushed natural magnesium carbonate (magnesite), in hermetically-sealed containers, and magnesium oxide, whether or not pure, other than fused magnesia or dead-burned (sintered) magnesia.",
                   "min": "2519000000",
                   "max": "2519999999",
                   "rules": [
@@ -1413,7 +1413,7 @@
             {
                   "heading": "ex 2707",
                   "chapter": 27,
-                  "subdivision": "oils in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents, being oils similar to mineral oils obtained by distillation of high temperature coal tar, of which more than 65% by volume distils at a temperature of up to 250\u00b0C (including mixtures of petroleum spirit and benzole), for use as power or heating fuels.",
+                  "subdivision": "Oils in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents, being oils similar to mineral oils obtained by distillation of high temperature coal tar, of which more than 65% by volume distils at a temperature of up to 250\u00b0C (including mixtures of petroleum spirit and benzole), for use as power or heating fuels.",
                   "min": "2707000000",
                   "max": "2707999999",
                   "rules": [
@@ -1507,7 +1507,7 @@
             {
                   "heading": "2710",
                   "chapter": 27,
-                  "subdivision": "petroleum oils and oils obtained from bituminous materials, other than crude; preparations not elsewhere specified or included, containing by weight 70% or more of petroleum oils or of oils obtained from bituminous materials, these oils being the basic constituents of the preparations; waste oils;",
+                  "subdivision": "Petroleum oils and oils obtained from bituminous materials, other than crude; preparations not elsewhere specified or included, containing by weight 70% or more of petroleum oils or of oils obtained from bituminous materials, these oils being the basic constituents of the preparations; waste oils;",
                   "min": "2710000000",
                   "max": "2710999999",
                   "rules": [
@@ -1537,7 +1537,7 @@
             {
                   "heading": "2711",
                   "chapter": 27,
-                  "subdivision": "petroleum gases and other gaseous hydrocarbons;",
+                  "subdivision": "Petroleum gases and other gaseous hydrocarbons;",
                   "min": "2711000000",
                   "max": "2711999999",
                   "rules": [
@@ -1567,7 +1567,7 @@
             {
                   "heading": "2712",
                   "chapter": 27,
-                  "subdivision": "petroleum jelly; paraffin wax, microcrystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or by other processes, whether or not coloured; and",
+                  "subdivision": "Petroleum jelly; paraffin wax, microcrystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or by other processes, whether or not coloured; and",
                   "min": "2712000000",
                   "max": "2712999999",
                   "rules": [
@@ -1597,7 +1597,7 @@
             {
                   "heading": "2713",
                   "chapter": 27,
-                  "subdivision": "petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous materials.",
+                  "subdivision": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous materials.",
                   "min": "2713000000",
                   "max": "2713999999",
                   "rules": [
@@ -2245,7 +2245,7 @@
             {
                   "heading": "382460",
                   "chapter": 38,
-                  "subdivision": "sorbitol other than that of subheading 290544; and",
+                  "subdivision": "Sorbitol other than that of subheading 290544; and",
                   "min": "3824600000",
                   "max": "3824609999",
                   "rules": [
@@ -2310,7 +2310,7 @@
             {
                   "heading": "Chapter 39",
                   "chapter": 39,
-                  "subdivision": "plastics and articles thereof.",
+                  "subdivision": "Plastics and articles thereof.",
                   "min": "3900000000",
                   "max": "3999999999",
                   "rules": [
@@ -2375,7 +2375,7 @@
             {
                   "heading": "4012",
                   "chapter": 40,
-                  "subdivision": "retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps, of rubber \u25b8 retreaded pneumatic, solid or cushion tyres, of rubber; and",
+                  "subdivision": "Retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps, of rubber \u25b8 Retreaded pneumatic, solid or cushion tyres, of rubber; and",
                   "min": "4012000000",
                   "max": "4012999999",
                   "rules": [
@@ -2396,7 +2396,7 @@
             {
                   "heading": "4012",
                   "chapter": 40,
-                  "subdivision": "retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps, of rubber \u25b8 other",
+                  "subdivision": "Retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps, of rubber \u25b8 Other",
                   "min": "4012000000",
                   "max": "4012999999",
                   "rules": [
@@ -2460,7 +2460,7 @@
             {
                   "heading": "4104 to 4106",
                   "chapter": 41,
-                  "subdivision": "tanned or crust hides and skins, without wool or hair on, whether or not split, but not further prepared; and",
+                  "subdivision": "Tanned or crust hides and skins, without wool or hair on, whether or not split, but not further prepared; and",
                   "min": "4104000000",
                   "max": "4106999999",
                   "rules": [
@@ -2490,7 +2490,7 @@
             {
                   "heading": "4107",
                   "chapter": 41,
-                  "subdivision": "leather further prepared after tanning or crusting.",
+                  "subdivision": "Leather further prepared after tanning or crusting.",
                   "min": "4107000000",
                   "max": "4107999999",
                   "rules": [
@@ -2509,7 +2509,7 @@
             {
                   "heading": "4112 to 4113",
                   "chapter": 41,
-                  "subdivision": "leather further prepared after tanning or crusting.",
+                  "subdivision": "Leather further prepared after tanning or crusting.",
                   "min": "4112000000",
                   "max": "4113999999",
                   "rules": [
@@ -2592,7 +2592,7 @@
             {
                   "heading": "4302",
                   "chapter": 43,
-                  "subdivision": "tanned or dressed furskins, assembled: (including heads, tails, paws and other pieces of cuttings), unassembled or assembled (without the addition of other materials) other than those of heading 4303; and",
+                  "subdivision": "Tanned or dressed furskins, assembled: (including heads, tails, paws and other pieces of cuttings), unassembled or assembled (without the addition of other materials) other than those of heading 4303; and",
                   "min": "4302000000",
                   "max": "4302999999",
                   "rules": [
@@ -2613,7 +2613,7 @@
             {
                   "heading": "4303",
                   "chapter": 43,
-                  "subdivision": "articles of apparel, clothing accessories and other articles of furskin.",
+                  "subdivision": "Articles of apparel, clothing accessories and other articles of furskin.",
                   "min": "4303000000",
                   "max": "4303999999",
                   "rules": [
@@ -2698,7 +2698,7 @@
             {
                   "heading": "ex 4407",
                   "chapter": 44,
-                  "subdivision": "wood sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6 mm, planed, sanded or end-jointed;",
+                  "subdivision": "Wood sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6 mm, planed, sanded or end-jointed;",
                   "min": "4407000000",
                   "max": "4407999999",
                   "rules": [
@@ -2751,7 +2751,7 @@
             {
                   "heading": "ex 4408",
                   "chapter": 44,
-                  "subdivision": "sheets for veneering (including those obtained by slicing laminated wood) and for plywood, of a thickness not exceeding 6 mm, spliced, and other wood sawn lengthwise, sliced or peeled\nof a thickness not exceeding 6 mm, planed, sanded or end-jointed;",
+                  "subdivision": "Sheets for veneering (including those obtained by slicing laminated wood) and for plywood, of a thickness not exceeding 6 mm, spliced, and other wood sawn lengthwise, sliced or peeled\nof a thickness not exceeding 6 mm, planed, sanded or end-jointed;",
                   "min": "4408000000",
                   "max": "4408999999",
                   "rules": [
@@ -2836,7 +2836,7 @@
             {
                   "heading": "ex 4410",
                   "chapter": 44,
-                  "subdivision": "beadings and mouldings, including moulded skirting and other moulded boards;",
+                  "subdivision": "Beadings and mouldings, including moulded skirting and other moulded boards;",
                   "min": "4410000000",
                   "max": "4410999999",
                   "rules": [
@@ -2889,7 +2889,7 @@
             {
                   "heading": "ex 4411",
                   "chapter": 44,
-                  "subdivision": "beadings and mouldings, including moulded skirting and other moulded boards;",
+                  "subdivision": "Beadings and mouldings, including moulded skirting and other moulded boards;",
                   "min": "4411000000",
                   "max": "4411999999",
                   "rules": [
@@ -2942,7 +2942,7 @@
             {
                   "heading": "ex 4412",
                   "chapter": 44,
-                  "subdivision": "beadings and mouldings, including moulded skirting and other moulded boards;",
+                  "subdivision": "Beadings and mouldings, including moulded skirting and other moulded boards;",
                   "min": "4412000000",
                   "max": "4412999999",
                   "rules": [
@@ -2995,7 +2995,7 @@
             {
                   "heading": "ex 4413",
                   "chapter": 44,
-                  "subdivision": "beadings and mouldings, including moulded skirting and other moulded boards;",
+                  "subdivision": "Beadings and mouldings, including moulded skirting and other moulded boards;",
                   "min": "4413000000",
                   "max": "4413999999",
                   "rules": [
@@ -3080,7 +3080,7 @@
             {
                   "heading": "ex 4415",
                   "chapter": 44,
-                  "subdivision": "packing cases, boxes, crates, drums and similar packings, of wood",
+                  "subdivision": "Packing cases, boxes, crates, drums and similar packings, of wood",
                   "min": "4415000000",
                   "max": "4415999999",
                   "rules": [
@@ -3165,7 +3165,7 @@
             {
                   "heading": "ex 4418",
                   "chapter": 44,
-                  "subdivision": "packing cases, boxes, crates, drums and similar packings, of wood \u25b8 builders' joinery and carpentry of wood;",
+                  "subdivision": "Packing cases, boxes, crates, drums and similar packings, of wood \u25b8 Builders' joinery and carpentry of wood;",
                   "min": "4418000000",
                   "max": "4418999999",
                   "rules": [
@@ -3186,7 +3186,7 @@
             {
                   "heading": "ex 4418",
                   "chapter": 44,
-                  "subdivision": "packing cases, boxes, crates, drums and similar packings, of wood \u25b8 beadings and mouldings; and",
+                  "subdivision": "Packing cases, boxes, crates, drums and similar packings, of wood \u25b8 Beadings and mouldings; and",
                   "min": "4418000000",
                   "max": "4418999999",
                   "rules": [
@@ -3271,7 +3271,7 @@
             {
                   "heading": "ex 4421",
                   "chapter": 44,
-                  "subdivision": "match splints; wooden pegs or pins for footwear.",
+                  "subdivision": "Match splints; wooden pegs or pins for footwear.",
                   "min": "4421000000",
                   "max": "4421999999",
                   "rules": [
@@ -3505,7 +3505,7 @@
             {
                   "heading": "ex 5003",
                   "chapter": 50,
-                  "subdivision": "silk waste (including cocoons unsuitable for reeling, yarn waste and garnetted stock), carded or combed;",
+                  "subdivision": "Silk waste (including cocoons unsuitable for reeling, yarn waste and garnetted stock), carded or combed;",
                   "min": "5003000000",
                   "max": "5003999999",
                   "rules": [
@@ -3547,7 +3547,7 @@
             {
                   "heading": "5004 to 5005",
                   "chapter": 50,
-                  "subdivision": "silk yarn and yarn spun from silk waste; and",
+                  "subdivision": "Silk yarn and yarn spun from silk waste; and",
                   "min": "5004000000",
                   "max": "5005999999",
                   "rules": [
@@ -3568,7 +3568,7 @@
             {
                   "heading": "ex 5006",
                   "chapter": 50,
-                  "subdivision": "silk yarn and yarn spun from silk waste; and",
+                  "subdivision": "Silk yarn and yarn spun from silk waste; and",
                   "min": "5006000000",
                   "max": "5006999999",
                   "rules": [
@@ -3610,7 +3610,7 @@
             {
                   "heading": "5007",
                   "chapter": 50,
-                  "subdivision": "woven fabrics of silk or of silk waste",
+                  "subdivision": "Woven fabrics of silk or of silk waste",
                   "min": "5007000000",
                   "max": "5007999999",
                   "rules": [
@@ -3679,7 +3679,7 @@
             {
                   "heading": "5106 to 5110",
                   "chapter": 51,
-                  "subdivision": "yarn of wool, of fine or coarse animal hair or of horsehair; and",
+                  "subdivision": "Yarn of wool, of fine or coarse animal hair or of horsehair; and",
                   "min": "5106000000",
                   "max": "5110999999",
                   "rules": [
@@ -3700,7 +3700,7 @@
             {
                   "heading": "5111 to 5113",
                   "chapter": 51,
-                  "subdivision": "woven fabrics of wool, of fine or coarse animal hair or of horsehair.",
+                  "subdivision": "Woven fabrics of wool, of fine or coarse animal hair or of horsehair.",
                   "min": "5111000000",
                   "max": "5113999999",
                   "rules": [
@@ -3760,7 +3760,7 @@
             {
                   "heading": "5204 to 5207",
                   "chapter": 52,
-                  "subdivision": "yarn and thread of cotton; and",
+                  "subdivision": "Yarn and thread of cotton; and",
                   "min": "5204000000",
                   "max": "5207999999",
                   "rules": [
@@ -3781,7 +3781,7 @@
             {
                   "heading": "5208 to 5212",
                   "chapter": 52,
-                  "subdivision": "woven fabrics of cotton.",
+                  "subdivision": "Woven fabrics of cotton.",
                   "min": "5208000000",
                   "max": "5212999999",
                   "rules": [
@@ -3850,7 +3850,7 @@
             {
                   "heading": "5306 to 5308",
                   "chapter": 53,
-                  "subdivision": "yarn of other vegetable textile fibres; paper yarn; and",
+                  "subdivision": "Yarn of other vegetable textile fibres; paper yarn; and",
                   "min": "5306000000",
                   "max": "5308999999",
                   "rules": [
@@ -3871,7 +3871,7 @@
             {
                   "heading": "5309 to 5311",
                   "chapter": 53,
-                  "subdivision": "woven fabrics of other vegetable textile fibres; woven fabrics of paper yarn.",
+                  "subdivision": "Woven fabrics of other vegetable textile fibres; woven fabrics of paper yarn.",
                   "min": "5309000000",
                   "max": "5311999999",
                   "rules": [
@@ -4108,12 +4108,12 @@
             {
                   "heading": "5602",
                   "chapter": 56,
-                  "subdivision": "felt, whether or not impregnated, coated, covered or laminated \u25b8 needleloom felt; and",
+                  "subdivision": "Felt, whether or not impregnated, coated, covered or laminated \u25b8 Needleloom felt; and",
                   "min": "5602000000",
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "Extrusion of man-made fibres accompanied by fabric formation, However:\n\n- polypropylene filament of [heading&nbsp;5402](/headings/5402).\n\n- polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), or\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501).\n\n- of which the denomination in all cases of a single filament or fibre is less than 9 decitex,\n\nmay be used, provided that their total value does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "Extrusion of man-made fibres accompanied by fabric formation, However:\n\n- polypropylene filament of [heading&nbsp;5402](/headings/5402).\n\n- polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), *or*\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501).\n\n- of which the denomination in all cases of a single filament or fibre is less than 9 decitex,\n\nmay be used, provided that their total value does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -4138,7 +4138,7 @@
             {
                   "heading": "5602",
                   "chapter": 56,
-                  "subdivision": "felt, whether or not impregnated, coated, covered or laminated \u25b8 other;",
+                  "subdivision": "Felt, whether or not impregnated, coated, covered or laminated \u25b8 Other;",
                   "min": "5602000000",
                   "max": "5602999999",
                   "rules": [
@@ -4168,7 +4168,7 @@
             {
                   "heading": "5603",
                   "chapter": 56,
-                  "subdivision": "nonwovens whether or not impregnated, coated, covered or laminated;",
+                  "subdivision": "Nonwovens whether or not impregnated, coated, covered or laminated;",
                   "min": "5603000000",
                   "max": "5603999999",
                   "rules": [
@@ -4189,7 +4189,7 @@
             {
                   "heading": "5604",
                   "chapter": 56,
-                  "subdivision": "rubber thread and cord, textile covered; textile yarn, and strip and the like of heading 5404 or 5405, impregnated, coated, covered or sheathed with rubber or plastics \u25b8 rubber thread and cord, textile covered; and",
+                  "subdivision": "Rubber thread and cord, textile covered; textile yarn, and strip and the like of heading 5404 or 5405, impregnated, coated, covered or sheathed with rubber or plastics \u25b8 Rubber thread and cord, textile covered; and",
                   "min": "5604000000",
                   "max": "5604999999",
                   "rules": [
@@ -4210,7 +4210,7 @@
             {
                   "heading": "5604",
                   "chapter": 56,
-                  "subdivision": "rubber thread and cord, textile covered; textile yarn, and strip and the like of heading 5404 or 5405, impregnated, coated, covered or sheathed with rubber or plastics \u25b8 other;",
+                  "subdivision": "Rubber thread and cord, textile covered; textile yarn, and strip and the like of heading 5404 or 5405, impregnated, coated, covered or sheathed with rubber or plastics \u25b8 Other;",
                   "min": "5604000000",
                   "max": "5604999999",
                   "rules": [
@@ -4231,7 +4231,7 @@
             {
                   "heading": "5605",
                   "chapter": 56,
-                  "subdivision": "metallised yarn, whether or not gimped, being textile yarn, or strip or the like of heading 5404 or 5405, combined with metal in the form of thread, strip or powder or covered with metal; and",
+                  "subdivision": "Metallised yarn, whether or not gimped, being textile yarn, or strip or the like of heading 5404 or 5405, combined with metal in the form of thread, strip or powder or covered with metal; and",
                   "min": "5605000000",
                   "max": "5605999999",
                   "rules": [
@@ -4252,7 +4252,7 @@
             {
                   "heading": "5606",
                   "chapter": 56,
-                  "subdivision": "gimped yarn, and strip and the like of heading 5404 or 5405, gimped (other than those of heading 5605 and gimped horsehair yarn); chenille yarn (including flock chenille yarn); loop\nwale-yarn.",
+                  "subdivision": "Gimped yarn, and strip and the like of heading 5404 or 5405, gimped (other than those of heading 5605 and gimped horsehair yarn); chenille yarn (including flock chenille yarn); loop\nwale-yarn.",
                   "min": "5606000000",
                   "max": "5606999999",
                   "rules": [
@@ -4437,7 +4437,7 @@
             {
                   "heading": "5805",
                   "chapter": 58,
-                  "subdivision": "hand-woven tapestries of the types Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up; and",
+                  "subdivision": "Hand-woven tapestries of the types Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up; and",
                   "min": "5805000000",
                   "max": "5805999999",
                   "rules": [
@@ -4515,7 +4515,7 @@
             {
                   "heading": "5810",
                   "chapter": 58,
-                  "subdivision": "embroidery in the piece, in strips or in motifs.",
+                  "subdivision": "Embroidery in the piece, in strips or in motifs.",
                   "min": "5810000000",
                   "max": "5810999999",
                   "rules": [
@@ -4621,7 +4621,7 @@
             {
                   "heading": "5902",
                   "chapter": 59,
-                  "subdivision": "Tyre cord fabric of high tenacity yarn of nylon or other polyamides, polyesters or viscose rayon \u25b8 containing not more than 90% by weight of textile materials",
+                  "subdivision": "Tyre cord fabric of high tenacity yarn of nylon or other polyamides, polyesters or viscose rayon \u25b8 Containing not more than 90% by weight of textile materials",
                   "min": "5902000000",
                   "max": "5902999999",
                   "rules": [
@@ -4642,7 +4642,7 @@
             {
                   "heading": "5902",
                   "chapter": 59,
-                  "subdivision": "Tyre cord fabric of high tenacity yarn of nylon or other polyamides, polyesters or viscose rayon \u25b8 other",
+                  "subdivision": "Tyre cord fabric of high tenacity yarn of nylon or other polyamides, polyesters or viscose rayon \u25b8 Other",
                   "min": "5902000000",
                   "max": "5902999999",
                   "rules": [
@@ -4708,7 +4708,7 @@
             {
                   "heading": "5905",
                   "chapter": 59,
-                  "subdivision": "Textile wall coverings \u25b8 impregnated, coated, covered or laminated with rubber, plastics or other materials",
+                  "subdivision": "Textile wall coverings \u25b8 Impregnated, coated, covered or laminated with rubber, plastics or other materials",
                   "min": "5905000000",
                   "max": "5905999999",
                   "rules": [
@@ -4727,7 +4727,7 @@
             {
                   "heading": "5905",
                   "chapter": 59,
-                  "subdivision": "Textile wall coverings \u25b8 other",
+                  "subdivision": "Textile wall coverings \u25b8 Other",
                   "min": "5905000000",
                   "max": "5905999999",
                   "rules": [
@@ -4766,7 +4766,7 @@
             {
                   "heading": "5906",
                   "chapter": 59,
-                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902 \u25b8 knitted or crocheted fabrics;",
+                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902 \u25b8 Knitted or crocheted fabrics;",
                   "min": "5906000000",
                   "max": "5906999999",
                   "rules": [
@@ -4805,7 +4805,7 @@
             {
                   "heading": "5906",
                   "chapter": 59,
-                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902 \u25b8 other fabrics made of synthetic filament yarn, containing more than 90% by weight of textile materials; and",
+                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902 \u25b8 Other fabrics made of synthetic filament yarn, containing more than 90% by weight of textile materials; and",
                   "min": "5906000000",
                   "max": "5906999999",
                   "rules": [
@@ -4824,7 +4824,7 @@
             {
                   "heading": "5906",
                   "chapter": 59,
-                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902 \u25b8 other.",
+                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902 \u25b8 Other.",
                   "min": "5906000000",
                   "max": "5906999999",
                   "rules": [
@@ -4889,7 +4889,7 @@
             {
                   "heading": "5908",
                   "chapter": 59,
-                  "subdivision": "Textile wicks, woven, plaited or knitted, for lamps, stoves, lighters, candles or the like; incandescent gas mantles and tubular knitted gas mantle fabric therefor, whether or not impregnated \u25b8 incandescent gas mantles, impregnated; and",
+                  "subdivision": "Textile wicks, woven, plaited or knitted, for lamps, stoves, lighters, candles or the like; incandescent gas mantles and tubular knitted gas mantle fabric therefor, whether or not impregnated \u25b8 Incandescent gas mantles, impregnated; and",
                   "min": "5908000000",
                   "max": "5908999999",
                   "rules": [
@@ -4910,7 +4910,7 @@
             {
                   "heading": "5908",
                   "chapter": 59,
-                  "subdivision": "Textile wicks, woven, plaited or knitted, for lamps, stoves, lighters, candles or the like; incandescent gas mantles and tubular knitted gas mantle fabric therefor, whether or not impregnated \u25b8 other",
+                  "subdivision": "Textile wicks, woven, plaited or knitted, for lamps, stoves, lighters, candles or the like; incandescent gas mantles and tubular knitted gas mantle fabric therefor, whether or not impregnated \u25b8 Other",
                   "min": "5908000000",
                   "max": "5908999999",
                   "rules": [
@@ -4931,7 +4931,7 @@
             {
                   "heading": "5909 to 5911",
                   "chapter": 59,
-                  "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 polishing discs or rings other than of felt of heading 5911;",
+                  "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Polishing discs or rings other than of felt of heading 5911;",
                   "min": "5909000000",
                   "max": "5911999999",
                   "rules": [
@@ -4952,7 +4952,7 @@
             {
                   "heading": "5909 to 5911",
                   "chapter": 59,
-                  "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 woven fabrics, of a kind commonly used in papermaking or other technical uses, felted or not, whether or not impregnated or coated, tubular or endless with single or multiple warp and/or weft, or flat woven with multiple warp and/or weft of heading 5911; and",
+                  "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Woven fabrics, of a kind commonly used in papermaking or other technical uses, felted or not, whether or not impregnated or coated, tubular or endless with single or multiple warp and/or weft, or flat woven with multiple warp and/or weft of heading 5911; and",
                   "min": "5909000000",
                   "max": "5911999999",
                   "rules": [
@@ -4991,7 +4991,7 @@
             {
                   "heading": "5909 to 5911",
                   "chapter": 59,
-                  "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 other",
+                  "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Other",
                   "min": "5909000000",
                   "max": "5911999999",
                   "rules": [
@@ -5076,7 +5076,7 @@
             {
                   "heading": "Chapter 61",
                   "chapter": 61,
-                  "subdivision": "Articles of apparel and clothing accessories, knitted or crocheted \u25b8 obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form; and",
+                  "subdivision": "Articles of apparel and clothing accessories, knitted or crocheted \u25b8 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form; and",
                   "min": "6100000000",
                   "max": "6199999999",
                   "rules": [
@@ -5095,7 +5095,7 @@
             {
                   "heading": "Chapter 61",
                   "chapter": 61,
-                  "subdivision": "Articles of apparel and clothing accessories, knitted or crocheted \u25b8 other",
+                  "subdivision": "Articles of apparel and clothing accessories, knitted or crocheted \u25b8 Other",
                   "min": "6100000000",
                   "max": "6199999999",
                   "rules": [
@@ -5155,7 +5155,7 @@
             {
                   "heading": "ex 6202",
                   "chapter": 62,
-                  "subdivision": "women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
+                  "subdivision": "Women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
                   "min": "6202000000",
                   "max": "6202999999",
                   "rules": [
@@ -5247,7 +5247,7 @@
             {
                   "heading": "ex 6204",
                   "chapter": 62,
-                  "subdivision": "women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
+                  "subdivision": "Women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
                   "min": "6204000000",
                   "max": "6204999999",
                   "rules": [
@@ -5339,7 +5339,7 @@
             {
                   "heading": "ex 6206",
                   "chapter": 62,
-                  "subdivision": "women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
+                  "subdivision": "Women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
                   "min": "6206000000",
                   "max": "6206999999",
                   "rules": [
@@ -5431,7 +5431,7 @@
             {
                   "heading": "ex 6209",
                   "chapter": 62,
-                  "subdivision": "women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
+                  "subdivision": "Women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
                   "min": "6209000000",
                   "max": "6209999999",
                   "rules": [
@@ -5493,7 +5493,7 @@
             {
                   "heading": "ex 6210",
                   "chapter": 62,
-                  "subdivision": "fire-resistant equipment of fabric covered with foil of aluminised polyester;",
+                  "subdivision": "Fire-resistant equipment of fabric covered with foil of aluminised polyester;",
                   "min": "6210000000",
                   "max": "6210999999",
                   "rules": [
@@ -5555,7 +5555,7 @@
             {
                   "heading": "ex 6211",
                   "chapter": 62,
-                  "subdivision": "women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
+                  "subdivision": "Women's, girls' and babies' clothing and clothing accessories for babies, embroidered;",
                   "min": "6211000000",
                   "max": "6211999999",
                   "rules": [
@@ -5647,7 +5647,7 @@
             {
                   "heading": "6213 to 6214",
                   "chapter": 62,
-                  "subdivision": "handkerchiefs, shawls, scarves, mufflers, mantillas, veils and the like \u25b8 embroidered; and",
+                  "subdivision": "Handkerchiefs, shawls, scarves, mufflers, mantillas, veils and the like \u25b8 Embroidered; and",
                   "min": "6213000000",
                   "max": "6214999999",
                   "rules": [
@@ -5688,7 +5688,7 @@
             {
                   "heading": "6213 to 6214",
                   "chapter": 62,
-                  "subdivision": "handkerchiefs, shawls, scarves, mufflers, mantillas, veils and the like \u25b8 other; and",
+                  "subdivision": "Handkerchiefs, shawls, scarves, mufflers, mantillas, veils and the like \u25b8 Other; and",
                   "min": "6213000000",
                   "max": "6214999999",
                   "rules": [
@@ -5748,7 +5748,7 @@
             {
                   "heading": "ex 6216",
                   "chapter": 62,
-                  "subdivision": "fire-resistant equipment of fabric covered with foil of aluminised polyester;",
+                  "subdivision": "Fire-resistant equipment of fabric covered with foil of aluminised polyester;",
                   "min": "6216000000",
                   "max": "6216999999",
                   "rules": [
@@ -5810,7 +5810,7 @@
             {
                   "heading": "6217",
                   "chapter": 62,
-                  "subdivision": "other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212 \u25b8 embroidered;",
+                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212 \u25b8 Embroidered;",
                   "min": "6217000000",
                   "max": "6217999999",
                   "rules": [
@@ -5842,7 +5842,7 @@
             {
                   "heading": "6217",
                   "chapter": 62,
-                  "subdivision": "other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212 \u25b8 fire-resistant equipment of fabric covered with foil of aluminised polyester;",
+                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212 \u25b8 Fire-resistant equipment of fabric covered with foil of aluminised polyester;",
                   "min": "6217000000",
                   "max": "6217999999",
                   "rules": [
@@ -5874,7 +5874,7 @@
             {
                   "heading": "6217",
                   "chapter": 62,
-                  "subdivision": "other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212 \u25b8 interlinings for collars and cuffs, cut out; and",
+                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212 \u25b8 Interlinings for collars and cuffs, cut out; and",
                   "min": "6217000000",
                   "max": "6217999999",
                   "rules": [
@@ -5896,7 +5896,7 @@
             {
                   "heading": "6217",
                   "chapter": 62,
-                  "subdivision": "other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212 \u25b8 other.",
+                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212 \u25b8 Other.",
                   "min": "6217000000",
                   "max": "6217999999",
                   "rules": [
@@ -5917,7 +5917,7 @@
             {
                   "heading": "6301 to 6304",
                   "chapter": 63,
-                  "subdivision": "blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 of felt, of nonwovens; and",
+                  "subdivision": "Blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 Of felt, of nonwovens; and",
                   "min": "6301000000",
                   "max": "6304999999",
                   "rules": [
@@ -5938,7 +5938,7 @@
             {
                   "heading": "6301 to 6304",
                   "chapter": 63,
-                  "subdivision": "blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 other \u25b8 embroidered; and",
+                  "subdivision": "Blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 Other \u25b8 Embroidered; and",
                   "min": "6301000000",
                   "max": "6304999999",
                   "rules": [
@@ -5970,7 +5970,7 @@
             {
                   "heading": "6301 to 6304",
                   "chapter": 63,
-                  "subdivision": "blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 other \u25b8 other;",
+                  "subdivision": "Blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 Other \u25b8 Other;",
                   "min": "6301000000",
                   "max": "6304999999",
                   "rules": [
@@ -5991,7 +5991,7 @@
             {
                   "heading": "6305",
                   "chapter": 63,
-                  "subdivision": "sacks and bags, of a kind used for the packing of goods;",
+                  "subdivision": "Sacks and bags, of a kind used for the packing of goods;",
                   "min": "6305000000",
                   "max": "6305999999",
                   "rules": [
@@ -6012,7 +6012,7 @@
             {
                   "heading": "6306",
                   "chapter": 63,
-                  "subdivision": "tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods \u25b8 of nonwovens; and",
+                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods \u25b8 Of nonwovens; and",
                   "min": "6306000000",
                   "max": "6306999999",
                   "rules": [
@@ -6033,7 +6033,7 @@
             {
                   "heading": "6306",
                   "chapter": 63,
-                  "subdivision": "tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods \u25b8 other;",
+                  "subdivision": "Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods \u25b8 Other;",
                   "min": "6306000000",
                   "max": "6306999999",
                   "rules": [
@@ -6065,7 +6065,7 @@
             {
                   "heading": "6307",
                   "chapter": 63,
-                  "subdivision": "other made-up articles, including dress patterns; and",
+                  "subdivision": "Other made-up articles, including dress patterns; and",
                   "min": "6307000000",
                   "max": "6307999999",
                   "rules": [
@@ -6086,7 +6086,7 @@
             {
                   "heading": "6308",
                   "chapter": 63,
-                  "subdivision": "sets consisting of woven fabric and yarn, whether or not with accessories, for making up into rugs, tapestries, embroidered table cloths or serviettes, or similar textile articles, put up in packings for retail sale.",
+                  "subdivision": "Sets consisting of woven fabric and yarn, whether or not with accessories, for making up into rugs, tapestries, embroidered table cloths or serviettes, or similar textile articles, put up in packings for retail sale.",
                   "min": "6308000000",
                   "max": "6308999999",
                   "rules": [
@@ -6150,7 +6150,7 @@
             {
                   "heading": "6406",
                   "chapter": 64,
-                  "subdivision": "parts of footwear (including uppers whether or not attached to soles other than outer soles); removable in-soles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof.",
+                  "subdivision": "Parts of footwear (including uppers whether or not attached to soles other than outer soles); removable in-soles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof.",
                   "min": "6406000000",
                   "max": "6406999999",
                   "rules": [
@@ -6277,7 +6277,7 @@
             {
                   "heading": "ex 6803",
                   "chapter": 68,
-                  "subdivision": "articles of slate or of agglomerated slate;",
+                  "subdivision": "Articles of slate or of agglomerated slate;",
                   "min": "6803000000",
                   "max": "6803999999",
                   "rules": [
@@ -6362,7 +6362,7 @@
             {
                   "heading": "ex 6812",
                   "chapter": 68,
-                  "subdivision": "articles of asbestos; articles of mixtures with a basis of asbestos or of mixtures with a basis of asbestos and magnesium carbonate; and",
+                  "subdivision": "Articles of asbestos; articles of mixtures with a basis of asbestos or of mixtures with a basis of asbestos and magnesium carbonate; and",
                   "min": "6812000000",
                   "max": "6812999999",
                   "rules": [
@@ -6447,7 +6447,7 @@
             {
                   "heading": "ex 6814",
                   "chapter": 68,
-                  "subdivision": "articles of mica, including agglomerated or reconstituted mica, on a support of paper, paperboard or other materials.",
+                  "subdivision": "Articles of mica, including agglomerated or reconstituted mica, on a support of paper, paperboard or other materials.",
                   "min": "6814000000",
                   "max": "6814999999",
                   "rules": [
@@ -6596,7 +6596,7 @@
             {
                   "heading": "7010",
                   "chapter": 70,
-                  "subdivision": "carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass;",
+                  "subdivision": "Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass;",
                   "min": "7010000000",
                   "max": "7010999999",
                   "rules": [
@@ -6660,7 +6660,7 @@
             {
                   "heading": "7013",
                   "chapter": 70,
-                  "subdivision": "glassware of a kind used for table, kitchen, toilet, office, indoor decoration or similar purposes (other than that of heading 7010 or 7018); and",
+                  "subdivision": "Glassware of a kind used for table, kitchen, toilet, office, indoor decoration or similar purposes (other than that of heading 7010 or 7018); and",
                   "min": "7013000000",
                   "max": "7013999999",
                   "rules": [
@@ -6735,7 +6735,7 @@
             {
                   "heading": "7019",
                   "chapter": 70,
-                  "subdivision": "glass fibres (including glass wool) and articles thereof (for example, yarn, woven fabrics).",
+                  "subdivision": "Glass fibres (including glass wool) and articles thereof (for example, yarn, woven fabrics).",
                   "min": "7019000000",
                   "max": "7019999999",
                   "rules": [
@@ -6831,7 +6831,7 @@
             {
                   "heading": "7106",
                   "chapter": 71,
-                  "subdivision": "precious metals \u25b8 unwrought; and",
+                  "subdivision": "Precious metals \u25b8 Unwrought; and",
                   "min": "7106000000",
                   "max": "7106999999",
                   "rules": [
@@ -6870,7 +6870,7 @@
             {
                   "heading": "7106",
                   "chapter": 71,
-                  "subdivision": "precious metals \u25b8 semi-manufactured or in powder form; and",
+                  "subdivision": "Precious metals \u25b8 Semi-manufactured or in powder form; and",
                   "min": "7106000000",
                   "max": "7106999999",
                   "rules": [
@@ -6923,7 +6923,7 @@
             {
                   "heading": "7108",
                   "chapter": 71,
-                  "subdivision": "precious metals \u25b8 unwrought; and",
+                  "subdivision": "Precious metals \u25b8 Unwrought; and",
                   "min": "7108000000",
                   "max": "7108999999",
                   "rules": [
@@ -6962,7 +6962,7 @@
             {
                   "heading": "7108",
                   "chapter": 71,
-                  "subdivision": "precious metals \u25b8 semi-manufactured or in powder form; and",
+                  "subdivision": "Precious metals \u25b8 Semi-manufactured or in powder form; and",
                   "min": "7108000000",
                   "max": "7108999999",
                   "rules": [
@@ -7015,7 +7015,7 @@
             {
                   "heading": "7110",
                   "chapter": 71,
-                  "subdivision": "precious metals \u25b8 unwrought; and",
+                  "subdivision": "Precious metals \u25b8 Unwrought; and",
                   "min": "7110000000",
                   "max": "7110999999",
                   "rules": [
@@ -7054,7 +7054,7 @@
             {
                   "heading": "7110",
                   "chapter": 71,
-                  "subdivision": "precious metals \u25b8 semi-manufactured or in powder form; and",
+                  "subdivision": "Precious metals \u25b8 Semi-manufactured or in powder form; and",
                   "min": "7110000000",
                   "max": "7110999999",
                   "rules": [
@@ -7107,7 +7107,7 @@
             {
                   "heading": "7117",
                   "chapter": 71,
-                  "subdivision": "imitation jewellery.",
+                  "subdivision": "Imitation jewellery.",
                   "min": "7117000000",
                   "max": "7117999999",
                   "rules": [
@@ -7192,7 +7192,7 @@
             {
                   "heading": "7207",
                   "chapter": 72,
-                  "subdivision": "semi-finished products of iron or non-alloy steel;",
+                  "subdivision": "Semi-finished products of iron or non-alloy steel;",
                   "min": "7207000000",
                   "max": "7207999999",
                   "rules": [
@@ -7213,7 +7213,7 @@
             {
                   "heading": "7208 to 7214",
                   "chapter": 72,
-                  "subdivision": "flat-rolled products, bars and rods of iron or non-alloy steel;",
+                  "subdivision": "Flat-rolled products, bars and rods of iron or non-alloy steel;",
                   "min": "7208000000",
                   "max": "7214999999",
                   "rules": [
@@ -7234,7 +7234,7 @@
             {
                   "heading": "7215 to 7216",
                   "chapter": 72,
-                  "subdivision": "other bars and rods of iron or non-alloy steel;\nangles, shapes and sections of iron or non-alloy steel;",
+                  "subdivision": "Other bars and rods of iron or non-alloy steel;\nangles, shapes and sections of iron or non-alloy steel;",
                   "min": "7215000000",
                   "max": "7216999999",
                   "rules": [
@@ -7266,7 +7266,7 @@
             {
                   "heading": "7217",
                   "chapter": 72,
-                  "subdivision": "wire of iron or non-alloy steel;",
+                  "subdivision": "Wire of iron or non-alloy steel;",
                   "min": "7217000000",
                   "max": "7217999999",
                   "rules": [
@@ -7308,7 +7308,7 @@
             {
                   "heading": "721891",
                   "chapter": 72,
-                  "subdivision": "semi-finished products;",
+                  "subdivision": "Semi-finished products;",
                   "min": "7218910000",
                   "max": "7218919999",
                   "rules": [
@@ -7327,7 +7327,7 @@
             {
                   "heading": "721899",
                   "chapter": 72,
-                  "subdivision": "semi-finished products;",
+                  "subdivision": "Semi-finished products;",
                   "min": "7218990000",
                   "max": "7218999999",
                   "rules": [
@@ -7346,7 +7346,7 @@
             {
                   "heading": "7219 to 7222",
                   "chapter": 72,
-                  "subdivision": "flat-rolled products, bars and rods, angles, shapes and sections of stainless steel;",
+                  "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of stainless steel;",
                   "min": "7219000000",
                   "max": "7222999999",
                   "rules": [
@@ -7367,7 +7367,7 @@
             {
                   "heading": "7223",
                   "chapter": 72,
-                  "subdivision": "wire of stainless steel;",
+                  "subdivision": "Wire of stainless steel;",
                   "min": "7223000000",
                   "max": "7223999999",
                   "rules": [
@@ -7409,7 +7409,7 @@
             {
                   "heading": "722490",
                   "chapter": 72,
-                  "subdivision": "semi-finished products;",
+                  "subdivision": "Semi-finished products;",
                   "min": "7224900000",
                   "max": "7224909999",
                   "rules": [
@@ -7428,7 +7428,7 @@
             {
                   "heading": "7225 to 7228",
                   "chapter": 72,
-                  "subdivision": "flat-rolled products, hot-rolled bars and rods, in irregularly wound coils; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel; and",
+                  "subdivision": "Flat-rolled products, hot-rolled bars and rods, in irregularly wound coils; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel; and",
                   "min": "7225000000",
                   "max": "7228999999",
                   "rules": [
@@ -7447,7 +7447,7 @@
             {
                   "heading": "7229",
                   "chapter": 72,
-                  "subdivision": "wire of other alloy steel.",
+                  "subdivision": "Wire of other alloy steel.",
                   "min": "7229000000",
                   "max": "7229999999",
                   "rules": [
@@ -7468,7 +7468,7 @@
             {
                   "heading": "ex 7301",
                   "chapter": 73,
-                  "subdivision": "sheet piling;",
+                  "subdivision": "Sheet piling;",
                   "min": "7301000000",
                   "max": "7301999999",
                   "rules": [
@@ -7510,7 +7510,7 @@
             {
                   "heading": "7302",
                   "chapter": 73,
-                  "subdivision": "railway or tramway track construction material of iron or steel, the following: rails, check-rails and rack rails, switch blades, crossing frogs, point rods and other crossing pieces, sleepers (cross-ties), fish-plates, chairs, chair wedges, sole pates (base plates), rail clips, bedplates, ties and other material specialised for jointing or fixing rails;",
+                  "subdivision": "Railway or tramway track construction material of iron or steel, the following: rails, check-rails and rack rails, switch blades, crossing frogs, point rods and other crossing pieces, sleepers (cross-ties), fish-plates, chairs, chair wedges, sole pates (base plates), rail clips, bedplates, ties and other material specialised for jointing or fixing rails;",
                   "min": "7302000000",
                   "max": "7302999999",
                   "rules": [
@@ -7552,7 +7552,7 @@
             {
                   "heading": "7304 to 7305",
                   "chapter": 73,
-                  "subdivision": "tubes, pipes and hollow profiles, of iron (other than cast iron) or steel;\nother tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406,4 mm, of iron or steel;",
+                  "subdivision": "Tubes, pipes and hollow profiles, of iron (other than cast iron) or steel;\nother tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406,4 mm, of iron or steel;",
                   "min": "7304000000",
                   "max": "7305999999",
                   "rules": [
@@ -7571,7 +7571,7 @@
             {
                   "heading": "7306",
                   "chapter": 73,
-                  "subdivision": "other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel;",
+                  "subdivision": "Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel;",
                   "min": "7306000000",
                   "max": "7306999999",
                   "rules": [
@@ -7592,7 +7592,7 @@
             {
                   "heading": "ex 7307",
                   "chapter": 73,
-                  "subdivision": "tube or pipe fittings of stainless steel (ISO No X5CrNiMo 1712), consisting of several parts; and",
+                  "subdivision": "Tube or pipe fittings of stainless steel (ISO No X5CrNiMo 1712), consisting of several parts; and",
                   "min": "7307000000",
                   "max": "7307999999",
                   "rules": [
@@ -7635,7 +7635,7 @@
             {
                   "heading": "7308",
                   "chapter": 73,
-                  "subdivision": "structures (excluding prefabricated buildings of heading 9406) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel.",
+                  "subdivision": "Structures (excluding prefabricated buildings of heading 9406) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel.",
                   "min": "7308000000",
                   "max": "7308999999",
                   "rules": [
@@ -7698,7 +7698,7 @@
             {
                   "heading": "7408",
                   "chapter": 74,
-                  "subdivision": "copper wire; and",
+                  "subdivision": "Copper wire; and",
                   "min": "7408000000",
                   "max": "7408999999",
                   "rules": [
@@ -7740,7 +7740,7 @@
             {
                   "heading": "7413",
                   "chapter": 74,
-                  "subdivision": "stranded wire, cables, plaited bands and the like, of copper; not electrically insulated.",
+                  "subdivision": "Stranded wire, cables, plaited bands and the like, of copper; not electrically insulated.",
                   "min": "7413000000",
                   "max": "7413999999",
                   "rules": [
@@ -7803,7 +7803,7 @@
             {
                   "heading": "7601",
                   "chapter": 76,
-                  "subdivision": "unwrought aluminium;",
+                  "subdivision": "Unwrought aluminium;",
                   "min": "7601000000",
                   "max": "7601999999",
                   "rules": [
@@ -7845,7 +7845,7 @@
             {
                   "heading": "7605",
                   "chapter": 76,
-                  "subdivision": "aluminium wire;",
+                  "subdivision": "Aluminium wire;",
                   "min": "7605000000",
                   "max": "7605999999",
                   "rules": [
@@ -7887,7 +7887,7 @@
             {
                   "heading": "7607",
                   "chapter": 76,
-                  "subdivision": "aluminium foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0,2 mm; and",
+                  "subdivision": "Aluminium foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0,2 mm; and",
                   "min": "7607000000",
                   "max": "7607999999",
                   "rules": [
@@ -7929,7 +7929,7 @@
             {
                   "heading": "7614",
                   "chapter": 76,
-                  "subdivision": "stranded wire, cables, plaited bands and the like, of aluminium, not electrically insulated.",
+                  "subdivision": "Stranded wire, cables, plaited bands and the like, of aluminium, not electrically insulated.",
                   "min": "7614000000",
                   "max": "7614999999",
                   "rules": [
@@ -8034,7 +8034,7 @@
             {
                   "heading": "8007",
                   "chapter": 80,
-                  "subdivision": "other articles of tin.",
+                  "subdivision": "Other articles of tin.",
                   "min": "8007000000",
                   "max": "8007999999",
                   "rules": [
@@ -8119,7 +8119,7 @@
             {
                   "heading": "8206",
                   "chapter": 82,
-                  "subdivision": "tools of two or more of the headings 8202 to 8205, put up in sets for retail sale.",
+                  "subdivision": "Tools of two or more of the headings 8202 to 8205, put up in sets for retail sale.",
                   "min": "8206000000",
                   "max": "8206999999",
                   "rules": [
@@ -8204,7 +8204,7 @@
             {
                   "heading": "8401",
                   "chapter": 84,
-                  "subdivision": "nuclear reactors; fuel elements (cartridges), non-irradiated, for nuclear reactors; machinery and apparatus for isotopic separation;",
+                  "subdivision": "Nuclear reactors; fuel elements (cartridges), non-irradiated, for nuclear reactors; machinery and apparatus for isotopic separation;",
                   "min": "8401000000",
                   "max": "8401999999",
                   "rules": [
@@ -8257,7 +8257,7 @@
             {
                   "heading": "8407",
                   "chapter": 84,
-                  "subdivision": "spark-ignition reciprocating or rotary internal combustion piston engines;",
+                  "subdivision": "Spark-ignition reciprocating or rotary internal combustion piston engines;",
                   "min": "8407000000",
                   "max": "8407999999",
                   "rules": [
@@ -8278,7 +8278,7 @@
             {
                   "heading": "8408",
                   "chapter": 84,
-                  "subdivision": "compression-ignition internal combustion piston engines (diesel or semi-diesel engines);",
+                  "subdivision": "Compression-ignition internal combustion piston engines (diesel or semi-diesel engines);",
                   "min": "8408000000",
                   "max": "8408999999",
                   "rules": [
@@ -8331,7 +8331,7 @@
             {
                   "heading": "8419",
                   "chapter": 84,
-                  "subdivision": "machinery, plant or laboratory equipment, whether or not electrically heated (excluding furnaces, ovens and other equipment of heading 8514), for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilising, pasteurising, steaming, drying, evaporating, vaporising, condensing or cooling, other than machinery or plant of a kind used for domestic purposes; instantaneous or storage water heaters, non-electric;",
+                  "subdivision": "Machinery, plant or laboratory equipment, whether or not electrically heated (excluding furnaces, ovens and other equipment of heading 8514), for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilising, pasteurising, steaming, drying, evaporating, vaporising, condensing or cooling, other than machinery or plant of a kind used for domestic purposes; instantaneous or storage water heaters, non-electric;",
                   "min": "8419000000",
                   "max": "8419999999",
                   "rules": [
@@ -8393,7 +8393,7 @@
             {
                   "heading": "8427",
                   "chapter": 84,
-                  "subdivision": "fork-lift trucks; other works trucks fitted with lifting or handling equipment;",
+                  "subdivision": "Fork-lift trucks; other works trucks fitted with lifting or handling equipment;",
                   "min": "8427000000",
                   "max": "8427999999",
                   "rules": [
@@ -8478,7 +8478,7 @@
             {
                   "heading": "844331",
                   "chapter": 84,
-                  "subdivision": "machines which perform two or more functions of printing, copying or facsimile transmission, capable of connecting to an automatic data-processing machine or to a network;",
+                  "subdivision": "Machines which perform two or more functions of printing, copying or facsimile transmission, capable of connecting to an automatic data-processing machine or to a network;",
                   "min": "8443310000",
                   "max": "8443319999",
                   "rules": [
@@ -8540,7 +8540,7 @@
             {
                   "heading": "8481",
                   "chapter": 84,
-                  "subdivision": "taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves; and",
+                  "subdivision": "Taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves; and",
                   "min": "8481000000",
                   "max": "8481999999",
                   "rules": [
@@ -8570,7 +8570,7 @@
             {
                   "heading": "8482",
                   "chapter": 84,
-                  "subdivision": "ball or roller bearings.",
+                  "subdivision": "Ball or roller bearings.",
                   "min": "8482000000",
                   "max": "8482999999",
                   "rules": [
@@ -8623,7 +8623,7 @@
             {
                   "heading": "8501 to 8502",
                   "chapter": 85,
-                  "subdivision": "electric motors and generators; Electric generating sets and rotary converters;",
+                  "subdivision": "Electric motors and generators; Electric generating sets and rotary converters;",
                   "min": "8501000000",
                   "max": "8502999999",
                   "rules": [
@@ -8685,7 +8685,7 @@
             {
                   "heading": "8513",
                   "chapter": 85,
-                  "subdivision": "portable electric lamps designed to function by their own source of energy (for example, dry batteries, accumulators, magnetos), other than lighting equipment of heading 8512;",
+                  "subdivision": "Portable electric lamps designed to function by their own source of energy (for example, dry batteries, accumulators, magnetos), other than lighting equipment of heading 8512;",
                   "min": "8513000000",
                   "max": "8513999999",
                   "rules": [
@@ -8749,7 +8749,7 @@
             {
                   "heading": "8519",
                   "chapter": 85,
-                  "subdivision": "sound recording and sound reproducing apparatus;",
+                  "subdivision": "Sound recording and sound reproducing apparatus;",
                   "min": "8519000000",
                   "max": "8519999999",
                   "rules": [
@@ -8779,7 +8779,7 @@
             {
                   "heading": "8521",
                   "chapter": 85,
-                  "subdivision": "video recording or reproducing apparatus, whether or not incorporating a video tuner;",
+                  "subdivision": "Video recording or reproducing apparatus, whether or not incorporating a video tuner;",
                   "min": "8521000000",
                   "max": "8521999999",
                   "rules": [
@@ -8841,7 +8841,7 @@
             {
                   "heading": "8523",
                   "chapter": 85,
-                  "subdivision": "discs, tapes, solid-state non-volatile storage devices, \"smart cards\" and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37;",
+                  "subdivision": "Discs, tapes, solid-state non-volatile storage devices, \"smart cards\" and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37;",
                   "min": "8523000000",
                   "max": "8523999999",
                   "rules": [
@@ -8905,7 +8905,7 @@
             {
                   "heading": "8525",
                   "chapter": 85,
-                  "subdivision": "transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders;",
+                  "subdivision": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders;",
                   "min": "8525000000",
                   "max": "8525999999",
                   "rules": [
@@ -8935,7 +8935,7 @@
             {
                   "heading": "8526",
                   "chapter": 85,
-                  "subdivision": "radar apparatus, radio navigational aid apparatus and radio remote control apparatus;",
+                  "subdivision": "Radar apparatus, radio navigational aid apparatus and radio remote control apparatus;",
                   "min": "8526000000",
                   "max": "8526999999",
                   "rules": [
@@ -8965,7 +8965,7 @@
             {
                   "heading": "8527",
                   "chapter": 85,
-                  "subdivision": "reception apparatus for radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock;",
+                  "subdivision": "Reception apparatus for radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock;",
                   "min": "8527000000",
                   "max": "8527999999",
                   "rules": [
@@ -8995,7 +8995,7 @@
             {
                   "heading": "8528",
                   "chapter": 85,
-                  "subdivision": "monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio- broadcast receivers or sound or video recording or reproducing apparatus;",
+                  "subdivision": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio- broadcast receivers or sound or video recording or reproducing apparatus;",
                   "min": "8528000000",
                   "max": "8528999999",
                   "rules": [
@@ -9057,7 +9057,7 @@
             {
                   "heading": "8535 to 8537",
                   "chapter": 85,
-                  "subdivision": "electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits; connectors for optical fibres, optical fibre bundles or cables; boards, panels, consoles, desks, cabinets and other bases, for electric control or the distribution of electricity;",
+                  "subdivision": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits; connectors for optical fibres, optical fibre bundles or cables; boards, panels, consoles, desks, cabinets and other bases, for electric control or the distribution of electricity;",
                   "min": "8535000000",
                   "max": "8537999999",
                   "rules": [
@@ -9119,7 +9119,7 @@
             {
                   "heading": "8539",
                   "chapter": 85,
-                  "subdivision": "electric filament or discharge lamps, including sealed beam lamp units and ultra-violet or infra-red lamps; arc-lamps;",
+                  "subdivision": "Electric filament or discharge lamps, including sealed beam lamp units and ultra-violet or infra-red lamps; arc-lamps;",
                   "min": "8539000000",
                   "max": "8539999999",
                   "rules": [
@@ -9181,7 +9181,7 @@
             {
                   "heading": "8544",
                   "chapter": 85,
-                  "subdivision": "insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors;",
+                  "subdivision": "Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors;",
                   "min": "8544000000",
                   "max": "8544999999",
                   "rules": [
@@ -9213,7 +9213,7 @@
             {
                   "heading": "8545",
                   "chapter": 85,
-                  "subdivision": "carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbon, with or without metal, of a kind used for electrical purposes;",
+                  "subdivision": "Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbon, with or without metal, of a kind used for electrical purposes;",
                   "min": "8545000000",
                   "max": "8545999999",
                   "rules": [
@@ -9234,7 +9234,7 @@
             {
                   "heading": "8546",
                   "chapter": 85,
-                  "subdivision": "electrical insulators of any material;",
+                  "subdivision": "Electrical insulators of any material;",
                   "min": "8546000000",
                   "max": "8546999999",
                   "rules": [
@@ -9255,7 +9255,7 @@
             {
                   "heading": "8547",
                   "chapter": 85,
-                  "subdivision": "insulating fittings for electrical machines, appliances or equipment, being fittings wholly of insulating materials apart from any minor components of metal (for example, threaded sockets) incorporated during moulding solely for purposes of assembly, other than insulators of heading 8546; electrical conduit tubing and joints therefor, of base metal lined with insulating material; and",
+                  "subdivision": "Insulating fittings for electrical machines, appliances or equipment, being fittings wholly of insulating materials apart from any minor components of metal (for example, threaded sockets) incorporated during moulding solely for purposes of assembly, other than insulators of heading 8546; electrical conduit tubing and joints therefor, of base metal lined with insulating material; and",
                   "min": "8547000000",
                   "max": "8547999999",
                   "rules": [
@@ -9276,7 +9276,7 @@
             {
                   "heading": "8548",
                   "chapter": 85,
-                  "subdivision": "waste and scrap of primary cells, primary batteries and electric accumulators; spent primary cells, spent primary batteries and spent electric accumulators; electrical parts of machinery or apparatus, not specified or included elsewhere in this Chapter.",
+                  "subdivision": "Waste and scrap of primary cells, primary batteries and electric accumulators; spent primary cells, spent primary batteries and spent electric accumulators; electrical parts of machinery or apparatus, not specified or included elsewhere in this Chapter.",
                   "min": "8548000000",
                   "max": "8548999999",
                   "rules": [
@@ -9371,7 +9371,7 @@
             {
                   "heading": "8711",
                   "chapter": 87,
-                  "subdivision": "motorcycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars, side-cars; and",
+                  "subdivision": "Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars, side-cars; and",
                   "min": "8711000000",
                   "max": "8711999999",
                   "rules": [
@@ -9424,7 +9424,7 @@
             {
                   "heading": "8714",
                   "chapter": 87,
-                  "subdivision": "parts and accessories of vehicles of headings 8711 to 8713.",
+                  "subdivision": "Parts and accessories of vehicles of headings 8711 to 8713.",
                   "min": "8714000000",
                   "max": "8714999999",
                   "rules": [
@@ -9669,7 +9669,7 @@
             {
                   "heading": "900150",
                   "chapter": 90,
-                  "subdivision": "spectacle lenses of materials other than glass; and",
+                  "subdivision": "Spectacle lenses of materials other than glass; and",
                   "min": "9001500000",
                   "max": "9001509999",
                   "rules": [
@@ -9719,7 +9719,7 @@
             {
                   "heading": "9002",
                   "chapter": 90,
-                  "subdivision": "lenses, prisms, mirrors and other optical elements, of any material, mounted, being parts of or fittings for instruments or apparatus, other than such elements of glass not optically worked.",
+                  "subdivision": "Lenses, prisms, mirrors and other optical elements, of any material, mounted, being parts of or fittings for instruments or apparatus, other than such elements of glass not optically worked.",
                   "min": "9002000000",
                   "max": "9002999999",
                   "rules": [
@@ -9899,7 +9899,7 @@
             {
                   "heading": "ex 9506",
                   "chapter": 95,
-                  "subdivision": "golf clubs and parts thereof.",
+                  "subdivision": "Golf clubs and parts thereof.",
                   "min": "9506000000",
                   "max": "9506999999",
                   "rules": [
@@ -10016,7 +10016,7 @@
             {
                   "heading": "9603",
                   "chapter": 96,
-                  "subdivision": "brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers, not motorized, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers, squeegees (other than roller squeegees);",
+                  "subdivision": "Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers, not motorized, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers, squeegees (other than roller squeegees);",
                   "min": "9603000000",
                   "max": "9603999999",
                   "rules": [
@@ -10069,7 +10069,7 @@
             {
                   "heading": "9605",
                   "chapter": 96,
-                  "subdivision": "travel sets for personal toilet, sewing or shoe or clothes cleaning;",
+                  "subdivision": "Travel sets for personal toilet, sewing or shoe or clothes cleaning;",
                   "min": "9605000000",
                   "max": "9605999999",
                   "rules": [
@@ -10123,7 +10123,7 @@
             {
                   "heading": "9608",
                   "chapter": 96,
-                  "subdivision": "ball-point pens; felt-tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 9609;",
+                  "subdivision": "Ball-point pens; felt-tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 9609;",
                   "min": "9608000000",
                   "max": "9608999999",
                   "rules": [
@@ -10208,7 +10208,7 @@
             {
                   "heading": "961320",
                   "chapter": 96,
-                  "subdivision": "pocket lighters, gas fuelled, refillable; and",
+                  "subdivision": "Pocket lighters, gas fuelled, refillable; and",
                   "min": "9613200000",
                   "max": "9613209999",
                   "rules": [
@@ -10229,7 +10229,7 @@
             {
                   "heading": "9614",
                   "chapter": 96,
-                  "subdivision": "smoking pipes (including pipe bowls) and cigar or cigarette holders, and parts thereof.",
+                  "subdivision": "Smoking pipes (including pipe bowls) and cigar or cigarette holders, and parts thereof.",
                   "min": "9614000000",
                   "max": "9614999999",
                   "rules": [

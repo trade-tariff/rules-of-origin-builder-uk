@@ -797,7 +797,7 @@
                   "max": "1704999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product, or\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product, *or*\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -837,7 +837,7 @@
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product, or\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which:\n\n- the weight of sugar used does not exceed **40%** of the weight of the final product, *or*\n\n- the value of sugar used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -5109,7 +5109,7 @@
                   "max": "5602999999",
                   "rules": [
                         {
-                              "rule": "\n\nExtrusion of man-made fibres combined with fabric formation,\n\nHowever:\n\n- polypropylene filament of [heading&nbsp;5402](/headings/5402),\n\n- polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), or\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501),\n\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the product.",
+                              "rule": "\n\nExtrusion of man-made fibres combined with fabric formation,\n\nHowever:\n\n- polypropylene filament of [heading&nbsp;5402](/headings/5402),\n\n- polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), *or*\n\n- polypropylene filament tow of [heading&nbsp;5501](/headings/5501),\n\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
