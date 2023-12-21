@@ -1,5 +1,9 @@
 [
     {
+        "from": "Manufacture from;",
+        "to": "Manufacture from:"
+    },
+    {
         "from": "ucilage's",
         "to": "ucilages"
     },
