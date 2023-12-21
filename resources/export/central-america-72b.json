@@ -1,0 +1,109 @@
+{
+      "rule_sets": [
+            {
+                  "heading": "ex Chapter 72",
+                  "chapter": 72,
+                  "subdivision": "Iron and steel",
+                  "min": "7201000000",
+                  "max": "7217999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 721891",
+                  "chapter": 72,
+                  "subdivision": "Semi-finished products",
+                  "min": "7218910000",
+                  "max": "7218919999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204), [heading&nbsp;7205](/headings/7205) or 721810.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 721899",
+                  "chapter": 72,
+                  "subdivision": "Semi-finished products",
+                  "min": "7218990000",
+                  "max": "7218999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204), [heading&nbsp;7205](/headings/7205) or 721810.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 72",
+                  "chapter": 72,
+                  "subdivision": "Any other product from heading 7218",
+                  "min": "7218000000",
+                  "max": "7218999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 72",
+                  "chapter": 72,
+                  "subdivision": "Iron and steel",
+                  "min": "7219000000",
+                  "max": "7229999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            }
+      ]
+}

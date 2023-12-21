@@ -6010,6 +6010,69 @@
                   "valid": true
             },
             {
+                  "heading": "ex 3907",
+                  "chapter": 39,
+                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic heading ex 3907 and 3912 for which the rules are set out below \u25b8 Copolymer, made from polycarbonate and acrylonitrile-butadiene-styrene copolymer (ABS)",
+                  "min": "3907000000",
+                  "max": "3907999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 3907",
+                  "chapter": 39,
+                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic heading ex 3907 and 3912 for which the rules are set out below \u25b8 Polyester",
+                  "min": "3907000000",
+                  "max": "3907999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **20%** of the ex-works price of the product and&nbsp;/&nbsp;or manufacture from polycarbonate of tetrabromo-(bisphenol A).",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3912",
+                  "chapter": 39,
+                  "subdivision": "Cellulose and its chemical derivatives, not elsewhere specified or included, in primary forms",
+                  "min": "3912000000",
+                  "max": "3912999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which the value of any materials classified in the same heading as the product does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "3901 to 3915",
                   "chapter": 39,
                   "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic heading ex 3907 and 3912 for which the rules are set out below \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
@@ -6074,69 +6137,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex 3907",
-                  "chapter": 39,
-                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic heading ex 3907 and 3912 for which the rules are set out below \u25b8 Copolymer, made from polycarbonate and acrylonitrile-butadiene-styrene copolymer (ABS)",
-                  "min": "3907000000",
-                  "max": "3907999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **50%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 3907",
-                  "chapter": 39,
-                  "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic heading ex 3907 and 3912 for which the rules are set out below \u25b8 Polyester",
-                  "min": "3907000000",
-                  "max": "3907999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **20%** of the ex-works price of the product and&nbsp;/&nbsp;or manufacture from polycarbonate of tetrabromo-(bisphenol A).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "3912",
-                  "chapter": 39,
-                  "subdivision": "Cellulose and its chemical derivatives, not elsewhere specified or included, in primary forms",
-                  "min": "3912000000",
-                  "max": "3912999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which the value of any materials classified in the same heading as the product does not exceed **20%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 3916",
                   "chapter": 39,
                   "subdivision": "Profile shapes and tubes",
@@ -6145,102 +6145,6 @@
                   "rules": [
                         {
                               "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product\n\n- the value of any materials classified within the same heading as the product does not exceed **20%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "3916 to 3921",
-                  "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics headings ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Flat products, further worked than only surface-worked or cut into forms other than rectangular (including square); other products, further worked than only surface-worked",
-                  "min": "3916000000",
-                  "max": "3921999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **50%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "3916 to 3921",
-                  "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics headings ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Other \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
-                  "min": "3916000000",
-                  "max": "3921999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product\n\n- the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **20%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "3916 to 3921",
-                  "chapter": 39,
-                  "subdivision": "Semi-manufactures and articles of plastics headings ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Other \u25b8 Other",
-                  "min": "3916000000",
-                  "max": "3921999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -6342,6 +6246,102 @@
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3916 to 3921",
+                  "chapter": 39,
+                  "subdivision": "Semi-manufactures and articles of plastics headings ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Flat products, further worked than only surface-worked or cut into forms other than rectangular (including square); other products, further worked than only surface-worked",
+                  "min": "3916000000",
+                  "max": "3921999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3916 to 3921",
+                  "chapter": 39,
+                  "subdivision": "Semi-manufactures and articles of plastics headings ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Other \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
+                  "min": "3916000000",
+                  "max": "3921999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product\n\n- the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3916 to 3921",
+                  "chapter": 39,
+                  "subdivision": "Semi-manufactures and articles of plastics headings ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Other \u25b8 Other",
+                  "min": "3916000000",
+                  "max": "3921999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;39](/chapters/39) used does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true

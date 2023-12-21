@@ -3099,25 +3099,6 @@
                   "valid": true
             },
             {
-                  "heading": "5906",
-                  "chapter": 59,
-                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902",
-                  "min": "5906000000",
-                  "max": "5906999999",
-                  "rules": [
-                        {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting or Knitting accompanied by dyeing or by coating or Dyeing of yarn of natural fibres accompanied by knitting.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "590691",
                   "chapter": 59,
                   "subdivision": "Knitted or crocheted fabrics",
@@ -3145,6 +3126,25 @@
                   "rules": [
                         {
                               "rule": "Weaving accompanied by dyeing or by coating or Dyeing of yarn of natural fibres accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "5906",
+                  "chapter": 59,
+                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902",
+                  "min": "5906000000",
+                  "max": "5906999999",
+                  "rules": [
+                        {
+                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting or Knitting accompanied by dyeing or by coating or Dyeing of yarn of natural fibres accompanied by knitting.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,

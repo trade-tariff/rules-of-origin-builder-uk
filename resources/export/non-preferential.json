@@ -213,6 +213,25 @@
                   "valid": true
             },
             {
+                  "heading": "ex 0408",
+                  "chapter": 4,
+                  "subdivision": "Birds' eggs, not in shell, dried, and egg yolks, dried",
+                  "min": "0408000000",
+                  "max": "0408999999",
+                  "rules": [
+                        {
+                              "rule": "The origin of the goods shall be the country where drying took place (after breaking and separation where appropriate) of:\n\n- birds' eggs, in shell, fresh or preserved, falling within Goods Classification Table heading ex 04 07\n\n- birds' eggs, not in shell, other than dried, falling within Goods Classification Table heading ex 04 08\n\n- egg yolks, other than dried, falling within Goods Classification Table heading ex 0408.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "0401 to 0410",
                   "chapter": 4,
                   "subdivision": "Mixtures",
@@ -240,25 +259,6 @@
                   "rules": [
                         {
                               "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 0408",
-                  "chapter": 4,
-                  "subdivision": "Birds' eggs, not in shell, dried, and egg yolks, dried",
-                  "min": "0408000000",
-                  "max": "0408999999",
-                  "rules": [
-                        {
-                              "rule": "The origin of the goods shall be the country where drying took place (after breaking and separation where appropriate) of:\n\n- birds' eggs, in shell, fresh or preserved, falling within Goods Classification Table heading ex 04 07\n\n- birds' eggs, not in shell, other than dried, falling within Goods Classification Table heading ex 04 08\n\n- egg yolks, other than dried, falling within Goods Classification Table heading ex 0408.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -390,82 +390,6 @@
                   "valid": true
             },
             {
-                  "heading": "0901 to 0910",
-                  "chapter": 9,
-                  "subdivision": "Mixtures",
-                  "min": "0901000000",
-                  "max": "0910999999",
-                  "rules": [
-                        {
-                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "0901 to 0910",
-                  "chapter": 9,
-                  "subdivision": "Mixtures",
-                  "min": "0901000000",
-                  "max": "0910999999",
-                  "rules": [
-                        {
-                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "0901 to 0910",
-                  "chapter": 9,
-                  "subdivision": "Other",
-                  "min": "0901000000",
-                  "max": "0910999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "0901 to 0910",
-                  "chapter": 9,
-                  "subdivision": "Other",
-                  "min": "0901000000",
-                  "max": "0910999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "090111",
                   "chapter": 9,
                   "subdivision": "Coffee, not roasted, not decaffeinated",
@@ -536,6 +460,82 @@
                               "class": [
                                     "CTSH"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "0901 to 0910",
+                  "chapter": 9,
+                  "subdivision": "Mixtures",
+                  "min": "0901000000",
+                  "max": "0910999999",
+                  "rules": [
+                        {
+                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "0901 to 0910",
+                  "chapter": 9,
+                  "subdivision": "Mixtures",
+                  "min": "0901000000",
+                  "max": "0910999999",
+                  "rules": [
+                        {
+                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "0901 to 0910",
+                  "chapter": 9,
+                  "subdivision": "Other",
+                  "min": "0901000000",
+                  "max": "0910999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "0901 to 0910",
+                  "chapter": 9,
+                  "subdivision": "Other",
+                  "min": "0901000000",
+                  "max": "0910999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -1450,44 +1450,6 @@
                   "valid": true
             },
             {
-                  "heading": "2201 to 2209",
-                  "chapter": 22,
-                  "subdivision": "Mixtures",
-                  "min": "2201000000",
-                  "max": "2209999999",
-                  "rules": [
-                        {
-                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.2.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "2201 to 2209",
-                  "chapter": 22,
-                  "subdivision": "Other",
-                  "min": "2201000000",
-                  "max": "2209999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 2204",
                   "chapter": 22,
                   "subdivision": "Wine of fresh grapes intended for the preparation of vermouth containing added must of fresh grapes, concentrated or not, or alcohol",
@@ -1515,6 +1477,44 @@
                   "rules": [
                         {
                               "rule": "Manufacture from wine of fresh grapes containing must of fresh grapes, concentrated or not, or alcohol, falling within [heading&nbsp;2204](/headings/2204).",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "2201 to 2209",
+                  "chapter": 22,
+                  "subdivision": "Mixtures",
+                  "min": "2201000000",
+                  "max": "2209999999",
+                  "rules": [
+                        {
+                              "rule": "Mixtures\n\n- For the purposes of this residual rule, 'mixing' means the deliberate and proportionally controlled operation consisting in bringing together two or more fungible materials.\n\n- The origin of a mixture of products of this chapter shall be the country of origin of the materials that account for more than **50%** by weight of the mixture. The weight of materials of the same origin shall be taken together.\n\n- When none of the materials used meet the percentage required, the origin of the mixture shall be the country in which the mixing was carried out.2.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "2201 to 2209",
+                  "chapter": 22,
+                  "subdivision": "Other",
+                  "min": "2201000000",
+                  "max": "2209999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1875,25 +1875,6 @@
                   "valid": true
             },
             {
-                  "heading": "3401 to 3407",
-                  "chapter": 34,
-                  "subdivision": "Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster",
-                  "min": "3401000000",
-                  "max": "3407999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 3405",
                   "chapter": 34,
                   "subdivision": "Felt and non-wovens, impregnated, coated or covered with polishes and creams, for footwear, furniture, floors, coachwork, glass or metal, scouring pastes and powders and similar preparations",
@@ -1913,11 +1894,11 @@
                   "valid": true
             },
             {
-                  "heading": "3501 to 3507",
-                  "chapter": 35,
-                  "subdivision": "Albuminoidal substances; modified starches; glues; enzymes",
-                  "min": "3501000000",
-                  "max": "3507999999",
+                  "heading": "3401 to 3407",
+                  "chapter": 34,
+                  "subdivision": "Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster",
+                  "min": "3401000000",
+                  "max": "3407999999",
                   "rules": [
                         {
                               "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
@@ -1940,6 +1921,25 @@
                   "rules": [
                         {
                               "rule": "Drying (after breaking and separation, where appropriate) of:\n\n- birds' eggs, in shell, fresh or preserved, falling within Goods Classification Table heading ex 04 07\n\n- birds' eggs, not in shell, other than dried, falling within Goods Classification Table heading ex 0408 or\n\n- egg whites, other than dried, falling within Goods Classification Table heading ex 3502.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3501 to 3507",
+                  "chapter": 35,
+                  "subdivision": "Albuminoidal substances; modified starches; glues; enzymes",
+                  "min": "3501000000",
+                  "max": "3507999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2131,14 +2131,14 @@
                   "valid": true
             },
             {
-                  "heading": "4201 to 4206",
+                  "heading": "ex 4203",
                   "chapter": 42,
-                  "subdivision": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silkworm gut)",
-                  "min": "4201000000",
-                  "max": "4206999999",
+                  "subdivision": "Articles of apparel of leather or of composition leather",
+                  "min": "4203000000",
+                  "max": "4203999999",
                   "rules": [
                         {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "rule": "Complete making-up.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2150,14 +2150,14 @@
                   "valid": true
             },
             {
-                  "heading": "ex 4203",
+                  "heading": "4201 to 4206",
                   "chapter": 42,
-                  "subdivision": "Articles of apparel of leather or of composition leather",
-                  "min": "4203000000",
-                  "max": "4203999999",
+                  "subdivision": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silkworm gut)",
+                  "min": "4201000000",
+                  "max": "4206999999",
                   "rules": [
                         {
-                              "rule": "Complete making-up.",
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -2349,25 +2349,6 @@
                   "valid": true
             },
             {
-                  "heading": "4901 to 4911",
-                  "chapter": 49,
-                  "subdivision": "Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",
-                  "min": "4901000000",
-                  "max": "4911999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 4910",
                   "chapter": 49,
                   "subdivision": "Ceramic calendars of any kind, printed, including calendar blocks, decorated.",
@@ -2379,6 +2360,25 @@
                               "class": [
                                     "CTH"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "4901 to 4911",
+                  "chapter": 49,
+                  "subdivision": "Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",
+                  "min": "4901000000",
+                  "max": "4911999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -4333,25 +4333,6 @@
                   "valid": true
             },
             {
-                  "heading": "5601 to 5609",
-                  "chapter": 56,
-                  "subdivision": "Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables and articles thereof",
-                  "min": "5601000000",
-                  "max": "5609999999",
-                  "rules": [
-                        {
-                              "rule": "Temp.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 5602",
                   "chapter": 56,
                   "subdivision": "Felt, whether or not impregnated, coated, covered or laminated - printed, dyed (including dyed white)",
@@ -4596,6 +4577,25 @@
                               "class": [
                                     "CTH"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "5601 to 5609",
+                  "chapter": 56,
+                  "subdivision": "Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables and articles thereof",
+                  "min": "5601000000",
+                  "max": "5609999999",
+                  "rules": [
+                        {
+                              "rule": "Temp.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -8629,25 +8629,6 @@
                   "valid": true
             },
             {
-                  "heading": "6901 to 6914",
-                  "chapter": 69,
-                  "subdivision": "Ceramic products",
-                  "min": "6901000000",
-                  "max": "6914999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 6911",
                   "chapter": 69,
                   "subdivision": "Ceramic tableware, kitchenware, other household articles and toilet articles; statuettes and other ornamental ceramic articles and toilet articles, decorated",
@@ -8711,6 +8692,25 @@
                   "valid": true
             },
             {
+                  "heading": "6901 to 6914",
+                  "chapter": 69,
+                  "subdivision": "Ceramic products",
+                  "min": "6901000000",
+                  "max": "6914999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "7001 to 7020",
                   "chapter": 70,
                   "subdivision": "Glass and glassware",
@@ -8741,25 +8741,6 @@
                   "valid": true
             },
             {
-                  "heading": "7101 to 7118",
-                  "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
-                  "min": "7101000000",
-                  "max": "7118999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 7117",
                   "chapter": 71,
                   "subdivision": "Ceramic imitation jewellery, decorated",
@@ -8771,6 +8752,25 @@
                               "class": [
                                     "CTH"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7101 to 7118",
+                  "chapter": 71,
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "min": "7101000000",
+                  "max": "7118999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -12125,25 +12125,6 @@
                   "valid": true
             },
             {
-                  "heading": "8501 to 8549",
-                  "chapter": 85,
-                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
-                  "min": "8501000000",
-                  "max": "8549999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 852359",
                   "chapter": 85,
                   "subdivision": "Chipcard integrated circuit with integrated coil",
@@ -12456,6 +12437,25 @@
                   "valid": true
             },
             {
+                  "heading": "8501 to 8549",
+                  "chapter": 85,
+                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+                  "min": "8501000000",
+                  "max": "8549999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "8601 to 8609",
                   "chapter": 86,
                   "subdivision": "Railway or tramway locomotives, rolling stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electromechanical) traffic signalling equipment of all kinds",
@@ -12576,25 +12576,6 @@
                   "valid": true
             },
             {
-                  "heading": "9001 to 9033",
-                  "chapter": 90,
-                  "subdivision": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
-                  "min": "9001000000",
-                  "max": "9033999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 902110",
                   "chapter": 90,
                   "subdivision": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability.\nOrthopaedic or fracture appliances",
@@ -12667,11 +12648,11 @@
                   "valid": true
             },
             {
-                  "heading": "9101 to 9114",
-                  "chapter": 91,
-                  "subdivision": "Clocks and watches and parts thereof",
-                  "min": "9101000000",
-                  "max": "9114999999",
+                  "heading": "9001 to 9033",
+                  "chapter": 90,
+                  "subdivision": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
+                  "min": "9001000000",
+                  "max": "9033999999",
                   "rules": [
                         {
                               "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
@@ -12697,6 +12678,25 @@
                               "class": [
                                     "CTH"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "9101 to 9114",
+                  "chapter": 91,
+                  "subdivision": "Clocks and watches and parts thereof",
+                  "min": "9101000000",
+                  "max": "9114999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -12788,25 +12788,6 @@
                   "valid": true
             },
             {
-                  "heading": "9401 to 9406",
-                  "chapter": 94,
-                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; luminaires and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated nameplates and the like; prefabricated buildings",
-                  "min": "9401000000",
-                  "max": "9406999999",
-                  "rules": [
-                        {
-                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "ex 9405",
                   "chapter": 94,
                   "subdivision": "Ceramic lamps and ceramic lighting fittings, including searchlights and spotlights and parts thereof, not elsewhere specified or included, decorated; illuminated ceramic signs, name-plates and the like, having a permanently fixed light source, and parts thereof, not elsewhere specified or included, decorated",
@@ -12818,6 +12799,25 @@
                               "class": [
                                     "CTH"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "9401 to 9406",
+                  "chapter": 94,
+                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; luminaires and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated nameplates and the like; prefabricated buildings",
+                  "min": "9401000000",
+                  "max": "9406999999",
+                  "rules": [
+                        {
+                              "rule": "Where the country of origin cannot be determined by application of the primary rules and the other chapter residual rule[s], the country of origin of the goods shall be the country in which the major portion of the materials originated, as determined on the basis of the weight of the materials.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,

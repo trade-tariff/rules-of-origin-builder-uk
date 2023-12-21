@@ -337,16 +337,16 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 9",
+                  "heading": "ex 0910",
                   "chapter": 9,
-                  "subdivision": "Any other product from heading 0910",
+                  "subdivision": "Mixtures of spices",
                   "min": "0910000000",
                   "max": "0910999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/09) used must be wholly obtained.",
+                              "rule": "Manufacture from materials of any heading.",
                               "class": [
-                                    "WO"
+                                    "AH"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -358,16 +358,16 @@
                   "valid": true
             },
             {
-                  "heading": "ex 0910",
+                  "heading": "Chapter 9",
                   "chapter": 9,
-                  "subdivision": "Mixtures of spices",
+                  "subdivision": "Any other product from heading 0910",
                   "min": "0910000000",
                   "max": "0910999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/09) used must be wholly obtained.",
                               "class": [
-                                    "AH"
+                                    "WO"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -6147,6 +6147,91 @@
                   "valid": true
             },
             {
+                  "heading": "ex 3917",
+                  "chapter": 39,
+                  "subdivision": "Profile shapes and tubes",
+                  "min": "3917000000",
+                  "max": "3917999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product,\n\n- the value of any materials classified within the same heading as the product does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 3920",
+                  "chapter": 39,
+                  "subdivision": "Profile shapes and tubes \u25b8 Ionomer sheet or film",
+                  "min": "3920000000",
+                  "max": "3920999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from a thermoplastic partial salt which is a copolymer of ethylene and metacrylic acid partly neutralised with metal ions, mainly zinc and sodium.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 3920",
+                  "chapter": 39,
+                  "subdivision": "Profile shapes and tubes \u25b8 Sheets of regenerated cellulose, polyamides or polyethylene",
+                  "min": "3920000000",
+                  "max": "3920999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which the value of any materials classified in the same heading as the product does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "3916 to 3921",
                   "chapter": 39,
                   "subdivision": "Semi-manufactures and articles of plastics headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Flat products, further worked than only surface-worked or cut into forms other than rectangular (including square); other products, further worked than only surface-worked",
@@ -6235,91 +6320,6 @@
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 3917",
-                  "chapter": 39,
-                  "subdivision": "Profile shapes and tubes",
-                  "min": "3917000000",
-                  "max": "3917999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which:\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product,\n\n- the value of any materials classified within the same heading as the product does not exceed **20%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 3920",
-                  "chapter": 39,
-                  "subdivision": "Profile shapes and tubes \u25b8 Ionomer sheet or film",
-                  "min": "3920000000",
-                  "max": "3920999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from a thermoplastic partial salt which is a copolymer of ethylene and metacrylic acid partly neutralised with metal ions, mainly zinc and sodium.",
-                              "class": [
-                                    "PRODUCTION FROM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **25%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 3920",
-                  "chapter": 39,
-                  "subdivision": "Profile shapes and tubes \u25b8 Sheets of regenerated cellulose, polyamides or polyethylene",
-                  "min": "3920000000",
-                  "max": "3920999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which the value of any materials classified in the same heading as the product does not exceed **20%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true

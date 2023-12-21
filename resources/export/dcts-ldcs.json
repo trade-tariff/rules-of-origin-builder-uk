@@ -4064,67 +4064,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex 5906",
-                  "chapter": 59,
-                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902",
-                  "min": "5906000000",
-                  "max": "5906999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff chapter'>CC</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter).",
-                              "class": [
-                                    "CC"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "The maximum value of non-originating materials (MaxNOM) cannot exceed **75%** of the ex-works price (EXW) of the good.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting.",
-                              "class": [
-                                    "PROCESSING"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Knitting accompanied by dyeing or by coating.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "590691",
                   "chapter": 59,
                   "subdivision": "Knitted or crocheted fabrics",
@@ -4225,6 +4164,67 @@
                         },
                         {
                               "rule": "Dyeing of yarn of natural fibres accompanied by weaving.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 5906",
+                  "chapter": 59,
+                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902",
+                  "min": "5906000000",
+                  "max": "5906999999",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change of tariff chapter'>CC</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter).",
+                              "class": [
+                                    "CC"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "The maximum value of non-originating materials (MaxNOM) cannot exceed **75%** of the ex-works price (EXW) of the good.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting.",
+                              "class": [
+                                    "PROCESSING"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Knitting accompanied by dyeing or by coating.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",

@@ -1,0 +1,298 @@
+{
+      "rule_sets": [
+            {
+                  "heading": "ex Chapter 72",
+                  "chapter": 72,
+                  "subdivision": "Iron and steel",
+                  "min": "7201000000",
+                  "max": "7206999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7207",
+                  "chapter": 72,
+                  "subdivision": "Semi-finished products of iron or nonalloy steel",
+                  "min": "7207000000",
+                  "max": "7207999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204), [heading&nbsp;7205](/headings/7205) or [heading&nbsp;7206](/headings/7206).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7208 to 7216",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of iron or non-alloy steel",
+                  "min": "7208000000",
+                  "max": "7216999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from ingots or other primary forms or semi-finished materials of [heading&nbsp;7206](/headings/7206) or [heading&nbsp;7207](/headings/7207).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7217",
+                  "chapter": 72,
+                  "subdivision": "Wire of iron or non-alloy steel",
+                  "min": "7217000000",
+                  "max": "7217999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from semi-finished materials of [heading&nbsp;7207](/headings/7207).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 721891",
+                  "chapter": 72,
+                  "subdivision": "Semi-finished products",
+                  "min": "7218910000",
+                  "max": "7218919999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204), [heading&nbsp;7205](/headings/7205) or 721810.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 721899",
+                  "chapter": 72,
+                  "subdivision": "Semi-finished products",
+                  "min": "7218990000",
+                  "max": "7218999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204), [heading&nbsp;7205](/headings/7205) or 721810.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 72",
+                  "chapter": 72,
+                  "subdivision": "Any other product from heading 7218",
+                  "min": "7218000000",
+                  "max": "7218999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7219 to 7222",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of stainless steel",
+                  "min": "7219000000",
+                  "max": "7222999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from ingots or other primary forms or semi-finished materials of [heading&nbsp;7218](/headings/7218).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7223",
+                  "chapter": 72,
+                  "subdivision": "Wire of stainless steel",
+                  "min": "7223000000",
+                  "max": "7223999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from semi-finished materials of [heading&nbsp;7218](/headings/7218).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 722490",
+                  "chapter": 72,
+                  "subdivision": "Semi-finished products",
+                  "min": "7224900000",
+                  "max": "7224909999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204), [heading&nbsp;7205](/headings/7205) or 722410.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 72",
+                  "chapter": 72,
+                  "subdivision": "Any other product from heading 7224",
+                  "min": "7224000000",
+                  "max": "7224999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7225 to 7228",
+                  "chapter": 72,
+                  "subdivision": "Flat-rolled products, hot-rolled bars and rods, in irregularly wound coils; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
+                  "min": "7225000000",
+                  "max": "7228999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from ingots or other primary forms or semi-finished materials of [heading&nbsp;7206](/headings/7206), [heading&nbsp;7207](/headings/7207), [heading&nbsp;7218](/headings/7218) or [heading&nbsp;7224](/headings/7224).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 7229",
+                  "chapter": 72,
+                  "subdivision": "Wire of other alloy steel",
+                  "min": "7229000000",
+                  "max": "7229999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from semi-finished materials of [heading&nbsp;7224](/headings/7224).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 72",
+                  "chapter": 72,
+                  "subdivision": "Any other product from heading 7229",
+                  "min": "7229000000",
+                  "max": "7229999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            }
+      ]
+}

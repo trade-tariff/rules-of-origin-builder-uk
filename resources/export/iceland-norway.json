@@ -106,16 +106,16 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 5",
+                  "heading": "ex 051191",
                   "chapter": 5,
-                  "subdivision": "Products of animal origin, not elsewhere specified or included",
-                  "min": "0511000000",
-                  "max": "0511999999",
+                  "subdivision": "Inedible fish eggs and roes",
+                  "min": "0511910000",
+                  "max": "0511919999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading.",
+                              "rule": "All the eggs and roes are wholly obtained.",
                               "class": [
-                                    "AH"
+                                    "WO"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -127,16 +127,16 @@
                   "valid": true
             },
             {
-                  "heading": "ex 051191",
+                  "heading": "ex Chapter 5",
                   "chapter": 5,
-                  "subdivision": "Inedible fish eggs and roes",
-                  "min": "0511910000",
-                  "max": "0511919999",
+                  "subdivision": "Any other product from heading 0511",
+                  "min": "0511000000",
+                  "max": "0511999999",
                   "rules": [
                         {
-                              "rule": "All the eggs and roes are wholly obtained.",
+                              "rule": "Manufacture from materials of any heading.",
                               "class": [
-                                    "WO"
+                                    "AH"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -830,6 +830,25 @@
                   "valid": true
             },
             {
+                  "heading": "180610",
+                  "chapter": 18,
+                  "subdivision": "Cocoa powder, containing added sugar or other sweetening matters",
+                  "min": "1806100000",
+                  "max": "1806109999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product, in which the weight of sugar used does not exceed **40%** of the weight of the final product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "ex 1806",
                   "chapter": 18,
                   "subdivision": "Chocolate and other food preparations containing cocoa",
@@ -841,25 +860,6 @@
                               "class": [
                                     "MAXNOM"
                               ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "180610",
-                  "chapter": 18,
-                  "subdivision": "Cocoa powder, containing added sugar or other sweetening matters",
-                  "min": "1806100000",
-                  "max": "1806109999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from materials of any heading, except that of the product, in which the weight of sugar used does not exceed **40%** of the weight of the final product.",
-                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -2769,9 +2769,28 @@
                   "valid": true
             },
             {
+                  "heading": "ex 382499",
+                  "chapter": 38,
+                  "subdivision": "Biodiesel",
+                  "min": "3824990000",
+                  "max": "3824999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which biodiesel is obtained through transesterification and&nbsp;/&nbsp;or esterification or through hydro-treatment.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "ex Chapter 38",
                   "chapter": 38,
-                  "subdivision": "Miscellaneous chemical products",
+                  "subdivision": "Any other product from heading 3824",
                   "min": "3824000000",
                   "max": "3824999999",
                   "rules": [
@@ -2803,25 +2822,6 @@
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "ex 382499",
-                  "chapter": 38,
-                  "subdivision": "Biodiesel",
-                  "min": "3824990000",
-                  "max": "3824999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture in which biodiesel is obtained through transesterification and&nbsp;/&nbsp;or esterification or through hydro-treatment.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -8386,27 +8386,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 72",
-                  "chapter": 72,
-                  "subdivision": "Iron and steel",
-                  "min": "7218000000",
-                  "max": "7218999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from materials of any heading, except that of the product.",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "721891",
                   "chapter": 72,
                   "subdivision": "Semi-finished products",
@@ -8438,6 +8417,27 @@
                               "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204) or [heading&nbsp;7205](/headings/7205).",
                               "class": [
                                     "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 72",
+                  "chapter": 72,
+                  "subdivision": "Any other product from heading 7218",
+                  "min": "7218000000",
+                  "max": "7218999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -8491,16 +8491,16 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 72",
+                  "heading": "722490",
                   "chapter": 72,
-                  "subdivision": "Iron and steel",
-                  "min": "7224000000",
-                  "max": "7224999999",
+                  "subdivision": "Semi-finished products",
+                  "min": "7224900000",
+                  "max": "7224909999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204) or [heading&nbsp;7205](/headings/7205).",
                               "class": [
-                                    "CTH"
+                                    "PRODUCTION FROM"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -8512,16 +8512,16 @@
                   "valid": true
             },
             {
-                  "heading": "722490",
+                  "heading": "ex Chapter 72",
                   "chapter": 72,
-                  "subdivision": "Semi-finished products",
-                  "min": "7224900000",
-                  "max": "7224909999",
+                  "subdivision": "Any other product from heading 7224",
+                  "min": "7224000000",
+                  "max": "7224999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204) or [heading&nbsp;7205](/headings/7205).",
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
                               "class": [
-                                    "PRODUCTION FROM"
+                                    "CTH"
                               ],
                               "footnotes": [],
                               "operator": null,
@@ -10177,38 +10177,6 @@
                   "valid": true
             },
             {
-                  "heading": "ex Chapter 90",
-                  "chapter": 90,
-                  "subdivision": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
-                  "min": "9001000000",
-                  "max": "9001999999",
-                  "rules": [
-                        {
-                              "rule": "Manufacture from materials of any heading, except that of the product,",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "900150",
                   "chapter": 90,
                   "subdivision": "Spectacle lenses of other materials than glass",
@@ -10231,6 +10199,38 @@
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 90",
+                  "chapter": 90,
+                  "subdivision": "Any other product from heading 9001",
+                  "min": "9001000000",
+                  "max": "9001999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product,",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true

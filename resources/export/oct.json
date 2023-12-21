@@ -3409,54 +3409,6 @@
                   "valid": true
             },
             {
-                  "heading": "5906",
-                  "chapter": 59,
-                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902",
-                  "min": "5906000000",
-                  "max": "5906999999",
-                  "rules": [
-                        {
-                              "rule": "Spinning of natural or man-made staple fibres.",
-                              "class": [
-                                    "PROCESSING_TEXTILE"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by knitting.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Knitting accompanied by dyeing or by coating.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "590691",
                   "chapter": 59,
                   "subdivision": "Knitted or crocheted fabrics",
@@ -3516,6 +3468,54 @@
                               "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "5906",
+                  "chapter": 59,
+                  "subdivision": "Rubberised textile fabrics, other than those of heading 5902",
+                  "min": "5906000000",
+                  "max": "5906999999",
+                  "rules": [
+                        {
+                              "rule": "Spinning of natural or man-made staple fibres.",
+                              "class": [
+                                    "PROCESSING_TEXTILE"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Extrusion of man-made filament yarn, in each case accompanied by knitting.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Knitting accompanied by dyeing or by coating.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
