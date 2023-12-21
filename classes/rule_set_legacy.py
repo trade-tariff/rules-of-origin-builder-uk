@@ -50,17 +50,6 @@ class RuleSetLegacy(object):
             self.original_heading = row["original_heading"].strip()
             self.description = ""
             self.subdivision = row["description"].strip()
-            self.subdivision = self.subdivision.replace("; except for:", "")
-            self.subdivision = self.subdivision.replace(", except for:", "")
-            self.subdivision = self.subdivision.replace("\n<b>", "<br><b>")
-
-            # Run the corrections
-            corrections_file = os.path.join(os.getcwd(), "resources", "data", "corrections.json")
-            f = open(corrections_file)
-            corrections = json.load(f)
-            for correction in corrections:
-                self.subdivision = self.subdivision.replace(correction["from"], correction["to"])
-
             self.original_rule = row["original_rule"].strip()
             self.original_rule = self.original_rule.replace("Manufacture;", "Manufacture:")
             self.original_rule2 = row["original_rule2"].strip()
@@ -346,6 +335,21 @@ class RuleSetLegacy(object):
                     proceed = False
 
     def process_subdivision(self):
+        self.subdivision = self.subdivision.replace("except for;", "except for:")
+        self.subdivision = self.subdivision.replace("except for", "except for:")
+        self.subdivision = self.subdivision.replace("::", ":")
+        self.subdivision = self.subdivision.replace("; except for", ", except for")
+        self.subdivision = self.subdivision.replace(", except for:", "")
+        self.subdivision = self.subdivision.replace("\n<b>", "<br><b>")
+
+        # Run the corrections
+        corrections_file = os.path.join(os.getcwd(), "resources", "data", "corrections.json")
+        f = open(corrections_file)
+        corrections = json.load(f)
+        for correction in corrections:
+            self.subdivision = self.subdivision.replace(correction["from"], correction["to"])
+
+
         # Standardise different hyphen characters
         self.subdivision = self.subdivision.replace("—", "–")
         self.subdivision = self.subdivision.replace("–", "-")
@@ -361,6 +365,7 @@ class RuleSetLegacy(object):
         # If it starts with "- - ", then it is third tier, and the two tiers above need to be pre-pended
         # If it starts with "- ", then it is second tier, and the one tier above needs to be pre-pended
         # Otherwise leave well alone
+        self.subdivision = self.subdivision.replace("- haemoglobin, blood globulins and serum globulins", "- - haemoglobin, blood globulins and serum globulins")
         self.subdivision = self.subdivision.strip("\n")
         if self.subdivision.startswith("- - "):
             self.subdivision_adoption_requirement = 2
@@ -371,6 +376,9 @@ class RuleSetLegacy(object):
             self.subdivision = self.subdivision.strip("- ")
 
         self.subdivision = self.subdivision.replace("\nsee also", "\nSee also")
+        if len(self.subdivision) > 0:
+            self.subdivision = self.subdivision[0].upper() + self.subdivision[1:]
+        
         self.subdivision_original = self.subdivision
 
     def process_footnotes(self):
@@ -412,6 +420,7 @@ class RuleSetLegacy(object):
         self.original_rule = self.original_rule.replace(";\n\nor", ";\n\nTEMPOR")
         self.original_rule = self.original_rule.replace("\nor\n", ";\n\nor\n\n")
         self.original_rule = self.original_rule.replace("TEMPOR", "or")
+        self.original_rule = self.original_rule.replace("process (es)", "process(es)")
         self.original_rule = self.original_rule.strip(";")
         rule_strings = self.original_rule.split(";")
         

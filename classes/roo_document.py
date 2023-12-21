@@ -20,6 +20,7 @@ import classes.functions as func
 
 class RooDocument(object):
     def __init__(self, psr_source_file=None):
+        g.rule_ends_with_or = []
         self.psr_source_file = psr_source_file
         self.get_config()
         self.get_footnotes()
@@ -43,6 +44,19 @@ class RooDocument(object):
             self.check_commodity_coverage()
         if self.validate_min_max:
             self.validate_min_max_values()
+        self.write_report_on_rules_ending_with_or()
+
+    def write_report_on_rules_ending_with_or(self):
+        folder = os.path.join(os.getcwd(), "resources", "temp", "agreements")
+        filename = self.docx_filename.replace(".docx", ".json")
+        os.makedirs(folder, exist_ok=True)
+        filename = os.path.join(folder, filename)
+        if os.path.exists(filename):
+            os.remove(filename)
+
+        if len(g.rule_ends_with_or) > 0:
+            with open(filename, 'w') as f:
+                json.dump(g.rule_ends_with_or, f, indent=4)
 
         print("\nFinished processing {file}\n".format(file=self.docx_filename))
 
@@ -564,7 +578,7 @@ class RooDocument(object):
             self.rule_sets += chapter.chapter_rule_sets
             if chapter.whole_chapter_rule_count > 1:
                 if chapter.whole_chapter_rule_count != len(chapter.rule_sets):
-                    print(g.docx_filename, "in chapter", str(chapter_index), "has a chapter rule count of", str(chapter.whole_chapter_rule_count))
+                    # print(g.docx_filename, "in chapter", str(chapter_index), "has a chapter rule count of", str(chapter.whole_chapter_rule_count))
                     obj = {
                         "filename": g.docx_filename,
                         "chapter_index": chapter_index,

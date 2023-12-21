@@ -17,7 +17,8 @@ for file in os.listdir(source_folder):
 # omissions = ["Albania PSR.docx", "Cameroon PSR.docx"]
 omissions = [
     "Australia PSR.docx",
-    "New-Zealand PSR.docx"
+    "New-Zealand PSR.docx",
+    "Andean PSR.docx"
 ]
 
 modern = [

@@ -109,3 +109,4 @@ __pycache__/
 ~*
 resources/temp/*.json
 resources/temp/*.csv
+resources/temp/temp.csv

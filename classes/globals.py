@@ -16,6 +16,7 @@ docx_filename = ""
 multiple_chapter_rule_list = []
 residual_added = []
 hierarchy_divider = " ▸ "
+rule_ends_with_or = []
 
 def format_parts(s, index):
     s = s.strip()
