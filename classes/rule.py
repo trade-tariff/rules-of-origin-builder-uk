@@ -151,6 +151,11 @@ class Rule(object):
         self.rule_string = self.rule_string.replace("()", "")
         self.rule_string = self.rule_string.replace(" .", ".")
         self.rule_string = self.rule_string.replace("%**%", "%**")
+        self.rule_string = self.rule_string.replace(">> \n\n", ">> ")
+        self.rule_string = self.rule_string.replace("\n>> ", "\n  - ")
+        self.rule_string = self.rule_string.replace("- - ", "- ")
+        
+        
 
     def reinsert_colons(self):
         self.rule_string = self.rule_string.replace("Manufacture\n", "Manufacture:\n")
@@ -294,10 +299,13 @@ class Rule(object):
         self.rule_string = self.rule_string.replace(",.", ",")
 
     def get_rule_class(self):
+        if "85.07" in self.heading:
+            a = 1
         self.rule_class = []
         self.rule_string_original = self.rule_string_original.replace("A change from any other heading", "CTH")  # For Canada
 
         cc_string = "<abbr title='Change of tariff chapter'>CC</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter)"
+        ctsh_string = "<abbr title='Change of tariff subheading'>CTSH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (tariff subheading)"
         cth_string = "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading)"
         cths_string = "<abbr title='Change to the split heading'>CTHS</abbr>: change to the split heading in question from any other split of this heading or from any other heading"
         ctshs_string = "<abbr title='Change to the split subheading'>CTSHS</abbr>: change to the split subheading in question from any other split of this subheading or from any other subheading or heading"
@@ -320,7 +328,7 @@ class Rule(object):
                 self.rule_class.append("MAXNOM")
 
         elif "CTSH" in self.rule_string_original:
-            self.rule_string = self.rule_string.replace("CTSH", cth_string)
+            self.rule_string = self.rule_string.replace("CTSH", ctsh_string)
             self.rule_class = ["CTSH"]
             if "in which" in tmp or "provided that" in tmp:
                 self.rule_class.append("MAXNOM")

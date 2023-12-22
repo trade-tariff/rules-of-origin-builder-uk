@@ -83,6 +83,7 @@ class RuleSetModern(object):
         self.rules = []
         self.original_rule = self.original_rule.strip(";")
         self.original_rule = self.original_rule.replace("; and", ", and")
+        self.original_rule = self.original_rule.replace("\nOr\n", "\nor\n")
         self.original_rule = self.original_rule.replace("ICCAT", "I.C.C.A.T.")
         self.rule_strings = self.original_rule.split(";")
 
