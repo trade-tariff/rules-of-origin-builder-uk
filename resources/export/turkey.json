@@ -41,10 +41,10 @@
                   "valid": true
             },
             {
-                  "heading": "0301-0309",
-                  "subdivision": "0301-0309",
+                  "heading": "0301-0308",
+                  "subdivision": "0301-0308",
                   "min": "0301000000",
-                  "max": "0309999999",
+                  "max": "0308999999",
                   "rules": [
                         {
                               "rule": "Production in which all the materials of [chapter&nbsp;3](/chapters/03) used are wholly obtained.",
@@ -67,7 +67,7 @@
                   "max": "0410999999",
                   "rules": [
                         {
-                              "rule": "Production in which: \n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained and \n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) does not exceed **20%** of the weight of the product.",
+                              "rule": "Production in which: \n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, and \n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) does not exceed **20%** of the weight of the product.",
                               "class": [
                                     "WO",
                                     "MAXWEIGHT"
@@ -149,7 +149,7 @@
                   "max": "0814999999",
                   "rules": [
                         {
-                              "rule": "Production in which:\n\n- all the materials of [chapter&nbsp;8](/chapters/08) used are wholly obtained and \n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) does not exceed **20%** of the weight of the product.",
+                              "rule": "Production in which:\n\n- all the materials of [chapter&nbsp;8](/chapters/08) used are wholly obtained, and \n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) does not exceed **20%** of the weight of the product.",
                               "class": [
                                     "WO",
                                     "MAXWEIGHT"
@@ -638,7 +638,7 @@
                   "max": "1704999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product or\n\n- the value of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n  - i) the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product or\n\n  - (ii) the value of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -698,7 +698,7 @@
                   "max": "1806199999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -718,7 +718,7 @@
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product, or\n\n- the value of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n  - i) the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product, *or*\n\n  - (ii) the value of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -738,7 +738,7 @@
                   "max": "1905999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained\n\n- the total weight of non-originating materials of [chapter&nbsp;2](/chapters/02), [chapter&nbsp;3](/chapters/03) and [chapter&nbsp;16](/chapters/16) used does not exceed **20%** of the weight of the product\n\n- the total weight of non-originating materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the product *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained\n\n- the total weight of non-originating materials of [chapter&nbsp;2](/chapters/02), [chapter&nbsp;3](/chapters/03) and [chapter&nbsp;16](/chapters/16) used does not exceed **20%** of the weight of the product\n\n- the total weight of non-originating materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -819,7 +819,7 @@
                   "max": "2102999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained and \n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, and \n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -833,39 +833,10 @@
                   "valid": true
             },
             {
-                  "heading": "210310",
-                  "subdivision": "Subheading 210310",
-                  "min": "2103100000",
-                  "max": "2103199999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "However, non-originating mustard flour or meal or prepared mustard may be used.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "210320",
-                  "subdivision": "Subheading 210320",
-                  "min": "2103200000",
-                  "max": "2103299999",
+                  "heading": "2103",
+                  "subdivision": "Heading 2103",
+                  "min": "2103000000",
+                  "max": "2103999999",
                   "rules": [
                         {
                               "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -912,42 +883,13 @@
                   "valid": true
             },
             {
-                  "heading": "210390",
-                  "subdivision": "Subheading 210390",
-                  "min": "2103900000",
-                  "max": "2103999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "However, non-originating mustard flour or meal or prepared mustard may be used.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "2104-2106",
                   "subdivision": "2104-2106",
                   "min": "2104000000",
                   "max": "2106999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -967,7 +909,7 @@
                   "max": "2206999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), provided that:\n\n- all the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80), [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), provided that:\n\n- all the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80), [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -1189,26 +1131,6 @@
                   "subdivision": "Heading 2403",
                   "min": "2403000000",
                   "max": "2403999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), in which at least **10%** by weight of all materials of [heading&nbsp;2401](/headings/2401) used are wholly obtained.",
-                              "class": [
-                                    "WO"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "2404",
-                  "subdivision": "Heading 2404",
-                  "min": "2404000000",
-                  "max": "2404999999",
                   "rules": [
                         {
                               "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), in which at least **10%** by weight of all materials of [heading&nbsp;2401](/headings/2401) used are wholly obtained.",
@@ -1453,7 +1375,7 @@
                   "max": "2905459999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), however, non-originating materials of the same subheading as the product may be used, provided that their total value does not exceed **20%** of the ex-works price of the product.",
+                              "rule": "<abbr title='Change of tariff subheading'>CTSH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (tariff subheading), however, non-originating materials of the same subheading as the product may be used, provided that their total value does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2292,46 +2214,6 @@
                   "valid": true
             },
             {
-                  "heading": "3827",
-                  "subdivision": "Heading 3827",
-                  "min": "3827000000",
-                  "max": "3827999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff subheading'>CTSH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
-                              "class": [
-                                    "CTSH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "3901-3915",
                   "subdivision": "3901-3915",
                   "min": "3901000000",
@@ -2677,7 +2559,7 @@
                   "max": "4104499999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80) to [subheading&nbsp;410449](/subheading/4104490000-80).",
+                              "rule": "<abbr title='Change of tariff subheading'>CTSH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (tariff subheading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80) to [subheading&nbsp;410449](/subheading/4104490000-80).",
                               "class": [
                                     "CTSH"
                               ],
@@ -2857,7 +2739,7 @@
                   "max": "4113999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80) and [subheading&nbsp;410692](/subheading/4106920000-80). However, non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80),04.49, 410530, 410622, 410632 or 410692 may be used provided that they undergo a retanning operation.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80) and [subheading&nbsp;410692](/subheading/4106920000-80). However, non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80) or [subheading&nbsp;410692](/subheading/4106920000-80) may be used provided that they undergo a retanning operation.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -2898,7 +2780,7 @@
                   "max": "4114299999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80), 410692 and 4107. However, non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80), 410692 and [heading&nbsp;4107](/headings/4107) may be used provided that they undergo a retanning operation.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80), [subheading&nbsp;410692](/subheading/4106920000-80) and [heading&nbsp;4107](/headings/4107). However, non-originating materials of [subheading&nbsp;410441](/subheading/4104410000-80), [subheading&nbsp;410449](/subheading/4104490000-80), [subheading&nbsp;410530](/subheading/4105300000-80), [subheading&nbsp;410622](/subheading/4106220000-80), [subheading&nbsp;410632](/subheading/4106320000-80), [subheading&nbsp;410692](/subheading/4106920000-80) and [heading&nbsp;4107](/headings/4107) may be used provided that they undergo a retanning operation.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -4202,25 +4084,7 @@
                               "export": true
                         },
                         {
-                              "rule": "However:\n\n- non-originating polypropylene filament of [heading&nbsp;5402](/headings/5402).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Non-originating polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506) or\n\n- non-originating polypropylene filament tow of [heading&nbsp;5501](/headings/5501).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Of which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price (EXW) of the product.",
+                              "rule": "However:\n\n- non-originating polypropylene filament of [heading&nbsp;5402](/heading/5402)\n\n- non-originating polypropylene fibres of [heading&nbsp;5503](/headings/5503) or [heading&nbsp;5506](/headings/5506), *or*\n\n- non-originating polypropylene filament tow of [heading&nbsp;5501](/heading/5501)\n\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed **40%** of the ex-works price (EXW) of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -4278,17 +4142,10 @@
                   "max": "5603149999",
                   "rules": [
                         {
-                              "rule": "Production from \n\n- directionally or randomly oriented filaments or\n\n- substances or polymers of natural or man-made origin.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Followed in both cases by bonding into a nonwoven.",
-                              "class": [],
+                              "rule": "Production from \n\n- directionally or randomly oriented filaments, *or*\n\n- substances or polymers of natural or man-made origin\n\nfollowed in both cases by bonding into a nonwoven.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -4305,17 +4162,10 @@
                   "max": "5603949999",
                   "rules": [
                         {
-                              "rule": "Production from:\n\n- directionally or randomly oriented staple fibres or\n\n- chopped yarns, of natural or man-made origin.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Followed in both cases by bonding into a nonwoven.",
-                              "class": [],
+                              "rule": "Production from:\n\n- directionally or randomly oriented staple fibres, *or*\n\n- chopped yarns, of natural or man-made origin\n\nfollowed in both cases by bonding into a nonwoven.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -4973,10 +4823,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Weaving combined with printing or\n\nPrinting (as standalone operation).",
+                              "rule": "Weaving combined with printing.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing (as standalone operation).",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -5114,12 +4973,21 @@
                               "export": true
                         },
                         {
-                              "rule": "Knitting or crocheting combined with rubberising or\n\nRubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of non-originating materials used does not exceed **50%** of the ex-works price (EXW) of the product.",
+                              "rule": "Knitting or crocheting combined with rubberising.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Rubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of non-originating materials used does not exceed **50%** of the ex-works price (EXW) of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -5367,12 +5235,21 @@
                               "export": true
                         },
                         {
-                              "rule": "Yarn dyeing combined with knitting or with crocheting or\n\nTwisting or texturing combined with knitting or with crocheting provided that the value of non-originating non-twisted or non-textured yarns used does not exceed **50%** of the ex-works price (EXW) of the product.",
+                              "rule": "Yarn dyeing combined with knitting or with crocheting.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Twisting or texturing combined with knitting or with crocheting provided that the value of non-originating non-twisted or non-textured yarns used does not exceed **50%** of the ex-works price (EXW) of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -5418,10 +5295,19 @@
                               "export": true
                         },
                         {
-                              "rule": "Extrusion of man-made filament yarn combined with knitting or with crocheting or\n\nKnitting and making-up in one operation.",
+                              "rule": "Extrusion of man-made filament yarn combined with knitting or with crocheting.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Knitting and making-up in one operation.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -6288,7 +6174,7 @@
             },
             {
                   "heading": "6301-6304",
-                  "subdivision": "Others:\n- - Embroidered",
+                  "subdivision": "Others (embroidered)",
                   "min": "6301000000",
                   "max": "6304999999",
                   "rules": [
@@ -6319,7 +6205,7 @@
             },
             {
                   "heading": "6301-6304",
-                  "subdivision": "- - Others",
+                  "subdivision": "Others (other than embroidered)",
                   "min": "6301000000",
                   "max": "6304999999",
                   "rules": [
@@ -7626,30 +7512,10 @@
                   "valid": true
             },
             {
-                  "heading": "7603",
-                  "subdivision": "Heading 7603",
-                  "min": "7603000000",
-                  "max": "7603999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **within the limits of the applicable annual quota**.",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": true,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "7603-7616",
-                  "subdivision": "7603-7616",
-                  "min": "7603000000",
-                  "max": "7616999999",
+                  "heading": "7303-7304",
+                  "subdivision": "7303-7304",
+                  "min": "7303000000",
+                  "max": "7304999999",
                   "rules": [
                         {
                               "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) and A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
@@ -7662,18 +7528,9 @@
                               "quota": false,
                               "import": true,
                               "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "7604",
-                  "subdivision": "Heading 7604",
-                  "min": "7604000000",
-                  "max": "7604999999",
-                  "rules": [
+                        },
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **within the limits of the applicable annual quota**.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) (*under alternative list rules with annual quotas as specified in Annex ORIG-2A (Origin Quotas and Alternatives to the List Rules in Annex 2)*).",
                               "class": [
                                     "CTH"
                               ],
@@ -7687,13 +7544,25 @@
                   "valid": true
             },
             {
-                  "heading": "7605",
-                  "subdivision": "Heading 7605",
-                  "min": "7605000000",
-                  "max": "7605999999",
+                  "heading": "7305",
+                  "subdivision": "Heading 7305",
+                  "min": "7305000000",
+                  "max": "7305999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;7604](/headings/7604) **within the limits of the applicable annual quota**.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) and A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
+                              "class": [
+                                    "CTH",
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;7604](/headings/7604) (*under alternative list rules with annual quotas as specified in Annex ORIG-2A (Origin Quotas and Alternatives to the List Rules in Annex 2)*).",
                               "class": [
                                     "CTH"
                               ],
@@ -7707,13 +7576,25 @@
                   "valid": true
             },
             {
-                  "heading": "7606",
-                  "subdivision": "Heading 7606",
-                  "min": "7606000000",
-                  "max": "7606999999",
+                  "heading": "7306",
+                  "subdivision": "Heading 7306",
+                  "min": "7306000000",
+                  "max": "7306999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **within the limits of the applicable annual quota**.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) and A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
+                              "class": [
+                                    "CTH",
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) (*under alternative list rules with annual quotas as specified in Annex ORIG-2A (Origin Quotas and Alternatives to the List Rules in Annex 2)*).",
                               "class": [
                                     "CTH"
                               ],
@@ -7727,13 +7608,25 @@
                   "valid": true
             },
             {
-                  "heading": "7607",
-                  "subdivision": "Heading 7607",
-                  "min": "7607000000",
-                  "max": "7607999999",
+                  "heading": "7307",
+                  "subdivision": "Heading 7307",
+                  "min": "7307000000",
+                  "max": "7307999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;7606](/headings/7606) **within the limits of the applicable annual quota**.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) and A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
+                              "class": [
+                                    "CTH",
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;7604](/headings/7604) (*under alternative list rules with annual quotas as specified in Annex ORIG-2A (Origin Quotas and Alternatives to the List Rules in Annex 2)*).",
                               "class": [
                                     "CTH"
                               ],
@@ -7747,13 +7640,25 @@
                   "valid": true
             },
             {
-                  "heading": "7608-7616",
-                  "subdivision": "7608-7616",
-                  "min": "7608000000",
-                  "max": "7616999999",
+                  "heading": "7308-7316",
+                  "subdivision": "7308-7316",
+                  "min": "7308000000",
+                  "max": "7316999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **within the limits of the applicable annual quota**.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) and A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
+                              "class": [
+                                    "CTH",
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) (*under alternative list rules with annual quotas as specified in Annex ORIG-2A (Origin Quotas and Alternatives to the List Rules in Annex 2)*).",
                               "class": [
                                     "CTH"
                               ],
@@ -7968,12 +7873,12 @@
                               "export": true
                         },
                         {
-                              "rule": "Or\n\nA maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
+                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -8861,13 +8766,13 @@
                                     "MAXNOM"
                               ],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
                         },
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **until 31 December 2023**.",
+                              "rule": "<abbr title='Change of tariff subheading'>CTSH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (tariff subheading) (*for the period from 14 April 2021 until 31 December 2026*).",
                               "class": [
                                     "CTSH"
                               ],
@@ -8878,7 +8783,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Assembly of battery packs from non-originating battery cells or battery modules **until 31 December 2023**.",
+                              "rule": "Assembly of battery packs from non-originating battery cells or battery modules (*for the period from 14 April 2021 until 31 December 2026*).",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -8887,12 +8792,12 @@
                               "export": true
                         },
                         {
-                              "rule": "A maximum of **70%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **until 31 December 2023**.",
+                              "rule": "A maximum of **70%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) (*for the period from 14 April 2021 until 31 December 2026*).",
                               "class": [
                                     "MAXNOM"
                               ],
                               "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -8924,28 +8829,6 @@
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **until 31 December 2023**.",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **70%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **until 31 December 2023**.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -9359,17 +9242,6 @@
                               "quota": false,
                               "import": true,
                               "export": true
-                        },
-                        {
-                              "rule": "A maximum of **60%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **until 31 December 2023**.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
                         }
                   ],
                   "valid": true
@@ -9497,10 +9369,10 @@
                   "valid": true
             },
             {
-                  "heading": "8801-8807",
-                  "subdivision": "8801-8807",
+                  "heading": "8801-8805",
+                  "subdivision": "8801-8805",
                   "min": "8801000000",
-                  "max": "8807999999",
+                  "max": "8805999999",
                   "rules": [
                         {
                               "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
